@@ -261,6 +261,414 @@
     "url": "https://www.double-entry-bookkeeping.com/bookkeeping-basics/accruals-and-prepayments-quiz/",
     "label": "Double Entry Bookkeeping - Quiz 57: Accruals and Prepayments (answer marked on page)"
    }
+  },
+  {
+   "topic": "The accounting equation",
+   "text": "Which equation correctly states the accounting equation as presented in the course material?",
+   "opts": [
+    "Assets = Capital + Liabilities",
+    "Assets = Capital − Liabilities",
+    "Assets = Revenue − Expenses",
+    "Capital = Assets + Liabilities"
+   ],
+   "answer": 0,
+   "explanation": "The course pack states Assets = Capital + Liabilities: what the business owns is funded either by the owner (capital) or by outsiders (liabilities). B reverses the relationship, C is the profit formula, and D swaps the roles of assets and capital.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Essential formulas (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-016"
+  },
+  {
+   "topic": "The accounting equation",
+   "text": "A business has assets of ₦850,000 and liabilities of ₦275,000. What is its equity?",
+   "opts": [
+    "₦575,000",
+    "₦1,125,000",
+    "₦275,000",
+    "₦850,000"
+   ],
+   "answer": 0,
+   "explanation": "Equity = Assets − Liabilities = ₦850,000 − ₦275,000 = ₦575,000, exactly as worked in the course's practice problem. ₦1,125,000 wrongly adds liabilities to assets; the other options ignore the equation entirely. Assets must equal liabilities plus equity.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 worked practice problems — Problem 3 (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-017"
+  },
+  {
+   "topic": "Profit",
+   "text": "Profit is best defined as:",
+   "opts": [
+    "Revenue minus expenses",
+    "Revenue plus expenses",
+    "Assets minus capital",
+    "Sales minus drawings"
+   ],
+   "answer": 0,
+   "explanation": "The course formula is Profit = Revenue − Expenses: profit is what remains of income after the costs of earning it. B would treat costs as adding to profit, C compares balance-sheet items, and D confuses expenses with the owner's withdrawals (drawings).",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Essential formulas (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-018"
+  },
+  {
+   "topic": "Depreciation",
+   "text": "A machine costs ₦600,000 with a residual value of ₦60,000 and a useful life of six years. Annual straight-line depreciation is:",
+   "opts": [
+    "₦90,000",
+    "₦100,000",
+    "₦110,000",
+    "₦600,000"
+   ],
+   "answer": 0,
+   "explanation": "Straight-line depreciation = (Cost − Residual value) ÷ Useful life = (₦600,000 − ₦60,000) ÷ 6 = ₦90,000 per year, as worked in the course problem. ₦100,000 forgets the residual value; the others misuse the formula.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 worked practice problems — Problem 2 (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-019"
+  },
+  {
+   "topic": "Depreciation",
+   "text": "Using straight-line depreciation of ₦90,000 per year on a machine costing ₦600,000, its carrying amount after two full years (no impairment or disposal) is:",
+   "opts": [
+    "₦420,000",
+    "₦510,000",
+    "₦330,000",
+    "₦600,000"
+   ],
+   "answer": 0,
+   "explanation": "Carrying amount = cost − accumulated depreciation = ₦600,000 − (2 × ₦90,000) = ₦420,000, matching the course's worked answer. ₦510,000 deducts only one year; ₦330,000 deducts three years; ₦600,000 ignores depreciation.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 worked practice problems — Problem 2 (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-020"
+  },
+  {
+   "topic": "Depreciation",
+   "text": "In the straight-line formula (Cost − Residual value) ÷ Useful life, the residual value represents:",
+   "opts": [
+    "The estimated amount the asset can be sold for at the end of its useful life",
+    "The total amount charged as depreciation over the asset's life",
+    "The cost of maintaining the asset each year",
+    "The asset's original purchase price"
+   ],
+   "answer": 0,
+   "explanation": "Residual (salvage) value is the estimated disposal value at the end of the asset's useful life; only the portion of cost above it is depreciated. Deducting it spreads the depreciable amount, not the whole cost, over the life.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Essential formulas (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-021"
+  },
+  {
+   "topic": "Accruals and prepayments",
+   "text": "An expense that has been incurred during the period but not yet paid at year-end is called:",
+   "opts": [
+    "An accrual",
+    "A prepayment",
+    "A suspense item",
+    "A drawing"
+   ],
+   "answer": 0,
+   "explanation": "The course defines an accrued expense as incurred but unpaid: it must be added to the current period's expense because it belongs to that period. A prepayment is the opposite (paid in advance), a suspense item is a temporary holding for errors, and drawings are the owner's withdrawals.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Accruals and prepayments (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-022"
+  },
+  {
+   "topic": "Accruals and prepayments",
+   "text": "Insurance of ₦120,000 covers 12 months from 1 October, and the accounting year ends on 31 December. The insurance expense for the year and the prepaid amount are:",
+   "opts": [
+    "Expense ₦30,000; prepaid ₦90,000",
+    "Expense ₦90,000; prepaid ₦30,000",
+    "Expense ₦120,000; prepaid ₦0",
+    "Expense ₦10,000; prepaid ₦110,000"
+   ],
+   "answer": 0,
+   "explanation": "Monthly cost is ₦120,000 ÷ 12 = ₦10,000. October–December is 3 months, so the year's expense is 3 × ₦10,000 = ₦30,000, and the 9 unused months (January–September) are prepaid ₦90,000 — exactly the course's worked answer. ₦90,000 expense swaps the two figures.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 worked practice problems — Problem 1 (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-023"
+  },
+  {
+   "topic": "Double entry",
+   "text": "The double-entry rule as stated in the course material is that:",
+   "opts": [
+    "Every transaction has equal debit and credit entries, and whether a debit or credit increases an account depends on the account type",
+    "Debits always increase an account and credits always decrease it",
+    "Every transaction is recorded only once in the ledger",
+    "Credits are used for assets and debits for liabilities"
+   ],
+   "answer": 0,
+   "explanation": "The course states every transaction has equal debit and credit entries, and warns that debits do not automatically mean an increase and credits do not automatically mean a decrease — the effect depends on the account type (debits increase assets and expenses; credits increase liabilities, capital and income). B is the classic misconception the course explicitly corrects.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Double-entry rule (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-024"
+  },
+  {
+   "topic": "Double entry",
+   "text": "A business buys office equipment of ₦250,000 on credit from a supplier. The correct double entry is:",
+   "opts": [
+    "Debit office equipment; credit the supplier (payable)",
+    "Debit the supplier (payable); credit office equipment",
+    "Debit office equipment; credit sales",
+    "Debit cash; credit office equipment"
+   ],
+   "answer": 0,
+   "explanation": "The business acquires an asset (debit office equipment, an increase in an asset) and incurs a liability to the supplier (credit payables). B reverses the entries; C wrongly credits sales, since no sale occurred; D wrongly debits cash when nothing was paid.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Double entry, ledgers and trial balance (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-025"
+  },
+  {
+   "topic": "Trial balance",
+   "text": "A trial balance that fails to agree indicates:",
+   "opts": [
+    "There may be an arithmetical error, though some errors (like complete omission) do not affect the trial balance",
+    "The business must have made a loss",
+    "The financial statements can no longer be prepared",
+    "All ledger accounts are automatically wrong"
+   ],
+   "answer": 0,
+   "explanation": "The trial balance checks the arithmetical agreement of ledger balances; a disagreement signals an arithmetical error. However, the course's 'errors and suspense accounts' priority teaches that some errors — complete omission, commission, principle, compensating, reversal, original-entry — do not disturb the agreement, so agreement is not proof of correctness.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Errors, suspense and control accounts (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-026"
+  },
+  {
+   "topic": "Errors and suspense accounts",
+   "text": "A suspense account is used when:",
+   "opts": [
+    "The trial balance does not agree and the difference is temporarily held while errors are located",
+    "Recording the owner's personal expenses",
+    "Summarising cash sales at the end of each day",
+    "Recording discounts received from suppliers"
+   ],
+   "answer": 0,
+   "explanation": "Per the course's revision priorities on errors, suspense and control accounts: when the trial balance disagrees, the difference is placed in a suspense account until the errors are found and corrected with journal entries. It is a temporary device, not a normal classification account.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Errors, suspense and control accounts (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-027"
+  },
+  {
+   "topic": "Capital and revenue expenditure",
+   "text": "Which of the following is capital expenditure?",
+   "opts": [
+    "Buying a delivery van for the business",
+    "Paying wages of sales staff",
+    "Buying fuel for the delivery van",
+    "Paying monthly rent on the shop"
+   ],
+   "answer": 0,
+   "explanation": "Capital expenditure buys long-term assets used in the business (a delivery van provides benefit over several years and appears on the statement of financial position). Wages, fuel and rent are day-to-day running costs — revenue expenditure, charged to the statement of profit or loss.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Capital/revenue expenditure and adjustments (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-028"
+  },
+  {
+   "topic": "Capital and revenue expenditure",
+   "text": "Treating revenue expenditure as capital expenditure in the accounts will:",
+   "opts": [
+    "Overstate profit and overstate assets",
+    "Understate profit and understate assets",
+    "Have no effect on either profit or assets",
+    "Overstate liabilities and understate profit"
+   ],
+   "answer": 0,
+   "explanation": "If a running cost is wrongly capitalised, it is not charged against revenue in the period, so profit is overstated; the amount also sits in an asset on the statement of financial position instead of reducing the asset's value, so assets are overstated. This classification error is one of the adjustments the course's 'capital/revenue expenditure' priority targets.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Capital/revenue expenditure and adjustments (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-029"
+  },
+  {
+   "topic": "Source documents",
+   "text": "Which document is issued by a seller to a buyer, showing goods supplied, quantities, prices and the total amount due?",
+   "opts": [
+    "An invoice",
+    "A cheque counterfoil",
+    "A bank statement",
+    "A payroll record"
+   ],
+   "answer": 0,
+   "explanation": "An invoice is the seller's request for payment listing goods supplied, quantities, prices and total due; it is the source document for recording a credit sale (and the buyer's purchase). Cheque counterfoils, bank statements and payroll records support cash and payroll records, not the sale itself.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Accounting concepts and source documents (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-030"
+  },
+  {
+   "topic": "Accounting concepts",
+   "text": "The concept that income and costs are matched in the same accounting period as earned/incurred is known as:",
+   "opts": [
+    "The matching (accruals) concept",
+    "The money measurement concept",
+    "The entity concept",
+    "The consistency concept"
+   ],
+   "answer": 0,
+   "explanation": "The matching (accruals) concept ties revenue and the expenses that generated it to the same period — it underlies accrual and prepayment adjustments, which the course lists as a high-priority topic. Money measurement records only measurable items, the entity concept separates business from owner, and consistency keeps methods unchanged between periods.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Accounting concepts and source documents (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-031"
+  },
+  {
+   "topic": "Accounting concepts",
+   "text": "Under the entity concept, the owner's private car used strictly for personal purposes is:",
+   "opts": [
+    "Not recorded in the business's books",
+    "Recorded as a business asset at market value",
+    "Recorded as a liability of the business",
+    "Recorded as a business expense every year"
+   ],
+   "answer": 0,
+   "explanation": "The entity concept treats the business as separate from its owner, so purely personal items stay out of the business's books. Only when the owner injects or withdraws resources does it appear, as capital or drawings. Recording the personal car as a business asset, liability or expense would blur the boundary the concept forbids.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Accounting concepts and source documents (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-032"
+  },
+  {
+   "topic": "Bank reconciliation",
+   "text": "Cheques issued by the business but not yet presented to the bank appear:",
+   "opts": [
+    "In the cash book but not on the bank statement",
+    "On the bank statement but not in the cash book",
+    "In neither the cash book nor the bank statement",
+    "In both, at the same value"
+   ],
+   "answer": 0,
+   "explanation": "An unpresented cheque has been recorded in the business's cash book when written, but the bank has not yet paid it, so it is absent from the bank statement — the classic reconciling item the course's bank-reconciliation priority covers. Adjustments for it update the bank statement balance toward the true (adjusted) balance.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Bank reconciliation (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-033"
+  },
+  {
+   "topic": "Bank reconciliation",
+   "text": "Bank charges appearing only on the bank statement require the business to:",
+   "opts": [
+    "Debit them in its cash book (reducing the cash balance) before reconciling",
+    "Ignore them until the bank sends an invoice",
+    "Add them to the cash book balance as income",
+    "Record them as a liability owed by the bank"
+   ],
+   "answer": 0,
+   "explanation": "Bank charges reduce the business's true cash balance, and because they appear first on the bank statement, the business must enter them in its cash book (debit bank charges, credit cash) as part of adjusting the cash book before reconciling. Ignoring or adding them back misstates the balance.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Bank reconciliation (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-034"
+  },
+  {
+   "topic": "Financial statements",
+   "text": "The statement of profit or loss shows:",
+   "opts": [
+    "Revenue, expenses and the resulting profit or loss for a period",
+    "Assets, liabilities and equity at a point in time",
+    "Only cash received and paid during the period",
+    "The owner's drawings for the period only"
+   ],
+   "answer": 0,
+   "explanation": "The statement of profit or loss measures performance over a period: revenue minus expenses gives profit or loss (the course's profit formula). Assets, liabilities and equity at a date belong to the statement of financial position; cash movements belong to a cash/bank analysis.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Final accounts (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-035"
+  },
+  {
+   "topic": "Financial statements",
+   "text": "The statement of financial position presents:",
+   "opts": [
+    "Assets, liabilities and equity as at a specific date",
+    "Sales and purchases for the year",
+    "Cash paid to suppliers only",
+    "Depreciation charged for the year only"
+   ],
+   "answer": 0,
+   "explanation": "The statement of financial position is a snapshot at a date: what the business owns (assets), owes (liabilities) and the owner's stake (equity), with assets equal to liabilities plus capital. Flow measures like sales, cash paid or depreciation for the year belong in the profit-or-loss statement and its supporting workings.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Final accounts (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-036"
+  },
+  {
+   "topic": "Control accounts",
+   "text": "A control account for receivables is used mainly to:",
+   "opts": [
+    "Check the accuracy of the individual customer (sales ledger) accounts in total",
+    "Record the credit purchases of the business",
+    "Replace the cash book entirely",
+    "Calculate depreciation on customers' balances"
+   ],
+   "answer": 0,
+   "explanation": "Per the course's errors, suspense and control accounts priority: a receivables (sales ledger) control account summarises the individual customer accounts, so its balance can be compared with the total of the personal accounts to locate errors. Credit purchases belong to payables records, and depreciation is unrelated to customers' balances.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Errors, suspense and control accounts (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-037"
+  },
+  {
+   "topic": "Depreciation",
+   "text": "The main purpose of charging depreciation is to:",
+   "opts": [
+    "Spread the cost of a long-term asset over its useful life as it is used up",
+    "Set aside cash in a bank account for replacing the asset",
+    "Show the asset at its current market value every year",
+    "Reduce the amount of tax the business pays by a fixed rate"
+   ],
+   "answer": 0,
+   "explanation": "Depreciation allocates the asset's depreciable cost (cost minus residual value) over the periods that benefit from its use, matching cost to revenue. It is a bookkeeping allocation, not a cash transfer (B), a market revaluation (C) or a tax mechanism (D).",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Depreciation/essential formulas (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-038"
+  },
+  {
+   "topic": "Ledgers",
+   "text": "When goods are sold on credit, which ledger records the customer's personal account?",
+   "opts": [
+    "The sales ledger (receivables ledger)",
+    "The purchases ledger (payables ledger)",
+    "The cash book",
+    "The nominal ledger only, with no customer account"
+   ],
+   "answer": 0,
+   "explanation": "Credit sales create personal accounts for customers kept in the sales (receivables) ledger, debited when sales are made and credited when they pay. The purchases ledger holds suppliers; the cash book records cash movements; the customer's account must exist, so D is wrong.",
+   "source": {
+    "type": "course_pdf",
+    "label": "ACC 101 Full Exam Revision Pack — Double entry, ledgers and trial balance (MIVA practice questions.pdf)"
+   },
+   "id": "ACC101-039"
   }
  ],
  "caseStudies": []
