@@ -1,0 +1,1276 @@
+{
+ "code": "MIT8101",
+ "title": "Introduction to IT Management",
+ "questions": [
+  {
+   "id": "8101-1",
+   "topic": "Strategic Alignment",
+   "text": "TechFlow Nigeria, a logistics startup in Lagos, invested ₦50 million in a state-of-the-art fleet management software. Six months after deployment, drivers still call dispatchers manually and the system is unused. The CEO is baffled because the technology is excellent. What is the most likely root cause?",
+   "opts": [
+    "The software was too expensive to maintain",
+    "The technology lacked strategic alignment with operational workflows",
+    "Drivers lacked mobile phones to access the system",
+    "The IT department was understaffed"
+   ],
+   "answer": 1,
+   "explanation": "Strategic alignment requires that IT solutions must connect directly to how people work and what the business needs. A technically excellent system that ignores workflow realities and user behaviour is not strategically aligned. Option A is possible but not the root cause. C is unlikely in a tech company. D is a secondary issue."
+  },
+  {
+   "id": "8101-2",
+   "topic": "Strategic Alignment",
+   "text": "Zenith Bank Nigeria's board decides to launch a new mobile banking app. The IT director requests a seat at the strategy meeting to understand customer acquisition goals before building. A board member says, 'That's not IT's job—just build what we tell you.' Which response best reflects modern IT management thinking?",
+   "opts": [
+    "The board member is correct; IT should focus only on execution",
+    "The IT director is right; IT must understand business goals to align technology decisions",
+    "The IT director should wait for the business strategy to be fully finalized",
+    "IT involvement at strategy level is only for large multinational corporations"
+   ],
+   "answer": 1,
+   "explanation": "Modern IT management requires IT leaders to attend strategic discussions and understand business objectives. Strategic alignment cannot happen if IT is excluded from goal-setting. Options A, C, and D reflect outdated, siloed thinking."
+  },
+  {
+   "id": "8101-3",
+   "topic": "Strategic Alignment",
+   "text": "A Nigerian state government deploys biometric devices to track public servant attendance. However, the data is not connected to payroll or HR systems. Salaries continue to be processed manually. Which IT management principle is most clearly violated?",
+   "opts": [
+    "Performance measurement",
+    "Risk management",
+    "Strategic alignment",
+    "Resource management"
+   ],
+   "answer": 2,
+   "explanation": "Strategic alignment means technology must directly support organisational goals. Deploying biometric devices without integrating them into payroll creates isolated data with no strategic use — a textbook violation of strategic alignment. The other principles may also be affected, but strategic alignment is most directly violated."
+  },
+  {
+   "id": "8101-4",
+   "topic": "Strategic Alignment",
+   "text": "MTN Nigeria's MoMo platform was designed not just as a mobile app but as a deliberate strategy to dominate the mobile money market. IT infrastructure including USSD, mobile apps, and secure databases was built to serve specific market expansion goals. This is a prime example of which IT management principle?",
+   "opts": [
+    "Value delivery",
+    "Strategic alignment",
+    "Resource management",
+    "Performance measurement"
+   ],
+   "answer": 1,
+   "explanation": "MoMo's success came from aligning its entire IT infrastructure (USSD, apps, databases) with a specific business strategy: market dominance in mobile money. This is the definition of strategic alignment — technology serving business vision, not existing for its own sake."
+  },
+  {
+   "id": "8101-5",
+   "topic": "Strategic Alignment",
+   "text": "A hospital in Abuja purchases an electronic health records system but continues requiring doctors to fill paper forms, which are later manually entered into the system by clerks. The CEO argues that 'at least they have the technology.' What would an IT manager most appropriately advise?",
+   "opts": [
+    "The approach is fine as long as the system is eventually adopted",
+    "Technology adoption must include change management and workflow integration to achieve alignment",
+    "The hospital should train more clerks to speed up data entry",
+    "The system should be upgraded to a more user-friendly version"
+   ],
+   "answer": 1,
+   "explanation": "Without integrating the system into actual workflows and managing the change process, the technology is not strategically aligned. Paying for software while maintaining parallel paper processes wastes resources and defeats the purpose. Training more clerks (C) entrenches the problem. Upgrading (D) doesn't address the workflow issue."
+  },
+  {
+   "id": "8101-6",
+   "topic": "Strategic Alignment",
+   "text": "Paystack's API is embedded into thousands of Nigerian e-commerce and service businesses, enabling seamless payment collection. Rather than just providing a payment gateway, Paystack deliberately enables other businesses to build revenue streams on top of its infrastructure. Which principle best describes this approach?",
+   "opts": [
+    "Performance measurement",
+    "Risk management",
+    "Strategic alignment at ecosystem level",
+    "IT governance"
+   ],
+   "answer": 2,
+   "explanation": "Paystack's strategy goes beyond product delivery — its infrastructure is aligned with a vision of ecosystem-level value creation. This is strategic alignment operating at an ecosystem level, where IT infrastructure serves the strategic goals of becoming a platform others build on."
+  },
+  {
+   "id": "8101-7",
+   "topic": "Strategic Alignment",
+   "text": "An IT manager at a federal university is asked to install a new Learning Management System (LMS). Before procurement, she insists on mapping the system's features against the university's five-year digitisation plan. A department head finds this process unnecessary. Who is correct and why?",
+   "opts": [
+    "The department head is correct; procurement speed matters more",
+    "The IT manager is correct; aligning the LMS to strategic goals prevents wasted investment",
+    "Both are wrong; the LMS should simply be selected by cost",
+    "The Registrar should make the decision without IT input"
+   ],
+   "answer": 1,
+   "explanation": "Mapping an IT purchase to the institution's strategic plan is essential to strategic alignment. Without this step, the university may invest in a system that doesn't serve its long-term goals. The IT manager's process saves time and money in the long run."
+  },
+  {
+   "id": "8101-8",
+   "topic": "Strategic Alignment",
+   "text": "OPay Nigeria expanded rapidly by offering a super-app integrating payments, food delivery, and logistics. Each IT component was designed to reinforce the others and serve one overarching goal: maximum user engagement and retention. What does this illustrate?",
+   "opts": [
+    "Technology choices made for financial efficiency",
+    "Strategic alignment where multiple IT systems support a unified business vision",
+    "Performance measurement across departments",
+    "Risk management through diversified products"
+   ],
+   "answer": 1,
+   "explanation": "OPay's integrated app ecosystem is a clear example of strategic alignment — multiple IT systems (payments, delivery, logistics) all designed to serve a single overarching business strategy: user retention and engagement. This is not primarily about cost, measurement, or risk."
+  },
+  {
+   "id": "8101-9",
+   "topic": "Strategic Alignment",
+   "text": "A Lagos-based NGO receives donor funding and immediately purchases laptops and cloud storage for field staff in rural Borno. However, there is no internet access in those areas. The NGO later discovers that the tools cannot be used. What went wrong from an IT management perspective?",
+   "opts": [
+    "The NGO should have chosen cheaper laptops",
+    "Strategic alignment failed because the IT investment did not account for the operational environment",
+    "The donor should have specified which tools to purchase",
+    "IT support was not available in Borno"
+   ],
+   "answer": 1,
+   "explanation": "Strategic alignment requires understanding both organisational goals and the environment where technology will be deployed. Purchasing cloud-dependent tools for offline environments ignores operational reality, making the investment useless. The other options are secondary concerns."
+  },
+  {
+   "id": "8101-10",
+   "topic": "Strategic Alignment",
+   "text": "During a board retreat, Dangote Industries' CIO proposes a digital twin simulation model to optimise cement production. The CFO questions whether it aligns with the company's cost-reduction target for the next quarter. The CIO responds by presenting ROI projections tied to that target. This interaction demonstrates:",
+   "opts": [
+    "IT managers should avoid financial discussions",
+    "Strategic alignment requires IT leaders to connect technology proposals to business priorities",
+    "Board retreats are not appropriate forums for IT proposals",
+    "The CFO should not interfere in IT decisions"
+   ],
+   "answer": 1,
+   "explanation": "The CIO correctly links a technology proposal to a specific business priority (cost reduction). This is exactly what strategic alignment requires — IT leaders must articulate how technology investments serve business goals, especially in executive settings."
+  },
+  {
+   "id": "8101-11",
+   "topic": "Strategic Alignment",
+   "text": "Which scenario BEST demonstrates a failure of strategic alignment?",
+   "opts": [
+    "A bank deploys AI-powered fraud detection aligned with its security strategy",
+    "A government agency installs a citizen portal but keeps requiring physical visits for all transactions",
+    "A hospital integrates electronic health records with insurance billing systems",
+    "A logistics firm uses GPS tracking linked to its client delivery portal"
+   ],
+   "answer": 1,
+   "explanation": "Installing a citizen portal but still mandating physical visits completely defeats the strategic purpose of the portal (accessibility, efficiency). The technology exists but doesn't serve any goal. Options A, C, and D are examples of successful alignment."
+  },
+  {
+   "id": "8101-12",
+   "topic": "Strategic Alignment",
+   "text": "NITDA's National Digital Economy Policy requires government agencies to digitise services. An agency head implements an online portal but only for internal document management — citizens still cannot access government services digitally. Has strategic alignment been achieved?",
+   "opts": [
+    "Yes, because a portal was deployed",
+    "No, because the portal does not serve the policy's citizen-facing goals",
+    "Yes, because NITDA's core requirement is IT infrastructure",
+    "No, because portals are not the right technology for this use case"
+   ],
+   "answer": 1,
+   "explanation": "Strategic alignment requires that the IT solution serves the stated business or policy goal. The NDEP goal is citizen digital access. A portal used only internally does not align with that goal, regardless of whether technology was deployed."
+  },
+  {
+   "id": "8101-13",
+   "topic": "Strategic Alignment",
+   "text": "A startup CTO at a health-tech firm in Lagos says: 'I don't attend business planning meetings. My job is to keep the servers running.' An IT management consultant would most likely describe this attitude as:",
+   "opts": [
+    "Appropriately focused on technical excellence",
+    "A fundamental misunderstanding of modern IT management's strategic role",
+    "Standard practice for early-stage startups",
+    "Acceptable given the startup's limited resources"
+   ],
+   "answer": 1,
+   "explanation": "Modern IT management positions the CTO as a strategic partner, not just a systems maintainer. Excluding IT from planning prevents strategic alignment. The other options normalise or excuse this separation, which contradicts IT management best practices."
+  },
+  {
+   "id": "8101-14",
+   "topic": "Strategic Alignment",
+   "text": "Andela aligns its business model around matching developer skills to global market demand. Its IT tools — talent matching platforms, training systems, collaborative workspaces — are all built to serve this single mission. From an IT management perspective, this is best described as:",
+   "opts": [
+    "Performance measurement in a global marketplace",
+    "Strategic alignment where IT infrastructure directly serves the organisation's core mission",
+    "Resource management through outsourcing",
+    "Controlling through international governance frameworks"
+   ],
+   "answer": 1,
+   "explanation": "Every IT tool Andela builds directly serves its mission: matching talent to global demand. This is strategic alignment — technology designed to serve organisational purpose. Resource management (C) relates to asset use, not mission-driven design."
+  },
+  {
+   "id": "8101-15",
+   "topic": "Value Delivery",
+   "text": "A Lagos-based SME implements a CRM system. After six months, the sales team reports that leads are no longer lost, follow-ups happen consistently, and revenue has grown by 15%. Which IT management principle is most clearly demonstrated?",
+   "opts": [
+    "Strategic alignment",
+    "Risk management",
+    "Value delivery",
+    "Performance measurement"
+   ],
+   "answer": 2,
+   "explanation": "Value delivery is about ensuring IT investments yield measurable, real-world returns. A 15% revenue increase from a CRM system is a direct, traceable benefit — the definition of value delivery. While strategic alignment contributed to the success, the outcome described is value delivery."
+  },
+  {
+   "id": "8101-16",
+   "topic": "Value Delivery",
+   "text": "A Nigerian federal ministry spends ₦200 million on an enterprise HR software. One year later, staff are still submitting leave forms on paper, and no one uses the digital system. The ministry IT director says, 'At least we have the software.' What IT management failure does this represent?",
+   "opts": [
+    "Risk management failure",
+    "Value delivery failure",
+    "Performance measurement failure",
+    "Resource management success"
+   ],
+   "answer": 1,
+   "explanation": "Value delivery requires that IT investments produce real, traceable benefits. If an expensive system goes unused, value was not delivered — and money was wasted. This is a classic value delivery failure. Risk management and performance measurement failures may be secondary effects."
+  },
+  {
+   "id": "8101-17",
+   "topic": "Value Delivery",
+   "text": "Jumia Nigeria tracks conversion rates, cart abandonment, and app crash frequency in real time. They know that even a 1-second delay in page load can cost millions in lost sales. What principle is this practice primarily an example of?",
+   "opts": [
+    "Resource management",
+    "Value delivery",
+    "Performance measurement",
+    "Strategic alignment"
+   ],
+   "answer": 2,
+   "explanation": "Jumia's constant tracking of customer behaviour and system metrics to ensure the platform generates sales demonstrates performance measurement — specifically, measuring whether the platform is delivering business value. While related to value delivery, the active tracking and adjustment process is performance measurement."
+  },
+  {
+   "id": "8101-18",
+   "topic": "Value Delivery",
+   "text": "An IT manager proposes a new payroll automation system to a manufacturing company in Port Harcourt. To justify the ₦8 million investment, she builds a business case showing time savings, error reduction, and projected ROI within 18 months. Which IT management principle is she applying?",
+   "opts": [
+    "Controlling",
+    "Value delivery",
+    "Risk management",
+    "Organising"
+   ],
+   "answer": 1,
+   "explanation": "Building a business case that traces expected benefits (time saved, errors reduced, ROI) is the core practice of value delivery — ensuring IT investments will produce measurable returns before and after deployment."
+  },
+  {
+   "id": "8101-19",
+   "topic": "Value Delivery",
+   "text": "A university in Ibadan installs a student portal for fee payment. Before deployment, IT management asks: 'What problem are we solving? How will this reduce administrative backlogs? What metrics will prove success?' This pre-deployment questioning best reflects which principle?",
+   "opts": [
+    "Planning function",
+    "Value delivery principle",
+    "Controlling function",
+    "Risk management principle"
+   ],
+   "answer": 1,
+   "explanation": "The three questions ('What problem are we solving? How will this improve operations? What metrics will prove value?') are the exact value delivery evaluation questions described in IT management. This is value delivery in practice, not just planning or controlling."
+  },
+  {
+   "id": "8101-20",
+   "topic": "Value Delivery",
+   "text": "Flutterwave's payment infrastructure processed billions of dollars in transactions across Africa. Merchants using the platform report faster settlement times and reduced transaction failures. Which stakeholder value does this most directly represent?",
+   "opts": [
+    "Shareholder value through cost reduction",
+    "Value delivery to end-users and merchant partners",
+    "Risk management through transaction monitoring",
+    "Strategic alignment with CBN regulations"
+   ],
+   "answer": 1,
+   "explanation": "The tangible benefits experienced by merchants (faster settlements, fewer failures) are real, traceable improvements delivered through IT investment — the core of value delivery. Shareholder value (A) is a consequence, not the direct benefit described."
+  },
+  {
+   "id": "8101-21",
+   "topic": "Value Delivery",
+   "text": "An IT project at a Lagos hospital installs a patient appointment booking app. After three months, patient wait times drop by 30%, staff spend less time on phone calls, and appointment no-shows fall by 20%. However, the app cost twice the original budget. How should this be evaluated from a value delivery perspective?",
+   "opts": [
+    "Complete failure because it exceeded budget",
+    "Success because measurable, real-world benefits were delivered",
+    "Neutral, because budget and benefits cancel each other out",
+    "Failure because no financial ROI was calculated"
+   ],
+   "answer": 1,
+   "explanation": "Value delivery focuses on whether real, measurable benefits were produced. A 30% reduction in wait times, reduced staff workload, and fewer no-shows are all real, traceable improvements. Budget overruns affect resource management; they don't negate value delivered. A complete evaluation would consider both, but the value delivery principle is satisfied."
+  },
+  {
+   "id": "8101-22",
+   "topic": "Value Delivery",
+   "text": "Which of the following is NOT an example of value delivery in IT management?",
+   "opts": [
+    "A bank's mobile app reduces branch visits by 40%",
+    "A government e-procurement portal reduces contract processing time by 60%",
+    "An organisation purchases a ₦50 million cybersecurity system that is never configured or used",
+    "A retail company's inventory system reduces stock wastage by 25%"
+   ],
+   "answer": 2,
+   "explanation": "Purchasing a system that is never configured or used delivers no value — it is a waste of investment and represents a value delivery failure. Options A, B, and D all show clear, measurable benefits from IT investments, which is the definition of successful value delivery."
+  },
+  {
+   "id": "8101-23",
+   "topic": "Risk Management",
+   "text": "Several Nigerian banks suffered significant fraud losses after customers' accounts were compromised through weak password systems. The Central Bank of Nigeria (CBN) responded by mandating multi-factor authentication (MFA) for all banks. This policy change is best described as:",
+   "opts": [
+    "A strategic alignment directive from the CBN",
+    "Risk management being translated from theory into binding policy",
+    "A performance measurement standard for banks",
+    "A resource management requirement for IT infrastructure"
+   ],
+   "answer": 1,
+   "explanation": "The CBN's MFA mandate is a direct response to an identified IT risk (fraud due to poor password security). This is risk management moving from theoretical best practice to enforceable policy — exactly as described in the course material."
+  },
+  {
+   "id": "8101-24",
+   "topic": "Risk Management",
+   "text": "A Nigerian e-health startup stores patient records without encryption. A hacker accesses the database and demands a ransom. Which category of IT risk does this represent?",
+   "opts": [
+    "Data integrity issue",
+    "Compliance violation",
+    "Cybersecurity threat",
+    "Downtime and service failure"
+   ],
+   "answer": 2,
+   "explanation": "Hacking and ransomware are explicitly categorised as cybersecurity threats in IT risk management frameworks. Data integrity issues involve corruption or manual errors. Compliance violations involve regulatory breaches. Downtime relates to service unavailability."
+  },
+  {
+   "id": "8101-25",
+   "topic": "Risk Management",
+   "text": "A fintech company in Lagos backs up its transaction database weekly to an external hard drive stored in the same server room. A fire destroys the room, taking both the primary database and the backup. What risk management failure occurred?",
+   "opts": [
+    "Failure to install a firewall",
+    "Poor backup strategy and inadequate contingency planning",
+    "Lack of role-based access control",
+    "Insufficient IT budgeting"
+   ],
+   "answer": 1,
+   "explanation": "Effective risk management requires off-site or cloud backups and contingency planning. Storing backups in the same physical location as primary systems creates a single point of failure. A firewall (A) protects against cyber threats, not physical disasters. Role-based access (C) is about authorisation."
+  },
+  {
+   "id": "8101-26",
+   "topic": "Risk Management",
+   "text": "Kuda Bank's security team conducts quarterly penetration tests, simulates phishing attacks on staff, and reviews access logs monthly. These activities are part of which IT management principle?",
+   "opts": [
+    "Performance measurement",
+    "Strategic alignment",
+    "Risk management",
+    "Controlling"
+   ],
+   "answer": 2,
+   "explanation": "Penetration testing, phishing simulations, and access log reviews are all proactive risk management controls designed to identify and address security vulnerabilities before they cause damage. While controlling involves monitoring, these specific security practices are categorised under risk management."
+  },
+  {
+   "id": "8101-27",
+   "topic": "Risk Management",
+   "text": "Nigeria's NDPR (Nigeria Data Protection Regulation) requires organisations to protect personal data and notify authorities of breaches. An organisation that processes customer data without consent or proper storage controls is violating which IT risk category?",
+   "opts": [
+    "Cybersecurity threat",
+    "Data integrity issue",
+    "Compliance violation",
+    "Downtime and service failure"
+   ],
+   "answer": 2,
+   "explanation": "Breaching NDPR by processing data without consent or proper controls is explicitly a compliance violation — breaking regulatory requirements. Cybersecurity threats involve attacks. Data integrity involves data corruption. Downtime involves service unavailability."
+  },
+  {
+   "id": "8101-28",
+   "topic": "Risk Management",
+   "text": "During a major national election, a government's voter registration portal crashes due to unexpected traffic. Millions of citizens cannot verify their registration status. Which category of IT risk most directly caused this failure?",
+   "opts": [
+    "Cybersecurity threat",
+    "Data integrity issue",
+    "Compliance violation",
+    "Downtime and service failure"
+   ],
+   "answer": 3,
+   "explanation": "A portal crashing under load is a downtime and service failure — a system becoming unavailable when users need it. This is one of the four IT risk types explicitly listed in the course material. It was not a cyber attack, data corruption, or compliance issue."
+  },
+  {
+   "id": "8101-29",
+   "topic": "Risk Management",
+   "text": "An IT manager at a university recommends implementing role-based access control (RBAC), where each staff member can only access the data relevant to their role. A lecturer cannot access payroll, and HR cannot view exam results. This control primarily addresses which risk?",
+   "opts": [
+    "Infrastructure instability",
+    "Cybersecurity through data exposure and insider threat",
+    "Compliance with academic regulations",
+    "System downtime during exam periods"
+   ],
+   "answer": 1,
+   "explanation": "Role-based access control limits exposure of sensitive data to unauthorised users, directly addressing insider threats and data exposure risks — a core cybersecurity risk management control. It is not primarily about compliance, infrastructure, or downtime."
+  },
+  {
+   "id": "8101-30",
+   "topic": "Risk Management",
+   "text": "Which combination of controls represents a comprehensive IT risk management approach for a Nigerian bank?",
+   "opts": [
+    "Annual password changes and staff birthday reminders",
+    "Firewalls, encryption, role-based access, regular backups, penetration testing, and contingency planning",
+    "Monthly IT meetings and software upgrades",
+    "Training new recruits and installing anti-virus software"
+   ],
+   "answer": 1,
+   "explanation": "The course material explicitly lists firewalls, encryption, role-based access, regular backups, penetration testing, and contingency planning as the comprehensive controls IT managers should establish. Options A, C, and D are incomplete or irrelevant combinations."
+  },
+  {
+   "id": "8101-31",
+   "topic": "Resource Management",
+   "text": "A federal polytechnic in Nigeria has 12 departments, each purchasing its own printers, laptops, and internet bundles independently. Devices are incompatible, costs are duplicated, and there is no oversight. What resource management solution would an IT manager most appropriately recommend?",
+   "opts": [
+    "Allow each department to continue independent procurement for autonomy",
+    "Implement central procurement and shared resources managed by a dedicated IT unit",
+    "Hire more IT staff for each department",
+    "Switch to open-source software to reduce licensing costs"
+   ],
+   "answer": 1,
+   "explanation": "Resource management ensures that IT assets are used efficiently and without waste. Central procurement and shared resources eliminates duplication, ensures compatibility, and provides oversight — the core solution to fragmented departmental IT purchasing."
+  },
+  {
+   "id": "8101-32",
+   "topic": "Resource Management",
+   "text": "Andela's business model involves identifying talented African developers, providing intensive training, and placing them in roles where their skills have maximum impact — whether at startups, government projects, or enterprise firms. This most directly exemplifies which IT management principle?",
+   "opts": [
+    "Strategic alignment",
+    "Value delivery",
+    "Resource management of human capital",
+    "Risk management through skill diversification"
+   ],
+   "answer": 2,
+   "explanation": "Andela's entire model is built on optimising human resource management — finding talent, training it, and deploying it where it creates maximum value. This is resource management applied to human capital, not just hardware and software."
+  },
+  {
+   "id": "8101-33",
+   "topic": "Resource Management",
+   "text": "A Lagos-based logistics company's only network administrator resigned. Because there were no documented processes, system passwords, or backup staff, the entire IT department was paralysed for two weeks. Which resource management principle was neglected?",
+   "opts": [
+    "Hardware procurement",
+    "Avoiding single-point-of-failure in human resource planning and documentation",
+    "Software licensing",
+    "Budget allocation for IT upgrades"
+   ],
+   "answer": 1,
+   "explanation": "Resource management includes ensuring that knowledge and skills are not concentrated in a single person without documentation or succession planning. Creating a single point of failure through key-person dependency is a resource management risk. Proper resource management includes knowledge transfer, documentation, and backup personnel."
+  },
+  {
+   "id": "8101-34",
+   "topic": "Resource Management",
+   "text": "A Nigerian bank decides to outsource its cybersecurity operations to a specialist firm rather than hiring in-house. The CISO explains that the firm offers 24/7 monitoring and expertise that would cost three times more to replicate internally. This decision is best justified by which resource management principle?",
+   "opts": [
+    "Strategic alignment with global security standards",
+    "Outsourcing as a resource management strategy to optimise cost and performance",
+    "Risk management through third-party oversight",
+    "Performance measurement through vendor SLA monitoring"
+   ],
+   "answer": 1,
+   "explanation": "Outsourcing specialised roles like cybersecurity when it reduces cost and improves performance is a core resource management strategy. The course material explicitly notes that outsourcing can sometimes reduce cost and improve performance for specialised roles."
+  },
+  {
+   "id": "8101-35",
+   "topic": "Resource Management",
+   "text": "An IT manager at a growing fintech company discovers that senior developers are spending 40% of their time on routine password resets and basic helpdesk tickets. She reassigns these tasks to junior staff and redirects senior developers to product innovation. This action best demonstrates:",
+   "opts": [
+    "Performance measurement through task reallocation",
+    "Resource management by optimising human capital deployment",
+    "Risk management through role separation",
+    "Organising through restructuring reporting lines"
+   ],
+   "answer": 1,
+   "explanation": "Assigning tasks to staff at the appropriate skill level to avoid wasting high-skill resources on low-skill tasks is a direct application of resource management — ensuring every human asset is used efficiently and effectively."
+  },
+  {
+   "id": "8101-36",
+   "topic": "Resource Management",
+   "text": "Many Nigerian tech companies lose developers to higher-paying remote jobs with foreign startups. To counter this, some firms offer paid certifications, mentorship programs, and innovation opportunities. From a resource management perspective, what problem are they solving?",
+   "opts": [
+    "Recruitment gaps",
+    "Talent retention as a resource management challenge (digital brain drain)",
+    "Strategic alignment with global tech trends",
+    "IT risk from underqualified staff"
+   ],
+   "answer": 1,
+   "explanation": "The course material explicitly identifies Nigeria's 'digital brain drain' — where skilled IT staff leave for foreign remote work — as a resource management challenge. Retention strategies like certifications and mentorship are resource management responses."
+  },
+  {
+   "id": "8101-37",
+   "topic": "Resource Management",
+   "text": "Which of the following represents the BROADEST scope of resource management in IT?",
+   "opts": [
+    "Managing server hardware and software licences",
+    "Managing hardware, software, personnel, time, and financial resources used in IT operations",
+    "Managing only the IT budget allocation",
+    "Managing vendor contracts for IT procurement"
+   ],
+   "answer": 1,
+   "explanation": "Resource management encompasses ALL IT assets — hardware, software, personnel, time, and financial resources. The other options describe narrow subsets of resource management, not its full scope as defined in IT management principles."
+  },
+  {
+   "id": "8101-38",
+   "topic": "Resource Management",
+   "text": "A startup in Lagos hires a world-class Chief Data Officer but assigns her to managing the company's social media accounts because 'she's good with computers.' Three months later, data infrastructure is chaotic and social media is mediocre. What resource management failure occurred?",
+   "opts": [
+    "Poor recruitment process",
+    "Skill misalignment — high-value human resources are not deployed to their highest use",
+    "Insufficient IT budget for the data function",
+    "Lack of strategic planning for data roles"
+   ],
+   "answer": 1,
+   "explanation": "Resource management requires that skilled people are matched to roles where their capabilities create maximum value. Assigning a Chief Data Officer to social media management wastes high-value expertise and leaves the data function unserved — a clear skill misalignment and resource management failure."
+  },
+  {
+   "id": "8101-39",
+   "topic": "Performance Measurement",
+   "text": "Kuda Bank's engineering team uses a real-time dashboard tracking app uptime, API response times, transaction success rates, and customer satisfaction scores. The team reviews these metrics weekly and takes corrective action when thresholds are breached. This practice is best described as:",
+   "opts": [
+    "Strategic alignment",
+    "IT risk monitoring",
+    "Performance measurement",
+    "IT governance"
+   ],
+   "answer": 2,
+   "explanation": "Performance measurement involves defining success metrics, tracking them continuously, and making data-driven adjustments. Uptime, response times, transaction success, and satisfaction scores are all IT performance metrics. The weekly review and corrective action process is performance measurement in action."
+  },
+  {
+   "id": "8101-40",
+   "topic": "Performance Measurement",
+   "text": "An IT manager at a hospital reports that the electronic patient record system has 97.8% uptime, resolves helpdesk tickets within 4 hours on average, and has a 4.2/5 user satisfaction score. These metrics collectively serve which IT management principle?",
+   "opts": [
+    "Resource management",
+    "Performance measurement",
+    "Strategic alignment",
+    "Value delivery"
+   ],
+   "answer": 1,
+   "explanation": "Uptime, resolution times, and user satisfaction scores are classic IT performance metrics used to evaluate whether systems are working effectively. Tracking and reporting these figures is performance measurement — knowing whether IT is actually working as intended."
+  },
+  {
+   "id": "8101-41",
+   "topic": "Performance Measurement",
+   "text": "A federal agency launches a new citizen tax portal but never collects feedback, measures usage rates, or tracks whether tax submissions have increased. Two years later, no one knows if the portal achieved its goals. Which IT management principle was neglected?",
+   "opts": [
+    "Risk management",
+    "Strategic alignment",
+    "Performance measurement",
+    "Resource management"
+   ],
+   "answer": 2,
+   "explanation": "Without defining success metrics, tracking usage, and evaluating outcomes, the agency cannot know if the portal delivered value. Performance measurement is the principle of knowing whether IT is working — without it, organisations 'operate blindly.'"
+  },
+  {
+   "id": "8101-42",
+   "topic": "Performance Measurement",
+   "text": "Which set of metrics would be MOST appropriate for measuring the performance of a customer service IT system at a Nigerian insurance company?",
+   "opts": [
+    "Number of servers purchased and software licenses active",
+    "System uptime, average ticket resolution time, customer satisfaction score, and incident frequency",
+    "Number of IT staff and their training hours",
+    "Data storage capacity and network bandwidth utilisation"
+   ],
+   "answer": 1,
+   "explanation": "The course material lists system uptime, user satisfaction, resolution times, and incident frequency as the core IT performance metrics. Options A, C, and D measure inputs and infrastructure capacity, not system performance as experienced by users."
+  },
+  {
+   "id": "8101-43",
+   "topic": "Performance Measurement",
+   "text": "A performance dashboard at a Nigerian logistics startup shows delivery app crash rates spiking every Friday between 5-7pm. The IT manager uses this data to schedule system scaling operations before the Friday rush. This demonstrates:",
+   "opts": [
+    "Reactive risk management",
+    "Proactive performance measurement driving operational improvement",
+    "Strategic alignment with delivery schedules",
+    "Resource management through demand forecasting"
+   ],
+   "answer": 1,
+   "explanation": "Using performance data (crash rate patterns) to proactively schedule system scaling is performance measurement directly driving operational improvement. The key is that the data informed a proactive decision — distinguishing this from reactive risk management."
+  },
+  {
+   "id": "8101-44",
+   "topic": "Performance Measurement",
+   "text": "An IT manager says: 'We don't need performance metrics. If users complain, we'll fix it.' A management consultant would most likely respond that this approach leads to:",
+   "opts": [
+    "Greater team agility and faster response times",
+    "Organisations operating blindly, unable to distinguish delivering systems from failing ones",
+    "Better customer relationships through personal feedback channels",
+    "Reduced overhead from eliminated reporting processes"
+   ],
+   "answer": 1,
+   "explanation": "The course material explicitly states that without performance measurement, 'organisations operate blindly — they can't tell if systems are delivering or failing.' Reactive complaint-based management is the opposite of evidence-based IT performance management."
+  },
+  {
+   "id": "8101-45",
+   "topic": "IT Functions",
+   "text": "The CIO of a Nigerian insurance company develops a three-year IT roadmap: Year 1 will digitise customer onboarding, Year 2 will launch a mobile claims portal, and Year 3 will integrate AI-powered risk scoring. This activity is a demonstration of which IT management function?",
+   "opts": [
+    "Organising",
+    "Planning — specifically at the strategic level",
+    "Controlling",
+    "Directing"
+   ],
+   "answer": 1,
+   "explanation": "Developing a long-term IT roadmap is strategic planning — the function that sets long-term vision and maps out how IT will support business goals over time. This is planning at the strategic level, which includes goals, strategies, and actions."
+  },
+  {
+   "id": "8101-46",
+   "topic": "IT Functions",
+   "text": "At a Lagos fintech startup, the IT director assigns a dedicated helpdesk team to handle user support, network engineers to manage infrastructure, and creates an IT governance committee that approves all major purchases. This structural arrangement best demonstrates which function?",
+   "opts": [
+    "Planning",
+    "Controlling",
+    "Organising",
+    "Staffing"
+   ],
+   "answer": 2,
+   "explanation": "Organising involves defining roles, responsibilities, workflows, and governance structures within the IT function. Creating clear team assignments (helpdesk, network engineering) and governance structures (IT committee for purchases) is organising — building accountability and order."
+  },
+  {
+   "id": "8101-47",
+   "topic": "IT Functions",
+   "text": "A Nigerian bank's IT department is overwhelmed because only one person knows how to manage the core banking database. This person is also the only one who can handle network outages. When she goes on leave, everything stops. Which staffing principle was neglected?",
+   "opts": [
+    "Recruitment based on qualifications",
+    "Cross-training, knowledge sharing, and skill redundancy in staffing planning",
+    "Performance evaluation of technical staff",
+    "Resource management through vendor outsourcing"
+   ],
+   "answer": 1,
+   "explanation": "Good staffing includes not just hiring but ensuring knowledge continuity — cross-training staff and avoiding single points of failure. Having only one person with critical skills is a staffing failure that creates organisational vulnerability."
+  },
+  {
+   "id": "8101-48",
+   "topic": "IT Functions",
+   "text": "An IT manager at a government agency holds weekly team stand-ups, sets sprint goals, removes blockers for team members, and personally mentors junior staff facing technical challenges. Which IT management function is she primarily performing?",
+   "opts": [
+    "Planning",
+    "Organising",
+    "Staffing",
+    "Directing"
+   ],
+   "answer": 3,
+   "explanation": "Directing is the leadership function of IT management — providing vision, motivation, and day-to-day guidance to ensure the team performs effectively. Stand-ups, goal-setting, removing blockers, and mentoring are all directing activities. Organising is about structure; directing is about day-to-day leadership."
+  },
+  {
+   "id": "8101-49",
+   "topic": "IT Functions",
+   "text": "An IT audit at a Nigerian university discovers that 15 staff members have administrator access to the student results database, though only 3 actually need it. The IT director revokes unnecessary access and implements quarterly access reviews. This is an example of which function?",
+   "opts": [
+    "Directing",
+    "Planning",
+    "Controlling",
+    "Staffing"
+   ],
+   "answer": 2,
+   "explanation": "Controlling involves monitoring whether policies are being followed and making corrections when gaps are found. Reviewing and revoking unnecessary access to ensure policy compliance, then setting up quarterly reviews for continuous monitoring, is the controlling function at work."
+  },
+  {
+   "id": "8101-50",
+   "topic": "IT Functions",
+   "text": "A startup IT lead says: 'We never plan. We just react to what comes up.' Over six months, the company suffers repeated system outages, budget overruns on emergency IT purchases, and loses a major client due to downtime. Which management function's absence caused these problems?",
+   "opts": [
+    "Staffing",
+    "Directing",
+    "Organising",
+    "Planning"
+   ],
+   "answer": 3,
+   "explanation": "The course material states that without planning, 'teams become reactive — constantly solving yesterday's problems instead of building tomorrow's systems.' Budget overruns, repeated outages, and client loss are classic outcomes of absent IT planning. This is a planning failure."
+  },
+  {
+   "id": "8101-51",
+   "topic": "IT Functions",
+   "text": "Planning in IT management occurs at three levels. Match the example to the correct level: 'The IT team will deploy software updates every Tuesday night at 2am to minimise user disruption.'",
+   "opts": [
+    "Strategic planning",
+    "Tactical planning",
+    "Operational planning",
+    "Contingency planning"
+   ],
+   "answer": 2,
+   "explanation": "Operational planning covers daily execution details — specific, time-bound, routine tasks like scheduled maintenance windows. Strategic planning (A) covers long-term vision. Tactical planning (B) covers mid-term priorities. Contingency planning (D) is about disaster response."
+  },
+  {
+   "id": "8101-52",
+   "topic": "IT Functions",
+   "text": "An IT manager notices that the team is consistently missing project deadlines but doesn't know why. She introduces weekly progress reports, compares actual vs planned timelines, and interviews team members. After finding that unclear task assignments are the root cause, she restructures responsibilities. Which two functions are being applied?",
+   "opts": [
+    "Planning and staffing",
+    "Directing and controlling",
+    "Controlling and organising",
+    "Staffing and planning"
+   ],
+   "answer": 2,
+   "explanation": "Controlling is the function of monitoring performance and identifying gaps (comparing actual vs planned, investigating delays). Organising is the function of defining clear roles and responsibilities (restructuring task assignments). Together, they address both the detection and the structural solution to the problem."
+  },
+  {
+   "id": "8101-53",
+   "topic": "IT Functions",
+   "text": "Continuous recruitment of new IT talent, providing paid certifications, offering career growth opportunities, and creating succession plans are all primarily activities of which IT management function?",
+   "opts": [
+    "Directing",
+    "Organising",
+    "Staffing",
+    "Controlling"
+   ],
+   "answer": 2,
+   "explanation": "Staffing encompasses recruitment, training, and retention of IT personnel. All four activities listed — recruiting, certifying, developing career paths, and succession planning — are components of the staffing function. Directing focuses on daily leadership; organising on structure; controlling on monitoring."
+  },
+  {
+   "id": "8101-54",
+   "topic": "IT Functions",
+   "text": "Which statement BEST captures the relationship between the five IT management functions?",
+   "opts": [
+    "They are independent activities performed by separate departments",
+    "They are sequential — planning must always be completed before organising can begin",
+    "They are interdependent and evolve based on changing business needs and technologies",
+    "They are applied only in large organisations with dedicated IT departments"
+   ],
+   "answer": 2,
+   "explanation": "The course material states these responsibilities 'interact and evolve based on changing business needs, emerging technologies, and shifting regulatory landscapes.' While there is a logical sequence, in practice they overlap, iterate, and adapt continuously — they are interdependent, not strictly sequential."
+  },
+  {
+   "id": "8101-55",
+   "topic": "Challenges",
+   "text": "A rural district health authority in Kogi State receives government funding to implement a telemedicine platform. The rollout fails because the area has no stable electricity, internet connectivity is less than 20% coverage, and most health workers lack digital literacy. What is the PRIMARY category of IT management challenge?",
+   "opts": [
+    "Budget constraints",
+    "Limited skilled talent",
+    "Infrastructure instability",
+    "Cultural resistance to change"
+   ],
+   "answer": 2,
+   "explanation": "Infrastructure instability — unreliable electricity, slow internet, and inconsistent coverage — is the primary challenge category when a technically sound IT solution fails because the physical environment cannot support it. This is explicitly described in the course material as making 'even the best IT plans difficult to execute.'"
+  },
+  {
+   "id": "8101-56",
+   "topic": "Challenges",
+   "text": "A state government's revenue collection agency insists that all tax payments must still be made in cash at designated offices, despite having an e-payment portal ready for deployment. Senior staff argue that 'manual processes have always worked.' Which challenge is most apparent?",
+   "opts": [
+    "Budget constraints",
+    "Infrastructure instability",
+    "Policy and regulatory gaps",
+    "Cultural resistance to change"
+   ],
+   "answer": 3,
+   "explanation": "Cultural resistance to change — particularly in traditional government agencies where staff and leadership are comfortable with manual processes — is the challenge described. The portal exists but adoption is blocked by attitude and habit, not budget, infrastructure, or regulation."
+  },
+  {
+   "id": "8101-57",
+   "topic": "Challenges",
+   "text": "A fast-growing e-commerce startup in Lagos cannot find enough qualified data engineers, cloud architects, or cybersecurity specialists locally. The few it hires are quickly recruited away by multinational firms offering remote work packages. This scenario reflects which challenge?",
+   "opts": [
+    "Budget constraints",
+    "Limited skilled talent and digital brain drain",
+    "Infrastructure instability",
+    "Policy and regulatory gaps"
+   ],
+   "answer": 1,
+   "explanation": "The course material explicitly identifies Nigeria's 'digital brain drain' — the shortage of tech talent compounded by emigration and remote work absorption by foreign firms — as the 'limited skilled talent' challenge. This is distinct from budget, infrastructure, or regulatory issues."
+  },
+  {
+   "id": "8101-58",
+   "topic": "Challenges",
+   "text": "IT management in government agencies differs from IT management in startups. Which statement BEST describes a key difference?",
+   "opts": [
+    "Government agencies use more advanced technology than startups",
+    "Government agencies face slow procurement and bureaucracy while startups face high pressure for rapid iteration",
+    "Startups have more security risks than government agencies",
+    "Government agencies employ more IT staff than startups"
+   ],
+   "answer": 1,
+   "explanation": "The course material contrasts government agencies (bureaucracy, slow procurement, limited budgets, compliance focus) with startups (fast-paced, agile, high iteration pressure, freedom to experiment). Option A is incorrect — startups often have more cutting-edge tools. B directly reflects course content."
+  },
+  {
+   "id": "8101-59",
+   "topic": "Challenges",
+   "text": "An NGO working in conflict-affected communities in northeast Nigeria needs IT tools to collect maternal health data from remote clinics. Which sector-specific IT management consideration is MOST critical?",
+   "opts": [
+    "Implementing enterprise ERP systems",
+    "Ensuring tools work offline or in low-bandwidth environments",
+    "Deploying AI-powered analytics dashboards",
+    "Integrating with Jumia's e-commerce platform"
+   ],
+   "answer": 1,
+   "explanation": "The course material describes NGOs needing 'secure systems that work in low-bandwidth or offline environments' as their key IT challenge. Remote areas without reliable internet require offline-capable tools that sync when connectivity is available — not enterprise ERP or e-commerce integration."
+  },
+  {
+   "id": "8101-60",
+   "topic": "Challenges",
+   "text": "How does effective IT management connect to the UN's Sustainable Development Goal 4 (Quality Education)?",
+   "opts": [
+    "By ensuring IT departments in universities are well funded",
+    "Through Learning Management Systems, online resources, and student data tools that broaden access and track progress",
+    "By digitising university staff payroll systems",
+    "Through implementing biometric attendance for students"
+   ],
+   "answer": 1,
+   "explanation": "The course material explicitly states that SDG 4 is advanced through 'efficient learning management systems, online resources, and student data tools that help broaden access and track progress.' Options A, C, and D are operational activities that don't directly serve the quality education goal."
+  },
+  {
+   "id": "8101-61",
+   "topic": "Organisational Structure",
+   "text": "Flutterwave has teams in Lagos, Nairobi, and San Francisco collaborating on product development in real time using cloud-based tools. Code is reviewed, meetings happen, and customer issues are resolved across time zones without physical co-location. Which key IT role in organisational structures does this represent?",
+   "opts": [
+    "Enabling process automation",
+    "Breaking silos through system integration",
+    "Facilitating communication and collaboration across geography",
+    "Supporting decentralised leadership through performance dashboards"
+   ],
+   "answer": 2,
+   "explanation": "Flutterwave's cross-geography collaboration using cloud tools is the primary example used in the course material to illustrate how IT facilitates communication and collaboration, eliminating the need for physical co-presence. The emphasis is on communication, not automation or performance management."
+  },
+  {
+   "id": "8101-62",
+   "topic": "Organisational Structure",
+   "text": "A Nigerian university's registrar office used to process 500 paper-based admission forms per day with a team of 20. After implementing an automated ERP system, 2,000 applications are processed daily with a team of 6. The freed-up staff now focus on student advising and strategic enrolment planning. This transformation demonstrates:",
+   "opts": [
+    "Risk management through workforce reduction",
+    "Enabling process automation to free human capacity for higher-value work",
+    "Strategic alignment with government admission policies",
+    "Performance measurement through headcount reduction"
+   ],
+   "answer": 1,
+   "explanation": "Automation that removes manual bottlenecks and allows employees to focus on higher-value work is exactly what 'Enabling process automation' means in the context of IT's role in organisational structures. The shift from clerical to strategic work is the key outcome."
+  },
+  {
+   "id": "8101-63",
+   "topic": "Organisational Structure",
+   "text": "Which of the following is a feature of modern, IT-enabled organisational structures that is ABSENT in traditional hierarchies?",
+   "opts": [
+    "Clearly defined vertical reporting lines",
+    "Command-and-control leadership models",
+    "Real-time communication via collaboration tools and decentralised decision-making",
+    "Department-specific paper-based workflows"
+   ],
+   "answer": 2,
+   "explanation": "Modern, IT-enabled structures feature real-time communication (Slack, Teams) and decentralised decision-making — both explicitly listed as features of modern structures in the course material. Options A, B, and D are characteristics of traditional hierarchies."
+  },
+  {
+   "id": "8101-64",
+   "topic": "Organisational Structure",
+   "text": "Andela restructured into a fully remote organisation, allowing developers across Africa to work for global companies. IT tools — talent matching platforms, remote training systems, and collaborative workspaces — enabled this transformation. Which IT role in organisational structure is illustrated?",
+   "opts": [
+    "Redefining leadership and supervision",
+    "Supporting decentralised and remote teams",
+    "Creating new organisational roles like CISO",
+    "Breaking silos through system integration"
+   ],
+   "answer": 1,
+   "explanation": "Andela's transformation is used in the course material as the primary example of 'supporting decentralised teams' — how IT enables distributed, remote work arrangements that redefine where work happens. Remote teams, not leadership redefinition, is the focus."
+  },
+  {
+   "id": "8101-65",
+   "topic": "Organisational Structure",
+   "text": "A Nigerian logistics startup uses GPS tracking and delivery app analytics to identify that Route 7 through Apapa has 60% more delays than other routes. Management reroutes drivers, reducing average delivery time by 22%. This is an example of IT's role in:",
+   "opts": [
+    "Facilitating communication between drivers and dispatchers",
+    "Enabling process automation of delivery scheduling",
+    "Enhancing decision-making through data analytics",
+    "Supporting remote work for logistics staff"
+   ],
+   "answer": 2,
+   "explanation": "Using GPS and analytics data to identify route inefficiencies and restructure operations is a direct application of 'enhancing decision-making through data' — using IT-generated insights to make better business decisions. Business Intelligence (BI) and analytics driving operational restructuring is this principle's core."
+  },
+  {
+   "id": "8101-66",
+   "topic": "Organisational Structure",
+   "text": "LifeBank Nigeria uses IT to connect blood banks, hospitals, and transport systems in a centralised platform that tracks medical supply availability and delivery in real time. Departments that previously operated independently now coordinate instantly. Which IT role in organisational structures does this primarily demonstrate?",
+   "opts": [
+    "Redefining leadership through digital supervision tools",
+    "Supporting remote work during the COVID-19 pandemic",
+    "Breaking silos through system integration across departments",
+    "Creating new IT roles like Chief Information Security Officer"
+   ],
+   "answer": 2,
+   "explanation": "LifeBank's system is used in the course material specifically as an example of 'breaking silos through system integration' — where IT unifies previously disconnected departments (blood banks, hospitals, transport) into a coordinated system. This is the integration role, not supervision, remote work, or role creation."
+  },
+  {
+   "id": "8101-67",
+   "topic": "Organisational Structure",
+   "text": "Which of the following is listed as a CHALLENGE of integrating IT into organisational structures?",
+   "opts": [
+    "Increased transparency through dashboards and audit logs",
+    "Faster decision-making through real-time data",
+    "Overdependence on tools without integration causing confusion",
+    "Greater scalability through centralised systems"
+   ],
+   "answer": 2,
+   "explanation": "The course material explicitly lists 'overdependence on tools — too many tools without integration can cause confusion' as a challenge of IT integration into organisations. Options A, B, and D are listed as BENEFITS of IT-enabled structures, not challenges."
+  },
+  {
+   "id": "8101-68",
+   "topic": "Enterprise IT Evolution",
+   "text": "In the 1970s, Nigeria's Central Bank used large computing systems accessible only to a small team of trained technical staff for payroll and census data processing. No other departments could access or use these systems. Which phase of enterprise IT evolution does this describe?",
+   "opts": [
+    "The client-server era",
+    "The internet and web-based era",
+    "The mainframe era",
+    "The cloud and mobile era"
+   ],
+   "answer": 2,
+   "explanation": "The mainframe era (1960s-1980s) was characterised by centralised, expensive computing accessible only to highly trained technical staff, used for batch processing like payroll and census data. This matches the CBN scenario described. The Central Bank is explicitly cited in the course material as an early mainframe adopter."
+  },
+  {
+   "id": "8101-69",
+   "topic": "Enterprise IT Evolution",
+   "text": "GTBank Nigeria pioneered full-scale online banking, universities created e-portals for student management, and government bodies offered online exam registration. These developments occurred primarily during which phase of enterprise IT evolution?",
+   "opts": [
+    "The mainframe era",
+    "The client-server era",
+    "The internet and web-based era",
+    "The digital ecosystem era"
+   ],
+   "answer": 2,
+   "explanation": "The internet and web-based era (2000s-2010s) is characterised by customer-facing applications, self-service platforms, and organisations interacting directly with the public through websites and portals. GTBank's online banking is the explicit Nigerian example given in the course material for this phase."
+  },
+  {
+   "id": "8101-70",
+   "topic": "Enterprise IT Evolution",
+   "text": "Paystack, Flutterwave, and LifeBank built their operations using cloud-first strategies, scaling without significant hardware investments. Small businesses started using WhatsApp, Google Forms, and mobile apps for daily operations. This characterises which phase of enterprise IT evolution?",
+   "opts": [
+    "The mainframe era",
+    "The client-server era",
+    "The internet and web-based era",
+    "The cloud and mobile era"
+   ],
+   "answer": 3,
+   "explanation": "The cloud and mobile era (2010s-2020s) is defined by pay-as-you-go computing, mobile-first user interaction, and the ability of small firms to scale digitally without hardware investment. Paystack, Flutterwave, and LifeBank are the explicit Nigerian examples given for this phase."
+  },
+  {
+   "id": "8101-71",
+   "topic": "Enterprise IT Evolution",
+   "text": "The client-server era in Nigerian organisations like UBA and First Bank brought a key disadvantage that set the stage for the next phase of IT evolution. What was this disadvantage?",
+   "opts": [
+    "Systems were too expensive to maintain",
+    "Departments could not communicate with each other digitally",
+    "Siloed systems emerged with no organisation-wide integration",
+    "The internet had not yet been commercialised in Nigeria"
+   ],
+   "answer": 2,
+   "explanation": "The course material explicitly states that a key impact of the client-server era was that 'siloed systems started emerging — no system-wide integration.' Departments had digital autonomy but couldn't easily share data across the organisation, which the internet era and later ERP systems addressed."
+  },
+  {
+   "id": "8101-72",
+   "topic": "Enterprise IT Evolution",
+   "text": "In the digital ecosystem era, IT management has evolved from system maintenance to ecosystem orchestration. What does this mean for IT managers?",
+   "opts": [
+    "IT managers focus solely on internal system uptime and hardware maintenance",
+    "IT managers must ensure their organisation's systems interact seamlessly with third-party platforms, APIs, and partner ecosystems",
+    "IT managers should outsource all integration work to external consultants",
+    "IT managers' primary role becomes cybersecurity monitoring"
+   ],
+   "answer": 1,
+   "explanation": "The course material describes the shift from maintenance to 'ecosystem orchestration' — IT managers must now ensure seamless integration with third-party platforms, understand API specifications, manage data governance across multiple organisations, and collaborate with multiple stakeholders. This is far broader than just internal maintenance."
+  },
+  {
+   "id": "8101-73",
+   "topic": "Enterprise IT Evolution",
+   "text": "Which of the following represents the CORRECT chronological sequence of enterprise IT evolution phases?",
+   "opts": [
+    "Cloud and mobile → Client-server → Mainframe → Internet → Digital ecosystem",
+    "Mainframe → Client-server → Internet and web-based → Cloud and mobile → Digital ecosystem",
+    "Internet and web-based → Mainframe → Client-server → Cloud and mobile → Digital ecosystem",
+    "Digital ecosystem → Cloud and mobile → Internet → Client-server → Mainframe"
+   ],
+   "answer": 1,
+   "explanation": "The correct sequence as described in the course material is: Mainframe era (1960s-1980s) → Client-server era (1990s-2000s) → Internet and web-based era (2000s-2010s) → Cloud and mobile era (2010s-2020s) → Digital ecosystem era (2020s onwards)."
+  },
+  {
+   "id": "8101-74",
+   "topic": "Digital Ecosystems",
+   "text": "Thousands of Nigerian businesses integrate Paystack into their websites, apps, and POS systems to collect payments. Paystack doesn't just offer a payment service — it enables others to build entire revenue models on top of its infrastructure. This is best described as:",
+   "opts": [
+    "A client-server model",
+    "A digital ecosystem where a platform enables others to create value",
+    "An example of value delivery in traditional IT management",
+    "A strategic alignment of fintech with CBN regulations"
+   ],
+   "answer": 1,
+   "explanation": "A digital ecosystem is defined as interconnected organisations and platforms that share services, users, and data, where competitive advantage is based on network access. Paystack enabling thousands of businesses to build on its infrastructure is the textbook Nigerian example of a digital ecosystem."
+  },
+  {
+   "id": "8101-75",
+   "topic": "Digital Ecosystems",
+   "text": "In the digital ecosystem era, which data management responsibility has become critical for IT managers who handle customer, partner, and government data?",
+   "opts": [
+    "Maximising data collection for business intelligence",
+    "Data governance — including data minimisation, secure storage, consent-based sharing, and lifecycle management",
+    "Sharing all data openly to enable ecosystem collaboration",
+    "Outsourcing all data management to cloud providers"
+   ],
+   "answer": 1,
+   "explanation": "The course material states that IT managers in digital ecosystems must ensure data minimisation, secure storage, consent-based sharing, and data lifecycle management — collectively called data governance — driven by regulations like Nigeria's NDPR and GDPR. Open sharing (C) contradicts these obligations."
+  },
+  {
+   "id": "8101-76",
+   "topic": "Digital Ecosystems",
+   "text": "Which security approach is recommended for IT managers in the digital ecosystem era, where each integration point is a potential vulnerability?",
+   "opts": [
+    "Traditional perimeter-based firewalls only",
+    "Relying on partner organisations to secure their own systems",
+    "Zero-trust security architectures with API security management and continuous vulnerability assessments",
+    "Disconnecting from third-party integrations to reduce exposure"
+   ],
+   "answer": 2,
+   "explanation": "The course material explicitly recommends 'zero-trust security architectures, API security management, continuous vulnerability assessments, and threat intelligence sharing within ecosystems' for the open, integrated digital ecosystem environment. Traditional perimeter defence is insufficient when systems are interconnected with third parties."
+  },
+  {
+   "id": "8101-77",
+   "topic": "Project Management",
+   "text": "A Nigerian telecommunications company implementing a nationwide 5G infrastructure upgrade needs a structured approach that handles complex integrations across multiple regions, manages dependencies between vendors, controls a ₦2 billion budget, and coordinates teams in 8 states. What does this scenario highlight about IT project management?",
+   "opts": [
+    "IT project management is only relevant for software development",
+    "IT project management is critical for managing complexity, time, budget, and multi-stakeholder coordination",
+    "The project should be handled by financial controllers rather than IT managers",
+    "Large infrastructure projects do not require formal project management"
+   ],
+   "answer": 1,
+   "explanation": "The scenario captures all the key reasons IT project management is critical: complexity management (multiple vendors, regions), time and budget control (₦2 billion), and multi-stakeholder coordination (8 states, vendors). The course material lists these as primary reasons project management is essential in IT."
+  },
+  {
+   "id": "8101-78",
+   "topic": "Methodologies",
+   "text": "A government ministry wants to develop a new employee performance management system. The requirements are fully documented, approved by all stakeholders, and there is no expectation of requirement changes during the 18-month development. Budget and scope are fixed by law. Which project management methodology is MOST appropriate?",
+   "opts": [
+    "Scrum, for its flexibility and daily stand-ups",
+    "Agile, for its iterative delivery and customer feedback loops",
+    "Waterfall, for its structured, sequential approach with fixed scope",
+    "DevOps, for continuous integration and deployment"
+   ],
+   "answer": 2,
+   "explanation": "Waterfall is explicitly described as ideal for 'government or defense projects with fixed requirements' and 'projects where requirements are well understood and unlikely to change.' Fixed scope, regulatory approval, and no anticipated requirement changes make Waterfall the best fit here."
+  },
+  {
+   "id": "8101-79",
+   "topic": "Methodologies",
+   "text": "A Lagos-based health tech startup is building a patient engagement app. Requirements change frequently based on user testing, the team releases new features every two weeks, and the product owner reviews each release with users before the next sprint begins. Which methodology does this describe?",
+   "opts": [
+    "Waterfall",
+    "Scrum — an Agile framework with sprints, product backlog, and regular reviews",
+    "PRINCE2",
+    "Traditional project management with phase gates"
+   ],
+   "answer": 1,
+   "explanation": "Time-boxed sprints (two weeks), a product owner reviewing releases, iterative delivery based on user feedback, and a product backlog are all defining characteristics of Scrum — the most widely adopted Agile framework. The scenario matches the Scrum process described in the course material."
+  },
+  {
+   "id": "8101-80",
+   "topic": "Methodologies",
+   "text": "A Scrum Master at a fintech company in Abuja is spending most of her time in meetings explaining why the team missed deliverables due to unclear requirements, cross-team dependencies, and no agreement on 'done'. According to the Scrum framework, what is the Scrum Master's PRIMARY responsibility in this situation?",
+   "opts": [
+    "Reassign work to other teams",
+    "Act as a facilitator — remove impediments and ensure adherence to Scrum principles, including a clear Definition of Done",
+    "Take over as product owner to clarify requirements",
+    "Escalate the issue to senior management and wait for resolution"
+   ],
+   "answer": 1,
+   "explanation": "The Scrum Master's role is to 'act as a facilitator for the team, remove impediments, and ensure adherence to Scrum principles.' Unclear requirements, dependency issues, and no Definition of Done are impediments the Scrum Master should address through facilitation — not by taking over, reassigning, or passively escalating."
+  }
+ ],
+ "caseStudies": [
+  {
+   "id": "8101-case-1",
+   "company": "SwiftTrans Logistics Nigeria",
+   "sector": "Logistics / Supply Chain",
+   "title": "When Technology Meets Chaos: A Logistics Wake-Up Call",
+   "scenario": "SwiftTrans Nigeria operates 120 delivery vehicles across Lagos and Ogun State. The company recently received a ₦30 million investment to 'go digital.' Management purchased route optimisation software, installed GPS trackers on all vehicles, and launched a customer-facing tracking portal. However, six months later: drivers still call dispatchers manually because no one trained them on the app; GPS data is collected but no one monitors or analyses it; the customer portal is live but shows incorrect delivery statuses because it isn't synced with the dispatch system; and the finance team still processes driver payments manually from WhatsApp messages. The CEO is frustrated — the technology is in place but performance has not improved.",
+   "questions": [
+    {
+     "id": "CS1-1",
+     "text": "Which IT management principle has most clearly failed in SwiftTrans's implementation?",
+     "opts": [
+      "Risk management — the company did not conduct a cybersecurity audit",
+      "Strategic alignment and value delivery — the technology was deployed without integrating it into workflows or measuring outcomes",
+      "Resource management — too many devices were purchased without budget approval",
+      "Performance measurement — the company should have hired more analysts"
+     ],
+     "answer": 1,
+     "exp": "The core failure is that technology was deployed without aligning it to workflows (no training, no integration) and without defining or tracking success metrics (no monitoring, no outcome measurement). Both strategic alignment and value delivery were neglected."
+    },
+    {
+     "id": "CS1-2",
+     "text": "The GPS data is being collected but never analysed. From an IT management perspective, this represents a failure of which principle?",
+     "opts": [
+      "Strategic alignment",
+      "Risk management",
+      "Value delivery — collected data that produces no insight delivers no value",
+      "Resource management — GPS hardware is underutilised"
+     ],
+     "answer": 2,
+     "exp": "Value delivery requires that IT investments yield measurable, real-world returns. GPS data that is collected but never analysed produces no business benefit — it is an IT resource that delivers zero value. This is a clear value delivery failure."
+    },
+    {
+     "id": "CS1-3",
+     "text": "To address the customer portal showing incorrect statuses, which IT management function should the IT director prioritise?",
+     "opts": [
+      "Staffing — hire more portal developers",
+      "Planning — redesign the entire IT strategy from scratch",
+      "Organising — restructure the IT department's org chart",
+      "Controlling — conduct a system audit to identify integration gaps and enforce synchronisation standards"
+     ],
+     "answer": 3,
+     "exp": "Controlling involves monitoring performance, identifying gaps, and making corrections. An audit to find why the portal is out of sync, followed by enforcing integration standards, is the controlling function addressing a real operational failure. The problem is not a staffing, planning, or org structure issue at this stage."
+    },
+    {
+     "id": "CS1-4",
+     "text": "SwiftTrans now wants to set up a performance dashboard. Which metrics would be MOST relevant for measuring IT success in their context?",
+     "opts": [
+      "Number of GPS devices installed and software licences purchased",
+      "On-time delivery rate, driver app adoption rate, portal accuracy percentage, and customer satisfaction score",
+      "IT department headcount and training hours completed",
+      "Server uptime and database storage utilisation"
+     ],
+     "answer": 1,
+     "exp": "Meaningful performance metrics for a logistics company's IT must connect to business outcomes: delivery success (on-time rate), user adoption (driver app usage), system accuracy (portal correctness), and customer impact (satisfaction). Option A measures inputs, not outcomes. Options C and D measure IT operations, not business value."
+    }
+   ]
+  },
+  {
+   "id": "8101-case-2",
+   "company": "Goldcrest Microfinance Bank",
+   "sector": "Banking / Financial Services",
+   "title": "From Manual to Digital: The Risks of Rushing Transformation",
+   "scenario": "Goldcrest Microfinance Bank serves 45,000 customers across 12 branches in Lagos State. After observing competitors like Kuda Bank go fully digital, the Board directed the IT Manager — Mr. Adewale — to 'digitise everything within three months.' Under pressure, Mr. Adewale deployed a cloud-based core banking system, shut down all manual backup processes, and migrated all data from legacy servers. Three weeks later: a cloud service outage lasting 14 hours left all 12 branches unable to process transactions; customer data discovered to be partially corrupted during migration; staff across all branches had no contingency procedure to follow; CBN examiners later flagged the bank for non-compliance with data protection requirements for customer financial data.",
+   "questions": [
+    {
+     "id": "CS2-1",
+     "text": "The 14-hour cloud outage with no manual fallback represents which category of IT risk?",
+     "opts": [
+      "Cybersecurity threat",
+      "Data integrity issue",
+      "Compliance violation",
+      "Downtime and service failure — with no contingency plan"
+     ],
+     "answer": 3,
+     "exp": "A cloud outage causing system unavailability is downtime and service failure. The severity was compounded by the lack of a contingency plan — branches had no fallback procedure. Proper risk management would have required a business continuity plan (BCP) for exactly this scenario."
+    },
+    {
+     "id": "CS2-2",
+     "text": "Corrupted customer data during migration is best classified as which IT risk type?",
+     "opts": [
+      "Cybersecurity threat — the data was attacked during transfer",
+      "Data integrity issue — data was corrupted, making records inaccurate or unusable",
+      "Compliance violation — CBN regulations were broken",
+      "Downtime and service failure — the database was unavailable"
+     ],
+     "answer": 1,
+     "exp": "Data corruption during migration — making records inaccurate or incomplete — is a data integrity issue. The data was not attacked (cybersecurity) or unavailable (downtime); it exists but is unreliable. This is a classic data integrity risk that should have been mitigated with pre- and post-migration validation."
+    },
+    {
+     "id": "CS2-3",
+     "text": "CBN flagged Goldcrest for non-compliance with data protection requirements. Which IT risk category and which IT management principle were violated?",
+     "opts": [
+      "Risk category: cybersecurity threat; Principle: value delivery",
+      "Risk category: compliance violation; Principle: risk management (failure to ensure regulatory compliance)",
+      "Risk category: downtime; Principle: performance measurement",
+      "Risk category: data integrity; Principle: resource management"
+     ],
+     "answer": 1,
+     "exp": "Non-compliance with CBN data protection requirements is a compliance violation (one of the four IT risk types). The underlying principle violated is risk management — which includes identifying and controlling compliance risks. The bank failed to ensure its data practices met regulatory standards before migration."
+    },
+    {
+     "id": "CS2-4",
+     "text": "What should Mr. Adewale have prioritised BEFORE shutting down manual backup processes and migrating data?",
+     "opts": [
+      "Announcing the migration to customers via SMS",
+      "Conducting a risk assessment, establishing a business continuity plan, and testing data migration integrity in a staging environment",
+      "Hiring more IT staff to handle the migration",
+      "Requesting a budget increase for cloud services"
+     ],
+     "answer": 1,
+     "exp": "A risk management approach to any major IT migration requires: (1) identifying risks (outage, data corruption), (2) establishing contingency plans (business continuity / fallback procedures), and (3) testing migration in a safe environment before going live. Rushing without these steps is a fundamental risk management failure."
+    }
+   ]
+  },
+  {
+   "id": "8101-case-3",
+   "company": "MediConnect Health Network",
+   "sector": "Healthcare Technology",
+   "title": "Digital Ecosystem or Digital Fragmentation?",
+   "scenario": "MediConnect is a Lagos-based health-tech company connecting hospitals, pharmacies, diagnostic labs, and health insurance providers through a unified digital platform. Hospitals upload patient records, labs upload test results, pharmacies confirm dispensing, and insurers access claims — all in near real-time via APIs. MediConnect processes data for over 2 million patient records annually. Recent developments: a partner lab exposed MediConnect's patient data through an unsecured API connection; MediConnect collected more patient data fields than required for insurance claims processing; a hospital partner requested real-time data feeds but MediConnect's IT team said their infrastructure couldn't handle the demand; and MediConnect's IT manager has been focused only on internal system uptime, leaving partner integrations unmonitored.",
+   "questions": [
+    {
+     "id": "CS3-1",
+     "text": "MediConnect operates by connecting hospitals, labs, pharmacies, and insurers through shared APIs and real-time data. This model is best described as which phase of enterprise IT evolution?",
+     "opts": [
+      "The client-server era",
+      "The internet and web-based era",
+      "The cloud and mobile era",
+      "The digital ecosystem era — characterised by API-driven integration and multi-stakeholder value co-creation"
+     ],
+     "answer": 3,
+     "exp": "MediConnect's model — multiple organisations interacting through APIs, sharing data, and co-creating value — is the defining characteristic of the digital ecosystem era. It is not just cloud-hosted (C) or web-based (B) — it is an interconnected network of healthcare entities, which is ecosystem-level IT."
+    },
+    {
+     "id": "CS3-2",
+     "text": "A partner lab exposed patient data through an unsecured API connection. In the digital ecosystem era, what security approach should MediConnect have implemented?",
+     "opts": [
+      "Traditional firewall-based perimeter security only",
+      "Zero-trust security architecture with API security management and partner integration monitoring",
+      "Disconnecting from the lab partner immediately and operating in isolation",
+      "Relying on the lab partner to manage their own security independently"
+     ],
+     "answer": 1,
+     "exp": "The course material explicitly recommends zero-trust security, API security management, and continuous vulnerability assessments for ecosystem IT environments. Each integration point is a potential vulnerability — MediConnect is responsible for ensuring all partner connections are secured, not just internal systems."
+    },
+    {
+     "id": "CS3-3",
+     "text": "MediConnect collected more patient data fields than necessary for insurance claims processing. Under Nigeria's NDPR, which data governance obligation has been violated?",
+     "opts": [
+      "Secure storage and access management",
+      "Consent-based sharing",
+      "Data minimisation — collecting only what is necessary",
+      "Data lifecycle management"
+     ],
+     "answer": 2,
+     "exp": "Data minimisation is the principle that organisations should 'collect only what's needed.' Collecting more data than required for a stated purpose violates this NDPR obligation. This is a data governance and risk management failure in the digital ecosystem context."
+    },
+    {
+     "id": "CS3-4",
+     "text": "MediConnect's IT manager has been focused only on internal system uptime and has not monitored partner integrations. According to the course material's description of the IT manager's role in the ecosystem era, what must change?",
+     "opts": [
+      "The IT manager should outsource all partner management to a third-party firm",
+      "The IT manager must evolve from system maintenance to ecosystem integration — monitoring partner APIs, governing data flows, and collaborating with multiple stakeholders",
+      "The IT manager should focus on performance dashboards for internal staff only",
+      "Partner integration is the responsibility of the business development team, not IT"
+     ],
+     "answer": 1,
+     "exp": "The course material explicitly states that in the ecosystem era, IT managers must shift 'from system maintenance to ecosystem integration' — ensuring the organisation's systems interact seamlessly with third-party platforms. This requires monitoring partner integrations, understanding API governance, and multi-stakeholder collaboration."
+    }
+   ]
+  },
+  {
+   "id": "8101-case-4",
+   "company": "EduForward Academy",
+   "sector": "Education Technology",
+   "title": "Agile in the Classroom: Managing an EdTech Platform Launch",
+   "scenario": "EduForward Academy is a Lagos-based online learning platform serving 15,000 secondary school students preparing for WAEC and JAMB exams. The product team wants to launch a new AI-powered personalised study plan feature. Key facts: requirements change weekly as the team runs user tests with students and teachers; the team wants to release improvements every two weeks based on feedback; three months ago, the team tried Waterfall and spent four months gathering requirements that were all outdated by launch; the CTO wants the product owner to prioritise features by learning impact, and the Scrum Master to remove blockers between the frontend and backend teams; and the team has five developers, one UX designer, one product owner, and one Scrum Master.",
+   "questions": [
+    {
+     "id": "CS4-1",
+     "text": "EduForward's previous Waterfall approach failed because requirements were outdated by launch. Based on the project characteristics (changing requirements, frequent releases, user feedback loops), which methodology is most appropriate now?",
+     "opts": [
+      "Waterfall — with more thorough initial requirements gathering",
+      "Scrum (an Agile framework) — which accommodates changing requirements through iterative sprints",
+      "PRINCE2 — a government-standard methodology for fixed-scope projects",
+      "Traditional sequential project management with monthly milestone reviews"
+     ],
+     "answer": 1,
+     "exp": "Scrum is designed exactly for contexts with evolving requirements, iterative delivery, and continuous feedback. The course material explicitly states Agile/Scrum is best for 'product development with evolving requirements' and 'projects requiring early market feedback.' Waterfall failed because EduForward's environment is the opposite of a fixed-scope context."
+    },
+    {
+     "id": "CS4-2",
+     "text": "The product owner prioritises which features to build based on learning impact for students and teachers. In the Scrum framework, what artifact does the product owner manage?",
+     "opts": [
+      "The Sprint Backlog — tasks selected for the current sprint",
+      "The Product Backlog — the master list of features, fixes, and requirements prioritised by value",
+      "The Definition of Done — standards for feature completion",
+      "The Sprint Retrospective — the review of what went well"
+     ],
+     "answer": 1,
+     "exp": "The Product Backlog is the master prioritised list of features, fixes, and requirements that the product owner manages on behalf of stakeholders. The Sprint Backlog (A) is what the team selects from the Product Backlog for a specific sprint. The product owner does not manage retrospectives or the Definition of Done."
+    },
+    {
+     "id": "CS4-3",
+     "text": "The Scrum Master spends time removing blockers between the frontend and backend developers. According to Scrum principles, which of the following BEST describes the Scrum Master's role?",
+     "opts": [
+      "The Scrum Master is the project manager who assigns tasks and makes technical decisions",
+      "The Scrum Master acts as a facilitator — removing impediments, protecting the team, and ensuring Scrum processes are followed",
+      "The Scrum Master is responsible for writing the product roadmap",
+      "The Scrum Master reports directly to the CEO and escalates all problems to executive leadership"
+     ],
+     "answer": 1,
+     "exp": "The Scrum Master 'acts as a facilitator for the team, removes impediments, and ensures adherence to Scrum principles.' The Scrum Master is not a traditional manager — they do not assign tasks or make technical decisions. They protect the team and enable the process."
+    },
+    {
+     "id": "CS4-4",
+     "text": "EduForward releases a new feature after a two-week sprint. Before starting the next sprint, the team and product owner review what was built, gather teacher feedback, and update the backlog. Which Scrum ceremony is this?",
+     "opts": [
+      "Sprint Planning — defining goals for the next sprint",
+      "Daily Stand-up — a 15-minute update meeting",
+      "Sprint Review — presentation and evaluation of the completed increment",
+      "Sprint Retrospective — reflecting on team processes and improvements"
+     ],
+     "answer": 2,
+     "exp": "The Sprint Review is the ceremony where 'the completed increment is presented and evaluated,' and where stakeholders (in this case, teachers) provide feedback that informs the backlog. Sprint Planning (A) happens before a sprint. The Daily Stand-up (B) is daily. The Retrospective (D) focuses on team processes, not product review."
+    }
+   ]
+  }
+ ]
+}

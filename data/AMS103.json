@@ -1,0 +1,473 @@
+{
+ "code": "AMS103",
+ "title": "Computer and Information Systems",
+ "questions": [
+  {
+   "id": "AMS103-Mock-Exam-1",
+   "topic": "Mock Exam",
+   "text": "A company has computers in offices in Lagos, Abuja and Port Harcourt. Which network type is needed to connect those geographically separated office networks?",
+   "opts": [
+    "PAN only",
+    "WAN",
+    "A single local-area network confined to one office",
+    "A computer bus"
+   ],
+   "answer": 1,
+   "explanation": "A WAN connects networks over longer distances.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-2",
+   "topic": "Mock Exam",
+   "text": "Which device forwards packets between networks using destination IP addresses and routing information?",
+   "opts": [
+    "Router",
+    "Microphone",
+    "Scanner",
+    "Keyboard"
+   ],
+   "answer": 0,
+   "explanation": "Routers forward packets between networks.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-3",
+   "topic": "Mock Exam",
+   "text": "What is the main role of DNS in ordinary web browsing?",
+   "opts": [
+    "Convert a domain name into an IP address",
+    "Style headings and paragraphs",
+    "Encrypt every file on a computer",
+    "Schedule CPU processes"
+   ],
+   "answer": 0,
+   "explanation": "DNS resolves domain names to IP addresses.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-4",
+   "topic": "Mock Exam",
+   "text": "Which technology primarily describes the structure and content of a webpage?",
+   "opts": [
+    "CSS",
+    "HTML",
+    "TCP",
+    "DNS"
+   ],
+   "answer": 1,
+   "explanation": "HTML defines webpage structure and content.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-5",
+   "topic": "Mock Exam",
+   "text": "A program secretly records a user’s keystrokes and sends passwords to an attacker. This is most specifically a:",
+   "opts": [
+    "Keylogger",
+    "Spreadsheet",
+    "Firewall rule",
+    "Backup utility"
+   ],
+   "answer": 0,
+   "explanation": "A keylogger captures keystrokes, often to steal credentials.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-6",
+   "topic": "Mock Exam",
+   "text": "Which sequence best represents the main stages of analogue-to-digital conversion described in the assessment?",
+   "opts": [
+    "Rendering, routing, forwarding",
+    "Sampling, quantisation, encoding",
+    "Encryption, compression, printing",
+    "Scheduling, paging, swapping"
+   ],
+   "answer": 1,
+   "explanation": "The assessment describes sampling, quantisation and encoding.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-7",
+   "topic": "Mock Exam",
+   "text": "Why is binary suitable for digital computer hardware?",
+   "opts": [
+    "Hardware switches can reliably represent two states",
+    "Binary prevents every possible software error",
+    "Binary eliminates the need for memory",
+    "Binary requires no electronic components"
+   ],
+   "answer": 0,
+   "explanation": "Two-state hardware makes binary representation reliable.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-8",
+   "topic": "Mock Exam",
+   "text": "Which CPU scheduling algorithm gives each ready process a fixed time slice before moving to the next?",
+   "opts": [
+    "Round robin",
+    "First-come, first-served only",
+    "Shortest job first only",
+    "Static routing"
+   ],
+   "answer": 0,
+   "explanation": "Round robin uses a time quantum for each process.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-9",
+   "topic": "Mock Exam",
+   "text": "What happens during a page fault in a demand-paging system when the required page is not in physical memory?",
+   "opts": [
+    "The operating system handles the missing page, typically loading it from storage",
+    "The router changes the destination IP address",
+    "The monitor converts sound into a digital signal",
+    "The browser deletes the webpage"
+   ],
+   "answer": 0,
+   "explanation": "The OS handles the absent page and may load it from storage.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-Mock-Exam-10",
+   "topic": "Mock Exam",
+   "text": "What is the main difference between DSL and optical fibre transmission?",
+   "opts": [
+    "DSL uses copper telephone lines; optical fibre carries light through fibre strands",
+    "DSL uses light in glass; optical fibre uses copper electrical signals",
+    "Both require only wireless radio signals",
+    "Optical fibre cannot transmit digital information Section A answer key Q Answer Reason 1 B A WAN connects networks over longer distances. 2 A Routers forward packets between networks. 3 A DNS resolves domain names to IP addresses. 4 B HTML defines webpage structure and content. 5 A A keylogger captures keystrokes, often to steal credentials. 6 B The assessment describes sampling, quantisation and encoding. 7 A Two-state hardware makes binary representation reliable. 8 A Round robin uses a time quantum for each process. 9 A The OS handles the absent page and may load it from storage. 10 A"
+   ],
+   "answer": 0,
+   "explanation": "DSL sends data as electrical signals over existing copper telephone lines, with speed falling over distance. Optical fibre sends pulses of LIGHT through glass strands, giving far higher bandwidth over longer distances with less interference.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - AMS103_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "AMS103-General-11",
+   "topic": "General",
+   "text": "Which network normally connects devices across multiple cities?",
+   "opts": [
+    "LAN",
+    "WAN",
+    "A single USB connection",
+    "A keyboard network"
+   ],
+   "answer": 1,
+   "explanation": "A WAN (Wide Area Network) links computers and LANs across cities, countries or continents using telecom infrastructure. A LAN covers a single site, like one office or campus.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "AMS103-General-12",
+   "topic": "General",
+   "text": "Which type of malware is designed to secretly collect user information?",
+   "opts": [
+    "Spyware",
+    "A spreadsheet",
+    "A printer driver",
+    "A firewall"
+   ],
+   "answer": 0,
+   "explanation": "Spyware covertly monitors activity and transmits personal data (passwords, browsing, keystrokes). It neither encrypts files like ransomware nor spreads itself like a worm - its purpose is stealthy information gathering.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "AMS103-General-13",
+   "topic": "General",
+   "text": "What is the correct order for analogue-to-digital conversion in the assessment material?",
+   "opts": [
+    "Encoding, sampling, quantisation",
+    "Sampling, quantisation, encoding",
+    "Quantisation, encoding, sampling",
+    "Sampling, decoding, printing"
+   ],
+   "answer": 1,
+   "explanation": "The assessment's order is: SAMPLING (measure the analogue signal at regular intervals), QUANTISATION (round each sample to the nearest digital level), then ENCODING (represent each level as binary numbers).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "AMS103-Networks-14",
+   "topic": "Networks",
+   "text": "The key difference between a LAN and a WAN is:",
+   "opts": [
+    "A LAN covers a limited area; a WAN connects networks over larger geographical distances",
+    "A LAN is always wireless; a WAN is always wired",
+    "A WAN is faster than a LAN in every case",
+    "They are two names for the same thing"
+   ],
+   "answer": 0,
+   "explanation": "The course's key answer: LAN = limited area; WAN = larger geographical distances; organisations may use both.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - AMS 103 Question 1"
+   }
+  },
+  {
+   "id": "AMS103-Malware-15",
+   "topic": "Malware",
+   "text": "Which malware type self-propagates across networks without needing to attach to a file?",
+   "opts": [
+    "Virus",
+    "Worm",
+    "Trojan horse",
+    "Adware"
+   ],
+   "answer": 1,
+   "explanation": "The guide: a virus attaches to files, while a worm self-propagates.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - AMS 103 Question 2"
+   }
+  },
+  {
+   "id": "AMS103-Malware-16",
+   "topic": "Malware",
+   "text": "Malware that disguises itself as legitimate software is a:",
+   "opts": [
+    "Worm",
+    "Trojan horse",
+    "Spyware",
+    "Ransomware"
+   ],
+   "answer": 1,
+   "explanation": "A Trojan horse disguises malicious software as legitimate.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - AMS 103 Question 2"
+   }
+  },
+  {
+   "id": "AMS103-Malware-17",
+   "topic": "Malware",
+   "text": "Ransomware typically:",
+   "opts": [
+    "Speeds up the computer",
+    "Encrypts data or blocks access and demands payment",
+    "Improves firewall settings",
+    "Compresses files for free"
+   ],
+   "answer": 1,
+   "explanation": "The guide: ransomware encrypts data or blocks access to demand payment.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - AMS 103 Question 2"
+   }
+  },
+  {
+   "id": "AMS103-Analogue-to-Digital-Conversion-18",
+   "topic": "Analogue-to-Digital Conversion",
+   "text": "The correct order for analogue-to-digital conversion is:",
+   "opts": [
+    "Encoding, sampling, quantisation",
+    "Sampling, quantisation, encoding",
+    "Quantisation, encoding, sampling",
+    "Sampling, decoding, printing"
+   ],
+   "answer": 1,
+   "explanation": "The assessment material orders ADC as sampling, then quantisation, then encoding.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - AMS 103 Question 3"
+   }
+  },
+  {
+   "id": "AMS103-Audio-Calculations-19",
+   "topic": "Audio Calculations",
+   "text": "One second of mono audio sampled at 44,100 samples/second with 16 bits per sample requires approximately:",
+   "opts": [
+    "44,100 bytes",
+    "88,200 bytes (about 88.2 kB)",
+    "705,600 bytes",
+    "1,411,200 bytes"
+   ],
+   "answer": 1,
+   "explanation": "44,100 x 16 = 705,600 bits; divided by 8 = 88,200 bytes (~88.2 kB), per the course's worked calculation.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - AMS 103 Question 3"
+   }
+  },
+  {
+   "id": "AMS103-Binary-Systems-20",
+   "topic": "Binary Systems",
+   "text": "Computers use binary representation because:",
+   "opts": [
+    "Decimal is too old-fashioned",
+    "Hardware circuits reliably distinguish two states (on/off)",
+    "Binary numbers are shorter to write",
+    "It saves electricity bills"
+   ],
+   "answer": 1,
+   "explanation": "Digital hardware is built on two-state devices, so binary (two states) is the natural representation.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - AMS 103 Question 4"
+   }
+  },
+  {
+   "id": "AMS103-Malware-21",
+   "topic": "Malware",
+   "text": "The primary purpose of a computer virus is:",
+   "opts": [
+    "Monitoring keystrokes only",
+    "Replicating and spreading to other files",
+    "Encrypting traffic",
+    "Improving system performance"
+   ],
+   "answer": 1,
+   "explanation": "A virus's defining behaviour is replicating itself and spreading to other files or programs.",
+   "source": {
+    "type": "web",
+    "url": "https://examradar.com/malware-viruses-worms-trojans-mcqs-multiple-choice-questions-with-answers/",
+    "label": "ExamRadar - Malware MCQs (viruses, worms, Trojans)"
+   }
+  },
+  {
+   "id": "AMS103-Malware-22",
+   "topic": "Malware",
+   "text": "Which type of malware disguises itself as a legitimate program?",
+   "opts": [
+    "Worm",
+    "Trojan",
+    "Spyware",
+    "Ransomware"
+   ],
+   "answer": 1,
+   "explanation": "A Trojan horse masquerades as useful or legitimate software to trick users into running it.",
+   "source": {
+    "type": "web",
+    "url": "https://examradar.com/malware-viruses-worms-trojans-mcqs-multiple-choice-questions-with-answers/",
+    "label": "ExamRadar - Malware MCQs (viruses, worms, Trojans)"
+   }
+  },
+  {
+   "id": "AMS103-Malware-23",
+   "topic": "Malware",
+   "text": "The key characteristic of a worm is that it:",
+   "opts": [
+    "Requires user interaction to spread",
+    "Propagates independently across networks",
+    "Encrypts files for ransom",
+    "Hides in the boot sector only"
+   ],
+   "answer": 1,
+   "explanation": "Unlike viruses, worms self-propagate across networks without needing to attach to a host file.",
+   "source": {
+    "type": "web",
+    "url": "https://examradar.com/malware-viruses-worms-trojans-mcqs-multiple-choice-questions-with-answers/",
+    "label": "ExamRadar - Malware MCQs (viruses, worms, Trojans)"
+   }
+  },
+  {
+   "id": "AMS103-Malware-24",
+   "topic": "Malware",
+   "text": "Malware that encrypts files and demands payment is:",
+   "opts": [
+    "Spyware",
+    "Adware",
+    "Ransomware",
+    "Rootkit"
+   ],
+   "answer": 2,
+   "explanation": "Ransomware encrypts the victim's data or blocks access and demands a ransom.",
+   "source": {
+    "type": "web",
+    "url": "https://examradar.com/malware-viruses-worms-trojans-mcqs-multiple-choice-questions-with-answers/",
+    "label": "ExamRadar - Malware MCQs (viruses, worms, Trojans)"
+   }
+  },
+  {
+   "id": "AMS103-Malware-25",
+   "topic": "Malware",
+   "text": "The purpose of a rootkit is:",
+   "opts": [
+    "Displaying advertisements",
+    "Concealing unauthorised access to a system",
+    "Spreading via email attachments",
+    "Blocking network ports"
+   ],
+   "answer": 1,
+   "explanation": "Rootkits hide the presence of unauthorised access or malicious software on an infected system.",
+   "source": {
+    "type": "web",
+    "url": "https://examradar.com/malware-viruses-worms-trojans-mcqs-multiple-choice-questions-with-answers/",
+    "label": "ExamRadar - Malware MCQs (viruses, worms, Trojans)"
+   }
+  },
+  {
+   "id": "AMS103-Social-Engineering-26",
+   "topic": "Social Engineering",
+   "text": "In a phishing attack, users are tricked into revealing sensitive information mainly by:",
+   "opts": [
+    "Distributing infected files",
+    "Impersonating a trusted entity",
+    "Flooding a server with traffic",
+    "Encrypting local files"
+   ],
+   "answer": 1,
+   "explanation": "Phishing impersonates a trusted party (bank, service, colleague) to obtain credentials or data.",
+   "source": {
+    "type": "web",
+    "url": "https://examradar.com/malware-viruses-worms-trojans-mcqs-multiple-choice-questions-with-answers/",
+    "label": "ExamRadar - Malware MCQs (viruses, worms, Trojans)"
+   }
+  },
+  {
+   "id": "AMS103-Network-Attacks-27",
+   "topic": "Network Attacks",
+   "text": "A DDoS attack is characterised by:",
+   "opts": [
+    "Overloading a server with traffic from many sources",
+    "Stealing login credentials",
+    "Encrypting files for ransom",
+    "Intercepting communications"
+   ],
+   "answer": 0,
+   "explanation": "A distributed denial-of-service attack floods a target with traffic from many compromised machines.",
+   "source": {
+    "type": "web",
+    "url": "https://examradar.com/malware-viruses-worms-trojans-mcqs-multiple-choice-questions-with-answers/",
+    "label": "ExamRadar - Malware MCQs (viruses, worms, Trojans)"
+   }
+  }
+ ],
+ "caseStudies": []
+}

@@ -1,0 +1,1047 @@
+{
+ "code": "MIT8107",
+ "title": "SDLC & Planning",
+ "questions": [
+  {
+   "id": "8107-1",
+   "topic": "SDLC Overview",
+   "text": "A Lagos-based fintech company, PayNow Limited, is about to begin building a mobile payment app. The project lead tells her team: 'We need a structured way to turn this idea into a product that works, meets regulations, and can be maintained for years.' She is describing the purpose of which framework?\n\nWhich framework is the project lead referring to?",
+   "opts": [
+    "Agile Manifesto — which defines values for iterative software delivery.",
+    "Software Development Life Cycle (SDLC) — a structured framework that guides software development from inception to retirement, covering planning, design, implementation, testing, deployment, and maintenance.",
+    "IEEE Software Quality Standard — a regulatory compliance framework.",
+    "DevOps pipeline — a CI/CD automation framework."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The SDLC is defined as a structured framework that guides software development from initial concept through all phases to retirement. It provides the roadmap and governance needed to transform abstract user needs into robust, scalable software systems."
+  },
+  {
+   "id": "8107-2",
+   "topic": "SDLC Overview",
+   "text": "A new software engineer at Konga.com asks her senior colleague: 'Why don't we just start coding? We already know what e-commerce looks like.' The senior developer explains that skipping a structured process has specific consequences.\n\nWhich consequence most accurately reflects what happens without SDLC?",
+   "opts": [
+    "The team codes faster but produces less documentation.",
+    "Requirements are misinterpreted, features developed in the wrong order, security components omitted, and policy changes cause costly rework — resulting in a system that is over budget, behind schedule, and unusable.",
+    "Testing is delayed until after deployment, which is acceptable for e-commerce.",
+    "The project scope becomes broader, which is generally beneficial."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material explicitly warns that without a structured plan, 'requirements might be misinterpreted, features could be developed in isolation or in the wrong order, critical security components might be left out, and changes...could cause project delays or force costly rework.'"
+  },
+  {
+   "id": "8107-3",
+   "topic": "SDLC Overview",
+   "text": "During an executive briefing at Access Bank Nigeria, the IT Director describes the SDLC as something that 'transforms a complex technical process into a manageable and measurable workflow.' A board member asks which two roles the SDLC simultaneously plays.\n\nWhich answer correctly identifies the dual nature of the SDLC?",
+   "opts": [
+    "Agile framework and waterfall framework simultaneously.",
+    "Process model (defining how software is developed) and project management tool (monitoring timelines, allocating resources, controlling costs, managing risks).",
+    "Testing strategy and deployment guide.",
+    "Documentation tool and communication protocol."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states the SDLC 'serves a dual purpose: it functions as both a process model and a project management tool.' As a process model it defines how software is built; as a project management tool it provides mechanisms for monitoring timelines, costs, and risks."
+  },
+  {
+   "id": "8107-4",
+   "topic": "SDLC Overview",
+   "text": "Interswitch Group is evaluating vendors to build a centralised payment switching platform. A consultant says the SDLC is valuable because it aligns technical decisions — from programming language choice to UI design — with something broader.\n\nWhat broader factor does the SDLC ensure technical decisions are aligned with?",
+   "opts": [
+    "The preferences of the senior developer team.",
+    "Industry benchmark standards published by IEEE.",
+    "Well-defined requirements reflecting business objectives, regulatory compliance, and user expectations.",
+    "The fastest possible time-to-market deadline."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'With the SDLC in place, every technical decision, from the choice of programming language to the design of user interfaces, is informed by well-defined requirements that reflect business objectives, regulatory compliance, and user expectations.'"
+  },
+  {
+   "id": "8107-5",
+   "topic": "SDLC Overview",
+   "text": "MTN Nigeria is rolling out a new billing system. The project sponsor tells the steering committee: 'Because we followed the SDLC, every stakeholder knows what to expect at each stage, what inputs are needed, and what outputs will be delivered.' She is describing which SDLC benefit?\n\nWhich benefit is the sponsor describing?",
+   "opts": [
+    "Quality assurance through continuous testing.",
+    "Predictability and control — the structured approach allows accurate estimation of budgets, timelines, and resource needs, reducing the risk of overruns.",
+    "Knowledge transfer through documentation.",
+    "Risk identification and mitigation."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material describes this as 'enhancing predictability and control throughout the software development process' — because SDLC defines specific phases, deliverables, and decision points, enabling accurate estimation and avoiding common pitfalls like cost overruns and missed deadlines."
+  },
+  {
+   "id": "8107-6",
+   "topic": "Planning Phase",
+   "text": "Jumia Nigeria is launching a new vendor management system. The project manager conducts sessions to identify what the system will deliver, what is out of scope, and what work must be performed. She is concerned about one specific risk: uncontrolled expansion of the project beyond its original boundaries.\n\nWhat is the term for this risk, and during which SDLC phase is it primarily addressed?",
+   "opts": [
+    "Scope creep — addressed during the Testing Phase.",
+    "Scope creep — addressed during the Planning Phase by meticulously outlining the project scope.",
+    "Requirements drift — addressed during the Design Phase.",
+    "Feature bloat — addressed during Implementation by enforcing coding standards."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'During this phase, the project scope is meticulously outlined...By defining the scope, project managers can prevent scope creep, the uncontrolled expansion of project goals and tasks.' This is a Planning Phase activity."
+  },
+  {
+   "id": "8107-7",
+   "topic": "Planning Phase",
+   "text": "A project manager at Dangote Group is preparing a feasibility study for a new ERP system. He must evaluate three dimensions: whether the team has the technical skills and infrastructure, whether the expected benefits outweigh the costs, and whether the organisation can operationally integrate the system into existing processes.\n\nWhich three feasibility dimensions is he evaluating, in order?",
+   "opts": [
+    "Schedule, budget, quality feasibility.",
+    "Technical, economic, and operational feasibility.",
+    "Functional, non-functional, and compliance feasibility.",
+    "Design, implementation, and testing feasibility."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material identifies exactly these three: 'Technical feasibility: Do we have the technical capability, tools, and expertise? Economic feasibility: Is the project cost-effective? Will the benefits outweigh the costs? Operational feasibility: Can the organisation support the project operationally and integrate it into existing processes?'"
+  },
+  {
+   "id": "8107-8",
+   "topic": "Planning Phase",
+   "text": "The IT Director at First Bank Nigeria is using a visual scheduling tool that displays tasks, their durations, dependencies, and overlapping activities on a timeline bar chart. She is also calculating which sequence of tasks cannot be delayed without delaying the entire project.\n\nWhich Planning Phase tools is she using?",
+   "opts": [
+    "SRS and use case diagrams.",
+    "Gantt charts for timeline visualisation and critical path analysis for dependency optimisation.",
+    "Risk register and mitigation matrix.",
+    "Sprint backlog and velocity charts."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material lists 'Utilising tools like Gantt charts, PERT diagrams, or critical path analysis to visualise and optimise the project timeline' as a key Planning Phase activity under Timeline Projection."
+  },
+  {
+   "id": "8107-9",
+   "topic": "Planning Phase",
+   "text": "A startup building a logistics platform in Kano completes its Planning Phase. The project manager is now clarifying objectives in measurable, attainable terms. She says: 'These objectives must align with the organisation's broader goals and provide a framework for evaluating project success.'\n\nWhy does the study material emphasise setting clear, measurable objectives at this phase?",
+   "opts": [
+    "Because regulatory bodies require measurable objectives for compliance audits.",
+    "Because it ensures all stakeholders share a common understanding of the desired outcomes.",
+    "Because measurable objectives allow developers to write more efficient code.",
+    "Because objectives translate directly into database schema design."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'Setting clear objectives ensures that all stakeholders share a common understanding of the desired outcomes.' This alignment is the primary purpose of clear, measurable Planning Phase objectives."
+  },
+  {
+   "id": "8107-10",
+   "topic": "Planning Phase",
+   "text": "Flutterwave is beginning a major infrastructure upgrade. The IT team identifies three potential risks: a critical developer may resign mid-project, a third-party payment API may be deprecated, and new CBN regulations may change requirements. They create response plans for each.\n\nWhich Planning Phase activity does this describe?",
+   "opts": [
+    "Requirement analysis — gathering non-functional requirements from stakeholders.",
+    "Design phase — creating architectural contingencies.",
+    "Risk identification and mitigation strategies — analysing potential risks and formulating proactive risk management plans to avoid, minimise, or respond to them.",
+    "Testing phase — creating regression test plans for each risk scenario."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material identifies 'Risk Identification and Mitigation Strategies' as a key Planning Phase activity: 'Analysing potential risks that could impact project success...Formulating proactive risk management plans to either avoid, minimize, or respond to these risks.'"
+  },
+  {
+   "id": "8107-11",
+   "topic": "Requirement Analysis Phase",
+   "text": "A development team at Lagos-based edtech startup EduNaija is gathering requirements for a student portal. The team documents that the system must allow students to submit assignments (functional) and must handle 10,000 concurrent users without exceeding 3-second load times (non-functional).\n\nWhich statement correctly distinguishes functional from non-functional requirements?",
+   "opts": [
+    "Functional requirements describe system quality; non-functional describe system behaviour.",
+    "Functional requirements describe specific behaviours, functions, or features the software must support; non-functional requirements describe quality attributes like performance, security, and scalability.",
+    "Functional requirements are documented in the SRS; non-functional requirements are documented in the design document.",
+    "Functional requirements apply to the frontend; non-functional to the backend."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material defines functional requirements as 'what the system must do — specific behaviours, functions, or features the software must support' and non-functional requirements as 'quality attributes of the system' such as performance, security, and scalability."
+  },
+  {
+   "id": "8107-12",
+   "topic": "Requirement Analysis Phase",
+   "text": "During requirements gathering for a tax filing portal, the Nigerian Revenue Service's business analyst conducts one-on-one sessions with taxpayers, tax officers, supervisors, and IT administrators. Each group has different expectations. She carefully records and prioritises all requirements based on business value and user impact.\n\nWhich Requirement Analysis activity is described?",
+   "opts": [
+    "Use case modelling — creating visual diagrams of system interactions.",
+    "Stakeholder interviews and engagement — gathering detailed insights into what the software must accomplish from diverse stakeholder groups.",
+    "Feasibility study — evaluating technical, economic, and operational viability.",
+    "User story development — writing as-a-user statements for each interaction."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material describes 'Stakeholder Interviews and Engagement' as a key Requirement Analysis technique: 'These interviews can be conducted with end-users, business owners, product managers, and technical teams...to gather detailed insights into what the software must accomplish.'"
+  },
+  {
+   "id": "8107-13",
+   "topic": "Requirement Analysis Phase",
+   "text": "The key deliverable of the Requirement Analysis phase at Zenith Bank's core banking upgrade is a formal document that outlines all functional and non-functional requirements — including system functionality, user interactions, performance criteria, and design constraints. A compliance officer asks what this document is called.\n\nWhat is the primary deliverable of the Requirement Analysis phase?",
+   "opts": [
+    "System Architecture Document (SAD).",
+    "Test Plan and Quality Assurance Report.",
+    "Software Requirements Specification (SRS) — a formalised document that serves as a reference for all future development stages.",
+    "Sprint Backlog and User Story Map."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material identifies the Software Requirements Specification (SRS) as 'the primary deliverable of the analysis phase. It serves as a formalised document that outlines the system's functional and non-functional requirements in detail.'"
+  },
+  {
+   "id": "8107-14",
+   "topic": "Requirement Analysis Phase",
+   "text": "A freelance developer is helping a transport company build a booking app. The operations manager says: 'I need to be able to see all pending bookings.' The developer writes this as: 'As an operations manager, I want to view all pending bookings so that I can allocate drivers efficiently.'\n\nWhat technique has the developer applied, and why is it used in Agile?",
+   "opts": [
+    "Use case diagram — to visually map the manager's interactions with the system.",
+    "Feasibility study — to evaluate whether the booking view feature is technically viable.",
+    "User story development — concise, informal descriptions of features from the user's perspective that help the team understand expected behaviour in practical terms.",
+    "Non-functional requirement specification — documenting performance and scalability needs."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material describes user stories as 'concise, informal descriptions of features or functionalities from the perspective of an end-user' following the format 'As a [type of user], I want [goal] so that [reason].' They are useful in Agile to help teams understand system behaviour in practical terms."
+  },
+  {
+   "id": "8107-15",
+   "topic": "Requirement Analysis Phase",
+   "text": "After completing requirements gathering for a warehouse management system at a Port Harcourt logistics company, the business analyst is asked: 'What is the single most important question that the Requirement Analysis phase answers?' The analyst gives a textbook response.\n\nWhich answer is correct?",
+   "opts": [
+    "'How will the system be built?' — defining architecture and technology stack.",
+    "'When will the system be delivered?' — establishing timelines and milestones.",
+    "'What does the system need to do, and how should it behave?' — defining, prioritising, and documenting clear and actionable requirements.",
+    "'Who will test the system?' — identifying QA responsibilities."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material explicitly states the key question answered by the Requirement Analysis phase: 'What does the system need to do, and how should it behave?' The phase addresses this by defining, prioritising, and documenting clear and actionable requirements."
+  },
+  {
+   "id": "8107-16",
+   "topic": "Design Phase",
+   "text": "The development team at a Nigerian insurtech company is moving from the requirements phase to design. The lead architect says: 'Our job now is to take the what and turn it into the how.' He begins by considering whether to use a client-server, microservices, or monolithic architecture for their claims processing system.\n\nWhat is the primary objective of the Design Phase?",
+   "opts": [
+    "To write code for the system's core modules based on the SRS.",
+    "To translate 'what' the system needs to do into 'how' it will be built in technical terms — defining system architecture, database schema, UI design, and security strategies.",
+    "To test the system against predefined criteria from the SRS.",
+    "To deploy the system to a staging environment for stakeholder review."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states that the Design Phase's 'primary objective is to translate the \"what\" gathered during analysis into the \"how\" — to define how the system will be built in technical terms.' This includes architecture, database design, UI design, security, and performance planning."
+  },
+  {
+   "id": "8107-17",
+   "topic": "Design Phase",
+   "text": "During the design of a procurement system for Lagos State Government, the architect creates diagrams that show how data enters the system from supplier submissions, moves through approval workflows, and exits as purchase orders. These diagrams are later supplemented with class diagrams and sequence diagrams created using UML.\n\nWhat type of design artefact shows how data enters, moves through, and exits a system?",
+   "opts": [
+    "Entity-Relationship (ER) Diagram — showing database relationships.",
+    "Data Flow Diagram (DFD) — illustrating how data enters, moves through, and exits the system.",
+    "Component Diagram — showing system modules and their dependencies.",
+    "Gantt Chart — showing task timelines and dependencies."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'Data Flow Diagrams (DFDs) are created to illustrate how data enters, moves through, and exits the system.' Component diagrams, class diagrams, and sequence diagrams are also UML tools, but DFDs specifically address data flow."
+  },
+  {
+   "id": "8107-18",
+   "topic": "Design Phase",
+   "text": "A security architect at a Nigerian bank insists that authentication mechanisms, data encryption standards, and authorisation rules must be defined during the design phase — not left for developers to decide during coding. A junior developer disagrees, saying security can be 'bolted on' later.\n\nWho is correct, and what principle supports their position?",
+   "opts": [
+    "The developer — security is a non-functional requirement that can be addressed in the testing phase.",
+    "The developer — encryption libraries can be added as plugins during implementation.",
+    "The security architect — designing with security in mind at the design stage reduces vulnerabilities and strengthens trust in the final product. Late security design introduces exploitable weaknesses.",
+    "Both — security should be partially designed and partially implemented, based on risk level."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'Security is also a major consideration during the design phase. At this point, strategies are developed to safeguard the system against threats...Designing with security in mind at this early stage reduces vulnerabilities and strengthens trust in the final product.'"
+  },
+  {
+   "id": "8107-19",
+   "topic": "Design Phase",
+   "text": "The UX team at an e-government portal creates wireframes and clickable prototypes before any backend code is written. Government officials and civil servants review these prototypes to confirm the interface is intuitive and meets accessibility standards.\n\nWhat Design Phase activity does this represent?",
+   "opts": [
+    "Stakeholder interviews — gathering functional requirements from government officials.",
+    "UI mockups and prototype development — creating visual representations to help stakeholders validate the system's look and feel before coding begins.",
+    "User acceptance testing — allowing end users to verify system readiness before deployment.",
+    "Sprint review — presenting completed sprint increments to stakeholders for feedback."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'UI mockups and prototypes are developed to visualise how users will interact with the system. These visual representations help stakeholders validate the system's look and feel before any actual coding begins.'"
+  },
+  {
+   "id": "8107-20",
+   "topic": "Design Phase",
+   "text": "At the end of the Design Phase for a supply chain management system, the lead developer says: 'We now have everything we need to start building.' A colleague asks what the team has produced that serves as a 'technical blueprint' for implementation.\n\nWhich set of artefacts constitutes the end-of-design-phase 'technical blueprint'?",
+   "opts": [
+    "SRS document and feasibility report.",
+    "Sprint backlog and product roadmap.",
+    "Architectural diagrams, database models, UI mockups, component specifications, and security strategies — a comprehensive set of design documents that guide the development team into implementation.",
+    "Test plans, bug reports, and performance benchmarks."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'At the conclusion of this phase, a comprehensive set of design documents is produced. These include architectural diagrams, database models, user interface mockups, component specifications, and security strategies. These documents serve as a technical blueprint and guide for the development team.'"
+  },
+  {
+   "id": "8107-21",
+   "topic": "Implementation Phase",
+   "text": "Developers at a Nigerian fintech company are writing code for a new loan origination system. The team lead insists everyone follow agreed-upon naming conventions, code formatting rules, commenting practices, and error handling patterns — even when working independently on different modules.\n\nWhy does the study material emphasise these coding standards?",
+   "opts": [
+    "To reduce file sizes and improve system performance.",
+    "To ensure consistency, readability, maintainability, and reliability across the codebase — enabling team members to understand and maintain each other's code.",
+    "To comply with CBN software licensing requirements.",
+    "To enable automatic code documentation generation."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states developers must follow 'established coding standards and conventions to ensure consistency, readability, maintainability, and reliability. These standards cover naming conventions, code formatting, documentation/commenting practices, and error handling patterns.'"
+  },
+  {
+   "id": "8107-22",
+   "topic": "Implementation Phase",
+   "text": "During implementation of a port management system at Apapa Port, a developer makes a change that accidentally breaks a module that was working yesterday. Using the team's version control system, the team lead reverts to the previous stable version within minutes.\n\nWhich Implementation Phase tool made this recovery possible?",
+   "opts": [
+    "CI/CD pipeline — automated deployment scripts.",
+    "Source control tools (e.g., Git) — which allow safe and trackable code changes, rollback to previous versions, and team collaboration on different branches.",
+    "Test-Driven Development (TDD) — which would have caught the error before it was committed.",
+    "Kanban board — which tracked the broken task and flagged it."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material lists source control tools under Implementation: 'Version control systems such as Git play an essential role...They allow safe and trackable code changes, rollback to previous versions in case of errors, team collaboration on different modules or branches.'"
+  },
+  {
+   "id": "8107-23",
+   "topic": "Implementation Phase",
+   "text": "At Glo Mobile, a development team reviews each other's code before merging it into the main codebase. The reviews catch a SQL injection vulnerability, two logic errors, and three naming convention violations before any of them reach the production environment.\n\nWhich Implementation Phase practice does this describe, and what are its benefits?",
+   "opts": [
+    "Code refactoring — improving code structure without changing functionality.",
+    "Automated testing — unit tests catching bugs before review.",
+    "Peer code reviews — which identify logical or syntactical errors early, share knowledge among team members, enforce coding standards, and enhance overall security and efficiency.",
+    "Sprint retrospective — reviewing what went wrong in the sprint."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material describes peer code reviews as helping to: 'Identify logical or syntactical errors early, share knowledge among team members, enforce coding standards, enhance the overall security and efficiency of the code.'"
+  },
+  {
+   "id": "8107-24",
+   "topic": "Implementation Phase",
+   "text": "A developer at a ride-hailing startup is building the backend API but only working on the booking module this week — leaving payment and ratings for later sprints. Each module is independently deployable and testable. This approach reflects a specific development philosophy.\n\nWhat implementation approach does this describe?",
+   "opts": [
+    "Waterfall implementation — completing one phase before moving to the next.",
+    "Modular and iterative development — breaking the system into independent, testable components that are developed and integrated progressively, enabling early bug detection and stakeholder feedback.",
+    "Monolithic architecture — building the entire system as one codebase.",
+    "Microservices — independently deployable services communicating over APIs."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material describes modular and iterative development: 'The implementation is typically modular, where the system is broken down into independent components or modules. Each module is developed and tested in isolation before being integrated.' This 'facilitates early detection of bugs and enables regular feedback.'"
+  },
+  {
+   "id": "8107-25",
+   "topic": "Implementation Phase",
+   "text": "At the conclusion of the implementation phase for a banking system at Stanbic IBTC, the project lead tells stakeholders: 'We have moved from abstract plans and diagrams to a functional application that performs the desired operations as specified in earlier stages.' She says this fulfils the SDLC mandate.\n\nWhich phrase from the study material best captures the mandate being fulfilled?",
+   "opts": [
+    "'Define and validate user requirements before writing code.'",
+    "'Let's build it' — transforming design blueprints into a tangible product ready for testing and deployment.",
+    "'Monitor and manage software after deployment.'",
+    "'Architect solutions aligned with technical and business goals.'"
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'This phase fulfills the SDLC mandate of \"Let's build it,\" transforming design blueprints into a tangible product ready for testing and deployment.'"
+  },
+  {
+   "id": "8107-26",
+   "topic": "Testing Phase",
+   "text": "Before launching its mobile money app, OPay Nigeria runs its code through multiple verification processes: unit tests on individual functions, integration tests on combined modules, full system tests simulating all user scenarios, and stress tests simulating 500,000 simultaneous transactions.\n\nAccording to the study material, what is the overall purpose of the Testing Phase?",
+   "opts": [
+    "To find all possible bugs and document them for developer correction.",
+    "To verify the software meets business and technical requirements, validate it behaves as expected under real-world conditions, detect and fix errors early, guarantee reliability, and enhance software quality.",
+    "To satisfy the regulatory requirement of having a documented QA process.",
+    "To train QA engineers on the system's functionality."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states the Testing Phase 'goes beyond simply finding bugs — it is about verifying that the software meets the business and technical requirements, and validating that it behaves as expected under various real-world conditions.' Its objectives include detecting errors early, validating requirements, guaranteeing reliability, and enhancing quality."
+  },
+  {
+   "id": "8107-27",
+   "topic": "Testing Phase",
+   "text": "A QA team at a Nigerian telecom company is asked: 'What critical question does successful completion of the Testing Phase answer?' The lead QA engineer gives the textbook response from the study material.\n\nWhich answer is correct?",
+   "opts": [
+    "'How do we deliver the solution to users?'",
+    "'What does the system need to do and how should it behave?'",
+    "'Does the software work as intended?'",
+    "'How do we keep the system operational over time?'"
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material explicitly states the Testing Phase 'provides the answer to the critical question: \"Does the software work as intended?\"' The other questions belong to: deployment ('How do we deliver?'), requirements ('What should it do?'), and maintenance ('How do we keep it operational?')."
+  },
+  {
+   "id": "8107-28",
+   "topic": "Testing Phase",
+   "text": "The SDLC course material describes the Testing Phase as 'more than just a step in the process.' A student asks: what broader role does it play?\n\nWhich statement from the study material correctly describes the broader role of the Testing Phase?",
+   "opts": [
+    "It is a quality assurance strategy that confirms whether the software is ready for the real world.",
+    "It is the final gate before maintenance begins, primarily focused on compliance.",
+    "It is a project management milestone for releasing the budget for deployment.",
+    "It is a developer responsibility, not a separate phase."
+   ],
+   "answer": 0,
+   "explanation": "A is correct. The study material states: 'The testing phase in SDLC is more than just a step in the process — it is a quality assurance strategy that confirms whether the software is ready for the real world.'"
+  },
+  {
+   "id": "8107-29",
+   "topic": "Deployment Phase",
+   "text": "Lagos Inland Revenue Service (LIRS) has finished building its new e-tax payment portal. After passing all tests, the system is released to the public — 14 million Lagos residents can now pay taxes online. What critical question does this deployment phase answer?\n\nWhat question does the Deployment Phase answer?",
+   "opts": [
+    "'Does the software work as intended?'",
+    "'What does the system need to do and how should it behave?'",
+    "'How do we deliver the solution to users?' — bridging the gap between development and real-world application.",
+    "'How do we keep the system operational over time?'"
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'In essence, the deployment phase answers the critical question: \"How do we deliver the solution to users?\" It bridges the gap between development and real-world application.'"
+  },
+  {
+   "id": "8107-30",
+   "topic": "Deployment Phase",
+   "text": "A DevOps team at a Nigerian e-commerce company uses automated scripts to move new code from the development environment through staging and into production, running validation checks at each stage. This happens multiple times per week, with small updates rather than large releases.\n\nWhat deployment approach does this describe, and what is its main advantage?",
+   "opts": [
+    "Single scheduled deployment — provides a clean, documented audit trail.",
+    "Continuous deployment/delivery using CI/CD pipelines — deployments become more frequent, faster, and less prone to errors, allowing teams to respond quickly to changing requirements or feedback.",
+    "Blue-green deployment — eliminates downtime by maintaining two production environments.",
+    "Incremental model deployment — each increment is released as a complete subsystem."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material describes this approach: 'Modern development methodologies such as Agile and DevOps adopt a more continuous and incremental approach to deployment...through continuous deployment or continuous delivery...leverages automation tools commonly referred to as CI/CD pipelines...deployments become more frequent, faster, and less prone to errors.'"
+  },
+  {
+   "id": "8107-31",
+   "topic": "Deployment Phase",
+   "text": "During the deployment of a new HR system at the Nigerian Ports Authority, a team transfers employee records from three legacy systems into the new database. They must ensure no records are lost, duplicated, or corrupted. This is a critical deployment activity.\n\nWhat deployment activity is being performed?",
+   "opts": [
+    "System configuration — setting up production servers and environment parameters.",
+    "User training — introducing staff to the new system's functionalities.",
+    "Data migration — transferring data from legacy systems into the new system with precision to avoid loss or corruption.",
+    "Deployment automation — using scripts to move code through environments."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material identifies 'data migration' as a critical deployment activity: 'One of the first steps is data migration, which involves transferring data from legacy systems or older versions into the new system. This must be executed with precision to avoid any loss or corruption of information.'"
+  },
+  {
+   "id": "8107-32",
+   "topic": "Maintenance Phase",
+   "text": "Six months after deploying its loan management system, Union Bank Nigeria discovers a bug that causes incorrect interest calculations for loans with variable rates. The development team rushes to identify and fix the error. No new features are added.\n\nWhich type of software maintenance is being performed?",
+   "opts": [
+    "Adaptive maintenance — adjusting to a changed regulatory environment.",
+    "Perfective maintenance — improving system performance based on user feedback.",
+    "Corrective maintenance — fixing bugs and errors discovered after deployment.",
+    "Preventive maintenance — refactoring code to reduce future complexity."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. Corrective maintenance involves fixing bugs and defects discovered after deployment. The study material distinguishes it from: adaptive (environment/policy changes), perfective (feature improvements/performance), and preventive (proactive refactoring to prevent future issues)."
+  },
+  {
+   "id": "8107-33",
+   "topic": "Maintenance Phase",
+   "text": "Nigeria's National Information Technology Development Agency (NITDA) releases new cybersecurity guidelines requiring all government software to implement multi-factor authentication (MFA). An existing payroll system must be updated to comply, even though it has no bugs and users are satisfied.\n\nWhich type of maintenance applies?",
+   "opts": [
+    "Corrective — fixing a compliance defect.",
+    "Adaptive — modifying the software due to a changed regulatory environment to remain compliant.",
+    "Perfective — adding a user-requested security feature.",
+    "Preventive — proactively reducing future security risks."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. Adaptive maintenance 'occurs when the software needs to be updated or modified due to changes in the environment in which it operates...adaptive maintenance may be necessary when policies or regulations change, requiring the software to be adjusted to remain compliant.'"
+  },
+  {
+   "id": "8107-34",
+   "topic": "Maintenance Phase",
+   "text": "After a year of use, frequent users of Cowrywise's investment app request: 'Can you add a dark mode, a spending insights dashboard, and let us set recurring investment amounts?' The development team adds all three features in the next release.\n\nWhich type of maintenance applies?",
+   "opts": [
+    "Corrective — the original design lacked these features (a defect).",
+    "Adaptive — the app is adapting to new user behaviour patterns.",
+    "Perfective — enhancing the app's features and improving user experience based on end-user feedback and requests.",
+    "Preventive — proactively adding features to avoid user churn."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. Perfective maintenance 'focuses on enhancing the software's features and improving its performance over time. After the system is in use, end-users often provide feedback on potential improvements or features they'd like to see added. Perfective maintenance addresses these user requests.'"
+  },
+  {
+   "id": "8107-35",
+   "topic": "Maintenance Phase",
+   "text": "A senior developer at Paystack notices that the 3-year-old codebase has accumulated significant technical debt: functions are doing too many things, there are circular dependencies, and onboarding new developers takes 3 weeks instead of 3 days. She proposes a refactoring sprint — no new features, no bug fixes.\n\nWhich maintenance type best describes this work?",
+   "opts": [
+    "Corrective — addressing hidden defects in the architecture.",
+    "Adaptive — updating the architecture to work with newer frameworks.",
+    "Perfective — improving developer productivity (a non-functional improvement).",
+    "Preventive — refactoring code, optimising architecture to reduce technical debt and prevent the system from becoming too difficult to maintain as it evolves."
+   ],
+   "answer": 3,
+   "explanation": "D is correct. Preventive maintenance 'involves activities such as refactoring code, updating documentation, and optimising the software's architecture to make future changes or fixes easier to implement. The goal is to reduce technical debt and prevent the system from becoming too difficult to maintain as it evolves.'"
+  },
+  {
+   "id": "8107-36",
+   "topic": "Waterfall Model",
+   "text": "The Nigerian Customs Service is developing software to manage import duty calculations under a new tariff regime legislated by the National Assembly. The requirements are fully defined in the Finance Act, signed into law and unchangeable. All phases must be formally documented and signed off by the Controller-General before the next begins.\n\nWhich SDLC model is best suited for this project?",
+   "opts": [
+    "Agile — because customs regulations may change between sprints.",
+    "Waterfall — because requirements are well-defined and stable, documentation is mandatory, and each phase must be completed and approved before proceeding.",
+    "Spiral — because customs software carries high technical risk.",
+    "Prototype — because stakeholders need to see the interface before approving requirements."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'The Waterfall Model is often used in environments where requirements are well-understood and unlikely to change...Government and Defense Projects: These sectors often require rigorous documentation and predefined standards, making the Waterfall model a suitable choice.'"
+  },
+  {
+   "id": "8107-37",
+   "topic": "Waterfall Model",
+   "text": "A project manager at a Nigerian bank is explaining the Waterfall model to a new hire. She says: 'The key principle of this model is that no phase begins until the previous one is fully completed and approved.' The new hire asks what this means for bug discovery.\n\nWhat is the key disadvantage of Waterfall regarding bug discovery?",
+   "opts": [
+    "Bugs are found continuously throughout each phase.",
+    "Bugs are found during the testing phase only — late in the process — which may lead to costly fixes after significant development effort has been invested.",
+    "Bugs are found during code reviews in the implementation phase.",
+    "Bugs are found during the design phase when architecture is reviewed."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material lists as a Waterfall disadvantage: 'Late Testing: Issues may only be discovered at the testing phase, leading to costly fixes.' This is a structural weakness — testing only happens after all implementation is complete."
+  },
+  {
+   "id": "8107-38",
+   "topic": "Waterfall Model",
+   "text": "Emerson Electric's Nigerian subsidiary is developing firmware for programmable logic controllers (PLCs) used in manufacturing. The hardware specifications are fixed, dependencies are rigid, and the development must follow a strict sequence dictated by hardware constraints.\n\nWhy is Waterfall appropriate for this embedded systems project?",
+   "opts": [
+    "Embedded systems use the same programming languages as web apps, making Waterfall universally applicable.",
+    "Waterfall suits embedded systems and firmware development because hardware dependencies dictate a structured, sequential development flow with fixed specifications.",
+    "Firmware is low-risk software that doesn't need structured methodology.",
+    "Waterfall allows firmware to be deployed incrementally without hardware testing."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material lists 'Embedded Systems and Firmware Development: Projects like firmware for devices...where hardware dependencies dictate a structured development flow' as a real-world Waterfall application."
+  },
+  {
+   "id": "8107-39",
+   "topic": "Waterfall Model",
+   "text": "A startup founder complains about the Waterfall model: 'By the time we finished requirements and design, the market had shifted. When we finally launched, our app was outdated.' This experience illustrates which core Waterfall weakness?\n\nWhich Waterfall disadvantage does this illustrate?",
+   "opts": [
+    "Well-documented process — too much paperwork slowed the team.",
+    "Minimal customer involvement — customers only see the product at the end, leaving little room for feedback or course corrections during development.",
+    "Simplicity — the model is too simple for dynamic markets.",
+    "Easy management — sequential milestones prevented rapid response."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material lists as a disadvantage: 'Customer Involvement is Minimal: Users only see the product at the end, leaving little room for feedback during development.' When markets change and customers can't provide ongoing input, the final product may be misaligned with current needs."
+  },
+  {
+   "id": "8107-40",
+   "topic": "Waterfall Model",
+   "text": "A student is studying the Waterfall model and asks: 'What is the defining structural characteristic that gives this model its name?'\n\nWhat structural characteristic gives the Waterfall model its name?",
+   "opts": [
+    "Requirements flow up through design, implementation, and testing like a waterfall in reverse.",
+    "The process flows downward through phases of software development — like a waterfall — with each phase cascading into the next sequentially, and no phase beginning until the previous is complete.",
+    "Data flows through the system like a waterfall — from input to processing to output.",
+    "Project costs increase progressively through phases, like water accumulating at the bottom of a waterfall."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'The model is called \"waterfall\" because its process flows downward through the phases of software development, just like a waterfall.' Requirements cascade into design, then implementation, testing, deployment, and maintenance — in that strict sequence."
+  },
+  {
+   "id": "8107-41",
+   "topic": "Agile Model",
+   "text": "A product manager at a Lagos fintech company describes the Agile development cycle to her board: 'We plan what to build in each sprint, design it, develop it, test it, launch it, review the results with customers, deploy it, and then start again with new requirements.'\n\nWhat does this cyclical pattern reflect about the Agile model?",
+   "opts": [
+    "Agile is a sequential model with multiple checkpoints.",
+    "Agile is a linear process that repeats when new requirements emerge.",
+    "Agile is an iterative and incremental approach — not a straight line but a continuous loop of planning, developing, testing, launching, and improving — adapting to evolving user needs.",
+    "Agile is a risk management framework that reassesses risks after each sprint."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'Agile is not linear but rather a continuous loop of planning, developing, testing, launching, and improving, all aimed at delivering high-quality software that meets the evolving demands of its users.'"
+  },
+  {
+   "id": "8107-42",
+   "topic": "Agile Model",
+   "text": "A software team at a Nigerian media company is adopting Agile. The team lead recites the four core values from the Agile Manifesto at a kick-off workshop. A new developer asks: 'Does Agile say we should completely ignore processes and documentation?'\n\nWhat is the correct Agile position on processes and documentation?",
+   "opts": [
+    "Agile completely rejects processes and documentation in favour of working software.",
+    "Agile values individuals and interactions over processes and tools, and working software over comprehensive documentation — but does not dismiss them entirely. It challenges overemphasis, not existence.",
+    "Agile requires more documentation than Waterfall to support frequent sprint reviews.",
+    "Agile documentation is replaced by user stories, which serve as the complete requirements specification."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material clarifies: 'Agile does not dismiss documentation entirely but challenges the traditional overemphasis on extensive documentation that may quickly become obsolete.' The Manifesto values 'working software over comprehensive documentation' — not instead of all documentation."
+  },
+  {
+   "id": "8107-43",
+   "topic": "Agile Model",
+   "text": "Halfway through building a mobile banking app, the CBN releases new KYC guidelines that require a selfie-verification step during onboarding. The development team, using Agile, immediately incorporates this requirement into the next sprint without renegotiating the entire project contract.\n\nWhich Agile Manifesto value does this reflect?",
+   "opts": [
+    "Working software over comprehensive documentation.",
+    "Customer collaboration over contract negotiation.",
+    "Responding to change over following a plan — Agile welcomes changing requirements, even late in development, recognising adaptability as a competitive advantage.",
+    "Individuals and interactions over processes and tools."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states the fourth Agile value 'advocates responding to change over following a plan. Traditional development models often struggle to accommodate late-stage changes, but Agile welcomes them, recognising that the ability to adapt is a significant competitive advantage.'"
+  },
+  {
+   "id": "8107-44",
+   "topic": "Agile Model",
+   "text": "A startup team in Ikeja is using Scrum. Every morning at 9am, team members answer three questions in a 15-minute meeting: What did I do yesterday? What will I do today? What's blocking me? One member asks why this meeting exists.\n\nWhat is the purpose and benefit of this Scrum ceremony?",
+   "opts": [
+    "Sprint planning — to assign tasks for the sprint.",
+    "Sprint retrospective — to review what went well and improve processes.",
+    "Daily Standup (Daily Scrum) — a 15-minute event to synchronise team activities, create a plan for the next 24 hours, promote accountability and collaboration, and provide early visibility into potential issues.",
+    "Sprint review — to demonstrate completed features to stakeholders."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material describes the Daily Standup: 'a 15-minute time-boxed event that occurs every day of the Sprint. It allows the Development Team to synchronise their activities and create a plan for the next 24 hours.' Benefits include 'team accountability and collaboration, early visibility into potential issues, and continuous inspection and adaptation.'"
+  },
+  {
+   "id": "8107-45",
+   "topic": "Agile Model",
+   "text": "A Scrum team at a Nigerian e-commerce company maintains a prioritised list of all features, bug fixes, and technical improvements for their platform. The list is managed by the business owner, evolves as the product and market change, and items at the top are more refined and ready for development.\n\nWhat Scrum artefact is being described?",
+   "opts": [
+    "Sprint Backlog — the list of tasks the team commits to within a single sprint.",
+    "Product Backlog — a dynamic, prioritised list of all work needed for the project, maintained by the Product Owner.",
+    "Definition of Done — the criteria that must be met before an item is considered complete.",
+    "Sprint Goal — the objective of a single sprint."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material describes the Product Backlog as 'a dynamic list of all the work that needs to be done for the project...maintained by the Product Owner and prioritised based on business value, customer needs, and feedback...Items at the top are more refined and ready for development, while lower items are less detailed.'"
+  },
+  {
+   "id": "8107-46",
+   "topic": "Agile Model",
+   "text": "An Agile coach tells a Nigerian insurance company's development team: 'The best measure of progress is not the number of documents you've produced, nor the lines of code you've written, nor the percentage of tasks marked complete on Jira. It's something else.'\n\nAccording to the Agile Manifesto, what is the primary measure of progress?",
+   "opts": [
+    "Customer satisfaction survey scores at the end of each sprint.",
+    "Velocity — the number of story points completed per sprint.",
+    "Working software — functional, tested software delivered to users is the core indicator of real progress.",
+    "Sprint burndown — the rate at which sprint backlog items are completed."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. Agile Principle 7 states: 'Working Software is the Primary Measure of Progress.' The study material explains: 'The core indicator of progress is the delivery of functional, tested software. This keeps the team focused on what matters most, producing real value.'"
+  },
+  {
+   "id": "8107-47",
+   "topic": "Agile Model",
+   "text": "A project manager at an Abuja-based GovTech startup is explaining Agile to a government client accustomed to Waterfall: 'Under Agile, we can release features every two weeks instead of waiting 18 months for a big launch.' She's describing which Agile principle?\n\nWhich Agile principle does this reflect?",
+   "opts": [
+    "Customer satisfaction through early and continuous delivery.",
+    "Welcoming changing requirements, even late in development.",
+    "Frequent delivery of working software — Agile promotes short development cycles (sprints of 1–4 weeks) with a potentially shippable product increment at the end of each cycle.",
+    "Simplicity — maximising the amount of work not done."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. Agile Principle 3 addresses this: 'Agile promotes short development cycles, known as iterations or sprints, which typically last from one to four weeks. At the end of each cycle, a potentially shippable product increment is delivered. This continuous delivery ensures ongoing progress, reduces risk, and allows for early detection of issues.'"
+  },
+  {
+   "id": "8107-48",
+   "topic": "Agile Model",
+   "text": "An Agile retrospective at a Nigerian tech company surfaces this complaint from developers: 'We keep adding features at a breakneck pace, overtime is constant, team members are burning out, and quality is dropping.' An Agile coach responds with one of the 12 Agile principles.\n\nWhich Agile principle addresses this burnout problem?",
+   "opts": [
+    "Principle 5: Build projects around motivated individuals.",
+    "Principle 7: Working software is the primary measure of progress.",
+    "Principle 8: Agile processes promote sustainable development — teams should maintain a consistent, manageable pace indefinitely, avoiding burnout from 'crunch time.'",
+    "Principle 10: Simplicity — maximising the amount of work not done."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. Principle 8 states: 'Agile Processes Promote Sustainable Development. Agile encourages teams to maintain a consistent, manageable pace indefinitely. Sustainable development avoids the burnout that often accompanies \"crunch time\" in traditional projects. It promotes long-term productivity, team well-being, and project success.'"
+  },
+  {
+   "id": "8107-49",
+   "topic": "Spiral Model",
+   "text": "The Nigerian Defence Headquarters is commissioning a new C4ISR (Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance) system. It involves cutting-edge technology, classified data, multi-year development, and catastrophic consequences if it fails. The project lead says risk analysis must be embedded at every stage.\n\nWhich SDLC model is most appropriate?",
+   "opts": [
+    "Waterfall — because requirements are defined by military doctrine.",
+    "Agile — because sprints allow rapid feature delivery.",
+    "Spiral Model — designed for large-scale, high-risk, mission-critical systems where risk is assessed and mitigated at every development cycle.",
+    "Kanban — to visualise and manage the complex workflow."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'The Spiral Model is best suited for: large-scale and high-budget software projects...Critical systems such as defence, aerospace, banking, and healthcare software, where managing risk is crucial.' Defence systems match this profile precisely."
+  },
+  {
+   "id": "8107-50",
+   "topic": "Spiral Model",
+   "text": "In the Spiral Model, a development team at a Nigerian healthcare company completes one full loop of the spiral — setting objectives, identifying risks, building a prototype, and presenting it to stakeholders. They then begin the next loop.\n\nWhat does each loop of the spiral represent, and what increases with each successive loop?",
+   "opts": [
+    "Each loop is a sprint; with each loop, feature complexity increases.",
+    "Each loop represents a distinct development phase; with each loop, both cumulative cost and development progress increase as the system matures.",
+    "Each loop is a testing cycle; with each loop, the number of bugs found decreases.",
+    "Each loop represents one SDLC phase (planning, design, etc.); loops do not overlap."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'The model is structured around a series of repeating cycles, or \"spirals,\" with each loop representing a distinct phase of development...As the spiral expands outward, it reflects an increase in both cumulative cost and the level of development progress.'"
+  },
+  {
+   "id": "8107-51",
+   "topic": "Spiral Model",
+   "text": "Before advancing to the next loop of the Spiral Model on a banking platform project, the development team systematically examines potential risks including technical failures, financial overruns, unstable third-party APIs, and user adoption challenges — then creates prototypes to test their chosen solutions.\n\nWhat quadrant/phase of the Spiral Model does this describe?",
+   "opts": [
+    "Objective Identification — establishing goals for the current cycle.",
+    "Alternate Evaluation and Risk Analysis — examining potential solutions and identifying/analysing risks, including developing prototypes to test components early.",
+    "Product Development — building the system's architecture and code.",
+    "Review and Planning — reviewing outcomes and planning the next iteration."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material describes this quadrant: 'Following objective identification, the process moves into Alternate Evaluation and Risk Analysis...Here, potential solutions are examined, and risks associated with each alternative are identified and analysed...Prototypes may be developed at this stage to test specific components.'"
+  },
+  {
+   "id": "8107-52",
+   "topic": "Spiral Model",
+   "text": "The Spiral Model was introduced by a specific computer scientist in response to the limitations of linear models like Waterfall. A student in a MIVA University course is asked to identify the originator and the year.\n\nWho introduced the Spiral Model and when?",
+   "opts": [
+    "Kent Beck, 2001 — as part of the Agile Manifesto.",
+    "Barry Boehm, 1986 — specifically designed to address limitations of earlier linear models by incorporating risk-driven iterative development.",
+    "Winston Royce, 1970 — who also formalised the Waterfall model.",
+    "Taiichi Ohno, 1950 — who developed the Toyota Production System that inspired Kanban."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'The Spiral Model is a sophisticated software development methodology...Introduced by Barry Boehm in 1986, it was specifically designed to address the limitations of earlier linear models by incorporating a risk-driven framework.'"
+  },
+  {
+   "id": "8107-53",
+   "topic": "Spiral Model",
+   "text": "A competitor company to HealthConnect Lagos has abandoned the Spiral Model mid-project, saying: 'It's costing us three times our original budget estimate and the complexity of managing all the risk loops is overwhelming our small team of 6 developers.'\n\nWhich Spiral Model weakness does this illustrate?",
+   "opts": [
+    "It lacks flexibility to handle changing requirements.",
+    "It produces insufficient documentation for regulatory compliance.",
+    "It is expensive and complex to manage, requires expertise in risk analysis, and is less suitable for small projects due to its overhead.",
+    "It does not support stakeholder involvement throughout development."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material lists as Spiral Model weaknesses: 'It is expensive and complex to manage. It requires expertise in risk analysis and is less suitable for small projects due to its overhead.'"
+  },
+  {
+   "id": "8107-54",
+   "topic": "Model Comparison",
+   "text": "A project manager is choosing between three SDLC models for a new project. She fills in a comparison table based on three criteria: flexibility, risk management capability, and project complexity suitability. She needs to match each model to its correct profile.\n\nWhich option correctly matches all three models to their profiles in Table 1.1?",
+   "opts": [
+    "Waterfall: High flexibility, High risk management, Suitable for complex projects. Agile: Low flexibility, Low risk management, Suitable for small projects. Spiral: Medium flexibility, Medium risk management, Suitable for all projects.",
+    "Waterfall: Low flexibility, Low risk management, Suitable for simple/well-understood projects. Agile: High flexibility, Medium risk management, Suitable for rapid delivery with flexibility. Spiral: Medium flexibility, High risk management, Suitable for large, complex, high-risk projects.",
+    "Waterfall: Medium flexibility, High risk management, Suitable for government projects. Agile: Low flexibility, Low risk management, Suitable for small startups. Spiral: High flexibility, Medium risk management, Suitable for defence projects.",
+    "All three models have equal flexibility but differ only in documentation requirements."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. Table 1.1 in the study material shows: Waterfall = Low flexibility, Low risk management, simple projects; Agile = High flexibility, Medium risk management, rapid delivery projects; Spiral = Medium flexibility, High risk management, large/complex/high-risk projects."
+  },
+  {
+   "id": "8107-55",
+   "topic": "Model Comparison",
+   "text": "A fintech company is building an AI-powered credit scoring product. Requirements are evolving rapidly as the data science team discovers new model features. The team is small (10 people), and investors expect a demo in 8 weeks. There is no prior precedent for this exact product in Nigeria.\n\nWhich SDLC model is most appropriate?",
+   "opts": [
+    "Waterfall — to ensure rigorous documentation of the novel AI approach.",
+    "Spiral — because AI systems are inherently high-risk.",
+    "Agile — because requirements are evolving, delivery must be rapid, and continuous stakeholder feedback is needed to align the product with real market needs.",
+    "V-Model — to ensure every AI model feature is tested before the next is built."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states Agile 'thrives in fast-paced, flexible development environments where the requirements are expected to evolve as the project progresses...allows teams to respond quickly to change, test new ideas, and deploy incremental improvements. Projects with uncertain or changing requirements benefit greatly from Agile's adaptability.'"
+  },
+  {
+   "id": "8107-56",
+   "topic": "Model Comparison",
+   "text": "A MIVA University student asks: 'When a project manager says I need a model that is sequential, well-documented, easy to manage, and best for projects with stable requirements — what is she describing?' Another student offers the wrong answer first.\n\nWhich model is she describing?",
+   "opts": [
+    "Agile — iterative cycles with frequent delivery.",
+    "Spiral — risk-driven iterative approach.",
+    "Waterfall — linear and sequential, with clear documentation and well-defined stages, ideal for stable requirements.",
+    "Kanban — visual workflow management."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material's Waterfall strengths include: 'It provides clear documentation and well-defined stages. It works well for projects with fixed requirements and minimal changes. The model is ideal for smaller projects where the scope is clearly understood.'"
+  },
+  {
+   "id": "8107-57",
+   "topic": "Model Comparison",
+   "text": "The project team at a Nigerian aerospace agency is developing flight control software for an unmanned surveillance drone. The slightest error could cause a crash. Requirements are technically complex but mostly known. The team must revisit risk at every development stage.\n\nWhich model suits this scenario best?",
+   "opts": [
+    "Agile — to rapidly iterate and deploy new features.",
+    "Waterfall — because requirements are mostly known and sequential development suits hardware constraints.",
+    "Spiral — because it integrates iterative development with systematic risk analysis at every phase, making it ideal for safety-critical, technically complex systems.",
+    "Incremental — to deliver drone capability in phases."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The Spiral Model 'is particularly well-suited for large, complex, and high-risk projects...Industries such as aerospace, defence, banking, and healthcare often benefit from the Spiral Model due to their need for robust risk management and adaptability.'"
+  },
+  {
+   "id": "8107-58",
+   "topic": "Kanban & Continuous Delivery",
+   "text": "A Lagos-based software agency adopts Kanban. They hang a large board in the office with four columns: 'To Do | In Progress | Code Review | Done.' A new rule says: no more than 3 tasks can be 'In Progress' simultaneously. A team member asks why this limit exists.\n\nWhat is the purpose of limiting work in progress (WIP) in Kanban?",
+   "opts": [
+    "To ensure only the three highest-priority tasks are worked on at any time.",
+    "To prevent context-switching and bottlenecks — managing flow so tasks move smoothly from start to finish rather than piling up at one stage, improving efficiency and delivery speed.",
+    "To ensure each developer owns exactly one task at a time.",
+    "To comply with Scrum sprint capacity rules."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material describes Kanban as 'a visual project management approach that helps teams manage their workflows by making tasks visible, limiting work in progress, and promoting continuous improvement. It emphasises managing flow rather than adhering to rigid iterations, allowing teams to pull work as capacity permits.'"
+  },
+  {
+   "id": "8107-59",
+   "topic": "Kanban & Continuous Delivery",
+   "text": "A development manager says: 'Combining Kanban with Continuous Delivery is not without challenges. Our biggest problem is that the team is used to working in 6-month release cycles, and shifting to weekly deployments requires a major shift in how people think about their work.'\n\nWhat challenge is she describing?",
+   "opts": [
+    "Technical debt accumulation from frequent small releases.",
+    "Automated testing pipelines that are resource-intensive to set up.",
+    "Cultural resistance — shifting from traditional waterfall-style development to a more agile, flow-based model requires a significant change in mindset, which can be difficult for some teams.",
+    "Lack of Kanban board tooling in the existing tech stack."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'One of the primary difficulties is cultural resistance; shifting from traditional, waterfall-style development to a more agile, flow-based model requires a significant change in mindset, which can be difficult for some teams.'"
+  },
+  {
+   "id": "8107-60",
+   "topic": "SDLC in Software Engineering",
+   "text": "An IT manager at Airtel Nigeria presents the value of SDLC to the executive team: 'Because of SDLC, we can predict costs and timelines accurately, identify risks early, catch bugs before they escalate, allocate resources based on phase demands, and ensure we don't miss deadlines.' She is describing SDLC's role in which function?\n\nWhich SDLC role is she describing?",
+   "opts": [
+    "Enhancing communication and collaboration.",
+    "Driving project management and control — SDLC divides development into phases with clear objectives, timelines, and deliverables, enabling monitoring, resource allocation, cost control, and early risk identification.",
+    "Ensuring alignment with business and user needs.",
+    "Supporting software maintenance and evolution."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material's 'Driving Project Management and Control' section states SDLC helps managers: 'Monitor progress against timelines, allocate resources effectively, control costs by predicting expenses, ensure deadlines are met and delays are flagged early.'"
+  },
+  {
+   "id": "8107-61",
+   "topic": "SDLC in Software Engineering",
+   "text": "At Andela Nigeria, a software engineering trainer tells a cohort: 'The SDLC is not just for developers. It provides a common language for all stakeholders — developers, testers, business analysts, product owners, and clients — ensuring everyone understands their roles and is working towards the same goal.'\n\nWhich SDLC role is being described?",
+   "opts": [
+    "Ensuring quality assurance and risk mitigation.",
+    "Driving project management and control.",
+    "Enhancing communication and collaboration — SDLC defines roles, responsibilities, and activities at each stage, minimising misunderstandings and fostering a team-oriented environment.",
+    "Supporting software maintenance and evolution."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'The SDLC provides a common language for all stakeholders involved in the project, enhancing communication and collaboration. By clearly defining the roles, responsibilities, and activities at each stage, SDLC helps to ensure that everyone is aligned and working towards a common goal.'"
+  },
+  {
+   "id": "8107-62",
+   "topic": "SDLC in Software Engineering",
+   "text": "A quality assurance lead at Bolt Nigeria explains: 'Each phase of the SDLC contains quality checkpoints. Requirements analysis ensures the software meets user needs. Design reveals architecture vulnerabilities. Testing catches bugs. These together form our quality strategy.'\n\nWhich SDLC role does this describe?",
+   "opts": [
+    "Driving project management and control.",
+    "Ensuring quality assurance and risk mitigation — SDLC provides continuous testing and validation mechanisms at every phase, helping detect defects early and prevent costly late-stage fixes.",
+    "Supporting software maintenance and evolution.",
+    "Enhancing knowledge transfer."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'The SDLC is inherently designed to help ensure the quality of the software product by providing processes for continuous testing and validation...Each phase of the SDLC offers mechanisms to assess quality: requirement analysis, design, and testing.'"
+  },
+  {
+   "id": "8107-63",
+   "topic": "SDLC in Software Engineering",
+   "text": "A CTO at a Nigerian media tech company says: 'After we deployed our content management system, users immediately wanted new features, new browser versions broke some functions, and the business added new content categories. We're still working on it three years later.' He sees this as normal.\n\nWhich SDLC principle does the CTO's perspective reflect?",
+   "opts": [
+    "Deployment is the final phase — once deployed, development is complete.",
+    "Supporting software maintenance and evolution — software engineering is an ongoing process, and the SDLC ensures a system evolves with time, keeping it relevant, secure, and useful long after deployment.",
+    "The SDLC lifecycle ends at maintenance, after which a new project must begin.",
+    "Perfective maintenance is an optional activity if resources allow."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'Software engineering is an ongoing process, and the SDLC ensures that a system evolves with time, keeping it relevant, secure, and useful long after it has been deployed.' Maintenance is treated as an integral part of the lifecycle."
+  },
+  {
+   "id": "8107-64",
+   "topic": "SDLC Application",
+   "text": "A logistics manager in Lagos is frustrated: 'We deployed the shipment tracking system, but now nothing works — our customer data from the old FileMaker database never made it in, half the records are missing.' The deployment team failed at a specific critical activity.\n\nWhich deployment activity was inadequately performed?",
+   "opts": [
+    "Deployment automation — they should have used CI/CD pipelines.",
+    "User training — staff didn't know how to use the new system.",
+    "Data migration — transferring data from the legacy system was not executed with sufficient precision, causing record loss.",
+    "System monitoring — alerts were not set up to detect missing records."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states data migration 'must be executed with precision to avoid any loss or corruption of information.' Missing records directly indicate inadequate data migration during deployment."
+  },
+  {
+   "id": "8107-65",
+   "topic": "SDLC Application",
+   "text": "A startup in Abuja is arguing about whether their product roadmap is their Product Backlog. The Scrum Master clarifies: 'The product roadmap gives strategic direction for months or years. The Product Backlog is...'\n\nHow does the Scrum Master correctly complete the sentence?",
+   "opts": [
+    "'...the same thing, just used differently in Scrum terminology.'",
+    "'...a dynamic, prioritised list of all specific work items the team may work on, maintained by the Product Owner, and serving as the single source of truth for development tasks.'",
+    "'...the sprint plan for the next two-week cycle, broken into daily tasks.'",
+    "'...a list of completed features that serves as a release log.'"
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material defines the Product Backlog: 'a dynamic list of all the work that needs to be done for the project...maintained by the Product Owner...The Product Backlog serves as the single source of truth for all the tasks the development team may work on.'"
+  },
+  {
+   "id": "8107-66",
+   "topic": "SDLC Application",
+   "text": "During a code audit of PiggyVest's mobile app, a senior developer discovers that a payment processing function handles database queries, sends push notifications, and formats UI output — all in one 350-line method. He flags this as a violation of SDLC implementation principles.\n\nWhat coding principle does this violation relate to?",
+   "opts": [
+    "Adherence to coding standards — specifically the naming convention that functions should clearly describe their purpose.",
+    "Modular development — code should be broken into independent, single-responsibility components that can be developed, tested, and maintained in isolation.",
+    "Peer code review — this should have been caught in a code review.",
+    "Source control — version control should have prevented this from being merged."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material's Implementation Phase describes 'modular and iterative development' where 'the system is broken down into independent components or modules. Each module is developed and tested in isolation before being integrated.' A function doing three unrelated things violates modularity."
+  },
+  {
+   "id": "8107-67",
+   "topic": "SDLC Application",
+   "text": "The National Hospital Abuja is replacing its paper-based patient admission system. During the Requirement Analysis phase, the team creates visual representations showing how a patient interacts with the admissions system — from walking in, to registration, to ward assignment — and how the system responds at each step.\n\nWhat Requirement Analysis deliverable are they producing?",
+   "opts": [
+    "Data Flow Diagram (DFD) — showing how data moves through the system.",
+    "Entity-Relationship Diagram — showing database table relationships.",
+    "Use Case Models and Diagrams — describing functional interactions between the system and external actors (like patients and nurses), showing how the software responds to various user actions.",
+    "System Architecture Diagram — showing the technical infrastructure."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'Use case models describe the functional interactions between the system and external actors (users, other systems). These diagrams visually represent how the software should respond to various user actions, providing a clear understanding of the system's functional flow.'"
+  },
+  {
+   "id": "8107-68",
+   "topic": "SDLC Application",
+   "text": "A project manager tells her team: 'Even if we finish coding on time, we cannot call the Implementation Phase complete.' A developer asks why — 'the code works fine.'\n\nWhat else must be completed before the Implementation Phase is considered done?",
+   "opts": [
+    "Management sign-off on the project timeline.",
+    "User acceptance testing by end-users.",
+    "Technical documentation — including inline comments, API documentation, installation/deployment guides, and user manuals — which must be maintained alongside the code.",
+    "Security penetration testing by an external team."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material lists documentation as a core Implementation Phase activity: 'Alongside coding, developers maintain technical documentation, which includes: inline comments explaining the logic, API documentation, installation and deployment guides, user manuals (in collaboration with the documentation team).'"
+  },
+  {
+   "id": "8107-69",
+   "topic": "SDLC Application",
+   "text": "A junior developer at Kobo360 asks: 'Why do we start each new feature with a planning meeting, design the architecture, build it, test it, get feedback, and then start over — instead of just designing the whole system at the beginning and building it all at once?' The senior developer explains the Agile rationale.\n\nWhich Agile principle best justifies this iterative approach?",
+   "opts": [
+    "Principle 5: Build projects around motivated individuals.",
+    "Principle 1: Customer satisfaction through early and continuous delivery — delivering working software incrementally lets customers see real results quickly, ensures needs are met promptly, and allows course correction.",
+    "Principle 9: Continuous attention to technical excellence enhances agility.",
+    "Principle 11: The best designs emerge from self-organising teams."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. Agile Principle 1: 'Agile places a strong emphasis on delivering valuable software to the customer as early as possible. By providing working software in incremental cycles, customers begin to see real results quickly.' This justifies the iterative approach over a single big-bang delivery."
+  },
+  {
+   "id": "8107-70",
+   "topic": "SDLC Application",
+   "text": "A quality assurance engineer at a payment gateway company tells management: 'The testing we conducted includes individual component tests, combined module integration tests, full-system behavioural tests, performance stress tests under 100,000 concurrent users, and security penetration tests.' Management asks what this comprehensive approach confirms.\n\nWhat does this comprehensive testing approach confirm, according to the study material?",
+   "opts": [
+    "That the system has no remaining bugs and is perfect.",
+    "That the testing team is fully compliant with ISO 9001 quality standards.",
+    "That the software works correctly, meets requirements, is robust, reliable, and secure — confirming it is ready for the real world.",
+    "That the software is ready for data migration from the legacy system."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'Through a combination of unit, integration, system, acceptance, performance, and security testing, developers and stakeholders can verify that the software works correctly, meets requirements, and is robust, reliable, and secure.'"
+  },
+  {
+   "id": "8107-71",
+   "topic": "Planning Phase",
+   "text": "The IT Director at a microfinance bank in Enugu begins a new software project. Her first action is to call all relevant parties — the CEO, branch managers, IT team, compliance officer, loan officers, and a sample of customers — together to align them on what the project will deliver and establish communication channels from the outset.\n\nWhich Planning Phase activity is she conducting?",
+   "opts": [
+    "Requirement analysis — gathering functional requirements from stakeholders.",
+    "Initial stakeholder engagement — identifying all relevant stakeholders and establishing communication channels so their needs and concerns are considered early.",
+    "Risk identification — analysing potential stakeholder conflicts.",
+    "Feasibility study — evaluating the project from multiple stakeholder perspectives."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material identifies 'Initial Stakeholder Engagement' as a key Planning Phase activity: 'Identifying all relevant stakeholders (clients, team members, sponsors, end users). Establishing initial communication channels and expectations to ensure stakeholder needs and concerns are considered early.'"
+  },
+  {
+   "id": "8107-72",
+   "topic": "Requirement Analysis Phase",
+   "text": "A developer complains: 'Requirement gathering took 3 months. We could have built the whole app in that time.' His senior responds: 'Gathering and documenting detailed requirements prevents a specific problem that costs far more to fix later.' What is that problem?\n\nWhat problem does thorough requirement gathering primarily prevent?",
+   "opts": [
+    "Over-engineering — adding unnecessary technical complexity.",
+    "Scope creep — uncontrolled changes in project scope caused by ambiguous or missing requirements, which lead to unplanned work, delays, and budget overruns.",
+    "Technical debt — poorly understood requirements lead to bad code architecture.",
+    "Stakeholder conflict — different teams have incompatible needs."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states: 'Prevents Scope Creep: By gathering and documenting detailed requirements, the analysis phase ensures that there is no ambiguity or misunderstanding about what the software must deliver, minimising the risk of scope creep (uncontrolled changes in project scope).'"
+  },
+  {
+   "id": "8107-73",
+   "topic": "Design Phase",
+   "text": "An architect at a supply chain software company argues that choosing between PostgreSQL and MongoDB should happen during design, not during implementation. A developer disagrees, saying 'We'll figure it out when we code.' Who is correct, and why?\n\nWho is correct?",
+   "opts": [
+    "The developer — database choice depends on the specific data the code will generate.",
+    "The architect — the design phase includes specifying how data will be stored, structured, and interrelated (database schema design) to ensure data consistency, integrity, and future scalability.",
+    "Both — database choice can be deferred until the data model is clearer from the code.",
+    "Neither — the technology stack is chosen during the Planning Phase."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material states that after establishing architecture, 'the next step is designing the database schema. This involves specifying how data will be stored, structured, and interrelated...Developers define entities, attributes, relationships, and constraints.' Database choice is a design-phase decision."
+  },
+  {
+   "id": "8107-74",
+   "topic": "Waterfall Model",
+   "text": "NNPC's IT department is upgrading its pipeline monitoring software. A consultant says: 'This software controls physical infrastructure. The requirements are dictated by engineering standards and regulations. Every change must be approved by the Safety Directorate. This is not a startup.' Which model does the consultant clearly favour?\n\nWhich model does the consultant clearly favour, and why?",
+   "opts": [
+    "Agile — frequent delivery allows the Safety Directorate to review each sprint.",
+    "Spiral — pipeline software is high-risk and requires risk analysis at every phase.",
+    "Waterfall — requirements are stable, regulatory, and sequential approval is mandatory; Waterfall's rigid, well-documented sequential structure fits this environment.",
+    "Incremental — critical infrastructure can be upgraded module by module."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material's Waterfall section describes exactly this scenario: stable requirements, mandatory documentation, regulatory compliance, sequential approval. 'Banking Systems with Regulatory Compliance: Where predefined regulations dictate strict project boundaries and minimal deviation.'"
+  },
+  {
+   "id": "8107-75",
+   "topic": "Agile Model",
+   "text": "A tech lead at a Nigerian e-commerce startup says: 'We don't write 100-page requirements documents. We trust our developers to figure out the best way to solve problems together. Our architecture emerged from the team's collective expertise, not a top-down mandate.' Which Agile principle does this reflect?\n\nWhich Agile principle is being applied?",
+   "opts": [
+    "Principle 6: Face-to-face conversation is the most efficient method of conveying information.",
+    "Principle 8: Agile promotes sustainable development.",
+    "Principle 11: The best architectures, requirements, and designs emerge from self-organising teams — which bring diverse perspectives and are better equipped to handle complexity.",
+    "Principle 12: Teams reflect regularly on how to become more effective."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. Agile Principle 11: 'Rather than relying on a top-down hierarchy, Agile trusts that skilled team members can collaborate effectively to create optimal solutions. Self-organising teams bring diverse perspectives and are often better equipped to handle complexity and change dynamically.'"
+  },
+  {
+   "id": "8107-76",
+   "topic": "Maintenance Phase",
+   "text": "The CEO of a Nigerian logistics software company asks her CTO: 'Now that we've launched FreightTrack, can we stop allocating budget for software development?' The CTO explains why this would be a mistake.\n\nWhat fact from the study material best supports the CTO's argument?",
+   "opts": [
+    "Software requires constant new features to remain competitive in the market.",
+    "The SDLC recommends continuous deployment cycles that require developer resources.",
+    "Research has shown that maintenance costs can account for up to 70% of the total cost of a software product over its lifetime — making ongoing support and improvements crucial.",
+    "Cybersecurity threats require monthly security patches that need developer time."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material explicitly states: 'research has shown that maintenance costs can account for up to 70% of the total cost of a software product over its lifetime. This makes ongoing support and improvements crucial for keeping the system reliable, secure, and aligned with evolving needs.'"
+  },
+  {
+   "id": "8107-77",
+   "topic": "SDLC Overview",
+   "text": "A MIVA University professor asks her MIT8107 students to summarise the SDLC in one sentence. A student answers: 'SDLC is a systematic, iterative process for building software that prioritises quality, efficiency, correctness, and maintainability — ensuring every phase is planned, documented, reviewed, and validated.'\n\nIs this student's definition accurate according to the course material?",
+   "opts": [
+    "No — SDLC is linear, not iterative, in all models.",
+    "No — the definition applies only to the Agile model, not SDLC generally.",
+    "Yes — this accurately reflects the study material's definition of SDLC as a systematic, iterative process prioritising quality, efficiency, correctness, and maintainability with planned, documented, reviewed, and validated phases.",
+    "Partially — the definition correctly describes SDLC but omits that it only applies to large projects."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'The SDLC can be defined as a systematic, iterative process for building software that prioritises quality, efficiency, correctness, and maintainability. It ensures that every phase of development is planned, documented, reviewed, and validated.'"
+  },
+  {
+   "id": "8107-78",
+   "topic": "Model Comparison",
+   "text": "A project management consultant is advising three different Nigerian companies simultaneously: Company A is building a new social media platform with uncertain requirements; Company B is upgrading a central bank clearing system with fixed regulations; Company C is developing missile tracking software for the Nigerian Air Force with evolving specs and catastrophic failure consequences.\n\nWhich model should each company choose?",
+   "opts": [
+    "A: Waterfall, B: Agile, C: Spiral.",
+    "A: Agile, B: Waterfall, C: Spiral — each model matched to its appropriate scenario based on flexibility needs, regulatory constraints, and risk profile.",
+    "A: Spiral, B: Agile, C: Waterfall.",
+    "All three should use Agile because it is the most modern approach."
+   ],
+   "answer": 1,
+   "explanation": "B is correct. Based on the study material: A (uncertain requirements, social media) → Agile (high flexibility, evolving requirements); B (fixed regulations, clearing system) → Waterfall (stable requirements, compliance-driven); C (mission-critical, evolving specs, catastrophic failure risk) → Spiral (risk-driven, iterative, high-stakes)."
+  },
+  {
+   "id": "8107-79",
+   "topic": "SDLC Application",
+   "text": "A programme director at MIVA Open University reviews a completed software project. She notes: 'This project had a clear project plan, gathered requirements from all 7 stakeholder groups, produced detailed architectural and database designs, coded in modular increments, tested against every SRS requirement, deployed with data migration, and has an active support team.' She concludes the project followed a complete SDLC.\n\nWhat are the seven SDLC phases she is referencing, in correct order?",
+   "opts": [
+    "Planning, Design, Requirements, Coding, Testing, Maintenance, Deployment.",
+    "Analysis, Planning, Design, Implementation, Testing, Deployment, Maintenance.",
+    "Planning, Requirement Analysis, Design, Implementation (Coding), Testing, Deployment, Maintenance.",
+    "Inception, Elaboration, Construction, Transition, Production, Support, Retirement."
+   ],
+   "answer": 2,
+   "explanation": "C is correct. The study material states: 'The seven phases of the Software Development Life Cycle (SDLC), which are Planning, Analysis, Design, Implementation, Testing, Deployment, and Maintenance.' The summary section confirms: 'Planning, Requirement Analysis, Design, Implementation (Coding), Testing, Deployment, and Maintenance.'"
+  },
+  {
+   "id": "8107-80",
+   "topic": "SDLC Overview",
+   "text": "A senior software engineer at a Pan-African tech company is mentoring a junior developer. He says: 'The SDLC is not just about how we write code. It's about how we work together, manage complexity, ensure quality, protect against risk, serve users, and keep systems alive over time. It is the backbone of everything we do in software engineering.'\n\nWhich statement from the study material most directly supports this mentor's view?",
+   "opts": [
+    "'The SDLC defines a logical progression of development activities from conception to retirement.'",
+    "'The SDLC serves as the backbone of modern software engineering, providing a structured, disciplined, and methodical approach to building reliable and efficient software systems — a practical and strategic framework that transforms abstract user needs into functional, scalable, and value-driven applications.'",
+    "'The SDLC enables project managers, software engineers, and stakeholders to plan, control, and evaluate the progress and quality of software products.'",
+    "'The SDLC is particularly important in high-stakes, large-scale public sector projects.'"
+   ],
+   "answer": 1,
+   "explanation": "B is correct. The study material's Conclusion states exactly this: 'The Software Development Life Cycle (SDLC) serves as the backbone of modern software engineering, providing a structured, disciplined, and methodical approach to building reliable and efficient software systems...a practical and strategic framework that transforms abstract user needs into functional, scalable, and value-driven applications.'"
+  }
+ ],
+ "caseStudies": []
+}

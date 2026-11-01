@@ -1,0 +1,489 @@
+{
+ "code": "ECO101",
+ "title": "Principles of Economics I",
+ "questions": [
+  {
+   "id": "ECO101-General-1",
+   "topic": "General",
+   "text": "Which economic concept refers to the next-best alternative forgone?",
+   "opts": [
+    "Scarcity",
+    "Opportunity cost",
+    "Equity",
+    "Market equilibrium"
+   ],
+   "answer": 1,
+   "explanation": "Because resources are limited, every choice means giving something up. The value of the next-best option you forgo is the opportunity cost - the course's central concept (theory Q3: the forgone ₦3,000 job is the cost of studying).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-2",
+   "topic": "General",
+   "text": "A point inside a Production Possibility Frontier indicates:",
+   "opts": [
+    "An unattainable output level",
+    "Maximum possible output",
+    "Inefficient use of available resources",
+    "A guaranteed economic expansion"
+   ],
+   "answer": 2,
+   "explanation": "Points ON the frontier use all resources efficiently. A point inside means some resources are idle or misallocated, so the economy could produce more of both goods without any new resources. A point outside is unattainable with current resources and technology.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-3",
+   "topic": "General",
+   "text": "According to the law of demand, when price rises, quantity demanded generally:",
+   "opts": [
+    "Rises",
+    "Falls",
+    "Remains fixed in every case",
+    "Becomes equal to supply"
+   ],
+   "answer": 1,
+   "explanation": "Price and quantity demanded are inversely related (ceteris paribus). As price rises, consumers buy less and substitute toward cheaper alternatives; as price falls, they buy more.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-4",
+   "topic": "General",
+   "text": "Which factor causes a movement along the demand curve?",
+   "opts": [
+    "A change in consumer income",
+    "A change in tastes",
+    "A change in the good's own price",
+    "A change in the number of buyers"
+   ],
+   "answer": 2,
+   "explanation": "Only the good's own price moves you along a given demand curve. Income, tastes, expectations, related prices and buyer numbers are non-price determinants - they shift the entire curve (theory Q7).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-5",
+   "topic": "General",
+   "text": "When market price is above equilibrium, the market normally experiences:",
+   "opts": [
+    "A shortage",
+    "A surplus",
+    "Zero supply",
+    "Perfectly elastic demand"
+   ],
+   "answer": 1,
+   "explanation": "At a price above equilibrium, sellers offer more than buyers want: quantity supplied exceeds quantity demanded, creating a surplus. Unsold stock then puts downward pressure on price toward equilibrium (theory Q9).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-6",
+   "topic": "General",
+   "text": "If price elasticity of demand is 0.5, demand is:",
+   "opts": [
+    "Elastic",
+    "Unitary elastic",
+    "Inelastic",
+    "Perfectly elastic"
+   ],
+   "answer": 2,
+   "explanation": "The course classifies by magnitude: |Ed| < 1 is inelastic - quantity demanded responds proportionately LESS than price (typical of necessities). |Ed| > 1 is elastic; Ed = 1 is unitary.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-7",
+   "topic": "General",
+   "text": "Cross-price elasticity of demand for two substitute goods is generally:",
+   "opts": [
+    "Negative",
+    "Positive",
+    "Always zero",
+    "Always infinite"
+   ],
+   "answer": 1,
+   "explanation": "For substitutes (tea vs coffee), a price rise in one pushes consumers toward the other, so the quantity demanded of the second RISES with the first good's price: cross-price elasticity is positive. Complements are negative (theory Q14).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-8",
+   "topic": "General",
+   "text": "A binding price ceiling set below equilibrium tends to create:",
+   "opts": [
+    "A surplus",
+    "A shortage",
+    "An increase in supply automatically",
+    "A higher legal minimum price"
+   ],
+   "answer": 1,
+   "explanation": "A ceiling below equilibrium holds the price artificially low, so buyers demand more than sellers will supply - a shortage, with rationing, reduced production and declining quality among the listed effects (theory Q16).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-9",
+   "topic": "General",
+   "text": "In the short run, production is characterised by:",
+   "opts": [
+    "All inputs being variable",
+    "At least one fixed factor of production",
+    "No production costs",
+    "No use of labour"
+   ],
+   "answer": 1,
+   "explanation": "The short run is defined ECONOMICALLY, not by calendar time: at least one factor (typically capital) is fixed while others can be varied. In the long run all factors are variable (theory Q20).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-10",
+   "topic": "General",
+   "text": "Which market structure has a few dominant, interdependent firms?",
+   "opts": [
+    "Perfect competition",
+    "Monopoly",
+    "Monopolistic competition",
+    "Oligopoly"
+   ],
+   "answer": 3,
+   "explanation": "Oligopoly: a small number of large firms dominate, and each firm's pricing/output decisions directly affect rivals, who must react - strategic interdependence (theory Q26).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-11",
+   "topic": "General",
+   "text": "Firms in perfect competition are described as:",
+   "opts": [
+    "Price makers with complete market control",
+    "Price takers",
+    "The only sellers in the market",
+    "Protected by strong entry barriers"
+   ],
+   "answer": 1,
+   "explanation": "With many small sellers of a homogeneous product and free entry/exit, no single firm can influence the market price - each is a price TAKER. Monopoly firms, by contrast, have significant price-setting power (theory Q25).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-General-12",
+   "topic": "General",
+   "text": "Marginal product measures:",
+   "opts": [
+    "Total sales revenue",
+    "Total cost of production",
+    "Additional output from an additional unit of variable input",
+    "Average price of a commodity"
+   ],
+   "answer": 2,
+   "explanation": "MP = ΔTP / ΔL: the extra output produced by adding ONE more unit of the variable input (e.g. the 5th worker adds 42-39 = 3 units), holding other inputs fixed (theory Q22, calculation Q30).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - ECO101_practice_test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ECO101-Principles-of-Economics-13",
+   "topic": "Principles of Economics",
+   "text": "Economics is best described as the study of:",
+   "opts": [
+    "Scarcity and its implications for the use of resources",
+    "How banks create money",
+    "Government taxation only",
+    "Accounting records of firms"
+   ],
+   "answer": 0,
+   "explanation": "The course defines economics as the study of scarcity and its implications for resource use, production, and societal welfare.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q1"
+   }
+  },
+  {
+   "id": "ECO101-Opportunity-Cost-14",
+   "topic": "Opportunity Cost",
+   "text": "A student spends three hours studying instead of working a job that would pay N3,000. In the course's example, the forgone N3,000 represents:",
+   "opts": [
+    "Accounting profit",
+    "The opportunity cost of studying",
+    "Consumer surplus",
+    "A sunk cost"
+   ],
+   "answer": 1,
+   "explanation": "Opportunity cost is the value of the next-best alternative forgone; the guide uses exactly this example.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q3"
+   }
+  },
+  {
+   "id": "ECO101-PPF-15",
+   "topic": "PPF",
+   "text": "On a Production Possibility Frontier, a point INSIDE the frontier represents:",
+   "opts": [
+    "Unattainable output",
+    "Maximum possible output",
+    "Inefficient use of available resources",
+    "Economic growth"
+   ],
+   "answer": 2,
+   "explanation": "Points on the frontier are efficient; inside means resources are not fully or efficiently used; outside is unattainable.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q4"
+   }
+  },
+  {
+   "id": "ECO101-Efficiency-and-Equity-16",
+   "topic": "Efficiency and Equity",
+   "text": "Equity, as distinguished from efficiency in the course material, concerns:",
+   "opts": [
+    "Maximising total output",
+    "The fairness of how resources and benefits are distributed",
+    "Minimising production cost",
+    "The rate of technological progress"
+   ],
+   "answer": 1,
+   "explanation": "Efficiency is about maximising output from limited resources; equity concerns fairness of distribution.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q5"
+   }
+  },
+  {
+   "id": "ECO101-Demand-and-Supply-17",
+   "topic": "Demand and Supply",
+   "text": "A movement ALONG the demand curve is caused by:",
+   "opts": [
+    "A change in consumer income",
+    "A change in the price of the commodity itself",
+    "A change in tastes",
+    "A change in the number of buyers"
+   ],
+   "answer": 1,
+   "explanation": "Only a change in the good's own price causes movement along the curve; other determinants shift the curve.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q7"
+   }
+  },
+  {
+   "id": "ECO101-Supply-Shifters-18",
+   "topic": "Supply Shifters",
+   "text": "Which of the following is listed as a determinant that SHIFTS the supply curve?",
+   "opts": [
+    "The commodity's own price",
+    "Improved technology",
+    "Consumer tastes",
+    "The number of buyers"
+   ],
+   "answer": 1,
+   "explanation": "Input prices, technology, expectations and number of sellers shift supply; own price only causes movement along the curve.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q8"
+   }
+  },
+  {
+   "id": "ECO101-Elasticity-Calculations-19",
+   "topic": "Elasticity Calculations",
+   "text": "The price of a commodity rises by 20% and quantity demanded falls by 40%. Price elasticity of demand is:",
+   "opts": [
+    "0.5 (inelastic)",
+    "2 (elastic)",
+    "1 (unitary)",
+    "20 (perfectly elastic)"
+   ],
+   "answer": 1,
+   "explanation": "Ed = 40/20 = 2; because the magnitude exceeds one, demand is elastic.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 calculation Q27"
+   }
+  },
+  {
+   "id": "ECO101-Price-Controls-20",
+   "topic": "Price Controls",
+   "text": "A binding price ceiling set below equilibrium typically leads to:",
+   "opts": [
+    "A surplus",
+    "A shortage, rationing and reduced quality",
+    "Increased production",
+    "Higher market price"
+   ],
+   "answer": 1,
+   "explanation": "The guide lists shortage, rationing, reduced production, quality decline and inefficiency as effects of a ceiling below equilibrium.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q16"
+   }
+  },
+  {
+   "id": "ECO101-Price-Controls-21",
+   "topic": "Price Controls",
+   "text": "Nigeria's minimum wage policy is given in the course as an example of:",
+   "opts": [
+    "A price ceiling",
+    "A price floor",
+    "A subsidy",
+    "A quota"
+   ],
+   "answer": 1,
+   "explanation": "A price floor is a legal minimum price; the course cites the minimum wage as its example.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 theory Q17"
+   }
+  },
+  {
+   "id": "ECO101-Production-Calculations-22",
+   "topic": "Production Calculations",
+   "text": "A firm records total product of 39 units with 4 workers and 42 units with 5 workers. The marginal product of the fifth worker is:",
+   "opts": [
+    "42 units",
+    "10.5 units",
+    "3 units",
+    "8.4 units"
+   ],
+   "answer": 2,
+   "explanation": "MP = change in TP / change in L = (42-39)/(5-4) = 3; the guide also uses this to illustrate diminishing returns.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ECO 101 calculation Q30"
+   }
+  },
+  {
+   "id": "ECO101-Demand-23",
+   "topic": "Demand",
+   "text": "If the price of a good falls and the quantity demanded increases, this is represented by:",
+   "opts": [
+    "A movement along a given demand curve",
+    "A shift of the demand curve",
+    "A movement of the supply curve",
+    "A change in market equilibrium only"
+   ],
+   "answer": 0,
+   "explanation": "A price change causes movement along the existing demand curve; only non-price determinants shift the curve.",
+   "source": {
+    "type": "web",
+    "url": "https://ecampusontario.pressbooks.pub/uvicmicroeconomics/chapter/topic-3-multiple-choice-questions/",
+    "label": "Economics 103 exam MCQs (BCcampus/eCampusOntario Principles of Microeconomics, OpenStax adaptation)"
+   }
+  },
+  {
+   "id": "ECO101-Demand-24",
+   "topic": "Demand",
+   "text": "Which of the following is NOT a determinant of the demand for good X?",
+   "opts": [
+    "The income of consumers who buy good X",
+    "The cost of labour used to produce good X",
+    "The price of good Y, a complement to X",
+    "The number of buyers of good X"
+   ],
+   "answer": 1,
+   "explanation": "Input costs are a supply-side factor; demand determinants include income, prices of related goods and number of buyers.",
+   "source": {
+    "type": "web",
+    "url": "https://ecampusontario.pressbooks.pub/uvicmicroeconomics/chapter/topic-3-multiple-choice-questions/",
+    "label": "Economics 103 exam MCQs (BCcampus/eCampusOntario Principles of Microeconomics, OpenStax adaptation)"
+   }
+  },
+  {
+   "id": "ECO101-Marginal-Analysis-25",
+   "topic": "Marginal Analysis",
+   "text": "According to marginal analysis, optimal decision-making involves taking actions whenever:",
+   "opts": [
+    "Marginal benefit is positive regardless of cost",
+    "Marginal cost is zero",
+    "Marginal benefit exceeds marginal cost",
+    "Total benefit equals total cost"
+   ],
+   "answer": 2,
+   "explanation": "Marginal analysis says expand an activity while marginal benefit exceeds marginal cost.",
+   "source": {
+    "type": "web",
+    "url": "https://ecampusontario.pressbooks.pub/uvicmicroeconomics/chapter/topic-3-multiple-choice-questions/",
+    "label": "Economics 103 exam MCQs (BCcampus/eCampusOntario Principles of Microeconomics, OpenStax adaptation)"
+   }
+  },
+  {
+   "id": "ECO101-Demand-26",
+   "topic": "Demand",
+   "text": "A decrease in quantity demanded (not a decrease in demand) is graphically represented by:",
+   "opts": [
+    "A leftward shift of the demand curve",
+    "A rightward shift of the demand curve",
+    "A movement up and to the left along the demand curve",
+    "A movement down and to the right along the demand curve"
+   ],
+   "answer": 2,
+   "explanation": "A higher own-price reduces quantity demanded as a movement up the curve; shifts reflect non-price factors.",
+   "source": {
+    "type": "web",
+    "url": "https://ecampusontario.pressbooks.pub/uvicmicroeconomics/chapter/topic-3-multiple-choice-questions/",
+    "label": "Economics 103 exam MCQs (BCcampus/eCampusOntario Principles of Microeconomics, OpenStax adaptation)"
+   }
+  },
+  {
+   "id": "ECO101-Related-Goods-27",
+   "topic": "Related Goods",
+   "text": "If goods X and Y are substitutes, an increase in the price of X will result in:",
+   "opts": [
+    "A decrease in the equilibrium quantity of Y",
+    "An increase in the equilibrium quantity of Y",
+    "No change in the market for Y",
+    "A decrease in demand for Y"
+   ],
+   "answer": 1,
+   "explanation": "When substitutes are involved, a higher price for X pushes consumers toward Y, raising Y's demand and equilibrium quantity.",
+   "source": {
+    "type": "web",
+    "url": "https://ecampusontario.pressbooks.pub/uvicmicroeconomics/chapter/topic-3-multiple-choice-questions/",
+    "label": "Economics 103 exam MCQs (BCcampus/eCampusOntario Principles of Microeconomics, OpenStax adaptation)"
+   }
+  },
+  {
+   "id": "ECO101-Demand-28",
+   "topic": "Demand",
+   "text": "If cookies are a normal good and consumer incomes increase, we would expect:",
+   "opts": [
+    "An increase in equilibrium price and quantity",
+    "A decrease in equilibrium price and quantity",
+    "A decrease in price with an increase in quantity",
+    "No change in the cookie market"
+   ],
+   "answer": 0,
+   "explanation": "Higher income raises demand for a normal good, increasing both equilibrium price and quantity.",
+   "source": {
+    "type": "web",
+    "url": "https://ecampusontario.pressbooks.pub/uvicmicroeconomics/chapter/topic-3-multiple-choice-questions/",
+    "label": "Economics 103 exam MCQs (BCcampus/eCampusOntario Principles of Microeconomics, OpenStax adaptation)"
+   }
+  }
+ ],
+ "caseStudies": []
+}

@@ -1,0 +1,1170 @@
+{
+ "code": "BUA101",
+ "title": "Introduction to Business I",
+ "questions": [
+  {
+   "id": "BUA101-Mock-Exam-1",
+   "topic": "Mock Exam",
+   "text": "The primary purpose of a business, as defined in the course glossary, is to:",
+   "opts": [
+    "Provide goods and services to customers to achieve profit",
+    "Eliminate all competition in the market",
+    "Operate only for government benefit",
+    "Employ as many people as possible"
+   ],
+   "answer": 0,
+   "explanation": "Business provides goods and services to customers with a profit objective.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-2",
+   "topic": "Mock Exam",
+   "text": "Which business form is generally owned and managed by one person?",
+   "opts": [
+    "Corporation",
+    "Sole proprietorship",
+    "Joint venture",
+    "Partnership"
+   ],
+   "answer": 1,
+   "explanation": "A sole proprietorship is owned by one person.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-3",
+   "topic": "Mock Exam",
+   "text": "A major disadvantage of a sole proprietorship is:",
+   "opts": [
+    "Shared ownership with many shareholders",
+    "Lack of direct control by the owner",
+    "Unlimited liability of the owner",
+    "Mandatory public listing of shares"
+   ],
+   "answer": 2,
+   "explanation": "The owner can be personally responsible for business debts.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-4",
+   "topic": "Mock Exam",
+   "text": "A partnership agreement primarily helps partners to:",
+   "opts": [
+    "Remove the need for business decisions",
+    "Define the terms of their business relationship",
+    "Eliminate all business risks",
+    "Avoid every form of regulation"
+   ],
+   "answer": 1,
+   "explanation": "The agreement records the partners’ arrangements.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-5",
+   "topic": "Mock Exam",
+   "text": "A corporation is distinguished by:",
+   "opts": [
+    "Having no separate legal existence",
+    "Being owned by only one person in every case",
+    "A separate legal identity from its owners",
+    "Having unlimited liability for every shareholder"
+   ],
+   "answer": 2,
+   "explanation": "A corporation has a legal identity separate from its owners.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-6",
+   "topic": "Mock Exam",
+   "text": "A rise in interest rates is primarily an example of a change in the:",
+   "opts": [
+    "Economic environment",
+    "Internal reporting structure",
+    "Business logo",
+    "Employee job title"
+   ],
+   "answer": 0,
+   "explanation": "Interest rates are an economic factor.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-7",
+   "topic": "Mock Exam",
+   "text": "Which is part of a business’s specific environment?",
+   "opts": [
+    "Global climate patterns",
+    "Customers and suppliers",
+    "The general level of technological development worldwide",
+    "The national economy alone"
+   ],
+   "answer": 1,
+   "explanation": "Customers and suppliers are specific stakeholders.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-8",
+   "topic": "Mock Exam",
+   "text": "Government regulation can help protect consumers by:",
+   "opts": [
+    "Preventing every business from making profit",
+    "Removing the need for product standards",
+    "Setting and enforcing relevant safety standards",
+    "Replacing all private businesses"
+   ],
+   "answer": 2,
+   "explanation": "Regulation can establish and enforce safety requirements.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-9",
+   "topic": "Mock Exam",
+   "text": "An entrepreneur’s central role is to:",
+   "opts": [
+    "Identify opportunities and assume the risk of starting a venture",
+    "Purchase products only for personal use",
+    "Avoid all uncertainty",
+    "Perform only routine clerical work"
+   ],
+   "answer": 0,
+   "explanation": "Entrepreneurs identify opportunities and take risks.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-Mock-Exam-10",
+   "topic": "Mock Exam",
+   "text": "Business ethics primarily concerns:",
+   "opts": [
+    "Maximising sales regardless of conduct",
+    "Principles of right and responsible conduct in business",
+    "Avoiding all communication with stakeholders",
+    "Replacing business objectives with advertising Section A answer key Q Answer Reason 1 A Business provides goods and services to customers with a profit objective. 2 B A sole proprietorship is owned by one person. 3 C The owner can be personally responsible for business debts. 4 B The agreement records the partners’ arrangements. 5 C A corporation has a legal identity separate from its owners. 6 A Interest rates are an economic factor. 7 B Customers and suppliers are specific stakeholders. 8 C Regulation can establish and enforce safety requirements. 9 A Entrepreneurs identify opportunities and take risks. 10 B Ethics concerns responsible and acceptable conduct."
+   ],
+   "answer": 1,
+   "explanation": "Ethics concerns responsible",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_mock Section A (printed answer key)"
+   }
+  },
+  {
+   "id": "BUA101-General-11",
+   "topic": "General",
+   "text": "Which of the following is a manifestation of organisational culture?",
+   "opts": [
+    "Exchange rates",
+    "Corporate values",
+    "National income",
+    "Inflation"
+   ],
+   "answer": 1,
+   "explanation": "The course lists five manifestations of culture: corporate values, organisational climate, management style, organisational behaviour and structure. Exchange rates and inflation are macroeconomic conditions, not culture.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-12",
+   "topic": "General",
+   "text": "Which factor represents the beliefs and values of an organisation's founders?",
+   "opts": [
+    "Competitors",
+    "Organisational climate",
+    "Founders' philosophy",
+    "Labour turnover"
+   ],
+   "answer": 2,
+   "explanation": "Founders' philosophy is the first listed influence on culture: the beliefs, values and leadership approach of the founders establish the organisation's original culture, which later practices build on.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-13",
+   "topic": "General",
+   "text": "Which of these is an effect of organisational culture?",
+   "opts": [
+    "Employee motivation",
+    "Ocean currents",
+    "Rainfall",
+    "Geographical latitude"
+   ],
+   "answer": 0,
+   "explanation": "Culture shapes employee attitudes and behaviour, and the course lists motivation, labour turnover, productivity and efficiency as its effects. Ocean currents, rainfall and latitude are physical-geography distractors.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-14",
+   "topic": "General",
+   "text": "What is the first step in the cultural transformation approach described in the Miva case study?",
+   "opts": [
+    "Dismiss all employees",
+    "Conduct a cultural assessment",
+    "Change the company name",
+    "Stop employee training"
+   ],
+   "answer": 1,
+   "explanation": "Step 1 of the case-study model is a cultural assessment: examine existing norms and practices to identify what needs to change BEFORE redefining values or launching programmes.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-15",
+   "topic": "General",
+   "text": "Who is expected to help redefine Miva Company's values?",
+   "opts": [
+    "Only external competitors",
+    "A cross-functional team",
+    "Customers alone",
+    "Government officials alone"
+   ],
+   "answer": 1,
+   "explanation": "The case study specifies a cross-functional team - people from different parts of the business collaborating - so new values reflect the whole organisation rather than one group's view.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-16",
+   "topic": "General",
+   "text": "Which activity helps build the capabilities needed for cultural change?",
+   "opts": [
+    "Training programmes",
+    "Ignoring performance",
+    "Avoiding communication",
+    "Stopping evaluation"
+   ],
+   "answer": 0,
+   "explanation": "Training programmes (step 3): they develop the skills and behaviours employees need to actually live the desired culture; ignoring performance or stopping training undermines change.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-17",
+   "topic": "General",
+   "text": "Which factor can influence organisational culture through past practices and traditions?",
+   "opts": [
+    "Organisational history",
+    "Daily temperature",
+    "Currency symbols",
+    "Office colour alone"
+   ],
+   "answer": 0,
+   "explanation": "Organisational history: accumulated experiences, traditions and past decisions shape current attitudes and 'how things are done here'.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-18",
+   "topic": "General",
+   "text": "Why should an organisation continuously evaluate cultural change?",
+   "opts": [
+    "To prevent all future change",
+    "To monitor progress and make adjustments",
+    "To eliminate collaboration",
+    "To avoid strategic goals"
+   ],
+   "answer": 1,
+   "explanation": "Step 5 of the model: continuous evaluation monitors progress and allows adjustments - without it, the organisation cannot tell whether the change is taking hold or drifting from its goals.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-19",
+   "topic": "General",
+   "text": "Which is NOT listed in the course summary as a manifestation of culture?",
+   "opts": [
+    "Management style",
+    "Organisational structure",
+    "Organisational climate",
+    "Exchange-rate policy"
+   ],
+   "answer": 3,
+   "explanation": "The summary lists management style, organisational structure and organisational climate (among others). Exchange-rate policy is a government macroeconomic instrument, not a cultural manifestation.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-20",
+   "topic": "General",
+   "text": "A positive organisational culture can contribute to which outcome?",
+   "opts": [
+    "Improved collaboration and performance",
+    "Guaranteed profits in every situation",
+    "The elimination of all competition",
+    "The end of all organisational change"
+   ],
+   "answer": 0,
+   "explanation": "The course links positive culture to improved collaboration, engagement and performance. It does not guarantee profits, eliminate competition, or end change - those options overstate the effect.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_week12_quiz (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-21",
+   "topic": "General",
+   "text": "A measure used to track progress towards a business target is called a:",
+   "opts": [
+    "CSF",
+    "KPI",
+    "Business model",
+    "Reward scheme"
+   ],
+   "answer": 1,
+   "explanation": "A KPI (Key Performance Indicator) is a measurable value that tracks progress toward a specific target. A CSF identifies the critical AREAS that must go right; it is not itself a measure.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-22",
+   "topic": "General",
+   "text": "Which of the following is a financial KPI?",
+   "opts": [
+    "Employee morale",
+    "Revenue growth",
+    "Waste reduction",
+    "Customer loyalty"
+   ],
+   "answer": 1,
+   "explanation": "Revenue growth is measured directly in money terms. Employee morale, waste reduction and customer loyalty matter, but they are non-financial (operational/qualitative) indicators.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-23",
+   "topic": "General",
+   "text": "A critical success factor identifies:",
+   "opts": [
+    "Every activity in a business",
+    "The essential areas for achieving organisational goals",
+    "Only employee salaries",
+    "The company's annual expenses"
+   ],
+   "answer": 1,
+   "explanation": "CSFs are the essential areas where things must go RIGHT for the organisation to achieve its goals - e.g. quality or customer service - not routine activities or expenses.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-24",
+   "topic": "General",
+   "text": "Which is an example of an intrinsic reward?",
+   "opts": [
+    "Commission",
+    "Basic salary",
+    "Sense of achievement",
+    "Transport allowance"
+   ],
+   "answer": 2,
+   "explanation": "Intrinsic rewards arise from the personal satisfaction of the work itself: achievement, autonomy, growth, purpose. Commission, salary and allowances are financial (extrinsic) rewards.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-25",
+   "topic": "General",
+   "text": "Which is a non-monetary reward?",
+   "opts": [
+    "Profit sharing",
+    "Monthly salary",
+    "Sales commission",
+    "Professional development opportunity"
+   ],
+   "answer": 3,
+   "explanation": "Professional development (training, growth opportunities) rewards without direct payment. Profit sharing, salary and commission are all financial payments.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-26",
+   "topic": "General",
+   "text": "The main purpose of total reward is to:",
+   "opts": [
+    "Reward managers only",
+    "Combine financial and non-financial rewards",
+    "Eliminate employee benefits",
+    "Replace all salaries with bonuses"
+   ],
+   "answer": 1,
+   "explanation": "Total reward COMBINES financial elements (pay, bonuses, benefits) with non-financial ones (recognition, development, work-life balance) to motivate employees as a whole, rather than relying on pay alone.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-27",
+   "topic": "General",
+   "text": "Which of these is an external driver of organisational change?",
+   "opts": [
+    "Leadership succession",
+    "Low employee morale",
+    "New government regulations",
+    "Internal restructuring"
+   ],
+   "answer": 2,
+   "explanation": "New government regulations originate OUTSIDE the organisation and force adaptation. Leadership succession, low morale and internal restructuring are internal drivers.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-28",
+   "topic": "General",
+   "text": "Which principle helps reduce resistance to change?",
+   "opts": [
+    "Withholding information",
+    "Employee engagement",
+    "Ignoring feedback",
+    "Avoiding training"
+   ],
+   "answer": 1,
+   "explanation": "Employee engagement: involving people in the change builds understanding and ownership. Withholding information fuels rumour and fear, which increase resistance.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-29",
+   "topic": "General",
+   "text": "Improving an existing production workflow is an example of:",
+   "opts": [
+    "Process innovation",
+    "Social innovation",
+    "Intrinsic reward",
+    "Financial KPI"
+   ],
+   "answer": 0,
+   "explanation": "Process innovation: finding better ways of doing existing work. It contrasts with product innovation (new goods/services) and is not a reward or a KPI.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-30",
+   "topic": "General",
+   "text": "A business reviews performance data and corrects problems. This illustrates:",
+   "opts": [
+    "Continuous performance improvement",
+    "Resistance to change",
+    "Intrinsic motivation only",
+    "Market segmentation"
+   ],
+   "answer": 0,
+   "explanation": "Continuous performance improvement: systematically reviewing results and fixing problems in an ongoing cycle - the opposite of resistance to change, and unrelated to segmentation or intrinsic motivation.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_additional_10 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-31",
+   "topic": "General",
+   "text": "Which form of business is generally owned by one individual?",
+   "opts": [
+    "Sole proprietorship",
+    "Partnership",
+    "Public corporation",
+    "Cooperative only"
+   ],
+   "answer": 0,
+   "explanation": "A sole proprietorship: one person owns, usually manages, receives the profit and personally bears the risks and liabilities (course model answer). Partnerships involve two or more owners.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-32",
+   "topic": "General",
+   "text": "Which is an example of an economic factor affecting a business?",
+   "opts": [
+    "A company's logo",
+    "Inflation",
+    "An employee's job title",
+    "Office seating arrangement"
+   ],
+   "answer": 1,
+   "explanation": "Inflation is an economy-wide condition in the business environment (it raises input and borrowing costs). A logo, a job title or office seating are internal business decisions.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-33",
+   "topic": "General",
+   "text": "Who primarily identifies business opportunities and assumes entrepreneurial risk?",
+   "opts": [
+    "Consumer",
+    "Entrepreneur",
+    "Regulator",
+    "Supplier"
+   ],
+   "answer": 1,
+   "explanation": "The entrepreneur: the course's answer guide distinguishes the entrepreneur - who spots opportunities and bears risk - from the manager, who coordinates resources and runs operations.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-34",
+   "topic": "General",
+   "text": "What is the main purpose of most business activities?",
+   "opts": [
+    "To satisfy needs and wants, usually for profit",
+    "To avoid all competition",
+    "To employ every member of society",
+    "To eliminate business risks"
+   ],
+   "answer": 0,
+   "explanation": "The course defines business as the production or provision of goods and services to satisfy needs and wants, usually for profit - satisfying customers IS the route to profit, not an alternative to it.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-35",
+   "topic": "General",
+   "text": "Who starts a business and takes the risk of running it?",
+   "opts": [
+    "Consumer",
+    "Entrepreneur",
+    "Worker",
+    "Auditor"
+   ],
+   "answer": 1,
+   "explanation": "The entrepreneur starts the venture and carries its risk; consumers buy, workers provide labour, auditors only check records.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-36",
+   "topic": "General",
+   "text": "A business owned by one person is called a:",
+   "opts": [
+    "Corporation",
+    "Partnership",
+    "Sole proprietorship",
+    "Joint venture"
+   ],
+   "answer": 2,
+   "explanation": "A sole proprietorship - the simplest ownership form: one owner who typically manages the business, keeps the profit and bears unlimited liability.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-37",
+   "topic": "General",
+   "text": "What is one main advantage of a partnership?",
+   "opts": [
+    "There can never be disagreement",
+    "All partners have no risk",
+    "It requires no capital",
+    "Partners can combine skills and capital"
+   ],
+   "answer": 3,
+   "explanation": "Partners pool capital, combine complementary skills and knowledge, and share responsibilities - the course's three listed advantages. Disagreements are a known risk, not an advantage.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-38",
+   "topic": "General",
+   "text": "Which is an example of an external business factor?",
+   "opts": [
+    "Staff morale",
+    "Management style",
+    "Government policy",
+    "Internal procedures"
+   ],
+   "answer": 2,
+   "explanation": "Government policy comes from outside the firm and shapes what it may do (taxes, regulation). Staff morale, management style and internal procedures all originate within the business.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-39",
+   "topic": "General",
+   "text": "Which of the following is part of the marketing mix?",
+   "opts": [
+    "Promotion",
+    "Recruitment",
+    "Auditing",
+    "Warehousing only"
+   ],
+   "answer": 0,
+   "explanation": "Promotion - one of the four Ps (product, price, place, promotion). Recruitment is HR, auditing is accounting; warehousing is logistics, not one of the four Ps.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-40",
+   "topic": "General",
+   "text": "What is market segmentation?",
+   "opts": [
+    "Increasing every product's price",
+    "Dividing a market into customer groups",
+    "Employing more workers",
+    "Reducing all production"
+   ],
+   "answer": 1,
+   "explanation": "Dividing a heterogeneous market into distinct customer groups (by need, income, location or behaviour) so each group can be served and targeted more effectively.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-41",
+   "topic": "General",
+   "text": "Which statement best describes accounting?",
+   "opts": [
+    "Only selling products",
+    "Only paying salaries",
+    "Only advertising goods",
+    "Recording, analysing and reporting financial transactions"
+   ],
+   "answer": 3,
+   "explanation": "Accounting is the process of recording, analysing and REPORTING financial transactions so stakeholders can make informed decisions - far broader than any single activity like selling or paying salaries.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-42",
+   "topic": "General",
+   "text": "What does a balance sheet show?",
+   "opts": [
+    "Only monthly sales",
+    "Only employee attendance",
+    "Assets, liabilities and equity at a given date",
+    "Only advertising costs"
+   ],
+   "answer": 2,
+   "explanation": "The statement of financial position shows assets, liabilities and equity AT A GIVEN DATE, expressing the accounting equation: assets = liabilities + equity.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-43",
+   "topic": "General",
+   "text": "Which is a fixed cost within a relevant activity range?",
+   "opts": [
+    "Rent that remains unchanged",
+    "Raw materials used per unit",
+    "Sales commission per sale",
+    "Packaging used per product"
+   ],
+   "answer": 0,
+   "explanation": "Rent stays the same regardless of output within a relevant range. Raw materials, per-unit commissions and packaging all vary directly with the level of activity, making them variable costs.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-44",
+   "topic": "General",
+   "text": "Which inventory consists of products still being manufactured?",
+   "opts": [
+    "Finished goods",
+    "Work in progress",
+    "Office equipment",
+    "Accounts receivable"
+   ],
+   "answer": 1,
+   "explanation": "Work in progress: partly completed goods still on the production line. Finished goods are complete; office equipment is a fixed asset; accounts receivable is money owed.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-45",
+   "topic": "General",
+   "text": "What is the main purpose of stock control?",
+   "opts": [
+    "To keep unlimited stock",
+    "To stop all sales",
+    "To avoid recording stock",
+    "To maintain suitable inventory levels"
+   ],
+   "answer": 3,
+   "explanation": "To maintain suitable inventory levels: enough stock to meet demand without tying up capital in excess inventory or suffering stockouts and lost sales.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-46",
+   "topic": "General",
+   "text": "Which HR function involves finding suitable applicants for a vacancy?",
+   "opts": [
+    "Recruitment",
+    "Budgeting",
+    "Promotion pricing",
+    "Stock valuation"
+   ],
+   "answer": 0,
+   "explanation": "Recruitment: attracting and identifying suitable candidates for a vacancy. Selection (choosing among them), training and appraisal come later in the HR cycle.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-47",
+   "topic": "General",
+   "text": "Which is a monetary reward?",
+   "opts": [
+    "Personal pride",
+    "Praise alone",
+    "Salary",
+    "A sense of achievement"
+   ],
+   "answer": 2,
+   "explanation": "A salary is a direct financial payment. Personal pride, praise and sense of achievement are intrinsic (non-financial) rewards - they satisfy psychological needs, not financial ones.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-48",
+   "topic": "General",
+   "text": "What does a KPI measure?",
+   "opts": [
+    "Only a company's history",
+    "Performance against an objective or target",
+    "The number of competitors alone",
+    "Employee personality alone"
+   ],
+   "answer": 1,
+   "explanation": "A KPI measures performance against a specific objective or target (e.g. monthly sales growth). It is a forward-looking management tool, not a record of history or personality.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-49",
+   "topic": "General",
+   "text": "What does a CSF identify?",
+   "opts": [
+    "A staff member's salary",
+    "A company's daily cash balance only",
+    "A product's colour",
+    "A factor critical to organisational success"
+   ],
+   "answer": 3,
+   "explanation": "A CSF identifies a factor CRITICAL to organisational success - the limited set of areas where things must go right, such as product quality or customer trust.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-50",
+   "topic": "General",
+   "text": "Which can influence organisational culture?",
+   "opts": [
+    "Founders' philosophy",
+    "Only the office building's colour",
+    "Only the number of computers",
+    "Only the company's bank balance"
+   ],
+   "answer": 0,
+   "explanation": "Founders' philosophy is the course's first-listed influence on culture. The building's colour, computer count or bank balance are not among the four influences (founders, history, socio-cultural factors, competitors).",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-51",
+   "topic": "General",
+   "text": "What is change management?",
+   "opts": [
+    "Avoiding all new ideas",
+    "Removing all employees",
+    "Managing movement towards a desired future state",
+    "Keeping every process unchanged"
+   ],
+   "answer": 2,
+   "explanation": "Change management is the structured process of moving an organisation from its current state to a desired future state - guiding people, processes and culture through the transition.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-52",
+   "topic": "General",
+   "text": "Which is a likely reason employees resist change?",
+   "opts": [
+    "Clear communication in every case",
+    "Fear and uncertainty",
+    "Adequate training in every case",
+    "Full understanding of the change"
+   ],
+   "answer": 1,
+   "explanation": "Fear and uncertainty: people resist when they cannot predict how change will affect their jobs, status or routines - which is why communication and training reduce resistance.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-General-53",
+   "topic": "General",
+   "text": "Which action can help an organisation encourage innovation?",
+   "opts": [
+    "Punish every new idea",
+    "Prevent staff from sharing ideas",
+    "Ignore customer feedback",
+    "Encourage useful ideas and improvement"
+   ],
+   "answer": 3,
+   "explanation": "Encouraging useful ideas and improvement: welcoming suggestions and rewarding experimentation fosters innovation. Punishing ideas, silencing staff or ignoring customers suppresses it.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - BUA_practice_test_1 (key authored from course content)"
+   }
+  },
+  {
+   "id": "BUA101-Nature-of-Business-54",
+   "topic": "Nature of Business",
+   "text": "According to the course's Section B model answer, business is defined as an activity involving:",
+   "opts": [
+    "Only trading of imported goods",
+    "Production or provision of goods and services to satisfy needs and wants, usually for profit",
+    "Any government revenue activity",
+    "Employment creation only"
+   ],
+   "answer": 1,
+   "explanation": "The model answer defines business as production/provision of goods and services to satisfy needs and wants, usually for profit.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 short-answer Q1"
+   }
+  },
+  {
+   "id": "BUA101-Forms-of-Ownership-55",
+   "topic": "Forms of Ownership",
+   "text": "Which is a characteristic of a sole proprietorship per the course?",
+   "opts": [
+    "Owned by two or more people",
+    "The owner bears the business risks and liabilities",
+    "Liability is always limited",
+    "Owned by the government"
+   ],
+   "answer": 1,
+   "explanation": "The model answer: one owner, usually self-managed, receives profit, and bears risks and liabilities.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 short-answer Q3"
+   }
+  },
+  {
+   "id": "BUA101-Forms-of-Ownership-56",
+   "topic": "Forms of Ownership",
+   "text": "Which is an advantage of a partnership listed in the course?",
+   "opts": [
+    "No possibility of disagreement",
+    "Partners combine capital, skills and shared responsibilities",
+    "Unlimited life guaranteed",
+    "No risk for any partner"
+   ],
+   "answer": 1,
+   "explanation": "The model answer lists combining capital, combining skills and knowledge, and sharing responsibilities as partnership advantages.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 short-answer Q5"
+   }
+  },
+  {
+   "id": "BUA101-Entrepreneurship-57",
+   "topic": "Entrepreneurship",
+   "text": "In the course's comparison, the PRIMARY distinction between an entrepreneur and a manager is that the entrepreneur:",
+   "opts": [
+    "Coordinates routine operations",
+    "Identifies opportunities and assumes business risk",
+    "Approves staff leave",
+    "Prepares the trial balance"
+   ],
+   "answer": 1,
+   "explanation": "The answer guide: the entrepreneur identifies opportunities and assumes risk; the manager coordinates resources and makes operational decisions.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 Question 3"
+   }
+  },
+  {
+   "id": "BUA101-Business-Environment-58",
+   "topic": "Business Environment",
+   "text": "Which set of business-environment factors does the Nigerian business terrain reading identify?",
+   "opts": [
+    "Political, economic, social, technological, ecological and legal",
+    "Only internal HR factors",
+    "Marketing mix factors only",
+    "Accounting factors only"
+   ],
+   "answer": 0,
+   "explanation": "The guide lists political, economic, social, technological, ecological and legal factors affecting Nigerian businesses.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 Question 2"
+   }
+  },
+  {
+   "id": "BUA101-Marketing-59",
+   "topic": "Marketing",
+   "text": "The marketing mix component among the following is:",
+   "opts": [
+    "Promotion",
+    "Recruitment",
+    "Auditing",
+    "Warehousing only"
+   ],
+   "answer": 0,
+   "explanation": "Promotion is one of the marketing mix elements; the others listed are business functions outside the mix.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 Practice Test 1 Q6"
+   }
+  },
+  {
+   "id": "BUA101-Business-Accounting-Basics-60",
+   "topic": "Business Accounting Basics",
+   "text": "A balance sheet (statement of financial position) shows:",
+   "opts": [
+    "Monthly sales only",
+    "Assets, liabilities and equity at a given date",
+    "Cash movements only",
+    "Advertising costs only"
+   ],
+   "answer": 1,
+   "explanation": "The course describes the balance sheet as showing assets, liabilities and equity at a given date.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 Practice Test 1 Q9"
+   }
+  },
+  {
+   "id": "BUA101-Government-and-Ethics-61",
+   "topic": "Government and Ethics",
+   "text": "Government intervention in business is justified in the course by all of the following EXCEPT:",
+   "opts": [
+    "Regulation and consumer protection",
+    "Fair competition",
+    "Public welfare",
+    "Eliminating all private enterprise"
+   ],
+   "answer": 3,
+   "explanation": "The answer guide lists regulation, consumer protection, fair competition, public welfare and compliance - not eliminating private enterprise.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - BUA 101 Question 4"
+   }
+  },
+  {
+   "id": "BUA101-Motivation-Theories-62",
+   "topic": "Motivation Theories",
+   "text": "Theory Y (McGregor) assumes that people inherently:",
+   "opts": [
+    "Avoid responsibility and need close control",
+    "Want to work and can exercise self-direction",
+    "Are motivated only by money",
+    "Work only to satisfy hygiene factors"
+   ],
+   "answer": 1,
+   "explanation": "Theory Y holds that work is natural and employees can exercise self-direction and self-control.",
+   "source": {
+    "type": "web",
+    "url": "https://mcqss.com/introduction-to-business-mcq",
+    "label": "Introduction To Business MCQs and Answers (mcqss.com) - key authored from standard management theory"
+   }
+  },
+  {
+   "id": "BUA101-Organisational-Structure-63",
+   "topic": "Organisational Structure",
+   "text": "The process of grouping jobs into logical units within an organisation is known as:",
+   "opts": [
+    "Delegation of authority",
+    "Job specialisation",
+    "Departmentalisation",
+    "The chain of command"
+   ],
+   "answer": 2,
+   "explanation": "Departmentalisation is the grouping of jobs into logical units such as departments or divisions.",
+   "source": {
+    "type": "web",
+    "url": "https://mcqss.com/introduction-to-business-mcq",
+    "label": "Introduction To Business MCQs and Answers (mcqss.com) - key authored from standard management theory"
+   }
+  },
+  {
+   "id": "BUA101-Organisational-Structure-64",
+   "topic": "Organisational Structure",
+   "text": "Which personnel are directly responsible for achieving organisational goals?",
+   "opts": [
+    "Staff personnel",
+    "Line personnel",
+    "Advisory specialists",
+    "External consultants"
+   ],
+   "answer": 1,
+   "explanation": "Line personnel hold authority in the direct chain of command and directly accomplish the organisation's goals.",
+   "source": {
+    "type": "web",
+    "url": "https://mcqss.com/introduction-to-business-mcq",
+    "label": "Introduction To Business MCQs and Answers (mcqss.com) - key authored from standard management theory"
+   }
+  },
+  {
+   "id": "BUA101-Entrepreneurship-65",
+   "topic": "Entrepreneurship",
+   "text": "Entrepreneurs tend to be:",
+   "opts": [
+    "Risk averse",
+    "Pessimistic",
+    "Optimistic",
+    "Dispassionate about outcomes"
+   ],
+   "answer": 2,
+   "explanation": "Entrepreneurial traits commonly cited include optimism and a willingness to accept calculated risk.",
+   "source": {
+    "type": "web",
+    "url": "https://mcqss.com/introduction-to-business-mcq",
+    "label": "Introduction To Business MCQs and Answers (mcqss.com) - key authored from standard management theory"
+   }
+  },
+  {
+   "id": "BUA101-Business-Planning-66",
+   "topic": "Business Planning",
+   "text": "For an entrepreneur, a business plan serves as:",
+   "opts": [
+    "Only a document for bank loans",
+    "A realistic evaluation of the venture's chances, its risks, and a game plan for managing the business",
+    "A legally required tax form",
+    "A substitute for market research"
+   ],
+   "answer": 1,
+   "explanation": "A business plan evaluates the venture's prospects, identifies key risks and acts as the management game plan.",
+   "source": {
+    "type": "web",
+    "url": "https://mcqss.com/introduction-to-business-mcq",
+    "label": "Introduction To Business MCQs and Answers (mcqss.com) - key authored from standard management theory"
+   }
+  },
+  {
+   "id": "BUA101-Goods-and-Services-67",
+   "topic": "Goods and Services",
+   "text": "Goods can be divided into:",
+   "opts": [
+    "Functional and aesthetic goods only",
+    "Required and desired goods only",
+    "Tangible and intangible assets only",
+    "Durable and nondurable goods"
+   ],
+   "answer": 3,
+   "explanation": "Consumer goods are commonly classified as durable or nondurable.",
+   "source": {
+    "type": "web",
+    "url": "https://mcqss.com/introduction-to-business-mcq",
+    "label": "Introduction To Business MCQs and Answers (mcqss.com) - key authored from standard management theory"
+   }
+  },
+  {
+   "id": "BUA101-Distribution-68",
+   "topic": "Distribution",
+   "text": "Franchising involves a ________ vertical marketing system.",
+   "opts": [
+    "Corporate",
+    "Administered",
+    "Contractual",
+    "Cooperative"
+   ],
+   "answer": 2,
+   "explanation": "Franchise systems are a form of contractual vertical marketing system linking franchisor and franchisee.",
+   "source": {
+    "type": "web",
+    "url": "https://mcqss.com/introduction-to-business-mcq",
+    "label": "Introduction To Business MCQs and Answers (mcqss.com) - key authored from standard management theory"
+   }
+  }
+ ],
+ "caseStudies": []
+}

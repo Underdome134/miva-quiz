@@ -1,0 +1,267 @@
+{
+ "code": "ACC101",
+ "title": "Introduction to Financial Accounting I",
+ "questions": [
+  {
+   "id": "ACC101-General-1",
+   "topic": "General",
+   "text": "Which accounting concept assumes that a business will continue operating for the foreseeable future?",
+   "opts": [
+    "Entity concept",
+    "Going concern concept",
+    "Prudence convention",
+    "Money measurement concept"
+   ],
+   "answer": 1,
+   "explanation": "Going concern: financial statements are prepared assuming the business will keep operating. This justifies valuing assets at cost (not forced-sale value) and treating them as usable over future periods.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ACC101-General-2",
+   "topic": "General",
+   "text": "An expense incurred but not yet paid at year-end is called:",
+   "opts": [
+    "A prepayment",
+    "A capital expenditure",
+    "An accrual",
+    "A drawing"
+   ],
+   "answer": 2,
+   "explanation": "Under the accrual basis, expenses are recognised when INCURRED, not when paid. An expense used up this year but unpaid at year-end is an accrual (a liability). A prepayment is the opposite: paid but relating to a future period.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ACC101-General-3",
+   "topic": "General",
+   "text": "The main purpose of a trial balance is to:",
+   "opts": [
+    "Calculate cash sales only",
+    "Check the arithmetical agreement of ledger balances",
+    "Replace financial statements",
+    "Record source documents"
+   ],
+   "answer": 1,
+   "explanation": "It lists every ledger balance so total debits can be checked against total credits - an arithmetic check of double-entry bookkeeping. It cannot detect complete omissions or wrong-account entries, and it never replaces the financial statements.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ACC101-General-4",
+   "topic": "General",
+   "text": "Which is an intangible asset?",
+   "opts": [
+    "Motor vehicle",
+    "Office furniture",
+    "Patent",
+    "Inventory"
+   ],
+   "answer": 2,
+   "explanation": "A patent has no physical substance but grants a legal right with future economic benefit - the Week 8 summary lists patents, trademarks, copyrights and goodwill as intangibles. Motor vehicles and furniture are tangible; inventory is a current asset.",
+   "source": {
+    "type": "course_pdf",
+    "label": "MIVA practice questions.pdf - mixed 12-Q test (key authored from course content)"
+   }
+  },
+  {
+   "id": "ACC101-Accruals-and-Prepayments-5",
+   "topic": "Accruals and Prepayments",
+   "text": "Insurance of N120,000 covers 12 months from 1 October; the accounting year ends 31 December. The year-end expense and prepayment are:",
+   "opts": [
+    "Expense N120,000; prepayment nil",
+    "Expense N30,000; prepayment N90,000",
+    "Expense N90,000; prepayment N30,000",
+    "Expense N10,000; prepayment N110,000"
+   ],
+   "answer": 1,
+   "explanation": "Monthly cost is N10,000; October-December uses 3 months (N30,000 expense) and 9 months (N90,000) are prepaid.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ACC 101 worked problem 1"
+   }
+  },
+  {
+   "id": "ACC101-Depreciation-6",
+   "topic": "Depreciation",
+   "text": "A machine costs N600,000 with residual value N60,000 and a six-year useful life. Annual straight-line depreciation is:",
+   "opts": [
+    "N100,000",
+    "N110,000",
+    "N90,000",
+    "N60,000"
+   ],
+   "answer": 2,
+   "explanation": "(600,000 - 60,000) / 6 = N90,000 per year.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ACC 101 worked problem 2"
+   }
+  },
+  {
+   "id": "ACC101-Depreciation-7",
+   "topic": "Depreciation",
+   "text": "Using the same machine (cost N600,000, residual N60,000, straight-line over 6 years), its carrying amount after two full years is:",
+   "opts": [
+    "N480,000",
+    "N420,000",
+    "N500,000",
+    "N510,000"
+   ],
+   "answer": 1,
+   "explanation": "Cost 600,000 minus two years of depreciation (2 x 90,000 = 180,000) gives N420,000.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ACC 101 worked problem 2"
+   }
+  },
+  {
+   "id": "ACC101-Accounting-Equation-8",
+   "topic": "Accounting Equation",
+   "text": "A business has assets of N850,000 and liabilities of N275,000. Equity is:",
+   "opts": [
+    "N1,125,000",
+    "N575,000",
+    "N850,000",
+    "N275,000"
+   ],
+   "answer": 1,
+   "explanation": "Accounting equation: Equity = Assets - Liabilities = 850,000 - 275,000 = N575,000.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ACC 101 worked problem 3"
+   }
+  },
+  {
+   "id": "ACC101-Tangible-and-Intangible-Assets-9",
+   "topic": "Tangible and Intangible Assets",
+   "text": "Which of the following is an intangible asset?",
+   "opts": [
+    "Motor vehicle",
+    "Office furniture",
+    "Patent",
+    "Inventory"
+   ],
+   "answer": 2,
+   "explanation": "The Week 8 summary identifies patents, trademarks, copyrights and goodwill as intangibles.",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ACC 101 Topic D"
+   }
+  },
+  {
+   "id": "ACC101-Tangible-and-Intangible-Assets-10",
+   "topic": "Tangible and Intangible Assets",
+   "text": "Amortisation is to intangible assets what ______ is to tangible assets.",
+   "opts": [
+    "Appreciation",
+    "Depreciation",
+    "Impairment only",
+    "Revaluation"
+   ],
+   "answer": 1,
+   "explanation": "The guide pairs depreciation (tangible assets) with amortisation (intangible assets).",
+   "source": {
+    "type": "theory_conversion",
+    "label": "MIVA practice questions.pdf - ACC 101 Topic D"
+   }
+  },
+  {
+   "id": "ACC101-Accruals-11",
+   "topic": "Accruals",
+   "text": "A business with a year end of 30 September receives an invoice for rent of 6,000 covering the six months to 31 December. At year end the required adjustment is:",
+   "opts": [
+    "A 4,000 prepayment",
+    "A 3,000 accrual",
+    "A 6,000 accrual",
+    "A 2,000 prepayment"
+   ],
+   "answer": 1,
+   "explanation": "October-December (3 months, 3,000) relates to the current period but is unpaid at 30 September, so it accrues.",
+   "source": {
+    "type": "web",
+    "url": "https://www.double-entry-bookkeeping.com/bookkeeping-basics/accruals-and-prepayments-quiz/",
+    "label": "Double Entry Bookkeeping - Quiz 57: Accruals and Prepayments (answer marked on page)"
+   }
+  },
+  {
+   "id": "ACC101-Prepayments-12",
+   "topic": "Prepayments",
+   "text": "A business pays an electricity bill of 900 for the three months to November 2021; its year end is 30 September 2021. At year end:",
+   "opts": [
+    "A 300 accrual is needed",
+    "A 600 prepayment is needed",
+    "A 900 prepayment is needed",
+    "No adjustment is needed"
+   ],
+   "answer": 1,
+   "explanation": "October and November (2 months, 600) are paid but relate to the next period, so 600 is prepaid.",
+   "source": {
+    "type": "web",
+    "url": "https://www.double-entry-bookkeeping.com/bookkeeping-basics/accruals-and-prepayments-quiz/",
+    "label": "Double Entry Bookkeeping - Quiz 57: Accruals and Prepayments (answer marked on page)"
+   }
+  },
+  {
+   "id": "ACC101-Prepayments-13",
+   "topic": "Prepayments",
+   "text": "A prepayment adjusting entry requires a debit to:",
+   "opts": [
+    "The expense account",
+    "The prepayment (asset) account",
+    "The cash account",
+    "The creditors account"
+   ],
+   "answer": 1,
+   "explanation": "Debit the prepayment asset and credit the expense to move the unused portion out of the period's expense.",
+   "source": {
+    "type": "web",
+    "url": "https://www.double-entry-bookkeeping.com/bookkeeping-basics/accruals-and-prepayments-quiz/",
+    "label": "Double Entry Bookkeeping - Quiz 57: Accruals and Prepayments (answer marked on page)"
+   }
+  },
+  {
+   "id": "ACC101-Accruals-14",
+   "topic": "Accruals",
+   "text": "Beginning electricity accrual is 5,000, the ending accrual is 6,000, and 8,000 is paid during the year. The electricity expense for the year is:",
+   "opts": [
+    "8,000",
+    "14,000",
+    "9,000",
+    "3,000"
+   ],
+   "answer": 2,
+   "explanation": "Expense = paid + closing accrual - opening accrual = 8,000 + 6,000 - 5,000 = 9,000.",
+   "source": {
+    "type": "web",
+    "url": "https://www.double-entry-bookkeeping.com/bookkeeping-basics/accruals-and-prepayments-quiz/",
+    "label": "Double Entry Bookkeeping - Quiz 57: Accruals and Prepayments (answer marked on page)"
+   }
+  },
+  {
+   "id": "ACC101-Prepayments-15",
+   "topic": "Prepayments",
+   "text": "A prepayment is best described as:",
+   "opts": [
+    "An expense for the current period not yet paid",
+    "An expense relating to a future period that has already been paid",
+    "A liability for services received",
+    "Revenue received in advance"
+   ],
+   "answer": 1,
+   "explanation": "Prepaid expenses relate to a future accounting period but have already been paid; they are shown as a current asset.",
+   "source": {
+    "type": "web",
+    "url": "https://www.double-entry-bookkeeping.com/bookkeeping-basics/accruals-and-prepayments-quiz/",
+    "label": "Double Entry Bookkeeping - Quiz 57: Accruals and Prepayments (answer marked on page)"
+   }
+  }
+ ],
+ "caseStudies": []
+}

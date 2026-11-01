@@ -1,0 +1,54 @@
+{
+ "banks": [
+  {
+   "code": "ACC101",
+   "title": "Introduction to Financial Accounting I",
+   "questions": 15
+  },
+  {
+   "code": "AMS101",
+   "title": "Management Studies",
+   "questions": 24
+  },
+  {
+   "code": "AMS103",
+   "title": "Computer and Information Systems",
+   "questions": 27
+  },
+  {
+   "code": "BUA101",
+   "title": "Introduction to Business I",
+   "questions": 68
+  },
+  {
+   "code": "ECO101",
+   "title": "Principles of Economics I",
+   "questions": 28
+  },
+  {
+   "code": "MIT8101",
+   "title": "Introduction to IT Management",
+   "questions": 80
+  },
+  {
+   "code": "MIT8103",
+   "title": "Advanced Database Systems",
+   "questions": 80
+  },
+  {
+   "code": "MIT8105",
+   "title": "Network Architecture & Protocols",
+   "questions": 80
+  },
+  {
+   "code": "MIT8107",
+   "title": "SDLC & Planning",
+   "questions": 80
+  },
+  {
+   "code": "MIT8113",
+   "title": "Strategic Role of IT in Digital Transformation",
+   "questions": 80
+  }
+ ]
+}

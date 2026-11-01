@@ -1,0 +1,1072 @@
+{
+ "code": "MIT8103",
+ "title": "Advanced Database Systems",
+ "questions": [
+  {
+   "id": "8103-1",
+   "topic": "tb-basics",
+   "text": "A government ministry keeps citizens' data in multiple paper files across departments. Different departments store the same citizen's name and address separately, leading to constant inconsistencies when citizens update their details.\n\nWhat fundamental data management concept does this scenario violate, and what would a properly designed database provide instead?",
+   "opts": [
+    "Normalisation — the ministry should use a single table for all data",
+    "Centralised, non-redundant storage — a database would store each citizen's data once, accessible to all departments",
+    "Data mining — the ministry needs to analyse patterns in citizen data",
+    "Concurrency control — multiple users are accessing data simultaneously"
+   ],
+   "answer": 1,
+   "explanation": "A database is an organised collection of structured data that eliminates redundancy by storing information once and making it accessible across the organisation. The scenario describes the classic pre-database problem: data stored in silos, causing inconsistency. Normalisation addresses redundancy within a database; data mining is for analysis; concurrency control manages simultaneous access.\n\n{\"A\":\"Normalisation is a technique applied within a database — the ministry doesn't yet have a database at all.\",\"B\":\"✓ Correct — a database replaces fragmented silos with centralised, consistent, non-redundant storage.\",\"C\":\"Data mining analyses existing data for patterns — it doesn't solve fragmented storage.\",\"D\":\"Concurrency control is a DBMS function for simultaneous access — the problem here is fragmentation, not simultaneity.\"}"
+  },
+  {
+   "id": "8103-2",
+   "topic": "tb-basics",
+   "text": "A hospital records clerk types \"450\" into a patient management system. When the system associates it with \"Blood Glucose Level (mg/dL): 450 — Patient Musa Aliyu — Recorded: 09:30 on 15 June 2026\", the value becomes actionable for the attending physician.\n\nWhat concept does this transformation from \"450\" to a full clinical record illustrate?",
+   "opts": [
+    "Data integrity",
+    "Data administration",
+    "The distinction between data and information",
+    "Database normalisation"
+   ],
+   "answer": 2,
+   "explanation": "\"450\" alone is a raw data item — a fact with no inherent meaning. When processed and associated with context (patient name, measurement type, timestamp), it becomes information — meaningful knowledge the physician can act on. This is the foundational distinction: data are raw facts; information is produced by processing data to reveal meaning.\n\n{\"A\":\"Data integrity refers to accuracy and consistency of stored data — not the data-to-information transformation.\",\"B\":\"Data administration involves centralising management responsibilities — not the meaning-making process.\",\"C\":\"✓ Correct — raw value with no context (data) → contextualised, actionable record (information).\",\"D\":\"Normalisation organises tables to reduce redundancy — not the conversion of raw facts into meaningful knowledge.\"}"
+  },
+  {
+   "id": "8103-3",
+   "topic": "tb-basics",
+   "text": "A retail chain's database environment includes Dell PowerEdge rack servers in an Abuja data centre, a Cisco network connecting 50 stores, Windows Server 2022 operating systems on each node, and store managers accessing the system through a web browser.\n\nWhich components constitute the \"database environment\" as defined in database theory?",
+   "opts": [
+    "Only the database software and the data it contains",
+    "Only the servers and storage hardware",
+    "The hardware, operating system platform, and the network through which users access the database",
+    "Only the users and their access permissions"
+   ],
+   "answer": 2,
+   "explanation": "A database environment consists of the hardware and operating system platform on which the database resides, plus the means (such as a network) through which users access it. The servers, OS, network, and browser access together constitute the environment. This environment influences what database model to use and how the system is implemented.\n\n{\"A\":\"The software and data are components within the environment — but the environment is broader.\",\"B\":\"Hardware alone is only one dimension — OS and network are equally part of the environment.\",\"C\":\"✓ Correct — hardware + OS + network = the database environment.\",\"D\":\"Users and permissions are part of the system but not the complete definition of the environment.\"}"
+  },
+  {
+   "id": "8103-4",
+   "topic": "tb-dbms",
+   "text": "A logistics company uses IBM DB2 to manage shipment records. When a dispatcher runs a query, DB2 intercepts the request, validates the user's permissions, retrieves the data from disk, and returns the result — without the dispatcher knowing where or how the data is physically stored.\n\nWhich core role does IBM DB2 play in this interaction?",
+   "opts": [
+    "It acts as the hardware layer storing the data physically",
+    "It acts as the DBMS — the software sitting between the physical database and the user, handling all access requests",
+    "It acts as the network protocol transmitting data between servers",
+    "It acts as the operating system managing file storage"
+   ],
+   "answer": 1,
+   "explanation": "A DBMS (Database Management System) is the software that sits between the physical database and the users. All requests for access are handled by the DBMS, which shields users from hardware-level details. IBM DB2 is a classic multi-user DBMS — like Oracle, Microsoft SQL Server, and Sybase — that handles access, security, and retrieval on behalf of users.\n\n{\"A\":\"Hardware is the physical infrastructure (disks, servers) — DB2 is software, not hardware.\",\"B\":\"✓ Correct — DBMS sits between physical storage and users, handling all requests and shielding hardware details.\",\"C\":\"Network protocols (TCP/IP) handle data transmission — not DB2's role.\",\"D\":\"The OS manages files and processes — the DBMS operates above the OS level.\"}"
+  },
+  {
+   "id": "8103-5",
+   "topic": "tb-dbms",
+   "text": "An oil company's DBA Adaobi is responsible for: deciding what data the company stores, choosing how it is physically organised on disk, setting up role-based access controls, designing the backup and recovery schedule, and liaising between IT and the operations department.\n\nWhich of Adaobi's listed responsibilities is NOT typically a Database Administrator function?",
+   "opts": [
+    "Deciding the information content of the database",
+    "Defining security and integrity checks",
+    "Writing the Python application code that queries the database",
+    "Monitoring performance and responding to changing requirements"
+   ],
+   "answer": 2,
+   "explanation": "Writing application code is the responsibility of Database Designers/Programmers, not the DBA. DBA responsibilities include: deciding information content, deciding storage structure and access strategy, liaising with users, defining backup/recovery strategy, defining security and integrity checks, and monitoring performance. Application development sits with programmers.\n\n{\"A\":\"Deciding information content is an explicit DBA responsibility.\",\"B\":\"Defining security and integrity checks is a core DBA duty.\",\"C\":\"✓ Correct — writing application code is the programmer's role, not the DBA's.\",\"D\":\"Monitoring performance and responding to changing requirements is a named DBA responsibility.\"}"
+  },
+  {
+   "id": "8103-6",
+   "topic": "tb-dbms",
+   "text": "A manufacturing firm's database stores three types of data: (1) the actual production records in tables, (2) information about the tables themselves — their names, field names, primary key definitions, and space allocation — and (3) the saved formats of standard monthly reports.\n\nMatch each data type to the correct database term.",
+   "opts": [
+    "(1) Metadata, (2) User Data, (3) Application Metadata",
+    "(1) User Data, (2) Metadata, (3) Application Metadata",
+    "(1) Application Metadata, (2) User Data, (3) Metadata",
+    "(1) User Data, (2) Application Metadata, (3) Metadata"
+   ],
+   "answer": 1,
+   "explanation": "User Data consists of the actual tables of data (production records). Metadata — \"data about data\" — is stored in system tables and describes the structure: table names, field names, primary keys, and space allocation. Application Metadata stores the structure and format of queries, reports, and other application components (the saved report formats).\n\n{\"A\":\"This reverses User Data and Metadata — the actual records are User Data, not Metadata.\",\"B\":\"✓ Correct — production records = User Data; table definitions = Metadata; report formats = Application Metadata.\",\"C\":\"Application Metadata and User Data are transposed here.\",\"D\":\"Application Metadata and Metadata are swapped.\"}"
+  },
+  {
+   "id": "8103-7",
+   "topic": "tb-dbms",
+   "text": "During a bank's system upgrade, the DBMS automatically restores all transaction records to their last consistent state after an unexpected power failure mid-transaction. Partial updates that had not yet been committed are rolled back.\n\nWhich DBMS function is demonstrated here?",
+   "opts": [
+    "Performance Optimisation",
+    "Data Definition",
+    "Concurrency and Data Recovery",
+    "Application Generation"
+   ],
+   "answer": 2,
+   "explanation": "Concurrency and Data Recovery handles both the concurrent access of records by multiple users AND the recovery of data after a system failure. Rolling back uncommitted partial updates after a power failure is a data recovery function — a key part of this combined DBMS capability. The DBMS ensures the database returns to its last consistent state.\n\n{\"A\":\"Performance Optimisation evaluates query execution plans to improve speed — not system recovery.\",\"B\":\"Data Definition involves defining/modifying record structures using DDL — not recovery.\",\"C\":\"✓ Correct — recovering from system failure and rolling back uncommitted data = concurrency and data recovery.\",\"D\":\"Application Generation creates menus, screens, and reports — not post-failure data restoration.\"}"
+  },
+  {
+   "id": "8103-8",
+   "topic": "tb-dbms",
+   "text": "A junior developer is tasked with building a web application that reads customer orders from a database. Her manager tells her: \"You don't need to know whether the orders are on SSD or magnetic disk, or how many servers we use — just write your SQL queries.\" The database handles everything else.\n\nWhich DBMS advantage is the manager describing?",
+   "opts": [
+    "Concurrent Access and Crash Recovery",
+    "Data Independence",
+    "Data Administration",
+    "Reduced Application Development Time"
+   ],
+   "answer": 1,
+   "explanation": "Data Independence means application programs are not exposed to details of data representation and storage. The DBMS provides an abstract view that hides hardware-level details (SSD vs disk, number of servers). The developer writes SQL without knowing or caring about physical storage — this is data independence in action.\n\n{\"A\":\"Concurrent Access and Crash Recovery deals with simultaneous user access and recovery — not storage transparency.\",\"B\":\"✓ Correct — developer isolated from physical storage details = data independence.\",\"C\":\"Data Administration involves centralised management of data by experienced professionals — not developer isolation.\",\"D\":\"Reduced Development Time is related but specifically refers to the speed of building applications — not the separation of storage from logic.\"}"
+  },
+  {
+   "id": "8103-9",
+   "topic": "tb-dbms",
+   "text": "A telecommunications company runs a nightly report that queries 200 million call records with complex aggregations. The DBMS evaluates three execution strategies — full table scan, indexed lookup, and partitioned parallel scan — and automatically selects the partitioned scan, completing the report in 4 minutes instead of 3 hours.\n\nWhich DBMS function is responsible for this 45x performance improvement?",
+   "opts": [
+    "Data Definition — the DDL interpreter parsed the report query",
+    "Concurrency Control — multiple users ran the report simultaneously",
+    "Performance Optimisation — the DBMS evaluated execution plans and chose the best one",
+    "Report Writer — the report generator formatted the output"
+   ],
+   "answer": 2,
+   "explanation": "Performance Optimisation: the DBMS has functions that optimise query performance by evaluating different execution plans and choosing the best one. The query processor accesses the data dictionary for statistics, evaluates strategies (full scan, indexed, partitioned), and selects the optimal plan. This is precisely why a 3-hour query completes in 4 minutes.\n\n{\"A\":\"The DDL interpreter handles data structure definitions — not query execution plan optimisation.\",\"B\":\"Concurrency Control manages simultaneous user access — not the speed of a single query.\",\"C\":\"✓ Correct — evaluating multiple execution plans and selecting the best = performance optimisation.\",\"D\":\"The Report Writer formats output presentation — it does not optimise how the data is retrieved.\"}"
+  },
+  {
+   "id": "8103-10",
+   "topic": "tb-dbms",
+   "text": "The components of a university's database management system include: (i) a component that creates and changes the logical structure of the database, (ii) a component for querying and modifying records, (iii) tools for creating data entry forms and reports, and (iv) controls over who can access what data and how backups are managed.\n\nIn the DBMS component framework, which component corresponds to item (ii)?",
+   "opts": [
+    "Data Definition",
+    "Data Manipulation",
+    "Application Generation",
+    "Data Administration"
+   ],
+   "answer": 1,
+   "explanation": "The DBMS has four main components: Data Definition (creating/changing logical structure), Data Manipulation (querying and modifying data — item ii), Application Generation (menus, screens, reports), and Data Administration (access control, backup, recovery). Item (ii) describes querying and modifying records — which is Data Manipulation.\n\n{\"A\":\"Data Definition handles the logical structure (CREATE TABLE, ALTER TABLE) — that is item (i).\",\"B\":\"✓ Correct — querying and making changes to information = Data Manipulation.\",\"C\":\"Application Generation creates forms and reports — that is item (iii).\",\"D\":\"Data Administration manages access and backup — that is item (iv).\"}"
+  },
+  {
+   "id": "8103-11",
+   "topic": "tb-dbms",
+   "text": "A supply chain company's DBA needs to find out: how many tables the database has, what fields are in the Orders table, which fields are primary keys, how much storage is allocated to each table, and what stored procedures exist. She queries the system catalog rather than the application tables.\n\nWhat is the DBA querying, and what does it contain?",
+   "opts": [
+    "The transaction log — records of all insert/update/delete operations",
+    "The data dictionary — metadata about the database structure, objects, and space allocation",
+    "The query processor — the engine that processes SQL statements",
+    "The application metadata — saved formats of reports and queries"
+   ],
+   "answer": 1,
+   "explanation": "A data dictionary is a reserved space within a database used to store information about the database itself — metadata. It contains: table names and field names, primary key fields, space allocation, stored procedures, and user permissions. It is a set of tables and views that can only be read, never manually altered. The DBA is reading the data dictionary.\n\n{\"A\":\"The transaction log records data operations (INSERT/UPDATE/DELETE) for recovery — not structural metadata.\",\"B\":\"✓ Correct — table counts, field names, primary keys, storage allocation = data dictionary metadata.\",\"C\":\"The query processor is software that processes SQL — not a catalog of structural information.\",\"D\":\"Application metadata stores report/query formats — not table structure and space allocation.\"}"
+  },
+  {
+   "id": "8103-12",
+   "topic": "tb-dbms",
+   "text": "A stock exchange processes 50,000 trades per second. The database must ensure that when Trader A's sell order matches Trader B's buy order, both records update simultaneously as a single indivisible operation. If either update fails, neither should persist.\n\nWhich ACID property is most critical to this requirement?",
+   "opts": [
+    "Consistency — the database must always be in a valid state",
+    "Isolation — trades must not interfere with each other",
+    "Atomicity — both updates must succeed or neither must persist",
+    "Durability — committed trades must survive system crashes"
+   ],
+   "answer": 2,
+   "explanation": "Atomicity ensures a transaction is treated as a single, indivisible unit — either all operations complete, or none do (full rollback). The sell-buy match requires both updates to succeed together or not at all. If one fails, the other must be reversed. This all-or-nothing characteristic is Atomicity.\n\n{\"A\":\"Consistency ensures valid state transitions — important, but not specifically the all-or-nothing property.\",\"B\":\"Isolation prevents interference between concurrent transactions — important for simultaneous trades, but not the all-or-nothing guarantee.\",\"C\":\"✓ Correct — both updates succeed or neither persists = Atomicity.\",\"D\":\"Durability ensures committed data survives crashes — important after a successful trade, not the match-or-rollback property.\"}"
+  },
+  {
+   "id": "8103-13",
+   "topic": "tb-dbms",
+   "text": "An insurance company's DBMS enforces the rule: \"No claim can exceed ₦5 million unless approved by a senior adjuster.\" When a data entry clerk tries to insert a ₦6 million claim without an approver, the DBMS automatically rejects the operation.\n\nWhich DBMS function is enforcing this business rule?",
+   "opts": [
+    "Performance Optimisation",
+    "Data Integrity and Security — enforcing integrity constraints",
+    "Report Writing — the claim report triggered a validation check",
+    "Data Definition — the DDL interpreter blocked the insert"
+   ],
+   "answer": 1,
+   "explanation": "Data Integrity and Security: if data is always accessed through the DBMS, it can enforce integrity constraints — for example, checking that department budget is not exceeded before inserting salary data. Similarly, the DBMS can enforce constraints like maximum claim amounts, rejecting operations that violate business rules. This is a core DBMS advantage.\n\n{\"A\":\"Performance Optimisation improves query speed — not business rule enforcement.\",\"B\":\"✓ Correct — DBMS enforcing a constraint that blocks invalid inserts = data integrity enforcement.\",\"C\":\"Report Writers present data — they do not intercept insert operations to enforce rules.\",\"D\":\"The DDL interpreter handles structure definitions — DML (INSERT) is handled separately, with integrity checks applied by the engine.\"}"
+  },
+  {
+   "id": "8103-14",
+   "topic": "tb-dbms",
+   "text": "A media company's development team built a payroll application in three months instead of the usual nine. The team lead explains: \"We didn't write our own transaction management, backup routines, or access control code — the DBMS provided all of that out of the box.\"\n\nWhich DBMS advantage does the team lead describe?",
+   "opts": [
+    "Data Independence",
+    "Efficient Data Access",
+    "Reduced Application Development Time",
+    "Data Administration"
+   ],
+   "answer": 2,
+   "explanation": "Reduced Application Development Time: the DBMS supports important functions common to many applications (transaction management, backup, access control). This, combined with high-level SQL interfaces, facilitates quick development. Applications built on a DBMS are also more robust because these critical functions are handled by the DBMS and do not need to be debugged within the application itself.\n\n{\"A\":\"Data Independence protects applications from storage details — not about development speed.\",\"B\":\"Efficient Data Access refers to the DBMS's storage and retrieval techniques — not development time.\",\"C\":\"✓ Correct — DBMS providing built-in functions (transactions, backup, access control) reduces development time.\",\"D\":\"Data Administration is about centralising data management responsibilities — not development timelines.\"}"
+  },
+  {
+   "id": "8103-15",
+   "topic": "tb-dbms",
+   "text": "A university registry uses a database where 300 staff members simultaneously access student records. The database allows multiple lecturers to view a student's record at the same time without any issues, but prevents two administrators from simultaneously modifying the same record in conflicting ways.\n\nWhich DBMS capability enables this controlled simultaneous access?",
+   "opts": [
+    "Concurrent Access management — the DBMS schedules access so data appears as if used by one user at a time",
+    "Schema Definition — the DBMS defines which users can access which tables",
+    "Normalisation — by reducing redundancy, fewer records are accessed simultaneously",
+    "Physical Design — indexed storage allows faster simultaneous reads"
+   ],
+   "answer": 0,
+   "explanation": "Concurrent Access and Crash Recovery: a DBMS schedules concurrent accesses so users can think of data as being accessed by only one user at a time. It also protects users from the effects of system failures. Multiple lecturers reading simultaneously and administrators prevented from conflicting writes is exactly what concurrent access management provides.\n\n{\"A\":\"✓ Correct — DBMS scheduling concurrent access so conflicts are prevented = concurrent access management.\",\"B\":\"Schema definition defines structure (tables, types) — not concurrent access scheduling.\",\"C\":\"Normalisation reduces redundancy — it does not manage simultaneous access conflicts.\",\"D\":\"Physical design with indexes speeds up retrieval — it does not enforce access concurrency rules.\"}"
+  },
+  {
+   "id": "8103-16",
+   "topic": "tb-basics",
+   "text": "A records officer at a shipping company is told: \"Our database system is everything — the Oracle software, the physical servers in the Lagos data centre, the network connecting our 12 offices, and all the staff who use it.\" His colleague counters: \"No — the database system is just the Oracle software.\"\n\nWho is correct, and what is the precise distinction?",
+   "opts": [
+    "The colleague is correct — a database system is only the DBMS software",
+    "The records officer is correct — a database system is the complete ecosystem (database + DBMS + hardware + users), while Oracle is specifically the DBMS",
+    "Both are wrong — the database system refers only to the data itself",
+    "Both are partially correct — the database system includes hardware and software but excludes users"
+   ],
+   "answer": 1,
+   "explanation": "A Database System is the broader concept — the complete ecosystem including the database, DBMS, hardware, OS, network, and users. A DBMS (like Oracle) is only the software component that manages the database. The records officer's description of the full ecosystem is the correct definition of a database system; Oracle alone is the DBMS.\n\n{\"A\":\"The colleague is describing only the DBMS — not the complete database system.\",\"B\":\"✓ Correct — database system = complete ecosystem; DBMS = just the software component.\",\"C\":\"The data alone is one component of the database system, not the system itself.\",\"D\":\"Users are explicitly part of a database system — the hardware+software-only view is incomplete.\"}"
+  },
+  {
+   "id": "8103-17",
+   "topic": "tb-dbms",
+   "text": "A company runs a query: SELECT CustomerName, TotalOrders FROM Customers JOIN Orders ON Customers.ID = Orders.CustomerID WHERE Region = 'South-West'. The DBMS parses this SQL, breaks it into low-level operations, chooses an execution plan, and returns results — all transparently.\n\nWhich specific DBMS component handles this SQL-to-execution-plan process?",
+   "opts": [
+    "Database Engine — stores and retrieves data from disk",
+    "Data Dictionary — provides metadata about the Customers and Orders tables",
+    "Query Processor — accepts SQL, selects an execution plan, and executes it",
+    "Report Writer — formats the result into a readable output"
+   ],
+   "answer": 2,
+   "explanation": "The Query Processor accepts SQL syntax, selects a plan for executing it, and then executes that plan. It includes three sub-components: the DDL interpreter, the DML compiler, and the query evaluation engine. The query processor isolates users from execution details — users specify what they want; the query processor determines how to get it.\n\n{\"A\":\"The Database Engine manages physical data storage and transaction processing — the Query Processor drives query planning.\",\"B\":\"The Data Dictionary provides structural metadata that informs the query processor — it doesn't process queries.\",\"C\":\"✓ Correct — SQL parsing + execution plan selection + execution = Query Processor.\",\"D\":\"The Report Writer formats output into reports — it does not parse SQL or select execution plans.\"}"
+  },
+  {
+   "id": "8103-18",
+   "topic": "tb-basics",
+   "text": "A pension fund has three categories of staff who interact with its database: (i) Mrs Adesanya who designed the member schema and writes PL/SQL procedures to load new data; (ii) Mr Bello who manages security policies, access controls, and recovery plans; and (iii) thousands of HR officers who run pre-built reports via a web portal.\n\nMatch each person/group to the correct user category.",
+   "opts": [
+    "(i) End User, (ii) DBA, (iii) Database Designer",
+    "(i) DBA, (ii) End User, (iii) Database Designer",
+    "(i) Database Designer/Programmer, (ii) DBA, (iii) End Users",
+    "(i) Database Designer/Programmer, (ii) End User, (iii) DBA"
+   ],
+   "answer": 2,
+   "explanation": "Three user categories exist: Database Designers/Programmers (use DBMS and programming languages to create the database — Mrs Adesanya writing the schema and PL/SQL), Database Administrators (central responsibility for data, security, integrity, recovery — Mr Bello), and End Users (access data to carry out business responsibilities, often through pre-built interfaces — the HR officers).\n\n{\"A\":\"Mrs Adesanya designs and writes code — she is a Designer/Programmer, not an End User.\",\"B\":\"The DBA and End User labels are transposed here.\",\"C\":\"✓ Correct — Designer/Programmer creates; DBA manages; End Users consume pre-built interfaces.\",\"D\":\"Mr Bello manages security and recovery — he is the DBA, not an End User.\"}"
+  },
+  {
+   "id": "8103-19",
+   "topic": "tb-dbms",
+   "text": "A hospital database stores patient records where PatientID uniquely identifies each patient. The records officer tries to add a new patient with the same PatientID as an existing one. The system immediately rejects the entry with the message: \"PRIMARY KEY constraint violation.\"\n\nWhich DBMS function detected and enforced this constraint?",
+   "opts": [
+    "Performance Optimisation — the DBMS optimised the insert query",
+    "Data Definition — the DBA previously used DDL to define the primary key constraint, and the DBMS engine now enforces it",
+    "Report Writer — the report generator detected the duplicate",
+    "Concurrency Control — another user was modifying the record simultaneously"
+   ],
+   "answer": 1,
+   "explanation": "Data Definition functions include defining and modifying record structure, data types, and constraints on each field. The DBA used DDL (CREATE TABLE with PRIMARY KEY) to define the constraint. At runtime, the DBMS engine enforces this constraint, rejecting any insert that violates it. The constraint was defined via Data Definition; enforcement is an automatic DBMS function.\n\n{\"A\":\"Performance Optimisation is about query speed — not constraint enforcement.\",\"B\":\"✓ Correct — DDL defined the PRIMARY KEY constraint; the DBMS enforces it on every insert attempt.\",\"C\":\"Report Writers format query results — they do not enforce table constraints.\",\"D\":\"Concurrency Control manages simultaneous user conflicts — not primary key uniqueness enforcement.\"}"
+  },
+  {
+   "id": "8103-20",
+   "topic": "tb-dbms",
+   "text": "A retail company is deciding between building a custom file-based system to store inventory data or purchasing a commercial DBMS. The IT director lists: \"reduced redundancy, enforced integrity, multi-user access, faster development, built-in security, and crash recovery\" as reasons to choose the DBMS.\n\nWhich advantage in the IT director's list is the MOST unique to a DBMS compared to a basic file system?",
+   "opts": [
+    "Storing data — file systems also store data",
+    "Reading data — file systems can also be read",
+    "Concurrent access with crash recovery — file systems cannot safely manage multiple simultaneous users updating the same records with automatic rollback",
+    "Creating data — file systems also allow new file creation"
+   ],
+   "answer": 2,
+   "explanation": "While file systems can store, read, and create data, they are fundamentally unable to safely manage concurrent multi-user access with automatic conflict resolution and crash recovery (rollback of uncommitted changes). This is a core differentiator of a DBMS — it schedules concurrent access, enforces transaction isolation, and recovers to a consistent state after failures.\n\n{\"A\":\"Storing data is not unique to DBMS — file systems also store data.\",\"B\":\"Reading data is not unique — file systems support reading.\",\"C\":\"✓ Correct — safe concurrent multi-user access + automatic rollback after crash is uniquely a DBMS capability.\",\"D\":\"Creating data is not unique — file systems allow new file creation.\"}"
+  },
+  {
+   "id": "8103-21",
+   "topic": "tb-design",
+   "text": "A fintech startup is building a database for their mobile lending app. The project manager says: \"Before we draw any diagrams or write any SQL, we need to understand who will use this system, what data they need, how departments relate to each other, and what the performance expectations are.\"\n\nWhich database design stage is the project manager advocating for?",
+   "opts": [
+    "Physical Design",
+    "Requirements Analysis",
+    "Logical Design",
+    "Deployment and Maintenance"
+   ],
+   "answer": 1,
+   "explanation": "Requirements Analysis is the initial stage where designers gather and analyse the needs of users and business processes. It involves identifying the purpose of the database, understanding user requirements, defining key entities, attributes, and relationships, and gathering functional and non-functional requirements (like performance expectations). No diagrams or SQL exist yet — this is pure requirements gathering.\n\n{\"A\":\"Physical Design selects DBMS, defines indexes, and configures storage — done much later.\",\"B\":\"✓ Correct — understanding users, data needs, relationships, and performance before any design = Requirements Analysis.\",\"C\":\"Logical Design converts ERDs into relational tables — done after conceptual design.\",\"D\":\"Deployment and Maintenance is the final post-testing operational stage.\"}"
+  },
+  {
+   "id": "8103-22",
+   "topic": "tb-design",
+   "text": "A database architect presents a diagram to a client board — all non-technical executives. The diagram uses rectangles labelled \"Policy\", \"Customer\", \"Premium\", and \"Claim\", connected by diamond shapes labelled \"Holds\", \"Generates\", and \"Covers\", with ovals showing attributes like PolicyNo and PremiumAmount.\n\nWhat has the architect created, and at which design stage?",
+   "opts": [
+    "A physical schema — Physical Design stage",
+    "A normalised table set — Logical Design stage",
+    "An Entity-Relationship Diagram (ERD) — Conceptual Design stage",
+    "A data dictionary — Requirements Analysis stage"
+   ],
+   "answer": 2,
+   "explanation": "An ERD is the basic component of the Entity-Relationship model: rectangles = entities, diamonds = relationships, ellipses = attributes. This is the Conceptual Design stage — a high-level design independent of implementation details, which can be understood even by non-technical stakeholders. Physical schemas come later; normalised tables are the Logical Design output; data dictionaries describe deployed databases.\n\n{\"A\":\"Physical schemas define storage structures like indexes and partitions — not visual entity diagrams.\",\"B\":\"Normalised tables are created during Logical Design, after the ERD exists.\",\"C\":\"✓ Correct — rectangles, diamonds, ovals = ER notation; presenting to non-technical board = Conceptual Design.\",\"D\":\"A data dictionary is a system catalog in a deployed database — not a design artefact for client presentations.\"}"
+  },
+  {
+   "id": "8103-23",
+   "topic": "tb-design",
+   "text": "After the insurance company's ERD is approved, the database team converts: CUSTOMER entity → CUSTOMER(CustomerID PK, FullName, Phone, Email); POLICY entity → POLICY(PolicyID PK, CustomerID FK, PolicyType, StartDate); defines foreign key constraints; and applies normalisation rules.\n\nWhich design stage is the team now in?",
+   "opts": [
+    "Conceptual Design",
+    "Requirements Analysis",
+    "Logical Design",
+    "Testing and Evaluation"
+   ],
+   "answer": 2,
+   "explanation": "Logical Design transforms the conceptual model into a logical model following a specific DBMS type. This includes converting ERD entities into relational schema (tables, columns), defining primary keys, foreign keys, and constraints, and normalising to remove redundancy. The team is taking the approved ERD and producing actual table definitions — the Logical Design stage.\n\n{\"A\":\"Conceptual Design produces the ERD — the team already has the approved ERD and is moving past it.\",\"B\":\"Requirements Analysis gathers user needs — the team is already designing tables.\",\"C\":\"✓ Correct — ERD → tables + keys + constraints + normalisation = Logical Design.\",\"D\":\"Testing and Evaluation tests the built system — not table schema conversion.\"}"
+  },
+  {
+   "id": "8103-24",
+   "topic": "tb-design",
+   "text": "A logistics company's DBA chooses MySQL, creates composite indexes on (ShipmentID, CustomerID) for faster joins, partitions the ShipmentHistory table by year for query performance, sets up automated nightly backups to AWS S3, and configures row-level security policies.\n\nWhich design stage encompasses all these activities?",
+   "opts": [
+    "Conceptual Design",
+    "Logical Design",
+    "Requirements Analysis",
+    "Physical Design"
+   ],
+   "answer": 3,
+   "explanation": "Physical Design translates the logical model into a physical structure optimised for performance and storage. This stage involves: selecting the DBMS (MySQL), defining storage structures (indexes, partitions, views), configuring security policies and backup mechanisms, and establishing indexing strategies for efficient data retrieval. All described activities are Physical Design tasks.\n\n{\"A\":\"Conceptual Design creates the ERD — not indexes, partitions, or backup policies.\",\"B\":\"Logical Design creates the table schema — not physical storage structures.\",\"C\":\"Requirements Analysis gathers needs — not DBMS configuration.\",\"D\":\"✓ Correct — DBMS selection, indexing, partitioning, backup, security = Physical Design.\"}"
+  },
+  {
+   "id": "8103-25",
+   "topic": "tb-design",
+   "text": "After deploying its new inventory database, a retail chain runs: (a) test orders to verify stock decrements correctly, (b) bulk inserts of 1 million records to measure query response time, (c) SQL injection attempts to find security vulnerabilities, and (d) concurrent order placements to check for deadlocks.\n\nWhich database design stage do activities (a)–(d) collectively represent?",
+   "opts": [
+    "Physical Design",
+    "Logical Design",
+    "Testing and Evaluation",
+    "Deployment and Maintenance"
+   ],
+   "answer": 2,
+   "explanation": "Testing and Evaluation: the database is tested to ensure it meets requirements and performs efficiently. Testing includes: data validation and integrity checks (a), performance testing — query optimisation and response times (b), security testing to prevent unauthorised access (c), and functional testing to ensure correct data retrieval and updates (d). All four activities match this stage.\n\n{\"A\":\"Physical Design sets up storage structures — it is done before any data is loaded or tested.\",\"B\":\"Logical Design creates table schemas — not post-implementation testing.\",\"C\":\"✓ Correct — functional, performance, security, and concurrency testing = Testing and Evaluation.\",\"D\":\"Deployment and Maintenance begins after successful testing — not concurrent with the testing itself.\"}"
+  },
+  {
+   "id": "8103-26",
+   "topic": "tb-design",
+   "text": "Six months after launching, a bank's core database DBA is: applying a security patch to fix a newly discovered SQL injection vulnerability, adding a new column for biometric data to the customer table, monitoring query performance and creating a new index to fix a slow report, and updating the backup retention policy from 30 to 90 days.\n\nWhich design lifecycle stage is the DBA operating in?",
+   "opts": [
+    "Requirements Analysis",
+    "Physical Design",
+    "Testing and Evaluation",
+    "Deployment and Maintenance"
+   ],
+   "answer": 3,
+   "explanation": "Deployment and Maintenance: once deployed, ongoing maintenance ensures efficiency, security, and adaptability. This includes monitoring performance and optimising queries (new index), applying updates, patches, and security enhancements (security patch), handling backups (retention policy update), and modifying the database as business needs evolve (new biometric column). All described tasks are post-deployment maintenance.\n\n{\"A\":\"Requirements Analysis is a pre-design stage — the system is already deployed.\",\"B\":\"Physical Design creates initial storage structures — done before deployment.\",\"C\":\"Testing and Evaluation tests the system pre-deployment — not post-launch patches.\",\"D\":\"✓ Correct — post-launch patching, performance tuning, schema changes, and backup policy updates = Deployment and Maintenance.\"}"
+  },
+  {
+   "id": "8103-27",
+   "topic": "tb-norm",
+   "text": "An unnormalised student enrolment table contains: EnrolmentID, StudentID, StudentName, StudentPhone, CourseID, CourseName, LecturerID, LecturerName. StudentName depends only on StudentID, CourseName only on CourseID, and LecturerName only on LecturerID.\n\nWhat is the primary normalisation problem, assuming EnrolmentID is the sole primary key?",
+   "opts": [
+    "1NF violation — the table has multi-valued attributes",
+    "2NF violation — non-key attributes depend on non-key columns rather than fully on the primary key",
+    "3NF violation — there is a transitive dependency between LecturerID and LecturerName",
+    "BCNF violation — there are overlapping candidate keys"
+   ],
+   "answer": 1,
+   "explanation": "2NF requires all non-key attributes to be fully functionally dependent on the entire primary key. Here, StudentName depends on StudentID, CourseName depends on CourseID, and LecturerName depends on LecturerID — none depend on EnrolmentID (the PK). These are partial dependencies (on non-key columns), which violate 2NF. The fix: create separate STUDENT, COURSE, and LECTURER tables.\n\n{\"A\":\"1NF requires atomic values and no repeating groups — all fields here are already atomic single values.\",\"B\":\"✓ Correct — attributes depending on non-PK columns rather than the actual primary key = 2NF violation.\",\"C\":\"3NF addresses non-key → non-key transitivity. While LecturerID→LecturerName is also an issue, the primary and more fundamental violation here is 2NF.\",\"D\":\"BCNF addresses overlapping candidate keys — this is a more basic 2NF problem.\"}"
+  },
+  {
+   "id": "8103-28",
+   "topic": "tb-norm",
+   "text": "A table EMPLOYEE(EmpID, DeptID, DeptHead) is in 2NF. However, DeptHead is determined by DeptID, not by EmpID. When the head of Finance changes, every row for every Finance employee must be updated.\n\nWhat problem exists and how should it be resolved?",
+   "opts": [
+    "1NF violation — split DeptHead into separate rows",
+    "2NF violation — DeptID should become the primary key",
+    "3NF violation — DeptHead transitively depends on EmpID through DeptID; create a DEPARTMENT(DeptID, DeptHead) table",
+    "BCNF violation — merge EMPLOYEE and DEPARTMENT tables"
+   ],
+   "answer": 2,
+   "explanation": "EmpID → DeptID → DeptHead is a transitive dependency. DeptHead depends on DeptID (a non-key attribute), not directly on EmpID (the PK). This violates 3NF: all non-key attributes must depend directly and solely on the primary key. Fix: create DEPARTMENT(DeptID, DeptHead) and remove DeptHead from EMPLOYEE. Now DeptHead is only stored once per department.\n\n{\"A\":\"1NF concerns atomic values and repeating groups — DeptHead is already a single atomic value.\",\"B\":\"Making DeptID the primary key changes the table's purpose and doesn't fix the dependency.\",\"C\":\"✓ Correct — EmpID→DeptID→DeptHead is a transitive dependency; 3NF violation; DEPARTMENT table is the fix.\",\"D\":\"Merging tables increases redundancy — the opposite of normalisation goals.\"}"
+  },
+  {
+   "id": "8103-29",
+   "topic": "tb-norm",
+   "text": "A property management company has: PROPERTY(PropID, UnitNo, TenantID, TenantName, TenantPhone, AgentID, AgentName, AgentEmail, MonthlyRent). Every time a tenant updates their phone number, staff must find and update every property row associated with that tenant.\n\nWhich anomaly is experienced, and what normal form eliminates it?",
+   "opts": [
+    "Deletion Anomaly — eliminated by 1NF",
+    "Insertion Anomaly — eliminated by BCNF",
+    "Update Anomaly caused by data redundancy — eliminated by 2NF/3NF through decomposition",
+    "Concurrency Anomaly — eliminated by transaction management"
+   ],
+   "answer": 2,
+   "explanation": "Storing TenantPhone in every property row creates redundancy. When a tenant's phone changes, every row must be updated — this is an Update Anomaly. Normalisation (2NF removes partial dependencies; 3NF removes transitive dependencies) eliminates this by creating a separate TENANT(TenantID, TenantName, TenantPhone) table — tenant data is stored once.\n\n{\"A\":\"Deletion Anomaly occurs when deleting a record unintentionally removes other needed data — not what's described.\",\"B\":\"Insertion Anomaly prevents adding data without also adding unrelated data — not the phone-update problem.\",\"C\":\"✓ Correct — redundant tenant data in every row → must update all rows when data changes = Update Anomaly; normalisation fixes it.\",\"D\":\"Concurrency Anomaly relates to simultaneous user access conflicts — not data redundancy causing update overhead.\"}"
+  },
+  {
+   "id": "8103-30",
+   "topic": "tb-norm",
+   "text": "A university applies normalisation to its registration table and ends up with: STUDENT(StudentID PK, Name, Email), COURSE(CourseID PK, Title, Credits, DeptID FK), DEPARTMENT(DeptID PK, DeptName, FacultyID FK), FACULTY(FacultyID PK, FacultyName), REGISTRATION(RegID PK, StudentID FK, CourseID FK, Semester, Grade).\n\nWhat is the highest normal form this schema achieves, and what is the key evidence?",
+   "opts": [
+    "1NF — all values are atomic",
+    "2NF — partial dependencies are removed",
+    "3NF — all non-key attributes depend directly and solely on their table's primary key with no transitive dependencies",
+    "BCNF — all determinants are candidate keys"
+   ],
+   "answer": 2,
+   "explanation": "In each table: non-key attributes depend fully on the PK (no partial dependencies — 2NF satisfied) and directly on the PK with no non-key-to-non-key dependency chains (no transitive dependencies — 3NF satisfied). For example, DeptName depends on DeptID (not on CourseID via DeptID). The schema achieves 3NF — the standard benchmark for well-normalised relational databases.\n\n{\"A\":\"1NF is achieved but is the minimum; the schema goes much further.\",\"B\":\"2NF is achieved but so is 3NF — 3NF is the higher, more accurate characterisation.\",\"C\":\"✓ Correct — no partial dependencies (2NF) + no transitive dependencies (3NF) + full direct PK dependency = 3NF.\",\"D\":\"BCNF would additionally require all determinants to be candidate keys — more analysis would be needed to confirm.\"}"
+  },
+  {
+   "id": "8103-31",
+   "topic": "tb-norm",
+   "text": "A courier company has a SHIPMENT table: ShipmentID, OriginCityID, OriginCityName, DestCityID, DestCityName, CustomerID, CustomerName, Weight. Both OriginCityName and DestCityName depend on their respective city ID columns, not on ShipmentID.\n\nApplying 2NF, what tables should be created?",
+   "opts": [
+    "SHIPMENT(ShipmentID, Weight) and CITY(CityID, CityName, CustomerID, CustomerName)",
+    "SHIPMENT(ShipmentID, OriginCityID FK, DestCityID FK, CustomerID FK, Weight), CITY(CityID, CityName), CUSTOMER(CustomerID, CustomerName)",
+    "SHIPMENT(ShipmentID, OriginCityName, DestCityName, Weight) and CUSTOMER(CustomerID, CustomerName)",
+    "CITY(CityID, CityName) and CUSTOMER(CustomerID, CustomerName, ShipmentID, OriginCityID, DestCityID, Weight)"
+   ],
+   "answer": 1,
+   "explanation": "2NF removes partial dependencies: CityName depends on CityID (not ShipmentID) → separate CITY table. CustomerName depends on CustomerID (not ShipmentID) → separate CUSTOMER table. SHIPMENT retains ShipmentID as PK, with foreign keys to CITY (for both origin and destination) and CUSTOMER, plus the Weight attribute which depends directly on ShipmentID.\n\n{\"A\":\"This puts CustomerID/CustomerName in CITY — a category error; also strips too many fields from SHIPMENT.\",\"B\":\"✓ Correct — separate CITY and CUSTOMER tables with FK references in SHIPMENT = proper 2NF decomposition.\",\"C\":\"This leaves CityName in SHIPMENT — the dependency on CityID is not resolved.\",\"D\":\"This moves ShipmentID into CUSTOMER — destroying the primary key relationships.\"}"
+  },
+  {
+   "id": "8103-32",
+   "topic": "tb-norm",
+   "text": "Which of the following ERD notation rules is INCORRECT?\n\nundefined",
+   "opts": [
+    "A rectangle represents an entity",
+    "A diamond represents a relationship between entities",
+    "A double ellipse represents a multi-valued attribute",
+    "A dashed rectangle represents a derived attribute"
+   ],
+   "answer": 3,
+   "explanation": "In standard ER notation: Entity = Rectangle; Attribute = Ellipse connected to Rectangle; Multi-valued attribute = Double Ellipse; Composite attribute = Ellipse connected to Ellipse; Derived Attribute = Dashed Ellipse (not dashed rectangle); Relationship = Diamond Box. A dashed ELLIPSE indicates a derived attribute — not a dashed rectangle.\n\n{\"A\":\"Rectangle = Entity is correct ER notation.\",\"B\":\"Diamond = Relationship is correct ER notation.\",\"C\":\"Double Ellipse = Multi-valued attribute is correct.\",\"D\":\"✓ Correct answer to \\\"which is INCORRECT\\\" — a derived attribute uses a DASHED ELLIPSE, not a dashed rectangle.\"}"
+  },
+  {
+   "id": "8103-33",
+   "topic": "tb-norm",
+   "text": "After normalising to 3NF, a lecturer tells her students: \"Our schema now has more tables and more JOIN operations in our queries, but less duplicated data and far fewer anomalies.\" A student asks: \"Is full normalisation always the right choice?\"\n\nWhich statement best represents the balanced view on normalisation?",
+   "opts": [
+    "Full normalisation should always be applied — anomalies are more harmful than complex queries",
+    "Normalisation should never be applied beyond 1NF to preserve query simplicity",
+    "Striking a balance is essential — excessive normalisation can increase query complexity, so performance and normalisation must be considered together",
+    "BCNF is the minimum acceptable form — anything less should never be deployed"
+   ],
+   "answer": 2,
+   "explanation": "While normalisation minimises redundancy and prevents anomalies, excessive normalisation can increase query complexity — requiring many JOINs to reconstruct data. The balanced view from the course material is: \"Striking a balance between normalisation and performance is essential for an optimised database design.\" Context matters — OLTP systems may denormalise for speed; analytical systems may need different trade-offs.\n\n{\"A\":\"Always normalising fully ignores the legitimate performance costs of excessive JOINs.\",\"B\":\"Never going beyond 1NF would leave major redundancy and anomaly problems unresolved.\",\"C\":\"✓ Correct — normalisation reduces redundancy but may add complexity; balance is the professional approach.\",\"D\":\"BCNF as a minimum is too strict — 3NF is the standard practical target; BCNF is used when needed.\"}"
+  },
+  {
+   "id": "8103-34",
+   "topic": "tb-design",
+   "text": "A conceptual data model for a hospital shows: DOCTOR can have many PATIENTS (one-to-many), and a PATIENT can have many APPOINTMENTS each linked to one DOCTOR (many-to-one). The cardinalities are shown as N and 1 on the relationship lines.\n\nWhat do the \"N\" and \"1\" labels on ERD relationship lines represent?",
+   "opts": [
+    "The number of attributes each entity has",
+    "The cardinalities — the constraints on how many instances of one entity can relate to another",
+    "The normalisation form applied to each entity",
+    "The physical storage size of each record type"
+   ],
+   "answer": 1,
+   "explanation": "In ERD notation, cardinalities (shown as 1 and N, or using crow's foot notation) define constraints on the number of entity instances that can participate in a relationship. 1:N means one Doctor can have many Patients; M:N means many-to-many. Cardinalities are defined in the Conceptual Design stage and guide foreign key placement in Logical Design.\n\n{\"A\":\"Attributes are shown as ellipses — cardinality labels on relationship lines are separate.\",\"B\":\"✓ Correct — N and 1 labels define how many instances of each entity can participate in a relationship.\",\"C\":\"Normal forms are applied during Logical Design — not shown as labels on ERD relationship lines.\",\"D\":\"Physical storage size is a Physical Design concern — not represented in conceptual ERD notation.\"}"
+  },
+  {
+   "id": "8103-35",
+   "topic": "tb-design",
+   "text": "A DBMS architect is choosing between a relational model, a NoSQL document model, and a hierarchical model for the Logical Design of a new system. The session's material states the Logical Design transforms the conceptual model into a model that \"follows a specific DBMS.\"\n\nWhat does \"follows a specific DBMS\" mean in the context of Logical Design?",
+   "opts": [
+    "The logical model is designed to run on a specific server brand",
+    "The logical model adopts the data organisation approach of the chosen DBMS type — relational, NoSQL, hierarchical, etc.",
+    "The DBMS vendor writes the logical design automatically",
+    "The logical design phase is only applicable to relational databases"
+   ],
+   "answer": 1,
+   "explanation": "The Logical Design stage transforms the conceptual model into a logical model that follows a specific database management system type — such as relational (tables), NoSQL (documents, key-value, etc.), or hierarchical (trees). The choice of model determines how entities are represented. Logical Design is not bound to any vendor or server hardware; it applies to all database types.\n\n{\"A\":\"Server brand is a hardware/vendor concern — Logical Design is about data model organisation.\",\"B\":\"✓ Correct — the logical model is shaped by whether the system will be relational, NoSQL, hierarchical, etc.\",\"C\":\"The architect and design team create the logical design — not the DBMS vendor.\",\"D\":\"Logical Design applies to all database types — relational is one option, not the only one.\"}"
+  },
+  {
+   "id": "8103-36",
+   "topic": "tb-norm",
+   "text": "First Normal Form (1NF) is described as ensuring \"atomicity.\" A table has a PhoneNumbers column that contains: \"08012345678, 09087654321\" (two numbers in one cell) for a single customer.\n\nHow does 1NF apply to this situation?",
+   "opts": [
+    "1NF is not relevant — multi-valued columns are allowed in relational databases",
+    "1NF requires each column to contain atomic (indivisible) values — the two phone numbers must be separated into individual rows or a separate PHONE table",
+    "1NF requires the column to be renamed to PhoneNumber1 and PhoneNumber2",
+    "1NF requires deleting one phone number so only one remains per row"
+   ],
+   "answer": 1,
+   "explanation": "First Normal Form requires atomicity — eliminating duplicate columns and ensuring each cell contains a single, indivisible value. Having two phone numbers in one cell is a multi-valued attribute — a 1NF violation. The fix is to move phone numbers to a separate PHONE table (CustomerID, PhoneNumber) or create separate rows for each number. Simply renaming columns to PhoneNumber1/PhoneNumber2 still violates 1NF.\n\n{\"A\":\"1NF explicitly prohibits multi-valued columns — they are not allowed in a properly normalised relational table.\",\"B\":\"✓ Correct — atomic values mean one value per cell; separate rows or a separate table resolves multi-valued attributes.\",\"C\":\"Renaming to PhoneNumber1 and PhoneNumber2 creates repeating column groups — also a 1NF violation.\",\"D\":\"Deleting data is not a normalisation technique — the data must be preserved, just restructured.\"}"
+  },
+  {
+   "id": "8103-37",
+   "topic": "tb-norm",
+   "text": "BCNF (Boyce-Codd Normal Form) is described as \"a stricter version of 3NF that resolves remaining anomalies.\" A student asks: \"If a table is in 3NF, is it automatically in BCNF?\"\n\nWhich answer is most accurate?",
+   "opts": [
+    "Yes — 3NF and BCNF are identical in all practical cases",
+    "No — a table in 3NF may still violate BCNF if there are multiple overlapping candidate keys where a non-candidate-key attribute determines part of a candidate key",
+    "No — BCNF is weaker than 3NF and requires less structure",
+    "Yes — any table in 3NF automatically satisfies all higher normal forms including BCNF and 4NF"
+   ],
+   "answer": 1,
+   "explanation": "A table can be in 3NF but not BCNF. BCNF requires that for every functional dependency X → Y, X must be a candidate key (a superkey). 3NF allows some exceptions where Y is a key attribute. The anomalies that BCNF resolves typically arise when there are multiple overlapping candidate keys. BCNF is strictly stronger than 3NF — 3NF does not automatically imply BCNF.\n\n{\"A\":\"3NF and BCNF differ — BCNF is strictly stronger. They are not identical.\",\"B\":\"✓ Correct — 3NF does not guarantee BCNF; overlapping candidate keys can create 3NF-compliant but BCNF-violating tables.\",\"C\":\"BCNF is stricter than 3NF — not weaker.\",\"D\":\"Being in 3NF does not guarantee BCNF, let alone 4NF or higher forms.\"}"
+  },
+  {
+   "id": "8103-38",
+   "topic": "tb-norm",
+   "text": "An objective of normalisation is to \"avoid anomalies.\" A database designer explains three types: (i) unable to add a new lecturer to the system without first assigning them a course; (ii) changing a department's location requires updating hundreds of employee rows; (iii) deleting the last student enrolled in a course erases the course record itself.\n\nMatch each anomaly type to its name.",
+   "opts": [
+    "(i) Deletion, (ii) Update, (iii) Insertion",
+    "(i) Insertion, (ii) Update, (iii) Deletion",
+    "(i) Update, (ii) Insertion, (iii) Deletion",
+    "(i) Insertion, (ii) Deletion, (iii) Update"
+   ],
+   "answer": 1,
+   "explanation": "Insertion Anomaly: cannot insert new data (lecturer) without inserting unrelated data (a course assignment). Update Anomaly: changing one piece of data (department location) requires updating many rows. Deletion Anomaly: deleting one record (last student) unintentionally removes other needed information (the course). These are the three classic database anomalies that normalisation eliminates.\n\n{\"A\":\"This reverses Insertion and Deletion anomalies.\",\"B\":\"✓ Correct — can't add without unrelated data = Insertion; mass updates needed = Update; deletion removes unintended data = Deletion.\",\"C\":\"This misidentifies the Update and Insertion anomalies.\",\"D\":\"Anomalies (ii) and (iii) are transposed.\"}"
+  },
+  {
+   "id": "8103-39",
+   "topic": "tb-design",
+   "text": "The database design process is described as \"iterative.\" After the logical design is reviewed by the DBA, the team discovers that the requirements analysis had missed a critical entity — Commission_Payment — that affects the schema significantly. They must go back to revise the ERD.\n\nWhat does the \"iterative\" nature of database design mean in practice?",
+   "opts": [
+    "Each stage is completed once and never revisited — iteration means repeating only the final testing stage",
+    "The process flows strictly from requirements to deployment without any feedback loops",
+    "Stages may need to be revisited when new information emerges, with later discoveries feeding back to earlier stages",
+    "Iteration means running the same queries multiple times during testing"
+   ],
+   "answer": 2,
+   "explanation": "Database design is iterative — it requires careful planning but allows (and expects) feedback loops. When a missed entity is discovered during Logical Design, the team must return to update the ERD (Conceptual Design) and re-derive the logical tables. Each stage builds on the previous but findings in later stages can require revisiting earlier work. This is normal professional database design practice.\n\n{\"A\":\"The process explicitly loops — it is not strictly linear with only one pass per stage.\",\"B\":\"The iterative nature specifically means feedback loops exist — not a strict one-way flow.\",\"C\":\"✓ Correct — discovering a missed entity during logical design → return to conceptual design = iterative process.\",\"D\":\"Query repetition during testing is not what \\\"iterative design process\\\" means in systems design.\"}"
+  },
+  {
+   "id": "8103-40",
+   "topic": "tb-design",
+   "text": "A student claims: \"The physical design stage is the most important because that is where we make the database actually work. The earlier stages like conceptual and logical design are just paperwork.\"\n\nWhich statement best evaluates this claim?",
+   "opts": [
+    "The student is correct — physical design is the only stage that affects real performance",
+    "The student is incorrect — all stages are interdependent; poor conceptual or logical design creates problems no amount of physical tuning can fully fix",
+    "The student is partially correct — conceptual design is optional for small databases",
+    "The student is correct — logical design is redundant because SQL automatically normalises tables"
+   ],
+   "answer": 1,
+   "explanation": "All database design stages are interdependent. Requirements Analysis defines what must be built; Conceptual Design ensures the right entities and relationships are captured; Logical Design normalises and structures data correctly; Physical Design optimises for performance. A flawed conceptual model (wrong entities/relationships) or poor normalisation will cause data integrity problems that indexing and partitioning cannot solve.\n\n{\"A\":\"Physical design optimises what is already logically correct — it cannot fix a flawed conceptual or logical model.\",\"B\":\"✓ Correct — all stages are interdependent; early design errors propagate through to the deployed system.\",\"C\":\"Conceptual design is essential for any database — it captures what the system must represent.\",\"D\":\"SQL does not automatically normalise tables — normalisation is the designer's responsibility during Logical Design.\"}"
+  },
+  {
+   "id": "8103-41",
+   "topic": "tb-types",
+   "text": "A national broadcaster's content management system organises its archive as: Broadcasting_Group → Television_Network → Programme_Category → Show → Episode. Each episode belongs to exactly one show, each show to one category, and so on up the tree.\n\nWhich database model naturally mirrors this structure?",
+   "opts": [
+    "Relational Database — using tables and foreign keys",
+    "Hierarchical Database — tree structure with strict parent-child relationships",
+    "Graph Database — nodes and edges representing flexible connections",
+    "NoSQL Document Store — self-describing JSON documents"
+   ],
+   "answer": 1,
+   "explanation": "A hierarchical database structures data in a tree-like hierarchy where each child node is connected to exactly one parent. Broadcasting_Group → Network → Category → Show → Episode is a perfect tree with one-to-many relationships at each level and one parent per child. Hierarchical databases are used for directory services, file systems, and exactly this kind of content hierarchy.\n\n{\"A\":\"Relational databases use tables — they can represent hierarchies but are not the natural model for this structure.\",\"B\":\"✓ Correct — strict one-parent-per-child tree = hierarchical database model.\",\"C\":\"Graph databases allow many-to-many connections — this strict tree is more constrained than a graph.\",\"D\":\"Document stores use flexible JSON records — not purpose-built for strict tree hierarchies.\"}"
+  },
+  {
+   "id": "8103-42",
+   "topic": "tb-types",
+   "text": "A manufacturing company's database challenge: a single engine component is used in multiple vehicle models, and each vehicle model uses multiple different components. The current hierarchical database cannot represent this without duplicating component records across every vehicle branch.\n\nWhich database model directly addresses this many-to-many limitation?",
+   "opts": [
+    "Object-Oriented Database",
+    "Network Database",
+    "Time-Series Database",
+    "NewSQL Database"
+   ],
+   "answer": 1,
+   "explanation": "The network database model emerged specifically as an improvement over the hierarchical model to handle many-to-many relationships. It allows each record (node) to have multiple parent and child relationships, using a graph-like structure with \"sets.\" A component used in multiple models, and a model using multiple components, is a textbook network database use case.\n\n{\"A\":\"OODBMS stores objects with methods — not specifically designed for many-to-many relationship modeling.\",\"B\":\"✓ Correct — network databases allow multiple parents per child, enabling many-to-many relationships.\",\"C\":\"Time-Series databases handle time-stamped sequential data — not relationship model improvements.\",\"D\":\"NewSQL provides scalability for relational systems — not a solution for hierarchical many-to-many limitations.\"}"
+  },
+  {
+   "id": "8103-43",
+   "topic": "tb-types",
+   "text": "Zenith Bank Nigeria stores customer accounts in a system where: data is in tables (CUSTOMER, ACCOUNT, TRANSACTION); tables are linked via CustomerID and AccountNo as foreign keys; SQL queries like SELECT and JOIN are used for all reporting; and ACID principles ensure transaction integrity.\n\nWhich database model is described?",
+   "opts": [
+    "NoSQL Key-Value Store",
+    "Object-Oriented Database",
+    "Relational Database Management System (RDBMS)",
+    "Hierarchical Database"
+   ],
+   "answer": 2,
+   "explanation": "An RDBMS organises data into tables with rows (records) and columns (attributes), linked via primary and foreign keys. SQL is the standard query language. ACID compliance ensures reliable transactions. This is the complete definition of an RDBMS — introduced by Dr. E. F. Codd in the 1970s and still the most widely used database model globally.\n\n{\"A\":\"NoSQL Key-Value stores use simple key→value pairs — not tables, SQL, or formal relationships.\",\"B\":\"OODBMS stores data as objects with methods — not tables linked by foreign keys.\",\"C\":\"✓ Correct — tables + SQL + primary/foreign keys + ACID = RDBMS.\",\"D\":\"Hierarchical databases use tree structures — not tables or SQL.\"}"
+  },
+  {
+   "id": "8103-44",
+   "topic": "tb-types",
+   "text": "An engineering firm's CAD application stores complex 3D designs where each Design object contains nested Component objects, each Component has methods for calculating weight and stress tolerance, and objects inherit properties from a base MaterialSpec class.\n\nWhich database type is purpose-built for storing this type of data?",
+   "opts": [
+    "Relational Database",
+    "Network Database",
+    "Object-Oriented Database (OODBMS)",
+    "Time-Series Database"
+   ],
+   "answer": 2,
+   "explanation": "OODBMS combines database capabilities with OOP principles. It stores data as objects (not rows in tables), supports complex data types like nested objects, and integrates tightly with OOP languages. It supports encapsulation (data + methods together), inheritance (MaterialSpec parent class), and is explicitly recommended for CAD/CAM applications with intricate components. OID uniquely identifies each object.\n\n{\"A\":\"Relational databases struggle with complex nested objects and OOP-style method attachment.\",\"B\":\"Network databases model many-to-many record links — not OOP objects with inheritance and methods.\",\"C\":\"✓ Correct — nested objects + methods + inheritance + CAD use case = OODBMS.\",\"D\":\"Time-Series databases handle time-stamped sequential data — not engineering object hierarchies.\"}"
+  },
+  {
+   "id": "8103-45",
+   "topic": "tb-nosql",
+   "text": "A Nigerian social media startup stores user profiles on MongoDB. User A has fields: Name, Bio, ProfilePhoto, Skills (array), and WorkHistory (array of nested objects). User B has: Name, ProfilePhoto, and Location only. Different users have entirely different field sets.\n\nWhat type of NoSQL database is MongoDB and what feature makes it ideal here?",
+   "opts": [
+    "Key-Value Store — fast single-key lookups",
+    "Column-Family Store — columnar storage for analytics",
+    "Document Store — self-describing JSON documents with schema flexibility",
+    "Graph Database — relationship traversal"
+   ],
+   "answer": 2,
+   "explanation": "MongoDB is a Document Store that stores data as JSON-like self-describing documents. Each document can have a different set of fields — User A can have Skills and WorkHistory arrays while User B has only Name, Photo, and Location. This schema flexibility (no predefined rigid table structure) is the core Document Store advantage for varied record structures.\n\n{\"A\":\"Key-Value stores (Redis) use simple key→value pairs — no nested objects or field variety.\",\"B\":\"Column-family stores (Cassandra) use column-oriented storage for analytics — not flexible document schemas.\",\"C\":\"✓ Correct — JSON-like self-describing documents with different fields per record = Document Store (MongoDB).\",\"D\":\"Graph databases model relationship networks — not varying-field user profiles.\"}"
+  },
+  {
+   "id": "8103-46",
+   "topic": "tb-nosql",
+   "text": "An e-commerce platform stores shopping cart data in Redis. For each active session, it executes: SET session:user789 → {cartItems, timestamp} and retrieves it with GET session:user789 — completing each operation in under 1 millisecond at 800,000 operations per second.\n\nWhat type of NoSQL database is Redis, and why is it suited for session management?",
+   "opts": [
+    "Document Store — flexible for varied cart structures",
+    "Key-Value Store — designed for extremely fast single-key lookups",
+    "Column-Family Store — efficient for scanning cart data across users",
+    "Graph Database — models relationships between cart items"
+   ],
+   "answer": 1,
+   "explanation": "Redis is a Key-Value Store that stores data as simple key-value pairs, offering extremely fast lookup times. For session management where you only need to retrieve a value by a known key (session:user789 → cart data), key-value stores are optimal. Sub-millisecond operations at 800,000 ops/second is characteristic of in-memory key-value systems like Redis.\n\n{\"A\":\"Document stores handle rich nested documents — overkill for simple session-to-cart-data mapping.\",\"B\":\"✓ Correct — Redis is a key-value store; shopping carts retrieved by session ID are ideal key-value pairs.\",\"C\":\"Column-family stores scan columns across many rows — not fast single-key session retrieval.\",\"D\":\"Graph databases traverse relationship networks — not designed for fast single-key lookups.\"}"
+  },
+  {
+   "id": "8103-47",
+   "topic": "tb-nosql",
+   "text": "A telecom company runs quarterly analytics on 500 million call records: total call duration by region, average revenue per subscriber by plan type, and churn rate by network segment. The queries aggregate specific columns across hundreds of millions of rows.\n\nWhich NoSQL database type is optimised for this analytical workload?",
+   "opts": [
+    "Key-Value Store (Redis)",
+    "Document Store (MongoDB)",
+    "Graph Database (Neo4j)",
+    "Column-Family Store (Apache Cassandra)"
+   ],
+   "answer": 3,
+   "explanation": "Column-Family Stores (Apache Cassandra, HBase) store data in columns rather than rows, making them ideal for analytics on large datasets. When aggregating specific column values (call duration, revenue) across hundreds of millions of rows, columnar storage only reads the relevant columns — far more efficient than row-based storage that reads every field. Analytics on large datasets is an explicit Column-Family use case.\n\n{\"A\":\"Key-Value (Redis) handles fast single-key lookups — not aggregation analytics over 500M rows.\",\"B\":\"Document stores (MongoDB) store flexible documents — not optimised for columnar analytics at this scale.\",\"C\":\"Graph databases (Neo4j) traverse relationships — not for columnar aggregation.\",\"D\":\"✓ Correct — columnar storage + large dataset analytics = Column-Family Store (Cassandra).\"}"
+  },
+  {
+   "id": "8103-48",
+   "topic": "tb-nosql",
+   "text": "A fraud detection system needs to answer: \"Which merchants are connected through shared cardholders who also have transactions at previously flagged establishments?\" This requires traversing networks of Cardholder → Transaction → Merchant → Flagged_Status relationships.\n\nWhich database type is specifically suited for this relationship-traversal fraud detection use case?",
+   "opts": [
+    "Relational Database with complex JOINs",
+    "Graph Database",
+    "Time-Series Database",
+    "Key-Value Store"
+   ],
+   "answer": 1,
+   "explanation": "Graph databases are explicitly recommended for Fraud Detection — identifying suspicious patterns through relationship anomalies in financial transactions. They model Cardholders, Merchants, and Transactions as nodes, with edges representing connections. Index-free adjacency allows direct traversal without expensive JOIN operations. The shortest-path, community detection, and PageRank graph algorithms assist in detecting fraud clusters.\n\n{\"A\":\"Relational DB can answer this but requires expensive multi-table JOINs at each traversal step — impractical at scale.\",\"B\":\"✓ Correct — fraud detection through relationship anomaly traversal is a named Graph Database use case.\",\"C\":\"Time-Series DB handles chronological data — not relationship network traversal.\",\"D\":\"Key-Value stores are for single-key lookups — cannot traverse relationship networks.\"}"
+  },
+  {
+   "id": "8103-49",
+   "topic": "tb-nosql",
+   "text": "A startup's CTO says: \"We need to scale to 50 million users globally, maintain SQL querying because our team knows it, keep ACID guarantees for our payment module, but be able to distribute across cloud regions.\" She evaluates Google Spanner and CockroachDB.\n\nWhat database category do Google Spanner and CockroachDB belong to, and what problem do they solve?",
+   "opts": [
+    "NoSQL Document Stores — they sacrifice ACID for flexibility",
+    "NewSQL Databases — they combine SQL + ACID with horizontal scalability of distributed systems",
+    "Traditional RDBMS — they scale vertically like PostgreSQL",
+    "Time-Series Databases — they handle high-frequency transactional data"
+   ],
+   "answer": 1,
+   "explanation": "NewSQL databases like Google Spanner, CockroachDB, VoltDB, and MemSQL blend RDBMS features (SQL interface, ACID compliance, relational model) with NoSQL's horizontal scalability. They address the exact tension described: keep SQL and ACID, but distribute across nodes/regions. They use modern techniques like in-memory processing, MVCC, and distributed execution engines.\n\n{\"A\":\"NoSQL Document stores (MongoDB) sacrifice full ACID — the CTO explicitly needs ACID preserved.\",\"B\":\"✓ Correct — SQL + ACID + horizontal distribution = NewSQL (Spanner, CockroachDB).\",\"C\":\"Traditional RDBMS scales vertically (not horizontally) — the CTO needs global distribution.\",\"D\":\"Time-Series databases are for time-stamped sensor/metric data — not transactional payment systems.\"}"
+  },
+  {
+   "id": "8103-50",
+   "topic": "tb-types",
+   "text": "A Nigerian agritech company deploys its farmer database on Microsoft Azure: automatic failover, global load balancing, managed backups, pay-per-query billing, and zero server management by the company's IT team. Azure handles all provisioning and patching.\n\nWhat database deployment model is described?",
+   "opts": [
+    "On-premises RDBMS with RAID storage",
+    "Distributed Database across local data centres",
+    "Cloud Database / Database-as-a-Service (DBaaS)",
+    "Hierarchical legacy system"
+   ],
+   "answer": 2,
+   "explanation": "Cloud databases are built, deployed, and accessed through a cloud computing platform (Azure in this case). Delivered as DBaaS, they offer scalability, global accessibility, high availability, and reduced administrative overhead. Cloud providers handle provisioning, patching, backup, and monitoring. Pay-per-query billing and zero server management are hallmarks of DBaaS.\n\n{\"A\":\"On-premises RDBMS requires company-managed physical servers — the company here has none.\",\"B\":\"A distributed database is an architecture concept — this specifically describes a cloud-managed service.\",\"C\":\"✓ Correct — cloud platform + managed service + pay-per-use + no physical hardware = Cloud Database/DBaaS.\",\"D\":\"Legacy hierarchical systems are decades-old tree-structured databases — not modern cloud services.\"}"
+  },
+  {
+   "id": "8103-51",
+   "topic": "tb-types",
+   "text": "Lagos State stores resident data across three data centres — Lagos Island, Ikeja, and Badagry. All three appear as a single system to civil servants. Data is replicated across sites for redundancy. If the Badagry centre fails, the other two continue serving requests.\n\nWhat type of database architecture is described?",
+   "opts": [
+    "Object-Oriented Database",
+    "NoSQL Document Store",
+    "Distributed Database",
+    "Time-Series Database"
+   ],
+   "answer": 2,
+   "explanation": "A Distributed Database stores data across multiple physical locations or computing nodes (Lagos Island, Ikeja, Badagry). Despite physical separation, it functions as a unified system. Data replication ensures fault tolerance — if one node fails, others continue. This is the core definition and benefit of a distributed database: scalability, fault tolerance, and availability.\n\n{\"A\":\"OODBMS stores objects — not a geographic distribution architecture.\",\"B\":\"Document stores use JSON-like documents — not specifically about geographic distribution.\",\"C\":\"✓ Correct — data across multiple physical locations appearing as one system = Distributed Database.\",\"D\":\"Time-Series databases handle time-stamped data — not geographic distribution architecture.\"}"
+  },
+  {
+   "id": "8103-52",
+   "topic": "tb-types",
+   "text": "The architects of a distributed database system debate: \"If we get a network partition between our Lagos and Abuja nodes, should we keep serving requests (even with potentially stale data) or stop serving until the nodes resync (ensuring all users see the same data)?\"\n\nWhich theoretical framework governs this trade-off decision?",
+   "opts": [
+    "ACID Theorem — Atomicity, Consistency, Isolation, Durability",
+    "Normal Form Theory — 1NF, 2NF, 3NF, BCNF",
+    "CAP Theorem — Consistency, Availability, Partition Tolerance",
+    "Entity-Relationship Theory — entities, relationships, cardinalities"
+   ],
+   "answer": 2,
+   "explanation": "The CAP Theorem states a distributed system can only guarantee two of three simultaneously: Consistency (all nodes see the same data), Availability (every request gets a response), and Partition Tolerance (system works despite network splits). During a network partition, the system must choose between Consistency (stop serving until nodes agree) or Availability (serve with potentially stale data).\n\n{\"A\":\"ACID applies to individual database transactions — not to the consistency/availability trade-off in distributed systems.\",\"B\":\"Normal forms address table normalisation for redundancy — not distributed system trade-offs.\",\"C\":\"✓ Correct — choosing between serving stale data vs waiting for sync during partition = CAP Theorem trade-off.\",\"D\":\"ER Theory is about conceptual data modelling — not distributed system guarantees.\"}"
+  },
+  {
+   "id": "8103-53",
+   "topic": "tb-types",
+   "text": "A smart city platform collects electricity meter readings every 5 minutes from 500,000 households — 144 million data points per day. Analysts run queries like: \"Average hourly consumption in Surulere over the past 30 days\" and detect spikes suggesting meter tampering.\n\nWhich database type is specifically engineered for this ingestion rate and query pattern?",
+   "opts": [
+    "Relational Database (PostgreSQL)",
+    "Key-Value Store (Redis)",
+    "Time-Series Database (InfluxDB)",
+    "Network Database"
+   ],
+   "answer": 2,
+   "explanation": "Time-Series Databases (InfluxDB, TimescaleDB, Prometheus) are optimised for high ingestion rates (144M data points/day), efficient compression of continuous sequential values, and fast querying of chronological data. They support downsampling, rollups, retention policies, and anomaly detection tools. Utilities and Energy (smart meter monitoring) is an explicit TSDB use case.\n\n{\"A\":\"PostgreSQL can store timestamps but is not optimised for 144M time-stamped ingestion with automatic retention and compression.\",\"B\":\"Key-Value stores handle fast lookups — not time-range aggregation or anomaly detection over millions of sequential readings.\",\"C\":\"✓ Correct — high-frequency meter readings + time-range analytics + anomaly detection = Time-Series Database.\",\"D\":\"Network databases model many-to-many record relationships — not time-indexed sequential data streams.\"}"
+  },
+  {
+   "id": "8103-54",
+   "topic": "tb-types",
+   "text": "A social network uses a database where: users are nodes, \"FOLLOWS\" and \"FRIENDS_WITH\" are directed edges, and posts are linked nodes. A query asks: \"Find all users within 3 hops of User X who share Interest Y, and rank them by influence.\" This traversal would require 7 table JOINs in a relational system.\n\nWhich graph database feature makes multi-hop traversal efficient without expensive JOINs?",
+   "opts": [
+    "ACID compliance — ensures each hop is transactional",
+    "Schema flexibility — allows users and posts to have different fields",
+    "Index-free adjacency — each node directly points to connected nodes, enabling fast traversal",
+    "Horizontal scaling — data is distributed across nodes"
+   ],
+   "answer": 2,
+   "explanation": "Index-free adjacency is a defining graph database feature: each node directly stores pointers to its neighbouring nodes, enabling relationship traversal without consulting any index or performing JOIN operations. Finding users within 3 hops follows direct pointer chains — constant time per hop — rather than performing expensive multi-table lookups. This is what makes graph traversal highly efficient.\n\n{\"A\":\"ACID ensures transaction integrity — it does not speed up traversal.\",\"B\":\"Schema flexibility is a NoSQL document feature — not the mechanism enabling efficient graph traversal.\",\"C\":\"✓ Correct — direct node-to-node pointers = index-free adjacency = efficient traversal without JOINs.\",\"D\":\"Horizontal scaling distributes data across servers — it does not change the traversal mechanism.\"}"
+  },
+  {
+   "id": "8103-55",
+   "topic": "tb-types",
+   "text": "A hospital patient monitoring system collects ECG readings at 500 samples per second from 200 ICU patients — 100,000 data points per second total. The system must detect arrhythmias in real time and also answer: \"What was this patient's heart rate trend between 2am and 4am yesterday?\"\n\nWhich specific TSDB capabilities are most critical for this application?",
+   "opts": [
+    "Schema rigidity and ACID compliance",
+    "High ingestion rate, fast time-range queries, and anomaly detection tools",
+    "Many-to-many relationship support and graph traversal",
+    "Horizontal JOIN across multiple relational tables"
+   ],
+   "answer": 1,
+   "explanation": "TSDBs are designed for: efficient ingestion of millions of data points per second (100,000/second from ECG monitors), fast querying of chronological data (heart rate trend over a time range), and anomaly detection tools (arrhythmia detection through continuous queries). Healthcare (storing and analysing time-stamped patient monitoring outputs) is an explicit TSDB use case.\n\n{\"A\":\"Schema rigidity and ACID are relational database features — TSDBs prioritise time-indexed ingestion and compression.\",\"B\":\"✓ Correct — high ingestion + time-range queries + anomaly detection = the core TSDB capabilities needed here.\",\"C\":\"Many-to-many relationships and graph traversal are graph database features — not time-series concerns.\",\"D\":\"Horizontal JOINs across relational tables are RDBMS operations — not relevant to time-series monitoring.\"}"
+  },
+  {
+   "id": "8103-56",
+   "topic": "tb-types",
+   "text": "A main network database limitation is stated as: \"The main limitation of the network data model is that it can be quite complicated to maintain all the links, and a single broken link can lead to problems in the database.\"\n\nWhich characteristic of network databases causes this specific vulnerability?",
+   "opts": [
+    "The use of tables with foreign keys",
+    "The reliance on pointer-based links between records — a broken pointer disrupts traversal",
+    "The hierarchical tree structure with strict parent-child rules",
+    "The lack of any relationship modeling capability"
+   ],
+   "answer": 1,
+   "explanation": "Network databases represent relationships through physical pointers connecting record nodes. Relationships are predefined and navigation follows these pointers. A single broken link in this pointer chain disrupts the ability to traverse the relationship — unlike relational databases where relationships are re-established at query time through JOIN operations on key values. This pointer-dependency is the specific cause of the vulnerability.\n\n{\"A\":\"Tables with foreign keys are a relational database mechanism — not a network database structure.\",\"B\":\"✓ Correct — pointer-based navigation means one broken link disrupts relationship traversal.\",\"C\":\"Hierarchical tree structure is the hierarchical model — not the network model (which allows multiple parents).\",\"D\":\"Network databases explicitly model many-to-many relationships — modeling capability is their strength.\"}"
+  },
+  {
+   "id": "8103-57",
+   "topic": "tb-types",
+   "text": "A distributed database uses two different systems across its nodes: Oracle Database at the Abuja headquarters, and PostgreSQL at the Lagos regional office. Each uses different schemas for overlapping data. Both appear as one system to head office analysts.\n\nWhat type of distributed database system is this?",
+   "opts": [
+    "Homogeneous Distributed System — all nodes use identical DBMS and schemas",
+    "Heterogeneous Distributed System — nodes use different DBMSs or schemas",
+    "Cloud Database — all nodes are managed by a cloud provider",
+    "NoSQL Distributed System — all nodes use non-relational models"
+   ],
+   "answer": 1,
+   "explanation": "In distributed databases: Homogeneous Systems have all nodes using the same DBMS and data model; Heterogeneous Systems have nodes using different DBMSs, data models, or schemas. Oracle + PostgreSQL + different schemas = heterogeneous. This is more complex to synchronise but reflects the reality of many enterprise environments where different systems evolved independently.\n\n{\"A\":\"Homogeneous systems require identical DBMS everywhere — Oracle ≠ PostgreSQL.\",\"B\":\"✓ Correct — different DBMSs (Oracle vs PostgreSQL) + different schemas = heterogeneous distributed system.\",\"C\":\"Cloud database describes deployment model — both nodes here could be on-premises.\",\"D\":\"Both Oracle and PostgreSQL are relational — this is not a NoSQL system.\"}"
+  },
+  {
+   "id": "8103-58",
+   "topic": "tb-nosql",
+   "text": "A developer explains: \"NoSQL doesn't mean No SQL at all. It actually stands for 'Not Only SQL' — meaning these databases don't strictly follow the relational model but can still support some SQL-like querying alongside their primary data model.\"\n\nWhich additional characteristic of NoSQL systems does this statement hint at, beyond query language flexibility?",
+   "opts": [
+    "NoSQL systems always provide full ACID compliance",
+    "NoSQL systems sacrifice strict ACID compliance for scalability, enabling horizontal scaling across distributed nodes",
+    "NoSQL systems are always slower than relational databases",
+    "NoSQL systems always use a single data model for all use cases"
+   ],
+   "answer": 1,
+   "explanation": "NoSQL databases often sacrifice strict ACID compliance in favour of eventual consistency to improve scalability and performance. This trade-off enables horizontal scaling across distributed systems — allowing them to handle millions of operations per second at web scale. This is the fundamental design philosophy: flexibility and scale over strict transactional guarantees.\n\n{\"A\":\"Most NoSQL systems sacrifice full ACID for scalability — some offer partial consistency models.\",\"B\":\"✓ Correct — NoSQL trades strict ACID for eventual consistency, enabling horizontal scale.\",\"C\":\"NoSQL systems can be very fast (especially key-value stores) — slowness is not a defining characteristic.\",\"D\":\"NoSQL encompasses four primary types (document, key-value, column-family, graph) — no single universal model.\"}"
+  },
+  {
+   "id": "8103-59",
+   "topic": "tb-types",
+   "text": "A real estate database uses an Object-Oriented approach: a Property object has attributes (address, price) and methods (calculateMortgage(), generateListing()). A ResidentialProperty class inherits all Property attributes but adds BedroomCount and GardenArea. Each object has a system-assigned unique OID.\n\nWhich OOP feature does the ResidentialProperty inheriting from Property demonstrate, and what is the OID's role?",
+   "opts": [
+    "Encapsulation — OID stores data and methods together",
+    "Polymorphism — OID allows different responses to the same method call",
+    "Inheritance — ResidentialProperty reuses Property's attributes/behaviours; OID uniquely identifies each object regardless of attribute changes",
+    "Abstraction — OID hides implementation details from users"
+   ],
+   "answer": 2,
+   "explanation": "Inheritance allows new object classes to be defined based on existing classes — ResidentialProperty inherits from Property. An Object Identifier (OID) is assigned to each object to uniquely identify it regardless of changes to its attribute values (unlike primary keys which might change). OIDs simplify referencing and linking objects in a database.\n\n{\"A\":\"Encapsulation combines data and methods into one object — not what inheritance or OID represent.\",\"B\":\"Polymorphism enables different objects to respond differently to the same method call — not demonstrated here.\",\"C\":\"✓ Correct — child class using parent's attributes/methods = Inheritance; permanent object identifier = OID.\",\"D\":\"Abstraction hides complexity — neither inheritance nor OID is specifically about abstraction.\"}"
+  },
+  {
+   "id": "8103-60",
+   "topic": "tb-types",
+   "text": "A recommendation engine is being designed for a streaming platform. It needs to answer: \"Find all users who watched Movie A, identify movies those users also watched, find the top 5 most watched among those, and recommend them to User X if he hasn't watched them.\" This query involves traversing User → Watch → Movie → Rating relationships.\n\nWhich database type is most appropriate, and which graph algorithm best supports recommendation ranking?",
+   "opts": [
+    "Relational Database — GROUP BY and ORDER BY for ranking",
+    "Graph Database — PageRank or similar centrality algorithm for influence-based ranking",
+    "Key-Value Store — fast lookup of precomputed recommendations",
+    "Column-Family Store — columnar aggregation of ratings"
+   ],
+   "answer": 1,
+   "explanation": "Recommendation Engines (suggesting content based on user behaviour and shared interests) are an explicit Graph Database use case. The traversal User→Watch→Movie→Rating is natural in a graph. PageRank measures the influence/importance of nodes — in a recommendation context, it identifies movies watched by many connected users. Graph algorithms like PageRank and community detection power modern recommendation systems.\n\n{\"A\":\"Relational DB with GROUP BY can rank — but multi-hop traversal across users and movies requires expensive JOIN chains.\",\"B\":\"✓ Correct — graph traversal for recommendation + PageRank for ranking = Graph Database.\",\"C\":\"Key-Value stores can cache precomputed results but cannot perform the traversal to generate recommendations.\",\"D\":\"Column-family stores aggregate column data — not relationship-based recommendation traversal.\"}"
+  },
+  {
+   "id": "8103-61",
+   "topic": "tb-limits",
+   "text": "A growing e-commerce startup finds that adding more RAM and CPU to its single database server is becoming prohibitively expensive. When they try to spread the database across multiple servers, the rigid table schema and complex foreign key constraints make the data very difficult to distribute cleanly.\n\nWhich traditional DBMS limitation does this scenario describe?",
+   "opts": [
+    "High Maintenance Costs",
+    "Scalability Issues — vertical scaling hits limits and rigid schemas impede horizontal scaling",
+    "Security and Compliance Challenges",
+    "Limited Support for Real-Time Analytics"
+   ],
+   "answer": 1,
+   "explanation": "Scalability Issues: traditional DBMS (particularly relational databases) struggle with large volumes of data and concurrent transactions. Vertical scaling (adding more power to one machine) is costly with limits. Horizontal scaling (distributing across multiple servers) is challenging due to rigid schema structures (foreign keys, joins across nodes). Both aspects are demonstrated in this scenario.\n\n{\"A\":\"High Maintenance Costs relate to DBA staffing and operational overhead — not scaling architecture challenges.\",\"B\":\"✓ Correct — expensive vertical scaling + rigid schema blocking horizontal distribution = scalability issues.\",\"C\":\"Security challenges relate to encryption and compliance gaps — not scaling architecture.\",\"D\":\"Real-time analytics limitations relate to OLAP vs OLTP performance — not infrastructure scaling costs.\"}"
+  },
+  {
+   "id": "8103-62",
+   "topic": "tb-limits",
+   "text": "A social media company tries to store Instagram-style posts in its Oracle relational database. Posts have completely different structures: a video post has Duration and Thumbnail fields; a story has ExpiryTime; a reel has AudioTrack and Effects. The DBA has to run ALTER TABLE dozens of times as new post types emerge, breaking existing application queries each time.\n\nWhich traditional DBMS limitation is responsible for this operational pain?",
+   "opts": [
+    "Concurrency and Locking Issues",
+    "Rigid Schema Design — predefined schemas require significant modification when data structures change",
+    "Limited Support for Cloud Integration",
+    "Inability to Handle Distributed Data"
+   ],
+   "answer": 1,
+   "explanation": "Rigid Schema Design: traditional DBMS require predefined schemas, meaning any change in data structure necessitates significant modifications. This rigidity makes it difficult to handle dynamic and unstructured data efficiently. Constantly running ALTER TABLE as new social media post types emerge — each breaking existing queries — is a direct consequence of rigid schema design.\n\n{\"A\":\"Concurrency issues cause deadlocks during simultaneous access — not structural inflexibility for varying data types.\",\"B\":\"✓ Correct — needing ALTER TABLE for every new post type with different fields = rigid schema limitation.\",\"C\":\"Cloud integration challenges relate to migration complexity — not schema inflexibility.\",\"D\":\"Distributed data challenges relate to consistency across nodes — not schema change overhead.\"}"
+  },
+  {
+   "id": "8103-63",
+   "topic": "tb-limits",
+   "text": "A financial services company's relational database performs well for daily transaction processing (OLTP). However, when the business intelligence team runs quarterly reports analysing 10 years of transaction history across 800 million records, queries take 14 hours — rendering them practically useless for business decisions.\n\nWhich traditional DBMS limitation does this exemplify?",
+   "opts": [
+    "Security and Compliance Challenges",
+    "High Maintenance Costs",
+    "Rigid Schema Design",
+    "Limited Performance with Big Data — poor OLAP performance on massive structured datasets"
+   ],
+   "answer": 3,
+   "explanation": "Limited Performance with Big Data: the structured approach of traditional databases makes them inefficient for handling massive datasets. Also: traditional databases are optimised for OLTP but struggle with OLAP. Running complex analytical queries on 800 million historical records — taking 14 hours — illustrates both the big data performance limitation and the OLTP-vs-OLAP mismatch of traditional DBMS.\n\n{\"A\":\"Security challenges relate to encryption and compliance — not 14-hour analytical query performance.\",\"B\":\"High maintenance costs relate to DBA staffing overhead — not query performance on large datasets.\",\"C\":\"Rigid schema design relates to difficulty changing table structures — not analytical performance.\",\"D\":\"✓ Correct — traditional DBMS optimised for OLTP; OLAP on 800M records taking 14 hours = limited big data performance.\"}"
+  },
+  {
+   "id": "8103-64",
+   "topic": "tb-limits",
+   "text": "During a Black Friday sale, a retail bank's database experiences: 20,000 concurrent users attempting transactions, multiple timeouts as transactions queue behind locks, two incidents where Teller A and Teller B simultaneously tried to update the same customer balance causing the system to roll back one transaction, and significantly degraded response times across all branches.\n\nWhich traditional DBMS limitation is the primary cause of these problems?",
+   "opts": [
+    "Scalability Issues",
+    "Concurrency and Locking Issues — concurrent transactions causing locks, deadlocks, and performance degradation",
+    "Rigid Schema Design",
+    "Limited Cloud Integration"
+   ],
+   "answer": 1,
+   "explanation": "Concurrency and Locking Issues: handling concurrent transactions can lead to locking and deadlocks, affecting performance and user experience. As multiple users access and modify data, contention for resources slows down transaction processing. Timeouts, rollbacks from simultaneous balance updates, and degraded response times are all classic symptoms of concurrency and locking problems.\n\n{\"A\":\"Scalability Issues relate to growing hardware costs and schema-based distribution challenges — deadlocks are a concurrency problem.\",\"B\":\"✓ Correct — lock queues, deadlocks (simultaneous balance update), timeouts, and degraded performance = concurrency and locking issues.\",\"C\":\"Rigid schema relates to structural inflexibility — not transaction conflict during simultaneous access.\",\"D\":\"Cloud integration relates to migration complexity — not concurrent transaction management.\"}"
+  },
+  {
+   "id": "8103-65",
+   "topic": "tb-limits",
+   "text": "A traditional DBMS vendor's sales pitch highlights: row-level locking, B-tree indexes, stored procedures, and triggers. A consultant responds: \"All excellent for day-to-day transactions. But what about when your client needs to store IoT sensor JSON payloads with different fields for each device type? Or social media comment threads? Or graph-structured knowledge bases?\"\n\nWhich limitation(s) is the consultant pointing to?",
+   "opts": [
+    "High Maintenance Costs and Security Challenges",
+    "Inability to Handle NoSQL Requirements — unstructured/semi-structured data and non-relational models are beyond traditional RDBMS",
+    "Scalability Issues and Rigid Schema working together",
+    "Limited Performance with Big Data and Concurrency Issues"
+   ],
+   "answer": 1,
+   "explanation": "Inability to Handle NoSQL Requirements: many modern applications require NoSQL capabilities to manage unstructured or semi-structured data. Traditional relational databases are not designed to accommodate JSON payloads with varying fields (document store use case), social threads (flexible document/graph use case), or knowledge graphs (graph database use case). They are unsuitable for IoT, social media, and big data analytics — exactly what the consultant raises.\n\n{\"A\":\"Maintenance and security are real limitations but not what JSON payloads, social threads, or knowledge graphs represent.\",\"B\":\"✓ Correct — IoT JSON, social comments, knowledge graphs = NoSQL-style unstructured/graph data = inability to handle NoSQL requirements.\",\"C\":\"While schema rigidity overlaps, the consultant is specifically pointing to the NoSQL data model mismatch.\",\"D\":\"Big data performance and concurrency are separate limitations from the NoSQL data model mismatch.\"}"
+  },
+  {
+   "id": "8103-66",
+   "topic": "tb-limits",
+   "text": "A traditional bank wants to move its Oracle on-premises database to Google Cloud. The IT director reports: \"The schema is so deeply coupled to on-premises infrastructure — fixed file paths, local networking assumptions, and hardware-specific storage configurations — that migration will take 18 months and cost ₦200 million.\"\n\nWhich traditional DBMS limitation explains this migration difficulty?",
+   "opts": [
+    "Rigid Schema Design",
+    "High Maintenance Costs",
+    "Limited Support for Cloud Integration — traditional DBMS not optimised for cloud-native environments",
+    "Concurrency and Locking Issues"
+   ],
+   "answer": 2,
+   "explanation": "Limited Support for Cloud Integration: while cloud computing has become essential for modern businesses, traditional DBMS are often not optimised for cloud-native environments. Migrating legacy databases to the cloud can be complex, requiring extensive modifications and reconfiguration. The 18-month, ₦200M migration complexity directly reflects this limitation.\n\n{\"A\":\"Rigid schema relates to data structure inflexibility — not infrastructure coupling and cloud migration.\",\"B\":\"High maintenance costs refer to ongoing DBA overhead — not one-time migration complexity.\",\"C\":\"✓ Correct — traditional DBMS not cloud-native, causing complex expensive migration = limited cloud integration.\",\"D\":\"Concurrency issues relate to simultaneous transaction management — not cloud migration.\"}"
+  },
+  {
+   "id": "8103-67",
+   "topic": "tb-limits",
+   "text": "A hospital is told its traditional DBMS provides username/password access and AES-128 encryption, but the regulator requires: field-level encryption for patient identifiers, zero-trust network access policies, NDPR-compliant audit trails with tamper-proof logging, and automated right-to-erasure enforcement.\n\nWhich traditional DBMS limitation is the hospital facing?",
+   "opts": [
+    "Scalability Issues",
+    "Rigid Schema Design",
+    "Security and Compliance Challenges — basic security mechanisms insufficient for modern regulatory requirements",
+    "Limited Performance with Big Data"
+   ],
+   "answer": 2,
+   "explanation": "Security and Compliance Challenges: traditional DBMS provide basic security (access control, encryption) but often lack robust support for modern needs — advanced encryption techniques (field-level), zero-trust architectures, and compliance with evolving regulations (GDPR, CCPA, NDPR). The gap between basic DBMS security and the regulator's requirements illustrates this limitation.\n\n{\"A\":\"Scalability Issues relate to data volume and horizontal distribution — not security architecture gaps.\",\"B\":\"Rigid schema relates to structural inflexibility — not encryption standards or audit trail compliance.\",\"C\":\"✓ Correct — basic security insufficient for field-level encryption, zero-trust, and regulatory compliance = security and compliance challenges.\",\"D\":\"Big data performance relates to analytical query speed — not security and compliance architecture.\"}"
+  },
+  {
+   "id": "8103-68",
+   "topic": "tb-limits",
+   "text": "A logistics company's DBA team of three spends: 40% of time on query tuning for degraded queries, 30% on backup and recovery management, 20% on security patching and user management, and 10% on capacity planning. The annual DBA cost is ₦45 million. The CFO asks why the database is so expensive to run.\n\nWhich traditional DBMS limitation does this cost structure reflect?",
+   "opts": [
+    "Concurrency and Locking Issues",
+    "Rigid Schema Design",
+    "High Maintenance Costs — traditional DBMS require significant human and financial resources for ongoing operation",
+    "Limited Cloud Integration"
+   ],
+   "answer": 2,
+   "explanation": "High Maintenance Costs: managing a traditional DBMS requires significant resources — including database administrators for optimisation, security, and regular maintenance. This increases overall operational costs, especially for large enterprises. The ₦45M annual DBA cost covering query tuning, backup management, security patching, and capacity planning is a direct manifestation of high maintenance costs.\n\n{\"A\":\"Concurrency issues cause deadlocks — not recurring maintenance labour costs.\",\"B\":\"Rigid schema causes structural inflexibility — not ongoing operational staffing costs.\",\"C\":\"✓ Correct — significant DBA resources needed for ongoing optimisation, security, and maintenance = high maintenance costs.\",\"D\":\"Cloud integration relates to migration difficulty — not recurring operational labour costs.\"}"
+  },
+  {
+   "id": "8103-69",
+   "topic": "tb-choose",
+   "text": "A startup is choosing a database. Their data consists of: (a) structured user account records with fixed fields, (b) unstructured product reviews with varying fields, (c) social connection graphs between users, and (d) real-time click-stream events with timestamps. The CTO asks: \"What is the single most important first factor to determine?\"\n\nWhich database selection factor should the CTO evaluate first?",
+   "opts": [
+    "Maintenance and Vendor Ecosystem — choose the database with the best support contracts",
+    "Data Model — what is the nature of the data and how will it be queried",
+    "Scalability — choose the system with the most horizontal scaling nodes",
+    "Performance — choose the system with the lowest latency benchmarks"
+   ],
+   "answer": 1,
+   "explanation": "The Data Model is described as \"perhaps the most critical factor\" in database selection — it determines how data is organised, stored, and queried. The CTO's data includes structured (RDBMS), unstructured/varied (NoSQL Document), social graph (Graph DB), and time-series (TSDB) — all requiring different models. Understanding the nature of each data type and its query patterns is the prerequisite for all other decisions.\n\n{\"A\":\"Maintenance and vendor ecosystem is a secondary consideration after the fundamental data model fit.\",\"B\":\"✓ Correct — data model is the most critical first factor; it determines which database category is even viable.\",\"C\":\"Scalability is important but secondary — you must first know the data model before choosing how to scale it.\",\"D\":\"Performance benchmarks are meaningful only after the correct data model is identified.\"}"
+  },
+  {
+   "id": "8103-70",
+   "topic": "tb-choose",
+   "text": "Company A chooses PostgreSQL and adds RAM and CPU to its single server as load grows (vertical scaling). Company B distributes its database across 50 cloud nodes, routing queries to the nearest node (horizontal scaling). Company A hits a hardware ceiling; Company B keeps scaling seamlessly.\n\nWhich database selection consideration does this comparison illustrate?",
+   "opts": [
+    "Data Model — relational vs NoSQL",
+    "Workload Type — OLTP vs OLAP",
+    "Scalability — vertical scaling (scale-up) vs horizontal scaling (scale-out)",
+    "Consistency and Availability — CAP Theorem trade-offs"
+   ],
+   "answer": 2,
+   "explanation": "Scalability: vertical scaling (scale-up) involves upgrading server hardware — typical of traditional RDBMS — and hits physical/cost limits. Horizontal scaling (scale-out) distributes data across multiple servers — common in NoSQL and NewSQL. For applications expecting massive growth in user or transaction volume, horizontal scaling is preferable. This is the exact comparison illustrated.\n\n{\"A\":\"Data model relates to how data is structured — not the scaling architecture choice.\",\"B\":\"OLTP vs OLAP relates to workload type (transactional vs analytical) — not horizontal vs vertical scaling.\",\"C\":\"✓ Correct — Company A = vertical scaling hits ceiling; Company B = horizontal scaling = scalability consideration.\",\"D\":\"CAP Theorem trade-offs relate to consistency/availability in distributed systems — not vertical vs horizontal scaling.\"}"
+  },
+  {
+   "id": "8103-71",
+   "topic": "tb-choose",
+   "text": "A bank's payment system processes 15,000 financial transactions per second, each requiring a debit from one account and a credit to another — both must succeed or neither can. The system cannot tolerate inconsistent reads where one account appears debited but the other not yet credited.\n\nWhich database characteristic is NON-NEGOTIABLE for this payment system?",
+   "opts": [
+    "Schema flexibility — different transaction types may need different fields",
+    "Eventual consistency — the system can tolerate temporary inconsistency for performance",
+    "ACID compliance — all-or-nothing transactions with consistent reads are mandatory",
+    "Horizontal NoSQL scaling — payment volume requires distributed NoSQL"
+   ],
+   "answer": 2,
+   "explanation": "ACID compliance is non-negotiable for financial payment systems. Atomicity ensures debit and credit both succeed or neither persists. Consistency ensures the database moves between valid states only. Isolation ensures concurrent transactions don't produce inconsistent intermediate states. Durability ensures committed transactions survive crashes. Eventual consistency would allow the exact error described (debit seen but credit not yet applied).\n\n{\"A\":\"Schema flexibility (NoSQL feature) is not relevant — payment transactions have fixed, well-defined structures.\",\"B\":\"Eventual consistency explicitly allows temporary inconsistency — catastrophic for payment systems where half-transactions are visible.\",\"C\":\"✓ Correct — payment debit/credit as atomic unit, no inconsistent reads = ACID compliance is mandatory.\",\"D\":\"Some NoSQL systems lack full ACID — for payments, ACID is the requirement; NoSQL may or may not support it.\"}"
+  },
+  {
+   "id": "8103-72",
+   "topic": "tb-choose",
+   "text": "A media company runs two separate workflows: (A) journalists adding news articles to the CMS (short, fast, frequent writes — 2,000 per hour); and (B) the analytics team aggregating 5 years of article data to model content performance trends (complex, slow, infrequent reads across 50 million records).\n\nWhat workload type consideration does this scenario illustrate, and what is the implication for database selection?",
+   "opts": [
+    "OLTP vs OLAP — workflow A is transactional (OLTP), workflow B is analytical (OLAP); they may need different optimised databases",
+    "Horizontal vs Vertical Scaling — workflow A needs horizontal, workflow B needs vertical",
+    "NoSQL vs SQL — workflow A needs NoSQL, workflow B needs SQL",
+    "CAP Theorem — workflow A prioritises availability, workflow B prioritises consistency"
+   ],
+   "answer": 0,
+   "explanation": "OLTP (Online Transaction Processing) handles high-volume, short transactional operations — workflow A (2,000 article inserts per hour). OLAP (Online Analytical Processing) handles complex queries on large datasets for BI and reporting — workflow B (5-year trend analysis on 50M records). Traditional DBMS are optimised for OLTP but struggle with OLAP. The implication: these may need different, purpose-optimised systems (e.g., PostgreSQL for OLTP, Apache Spark/BigQuery for OLAP).\n\n{\"A\":\"✓ Correct — frequent short writes = OLTP; complex long aggregations = OLAP; workload type determines database optimisation.\",\"B\":\"Scaling direction (horizontal vs vertical) is not the primary distinction between these two workflows.\",\"C\":\"Both could use SQL — the distinction is workload pattern (transactional vs analytical), not query language.\",\"D\":\"CAP Theorem applies to distributed system consistency/availability — not the OLTP vs OLAP workload distinction.\"}"
+  },
+  {
+   "id": "8103-73",
+   "topic": "tb-choose",
+   "text": "A hospital needs a database for its patient appointment system. The system will be accessed by 5 doctors at a single clinic, managing 200 appointments per day, with strict need for data accuracy (no double-bookings), and a fixed, well-defined data structure.\n\nWhich database type is most appropriate, and why?",
+   "opts": [
+    "NoSQL Document Store — for schema flexibility",
+    "Distributed Database across 10 nodes — for scalability",
+    "Relational Database (RDBMS) — structured data, small scale, ACID requirements, well-defined schema",
+    "Time-Series Database — for time-stamped appointments"
+   ],
+   "answer": 2,
+   "explanation": "Choosing the right database requires matching the database to the specific needs: the data is structured (fixed schema), scale is small (5 doctors, 200 daily appointments), ACID compliance is required (no double-bookings = integrity), and the schema is well-defined. An RDBMS is ideal for structured, transactional, small-to-medium scale scenarios with fixed schemas. Over-engineering with distributed NoSQL or TSDB would be inappropriate.\n\n{\"A\":\"NoSQL Document stores are for schema flexibility with varied fields — appointments have a fixed structure.\",\"B\":\"A 10-node distributed database is massive over-engineering for 5 doctors and 200 daily appointments.\",\"C\":\"✓ Correct — structured, small scale, ACID needed, fixed schema = RDBMS is the appropriate choice.\",\"D\":\"Time-Series databases handle high-frequency sensor/metric data — appointment scheduling is not a time-series problem.\"}"
+  },
+  {
+   "id": "8103-74",
+   "topic": "tb-choose",
+   "text": "A startup CTO argues: \"We should use a managed cloud database service — it reduces our operational burden even if it costs a bit more monthly.\" The CFO counters: \"But we'd be completely dependent on one vendor and couldn't easily switch later.\"\n\nWhich database selection consideration does this disagreement reflect?",
+   "opts": [
+    "Data Model selection — relational vs NoSQL",
+    "Maintenance and Vendor Ecosystem — managed services reduce maintenance but may create vendor lock-in",
+    "Scalability — the cloud has unlimited horizontal scaling",
+    "CAP Theorem — the cloud guarantees both consistency and availability"
+   ],
+   "answer": 1,
+   "explanation": "Maintenance and Vendor Ecosystem: managed cloud services (like Amazon RDS, Google BigQuery) reduce maintenance but may involve vendor lock-in. Open-source databases provide flexibility but require more in-house expertise. The CTO values reduced operational burden; the CFO is concerned about vendor lock-in — this is precisely the trade-off described in the database selection consideration of Maintenance and Vendor Ecosystem.\n\n{\"A\":\"Data model selection (relational vs NoSQL) is about data structure — not operational overhead vs vendor dependency.\",\"B\":\"✓ Correct — managed services reduce maintenance but create vendor lock-in = Maintenance and Vendor Ecosystem trade-off.\",\"C\":\"Horizontal scaling is one cloud benefit but not the subject of this specific CTO-CFO disagreement.\",\"D\":\"CAP Theorem guarantees are per-database, not a blanket cloud promise — and not the subject of this discussion.\"}"
+  },
+  {
+   "id": "8103-75",
+   "topic": "tb-limits",
+   "text": "A national statistics agency's DBMS was built in 2005 for centralised data storage. The agency now wants: real-time data feeds from 36 state offices simultaneously, replication to a disaster recovery site in Abuja, and a read replica for the Lagos analytics team. The system administrator says these requirements were \"never part of the design.\"\n\nWhich traditional DBMS limitation is the administrator identifying?",
+   "opts": [
+    "Security and Compliance Challenges",
+    "Rigid Schema Design",
+    "Complexity in Handling Distributed Data — traditional DBMS designed for centralised storage struggle with distributed requirements",
+    "Concurrency and Locking Issues"
+   ],
+   "answer": 2,
+   "explanation": "Complexity in Handling Distributed Data: traditional DBMS were designed for centralised data storage. As modern applications demand global accessibility and distributed data storage, traditional databases struggle with maintaining consistency, replication, and synchronisation across multiple locations. Real-time feeds from 36 offices, disaster recovery replication, and read replicas are distributed requirements that a centralised 2005 DBMS was never built to handle.\n\n{\"A\":\"Security challenges relate to encryption and compliance — not geographic distribution and replication.\",\"B\":\"Rigid schema relates to structural inflexibility — not distribution and replication architecture.\",\"C\":\"✓ Correct — centralised-only DBMS unable to handle multi-office replication and distributed reads = distributed data complexity.\",\"D\":\"Concurrency issues relate to simultaneous transaction locking — not geographic distribution.\"}"
+  },
+  {
+   "id": "8103-76",
+   "topic": "tb-choose",
+   "text": "A performance engineering team measures three metrics for a database candidate: (a) how quickly it responds to individual queries (latency), (b) how many operations it can handle per second (throughput), and (c) whether it continues operating correctly when one of its servers fails (fault tolerance).\n\nWhich database selection consideration do these three metrics collectively represent?",
+   "opts": [
+    "Data Model — metrics define what type of data the database can store",
+    "Scalability — these metrics define how many nodes are needed",
+    "Performance Requirements — latency, throughput, and fault tolerance are performance criteria",
+    "Workload Type — OLTP requires low latency; OLAP requires high throughput"
+   ],
+   "answer": 2,
+   "explanation": "Performance Requirements: performance metrics such as latency (how quickly queries are answered), throughput (how many operations per second), and fault tolerance (ability to remain operational during failures) matter significantly. Applications requiring real-time data processing need low-latency, high-throughput, fault-tolerant systems. These three are explicitly listed as performance criteria in the database selection framework.\n\n{\"A\":\"Data model defines data structure organisation — not operational performance metrics.\",\"B\":\"Scalability is about growing with user/data load — while related, the three specific metrics define performance requirements.\",\"C\":\"✓ Correct — latency, throughput, and fault tolerance = the three performance requirements criteria.\",\"D\":\"OLTP vs OLAP is the workload type consideration — performance requirements are a separate (though related) factor.\"}"
+  },
+  {
+   "id": "8103-77",
+   "topic": "tb-choose",
+   "text": "An architect states: \"No single database fits all scenarios.\" She designs a system using: PostgreSQL for customer and order records, Redis for real-time inventory caching, MongoDB for product catalogue with varying attributes, and InfluxDB for telemetry from delivery vehicles.\n\nWhat database design strategy does the architect employ, and what principle justifies it?",
+   "opts": [
+    "Database Consolidation — all data in one system for simplicity",
+    "Polyglot Persistence — using multiple purpose-fit databases, each chosen for its specific data domain and query pattern",
+    "ACID Enforcement — applying ACID to all four databases",
+    "Schema Standardisation — all four databases share a unified schema"
+   ],
+   "answer": 1,
+   "explanation": "\"No single database fits all scenarios. The right choice depends on data characteristics, workload, scalability needs, consistency requirements, and operational capabilities.\" The architect uses each database for its strength: PostgreSQL (structured/transactional), Redis (speed/caching), MongoDB (flexible catalogue), InfluxDB (time-series telemetry). This deliberate multi-database strategy is called Polyglot Persistence.\n\n{\"A\":\"Consolidation merges everything into one system — opposite of the four-database strategy described.\",\"B\":\"✓ Correct — different databases for different domains based on their strengths = Polyglot Persistence.\",\"C\":\"ACID applies per-database — it is not a strategy for choosing which databases to use.\",\"D\":\"Schema standardisation across different database types is not feasible — each database type has its own data model.\"}"
+  },
+  {
+   "id": "8103-78",
+   "topic": "tb-limits",
+   "text": "The course material states: \"Although traditional DBMS have been reliable for structured data management, their limitations have led to the rise of NoSQL, NewSQL, and other modern database technologies.\"\n\nWhich statement correctly summarises WHY modern database technologies emerged?",
+   "opts": [
+    "Traditional DBMS were insecure and unreliable — modern databases fix all their bugs",
+    "Modern databases are always cheaper — organisations switched purely for cost reasons",
+    "Traditional DBMS limitations in scalability, schema flexibility, unstructured data handling, distributed computing, and real-time analytics drove demand for NoSQL, NewSQL, cloud-native, and specialised databases",
+    "NoSQL databases are strictly superior to traditional DBMS in all dimensions"
+   ],
+   "answer": 2,
+   "explanation": "The rise of NoSQL, NewSQL, and other modern databases is driven by specific limitations of traditional DBMS: scalability issues (can't handle big data growth), rigid schema (can't handle unstructured data), complexity with distributed data (globalisation demand), limited real-time analytics (OLAP weakness), and inability to handle NoSQL requirements. Modern systems address these specific gaps — not replace traditional DBMS entirely.\n\n{\"A\":\"Traditional DBMS are not inherently insecure or buggy — they have specific architectural limitations for modern use cases.\",\"B\":\"Cost is one factor but not the primary driver — architectural limitations are the core cause.\",\"C\":\"✓ Correct — specific technical limitations (scale, schema, distribution, analytics, NoSQL data) drove modern database innovation.\",\"D\":\"NoSQL is better for certain use cases — but traditional DBMS remain superior for structured transactional data.\"}"
+  },
+  {
+   "id": "8103-79",
+   "topic": "tb-choose",
+   "text": "Two different organisations have the same budget and the same scale. Organisation A: user data is structured (fixed schema), all operations are short transactions (debit, credit, transfer), and regulatory compliance requires ACID guarantees. Organisation B: user data is semi-structured (social posts, images, comments), queries are exploratory and analytical, and scale must grow 10x in 6 months.\n\nWhich database types should Organisations A and B respectively choose, and why?",
+   "opts": [
+    "A: NoSQL; B: RDBMS — NoSQL is always faster; RDBMS is always more flexible",
+    "A: RDBMS — structured data + ACID + transactional = relational model; B: NoSQL — semi-structured + analytical + rapid scale = NoSQL document/column store",
+    "A: Time-Series; B: Graph — all modern applications need specialised databases",
+    "A: Distributed; B: Cloud — distribution and cloud always outperform traditional DBMS"
+   ],
+   "answer": 1,
+   "explanation": "Organisation A: structured, transactional, ACID-required = RDBMS is the clear match. Organisation B: semi-structured social data (document store), analytical (column-family store), rapid 10x scaling (NoSQL horizontal scaling) = NoSQL. This illustrates the core database selection principle: match the data model and workload type to the database type. Budget and scale alone do not determine the choice.\n\n{\"A\":\"NoSQL is not always faster and RDBMS is not always more flexible — each fits different use cases.\",\"B\":\"✓ Correct — structured+ACID+transactional → RDBMS; semi-structured+analytical+rapid scale → NoSQL.\",\"C\":\"Time-Series and Graph are specialised for specific domains — not general replacements for transactional or social media systems.\",\"D\":\"Distribution and cloud are deployment and scaling strategies — not the primary selection criteria between data models.\"}"
+  },
+  {
+   "id": "8103-80",
+   "topic": "tb-choose",
+   "text": "A final exam question asks students to evaluate: \"A ride-hailing company needs to: (1) store fixed-format trip records with ACID guarantees; (2) match drivers and riders in real-time using location and preference graph data; (3) analyse hourly ride demand trends across Lagos by time of day; (4) serve user profile lookups at 1 million queries per second.\"\n\nWhich combination of database types best serves all four requirements?",
+   "opts": [
+    "(1) RDBMS, (2) Graph Database, (3) Time-Series Database, (4) Key-Value Store",
+    "(1) NoSQL Document Store, (2) Relational Database, (3) Key-Value Store, (4) Graph Database",
+    "(1) Time-Series Database, (2) Key-Value Store, (3) Relational Database, (4) Graph Database",
+    "(1) Hierarchical Database, (2) Network Database, (3) Column-Family Store, (4) Object-Oriented Database"
+   ],
+   "answer": 0,
+   "explanation": "(1) Fixed-format trip records + ACID = RDBMS. (2) Real-time driver-rider matching using location/preference relationships = Graph Database (relationship traversal). (3) Time-based demand trends across hours and locations = Time-Series Database (time-indexed analytics). (4) 1M user profile lookups/second by user ID = Key-Value Store (extremely fast single-key lookup). This combination reflects Polyglot Persistence — each database chosen for its domain strength.\n\n{\"A\":\"✓ Correct — RDBMS(trips) + Graph(matching) + TSDB(demand analytics) + Key-Value(profile lookups) = optimal polyglot solution.\",\"B\":\"This misassigns relational and document stores and puts Key-Value where TSDB is needed.\",\"C\":\"TSDB for fixed ACID records and Key-Value for matching/routing are mismatches.\",\"D\":\"Hierarchical and Network databases are legacy models unsuitable for modern real-time applications at this scale.\"}"
+  }
+ ],
+ "caseStudies": [
+  {
+   "id": "8103-block-1",
+   "title": "Database Basics, DBMS Components & Functions",
+   "label": "Block 1",
+   "range": "Questions 1–20"
+  },
+  {
+   "id": "8103-block-2",
+   "title": "Database Design Stages & Normalisation",
+   "label": "Block 2",
+   "range": "Questions 21–40"
+  },
+  {
+   "id": "8103-block-3",
+   "title": "Types of Databases",
+   "label": "Block 3",
+   "range": "Questions 41–60"
+  },
+  {
+   "id": "8103-block-4",
+   "title": "DBMS Limitations & Choosing the Right Database",
+   "label": "Block 4",
+   "range": "Questions 61–80"
+  }
+ ]
+}

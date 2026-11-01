@@ -1,0 +1,1047 @@
+{
+ "code": "MIT8113",
+ "title": "Strategic Role of IT in Digital Transformation",
+ "questions": [
+  {
+   "id": "8113-1",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "Zenith Bank's leadership team announces a company-wide initiative to 'move everything to digital.' The CTO clarifies that the goal is not simply to digitise paper records but to fundamentally rethink how the bank delivers value to customers in the digital age.\n\nWhich statement best describes what the CTO is referring to?",
+   "opts": [
+    "Digitisation — converting analogue records to digital formats",
+    "Digitalisation — using digital tools to improve existing banking processes",
+    "Digital transformation — rethinking the bank's business model and operations through digital technology",
+    "IT modernisation — upgrading hardware and software infrastructure"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Digital transformation involves integrating digital technology into all areas of a business, fundamentally changing how it operates and delivers value — which is exactly what the CTO described."
+  },
+  {
+   "id": "8113-2",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "A transport company in Abuja still uses paper waybills, manual fuel logs, and phone calls to coordinate deliveries. The MD asks for a proposal to 'start the digital transformation journey.' A consultant suggests three options: (A) scanning all paper documents, (B) using fleet management software to automate dispatch and tracking, (C) redesigning the entire business model to offer on-demand logistics as a digital platform.\n\nWhich option represents digital transformation rather than digitalisation or digitisation?",
+   "opts": [
+    "Option A — scanning documents",
+    "Option B — fleet management software",
+    "Option C — redesigning the business as a digital platform",
+    "Both A and B qualify as digital transformation"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Redesigning the business model to operate as a digital, on-demand logistics platform represents digital transformation — a strategic overhaul that leverages technology to create a fundamentally new way of delivering value."
+  },
+  {
+   "id": "8113-3",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "A Nigerian university decides to migrate all student records from physical files to a database management system. The Registrar announces this as the university's 'digital transformation initiative.'\n\nA technology consultant reviewing the initiative would most accurately classify this as:",
+   "opts": [
+    "Full digital transformation because it changes how the university manages records",
+    "Digitalisation because it applies digital tools to an existing process",
+    "Digitisation because it converts analogue records into digital format",
+    "IT modernisation that constitutes a complete business model change"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Converting physical/paper student records into a database is the definition of digitisation — converting analogue data to digital form. It is the first of three stages."
+  },
+  {
+   "id": "8113-4",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "Flutterwave started as a payments infrastructure company, then expanded into merchant tools, cross-border commerce enablement, and marketplace services — continuously redesigning its business model as it grew.\n\nWhich type of innovation does Flutterwave's evolution most clearly exemplify?",
+   "opts": [
+    "Incremental innovation — small, continuous improvements to existing payment services",
+    "Product innovation — launching new payment products",
+    "Business model innovation — rethinking how value is created and delivered",
+    "Process innovation — improving internal payment processing workflows"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Business model innovation means rethinking how value is delivered and captured. Flutterwave's evolution from a single API service to a full commerce ecosystem is a clear example of ongoing business model reinvention."
+  },
+  {
+   "id": "8113-5",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "In early 2023, during Nigeria's cash scarcity crisis triggered by the naira redesign policy, OPay and PalmPay experienced a massive surge in users who had never previously used mobile money.\n\nThis scenario best illustrates which relationship between innovation and digital transformation?",
+   "opts": [
+    "Innovation is only possible after full digital transformation is complete",
+    "Digital transformation creates innovation barriers in developing economies",
+    "Innovation addresses real market needs and becomes a catalyst for accelerated digital transformation adoption",
+    "Digital tools replace the need for physical cash infrastructure entirely"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The cash scarcity showed how innovation (mobile wallets solving an urgent real-world need) became the trigger for millions of new users adopting digital financial services — illustrating the practical relationship between innovation and transformation."
+  },
+  {
+   "id": "8113-6",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "Kuda Bank operates entirely through a mobile app with no physical branches. It offers bank accounts, loans, savings, and bill payments — all digitally. Traditional banks are struggling to match its growth among Nigeria's urban youth.\n\nKuda's banking model is best described as an example of:",
+   "opts": [
+    "Incremental innovation — adding digital channels to an existing bank",
+    "Disruptive innovation — changing the entire market with a new, app-only model",
+    "Process innovation — improving internal banking workflows",
+    "Digitisation — converting paper banking forms to digital ones"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Kuda disrupts the banking market by eliminating branches entirely, serving a previously underserved segment (urban youth) at lower cost through a mobile-native model — classic disruptive innovation."
+  },
+  {
+   "id": "8113-7",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "The CEO of a Lagos-based manufacturing firm says: 'Our ERP system processes our orders twice as fast as before, but we still operate the same business model, serve the same customers the same way, and make the same products.'\n\nWhich statement accurately characterises the CEO's situation?",
+   "opts": [
+    "The firm has achieved digital transformation because it uses an ERP system",
+    "The firm has achieved digitalisation but not yet digital transformation",
+    "The firm has completed digitisation but not digitalisation",
+    "The firm has fully integrated all layers of the digital transformation framework"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The firm has applied digital tools (ERP) to improve an existing process (order processing) — this is digitalisation. Digital transformation would require rethinking the business model, culture, and how value is delivered."
+  },
+  {
+   "id": "8113-8",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "FarmCrowdy connects city-based investors to rural Nigerian farmers, allowing individuals to fund farm plots online, track farming progress digitally, and earn returns on agricultural yields.\n\nFarmCrowdy's model is best described as which type of innovation?",
+   "opts": [
+    "Process innovation — automating farm record-keeping",
+    "Incremental innovation — improving traditional farming practices",
+    "Disruptive innovation combined with business model innovation — creating a new market by digitally linking investors and farmers",
+    "Product innovation — introducing a new agricultural product"
+   ],
+   "answer": 2,
+   "explanation": "Correct! FarmCrowdy disrupts traditional agricultural financing (normally banks or cooperatives) by digitally matching investors to farmers — a combination of business model innovation and disruptive market creation."
+  },
+  {
+   "id": "8113-9",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "A Nigerian FMCG company wants to innovate. Its IT team proposes four initiatives. Which one should the leadership team classify as process innovation?\n\nundefined",
+   "opts": [
+    "Launching a new nutritional snack product targeting children",
+    "Changing from a distributor-based model to direct-to-consumer e-commerce",
+    "Automating warehouse picking and packing using barcode scanning and conveyor systems",
+    "Rebranding and redesigning product packaging"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Automating warehouse operations (picking, packing, scanning) is process innovation — using technology to create more efficient ways of service/production delivery."
+  },
+  {
+   "id": "8113-10",
+   "topic": "Digital Transformation: Definition & Concepts",
+   "text": "Netflix's recommendation algorithm analyses viewing history, time of day, device used, and even how long a user hovers over a title before clicking, to predict which show to surface next. This has significantly reduced subscriber churn.\n\nNetflix's recommendation system primarily creates competitive value through which mechanism?",
+   "opts": [
+    "Digitisation — converting viewing preferences to a digital format",
+    "Process innovation — improving internal content scheduling workflows",
+    "Data-driven business model enabling personalisation at scale through AI and analytics",
+    "Incremental innovation in user interface design"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Netflix uses AI and big data analytics to create personalised experiences for each subscriber — a data-driven business model that creates competitive advantage through the IT → Innovation → Business Value cycle."
+  },
+  {
+   "id": "8113-11",
+   "topic": "Digital Transformation Layers",
+   "text": "A new CEO at a Nigerian telecom company announces: 'We will transform this company digitally.' However, six months later, initiatives are scattered — some departments are on cloud platforms, others use spreadsheets, priorities keep changing, and the board cannot agree on what digital transformation should look like for the company.\n\nBased on the Digital Transformation Layers framework, which layer is most critically failing?",
+   "opts": [
+    "Technology Layer — the wrong cloud platforms are being used",
+    "Business Process Layer — operational workflows are not reengineered",
+    "Data & Integration Layer — data is not flowing between systems",
+    "Strategic Layer — no clear vision, digital strategy, or governance exists"
+   ],
+   "answer": 3,
+   "explanation": "Correct! The Strategic Layer (Vision & Leadership, Digital Strategy, Governance & Change Management) is the foundation of the entire framework. Without a clear strategy and strong leadership, digital efforts become fragmented and fail to gain traction — exactly what is described."
+  },
+  {
+   "id": "8113-12",
+   "topic": "Digital Transformation Layers",
+   "text": "An insurance company in Lagos has excellent technology — cloud infrastructure, an ERP system, and a modern mobile app. However, internally, employees still print and sign paper forms, follow manual approval chains, and duplicate data across multiple systems.\n\nWhich layer of the Digital Transformation framework needs most urgent attention?",
+   "opts": [
+    "Technology Layer — the tech stack needs upgrading",
+    "Business Process Layer — workflows must be reengineered and digitised",
+    "Infrastructure Layer — legacy hardware needs replacement",
+    "Customer/End-user Layer — the mobile app needs redesigning"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The Business Process Layer focuses on reengineering workflows to eliminate inefficiencies. Even with great technology, outdated processes can bottleneck innovation and frustrate users — exactly the situation described."
+  },
+  {
+   "id": "8113-13",
+   "topic": "Digital Transformation Layers",
+   "text": "Moniepoint's engineers find that transaction data, agent performance data, and fraud alerts are stored in completely separate systems that cannot talk to each other. Analysts must export data from each system manually and combine them in spreadsheets for monthly reporting.\n\nWhich Digital Transformation Layer is most clearly underdeveloped at Moniepoint in this scenario?",
+   "opts": [
+    "People & Culture Layer — analysts need more training",
+    "Technology Layer — wrong analytics tools are in use",
+    "Data & Integration Layer — poor data governance, no APIs connecting systems",
+    "Strategic Layer — no digital strategy exists"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The Data & Integration Layer covers data governance, APIs & microservices, and master data management. Siloed systems with no integration and manual data combining are classic Data & Integration Layer failures."
+  },
+  {
+   "id": "8113-14",
+   "topic": "Digital Transformation Layers",
+   "text": "A government ministry in Nigeria deploys a new digital permit application system. Citizens can apply online, but 60% of staff refuse to use the new system and continue to manually process applications as they always have. The transformation stalls.\n\nWhich Digital Transformation Layer failure is this scenario primarily illustrating?",
+   "opts": [
+    "Technology Layer — the permit system has too many bugs",
+    "Infrastructure Layer — government servers are unreliable",
+    "People & Culture Layer — lack of digital skills, change readiness, and innovation culture",
+    "Data & Integration Layer — data is not migrated from old to new system"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The People & Culture Layer includes digital skills & training, collaboration & innovation culture, and change readiness. Staff refusing to adopt the new system is a classic change readiness and cultural resistance failure."
+  },
+  {
+   "id": "8113-15",
+   "topic": "Digital Transformation Layers",
+   "text": "GTBank's mobile app allows customers to check balances, transfer funds, pay bills, request loans, and open fixed deposit accounts — all from their smartphones, with personalised product recommendations based on their transaction history.\n\nGTBank's mobile app primarily delivers value through which Digital Transformation Layer?",
+   "opts": [
+    "Infrastructure Layer — robust server deployment",
+    "Business Process Layer — reengineered internal banking workflows",
+    "Customer/End-user Layer — omnichannel experience, self-service, and personalisation",
+    "Technology Layer — mobile development frameworks"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The Customer/End-user Layer focuses on omnichannel experience, self-service platforms, and personalisation — exactly what GTBank's app delivers (any device, self-service, and personalised recommendations based on transaction data)."
+  },
+  {
+   "id": "8113-16",
+   "topic": "Digital Transformation Layers",
+   "text": "A retail bank in Nigeria has a modern mobile app and cloud infrastructure, but every department manages its own customer data independently. The loans team has different customer records than the deposits team, causing duplicate data, errors in customer profiles, and inability to cross-sell products.\n\nWhat does this scenario most clearly reveal about the bank's digital transformation?",
+   "opts": [
+    "Failure in the Technology Layer — wrong cloud provider selected",
+    "Failure in the Data & Integration Layer — no master data management or data governance",
+    "Failure in the Business Process Layer — loan approval is too slow",
+    "Success in the Infrastructure Layer but failure in the People Layer"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Master data management creates a single, trusted source of key business data. The bank's siloed, department-specific customer data with no unified customer record is a Data & Integration Layer failure — specifically the absence of master data management and data governance."
+  },
+  {
+   "id": "8113-17",
+   "topic": "Digital Transformation Layers",
+   "text": "Amazon Web Services (AWS) allows a Nigerian startup to go from zero to serving 100,000 users in three months, without purchasing a single server, by using pay-as-you-go cloud computing.\n\nAWS's role in this startup's growth primarily exemplifies which component of the Digital Transformation Layer framework?",
+   "opts": [
+    "Business Process Layer — process reengineering",
+    "Technology Layer — cloud computing as a scalable digital tool",
+    "People & Culture Layer — digital skills for developers",
+    "Customer/End-user Layer — personalised customer experience"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Cloud computing (AWS) is explicitly listed under the Technology Layer as a scalable and flexible IT resource accessed over the internet. AWS enabling rapid scaling without physical infrastructure investment is a Technology Layer enabler."
+  },
+  {
+   "id": "8113-18",
+   "topic": "Digital Transformation Layers",
+   "text": "A consulting firm advises a large Nigerian conglomerate on digital transformation. The firm recommends starting with Vision & Leadership workshops, a Digital Strategy roadmap, and Governance structures before any technology is purchased.\n\nThe consultant's advice reflects which principle of the Digital Transformation Layers framework?",
+   "opts": [
+    "The Technology Layer should be the starting point for digital transformation",
+    "Infrastructure must be upgraded before strategy is defined",
+    "The Strategic Layer is foundational — without clear vision and governance, technology investments become fragmented",
+    "The People & Culture Layer must always be addressed first"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The Strategic Layer (Layer 1) provides leadership and direction. It defines the 'why' and 'where' of digital transformation. The framework states: 'Without a clear strategy and strong leadership, digital efforts become fragmented or fail to gain traction.'"
+  },
+  {
+   "id": "8113-19",
+   "topic": "Digital Transformation Layers",
+   "text": "A fast-growing fintech company wants to update its mobile app more frequently — releasing new features weekly rather than quarterly. Its current deployment process takes three weeks and involves manual testing and server configuration.\n\nWhich Infrastructure Layer tools would most directly solve this bottleneck?",
+   "opts": [
+    "Master data management and APIs",
+    "DevOps practices and containerisation to enable fast, repeatable deployments",
+    "Customer journey mapping and personalisation tools",
+    "Vision & Leadership workshops to align teams"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The Infrastructure Layer explicitly includes DevOps, containers, and virtualisation as 'modern practices for fast, reliable, and repeatable deployments.' These tools directly address slow, manual release cycles."
+  },
+  {
+   "id": "8113-20",
+   "topic": "Digital Transformation Layers",
+   "text": "Paystack's engineering team uses an internal microservices architecture where payments, merchant accounts, analytics, and dispute resolution all operate as separate, independently deployable services connected via APIs.\n\nThis architecture primarily serves which Digital Transformation Layer?",
+   "opts": [
+    "Strategic Layer — aligns IT with business goals",
+    "Business Process Layer — enables agile operations",
+    "Data & Integration Layer — APIs & microservices enable systems to communicate easily",
+    "Customer/End-user Layer — improves the checkout experience"
+   ],
+   "answer": 2,
+   "explanation": "Correct! APIs and microservices are explicitly listed as components of the Data & Integration Layer, described as 'lightweight connectors that let systems communicate easily.' Paystack's microservices architecture is a textbook Data & Integration Layer implementation."
+  },
+  {
+   "id": "8113-21",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "A traditional textile merchant in Lagos replaces a physical market stall with an Instagram shop, later adds a Paystack checkout link, and finally builds a full e-commerce website with inventory management, automated order confirmations, and customer analytics.\n\nThe final stage — a full e-commerce website with analytics — best represents IT enabling which type of business model change?",
+   "opts": [
+    "No change — it is still a retail business",
+    "Digitalisation — applying digital tools to existing retail operations",
+    "A data-driven digital business model using IT to create personalised customer experiences and informed decisions",
+    "Full physical replacement — the merchant no longer sells textile products"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The scenario describes IT enabling a data-driven business model: inventory management (operational), analytics (data-driven decisions), personalisation potential, and scalable digital infrastructure — exactly what the course describes as IT enabling new digital business models."
+  },
+  {
+   "id": "8113-22",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "A retail chain's recommendation engine suggests products to online shoppers based on browsing history, past purchases, and items frequently bought together. Customers who receive recommendations spend 35% more per visit than those who don't.\n\nThis scenario exemplifies which role of IT in digital business models?",
+   "opts": [
+    "IT as a cost reduction tool — fewer staff needed to recommend products manually",
+    "IT enabling data-driven decision-making and personalisation to increase business value",
+    "IT as an infrastructure provider — hosting the website",
+    "IT enabling process automation — reducing the time to process orders"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The scenario describes IT (analytics + recommendation algorithms) enabling personalised customer experiences that directly create business value (35% higher spend). This is the IT → Innovation (personalisation) → Business Value Creation cycle described in the course."
+  },
+  {
+   "id": "8113-23",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "Konga Nigeria uses customer data, vendor performance metrics, and delivery analytics to decide which products to stock, which vendors to promote, and which delivery routes to prioritise — all automated through its digital platform.\n\nThis data-driven approach illustrates which IT-enabled capability described in the course?",
+   "opts": [
+    "Cloud computing enabling website hosting",
+    "Data-driven business models where vast amounts of data are used to make informed decisions",
+    "Digitisation of paper purchase records",
+    "Business Process Reengineering focused on reducing headcount"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'IT enables the creation of data-driven business models where organisations can harness vast amounts of data to make informed decisions.' Konga's use of data for stocking, vendor management, and routing decisions is a direct example."
+  },
+  {
+   "id": "8113-24",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "The IT department of a Nigerian bank is consistently asked by the CEO to 'just keep the lights on' — maintain systems, fix bugs, and ensure uptime. When the CEO asks for IT's role in the five-year business strategy, the IT Director is not part of the conversation.\n\nThis situation represents which long-term risk identified in the course's critical analysis of IT and digital transformation?",
+   "opts": [
+    "Data quality risk — IT is not collecting enough data",
+    "Cybersecurity risk — the bank's systems are not secure",
+    "Strategic misalignment risk — IT is treated as a cost centre rather than a strategic enabler",
+    "Infrastructure risk — hardware is outdated"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course warns that 'many firms still treat IT as a cost centre rather than a value driver. Strategic misalignment leads to fragmented transformation efforts, resulting in technical debt, duplication, or even failed initiatives.' This bank is a textbook example."
+  },
+  {
+   "id": "8113-25",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "A Nigerian airline uses IT to enable online check-in, seat selection, baggage tracking, and personalised ancillary offers. A passenger can complete the entire journey experience (book, check in, board, collect bags) through a single app without interacting with a physical counter.\n\nThis airline experience is best described as which Customer/End-user Layer capability?",
+   "opts": [
+    "Process reengineering — internal ticketing systems were redesigned",
+    "Omnichannel experience — seamless customer interaction across digital and physical touchpoints",
+    "Data governance — passenger data is managed accurately",
+    "Infrastructure agility — servers scale during peak bookings"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The Customer/End-user Layer includes 'omnichannel experience: seamless interaction across online, mobile, and physical platforms.' The airline's app-based end-to-end journey integrates all touchpoints seamlessly — the definition of omnichannel."
+  },
+  {
+   "id": "8113-26",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "A startup in Lagos provides cloud-based HR software to SMEs, charging a monthly subscription. SMEs can manage payroll, leave requests, and performance reviews without buying servers, hiring IT staff, or installing software.\n\nAWS enabling this startup to serve SMEs — and the startup enabling SMEs to access HR software — both illustrate which core IT-enabled shift?",
+   "opts": [
+    "Digitisation — converting paper HR forms to digital",
+    "Disruptive innovation replacing all HR professionals",
+    "Cloud computing as an enabler of scalable, accessible digital business models",
+    "Business Process Reengineering within manufacturing firms"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course states: 'AWS has enabled businesses of all sizes to access computing power and storage without investing in physical infrastructure. This shift to cloud computing allows enterprises to scale quickly, reduce costs, and improve their ability to serve customers globally.' The startup replicates this same model for HR software."
+  },
+  {
+   "id": "8113-27",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "After IT invests in a customer analytics platform, the insights reveal that 40% of a bank's revenue comes from 8% of customers. The bank launches a premium wealth management service, generating ₦2B in new revenue in year one, which is reinvested in enhancing the analytics platform.\n\nThis sequence best illustrates which concept from the course?",
+   "opts": [
+    "The resistance to change cycle — employees reject analytics",
+    "The IT → Innovation → Business Value Creation virtuous cycle",
+    "Cybersecurity risk — customer data is at risk from the analytics platform",
+    "Legacy systems failure — old systems cannot handle the analytics load"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course describes exactly this virtuous cycle: 'IT provides the infrastructure that fosters innovation; innovations lead to new products/services that create business value. The value created can be reinvested in IT to enhance capabilities further.' This scenario follows that cycle perfectly."
+  },
+  {
+   "id": "8113-28",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "A company spends ₦500 million on a new ERP system. Two years later, the system is barely used, staff have reverted to spreadsheets, and the company's CFO notes the investment has returned zero measurable business value.\n\nBased on the course's critical analysis, which factor most likely caused this failure?",
+   "opts": [
+    "The ERP vendor provided a poor product",
+    "Cybersecurity vulnerabilities in the ERP system",
+    "Overreliance on technology without proper change management, training, and cultural readiness",
+    "The company's IT infrastructure layer was too weak to support ERP"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course warns: 'Overreliance on IT without proper change management can lead to disruption, fatigue, or resistance from legacy-minded teams.' Staff reverting to spreadsheets is precisely this failure pattern. Innovation requires the right talent, culture, and governance, not just technology."
+  },
+  {
+   "id": "8113-29",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "A hospital group in Abuja uses telemedicine to allow doctors to consult patients remotely, AI-powered diagnostics to assist with X-ray reading, and IoT-connected devices to monitor ICU patients in real time from a central dashboard.\n\nWhich emerging technologies from the Digital Transformation framework are at work in this hospital?",
+   "opts": [
+    "Only cloud computing and data storage",
+    "AI & data analytics, IoT, and mobile technology from the Technology Layer",
+    "ERP systems from the Business Process Layer only",
+    "DevOps and containers from the Infrastructure Layer only"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The Technology Layer includes AI & data analytics (diagnostic AI), IoT (ICU monitoring devices), and mobile (telemedicine platform). All three are present in this hospital scenario."
+  },
+  {
+   "id": "8113-30",
+   "topic": "Role of IT in Enabling Digital Business Models",
+   "text": "GDPR (General Data Protection Regulation) requires organisations to document how they collect, store, and use customer data. A Nigerian company expanding to Europe discovers it cannot prove compliance because customer data is scattered across 12 different systems with no unified data trail.\n\nThis regulatory risk is primarily a failure of which Digital Transformation concern?",
+   "opts": [
+    "Disruptive innovation — the company was too disruptive",
+    "People & Culture Layer — employees don't understand GDPR",
+    "Data governance, quality, and compliance — a Data & Integration Layer failure",
+    "Strategic Layer — no digital vision exists"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course identifies data governance, quality, and compliance as key Data & Integration Layer responsibilities. The course also warns: 'Without robust governance, significant data initiatives can lead to biased AI models, loss of trust, or regulatory penalties (e.g., GDPR violations).' This scenario is a direct example."
+  },
+  {
+   "id": "8113-31",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A Lagos hospital moves from paper patient records to a digital records database. The next year, it uses those digital records to automatically flag drug interactions, generate discharge summaries, and send patients appointment reminders via SMS.\n\nHow should these two phases be correctly classified?",
+   "opts": [
+    "Both phases are digitisation",
+    "Phase 1 is digitisation; Phase 2 is digitalisation",
+    "Phase 1 is digitalisation; Phase 2 is digital transformation",
+    "Both phases constitute full digital transformation"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Phase 1 (paper → digital database) is digitisation — converting analogue to digital. Phase 2 (using digital data to automate alerts, summaries, and reminders) is digitalisation — applying digital tools to improve healthcare processes."
+  },
+  {
+   "id": "8113-32",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "Flutterwave's story: It started by digitising payment forms into API calls, then digitalised merchant reconciliation workflows, then built a full ecosystem of cross-border commerce tools, marketplace features, and developer APIs — fundamentally redesigning how African businesses accept payments globally.\n\nThe final stage of Flutterwave's evolution — the full commerce ecosystem — is best classified as:",
+   "opts": [
+    "Digitisation — converting more forms to digital format",
+    "Digitalisation — applying more digital tools to payment processes",
+    "Digital transformation — a strategic overhaul that redesigned the business model",
+    "IT modernisation — upgrading server infrastructure"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course defines digital transformation as 'a strategic overhaul that leverages digitalisation across the business (e.g., redesigning the business model, as seen with Flutterwave).' Flutterwave is even used as the direct example in the material."
+  },
+  {
+   "id": "8113-33",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A bank's HR team installs payroll software that automatically calculates salaries, deducts taxes, and generates payslips — replacing a manual calculation process that previously took two weeks every month.\n\nThis initiative is best described as:",
+   "opts": [
+    "Digitisation — converting paper pay records to digital",
+    "Digitalisation — applying digital tools to automate and improve an existing payroll process",
+    "Digital transformation — redesigning how the bank compensates employees",
+    "Disruptive innovation — fundamentally changing how payroll works in the banking industry"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course explicitly uses payroll automation as an example of digitalisation: 'Applying digital tools to improve operations (e.g., automating payroll).' The bank is improving an existing process, not redesigning its business model."
+  },
+  {
+   "id": "8113-34",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A university library scans 50,000 physical books and stores them as PDF files on a server. A librarian can retrieve any document in seconds instead of searching physically for 20 minutes.\n\nWhat has the library achieved?",
+   "opts": [
+    "Full digital transformation of the library's operating model",
+    "Digitalisation — digital tools improve library efficiency",
+    "Digitisation — converting physical books to digital format",
+    "Disruptive innovation in academic publishing"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Scanning physical books to create digital PDF files is the definition of digitisation — converting analogue content to digital format. This is the first step on the digital journey."
+  },
+  {
+   "id": "8113-35",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A small Nigerian retailer uses WhatsApp Business to receive orders, a POS machine for payments, and a shared Google Sheet to track inventory. A tech advisor says this is 'digitalisation in action.'\n\nIs the tech advisor correct? Why or why not?",
+   "opts": [
+    "No — this is digitisation because they are using digital devices",
+    "Yes — the retailer is applying digital tools to improve existing retail processes, which is digitalisation",
+    "Yes — this is full digital transformation because the retailer now uses technology",
+    "No — this is not innovation at all; it is just using basic technology"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Digitalisation refers to using digital technologies to transform business processes and improve efficiency. Using WhatsApp for orders, POS for payments, and Google Sheets for inventory is applying digital tools to improve existing retail operations — the definition of digitalisation."
+  },
+  {
+   "id": "8113-36",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A logistics company's MD explains to shareholders: 'Digitalisation is the bridge between having raw digital tools and achieving complete organisational transformation.' Two board members disagree — one says digitisation and digitalisation are the same thing; another says digitalisation is the same as digital transformation.\n\nWhich board member is correct, if any?",
+   "opts": [
+    "The first board member is correct — digitisation and digitalisation are the same",
+    "The second board member is correct — digitalisation equals digital transformation",
+    "Neither board member is correct — the MD's statement accurately captures the distinction",
+    "Both board members are correct — all three terms describe the same phenomenon"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course explicitly states: 'Think of digitalisation as the bridge between raw digital tools and complete organisational transformation.' The MD's statement is from the course material. Digitisation, digitalisation, and digital transformation are three distinct, sequential concepts."
+  },
+  {
+   "id": "8113-37",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A manufacturing company in Kaduna: (1) Scans paper production logs to PDFs. (2) Deploys an IoT system that captures real-time production line data automatically. (3) Uses AI analytics on that real-time data to predict machine failures, automatically reschedule production, and recommend supplier changes — leading to a 30% reduction in downtime and a new 'predictive manufacturing' service the company now sells to other manufacturers.\n\nSteps (1), (2), and (3) respectively represent:",
+   "opts": [
+    "Digital transformation, digitalisation, digitisation",
+    "Digitisation, digitalisation, digital transformation",
+    "Digitalisation, digitisation, digital transformation",
+    "Digitisation, digital transformation, digitalisation"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Step (1) scanning paper logs = digitisation (analogue to digital conversion). Step (2) IoT capturing real-time data = digitalisation (digital tools improving operational processes). Step (3) AI analytics enabling predictive services and new revenue model = digital transformation (strategic business model change)."
+  },
+  {
+   "id": "8113-38",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A bank automates its customer KYC (Know Your Customer) process — customers can now submit ID documents via the app, which are automatically verified through AI in 30 seconds instead of the previous 5-day manual process.\n\nThe bank's KYC automation represents:",
+   "opts": [
+    "Digitisation — converting physical ID documents to digital",
+    "Digital transformation — rethinking how banking works",
+    "Digitalisation — using digital tools to significantly improve an existing compliance process",
+    "Disruptive innovation — disrupting the banking industry"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Automating KYC using AI to dramatically improve an existing process (from 5 days to 30 seconds) is digitalisation — applying digital tools to enhance efficiency and customer experience within an existing banking framework."
+  },
+  {
+   "id": "8113-39",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "GIGM (God is Good Motors), a Nigerian intercity bus company, introduces an app for booking seats, tracking bus locations, and receiving arrival notifications. Operationally, the same buses run the same routes — but customers can now interact entirely digitally.\n\nGIGM's digital app initiative is best described as:",
+   "opts": [
+    "Digitisation — converting physical bus tickets to digital format",
+    "Digital transformation — GIGM has fundamentally redesigned how it operates",
+    "Digitalisation — digital tools improve operational efficiency and customer experience while core operations remain the same",
+    "Disruptive innovation — GIGM has disrupted Nigerian transport"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course uses GIGM as an example of digitalisation: 'automating logistics with apps like GIGM.' The company uses digital tools to improve operational efficiency and customer experience while maintaining its existing business model."
+  },
+  {
+   "id": "8113-40",
+   "topic": "Digitalisation vs Digitisation vs Digital Transformation",
+   "text": "A healthcare NGO in Nigeria wants to improve maternal health outcomes. Three proposals are submitted: (A) Digitise paper records of antenatal visits. (B) Use the digital records to send automated SMS reminders to expectant mothers for appointments. (C) Build a digital platform where community health workers, hospitals, and government track mother-baby health journeys, predict at-risk pregnancies using AI, and coordinate emergency responses.\n\nWhich proposal represents the highest level of digital maturity?",
+   "opts": [
+    "Proposal A — digitising paper records",
+    "Proposal B — using digital records to send SMS reminders",
+    "Proposal C — the integrated AI-powered maternal health platform",
+    "All three proposals are at the same maturity level"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Proposal C represents digital transformation — an integrated, AI-powered, multi-stakeholder platform that fundamentally redesigns how maternal healthcare is delivered, with new capabilities (predictive risk, emergency coordination) that did not exist in the old model."
+  },
+  {
+   "id": "8113-41",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A fintech startup processes 50,000 transactions daily on Monday but 2 million on payday Friday (25th of each month). Their current dedicated server setup crashes every payday. The CTO proposes switching to cloud infrastructure.\n\nThe cloud infrastructure primarily addresses which IT agility capability?",
+   "opts": [
+    "It provides better cybersecurity against payday fraud",
+    "It allows the company to experiment with new products without disruptions",
+    "It enables scaling operations efficiently in response to demand spikes",
+    "It improves internal team collaboration through cloud tools"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course states: 'An agile IT infrastructure allows a company to scale operations efficiently.' The startup's crash-on-payday problem is a scaling problem — cloud computing provides the elastic capacity to handle demand spikes without dedicated server limitations."
+  },
+  {
+   "id": "8113-42",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A large conglomerate's IT systems cannot communicate with each other. HR data in one system, finance in another, operations in a third. Every quarter, analysts spend two weeks manually combining data from all three for executive dashboards.\n\nWhich IT infrastructure component would most directly resolve this integration problem?",
+   "opts": [
+    "DevOps tools — to speed up software deployment",
+    "APIs — to allow seamless integration between systems and services",
+    "Better hardware — faster servers to process data more quickly",
+    "Master data management only — to standardise the data format"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'APIs allow seamless integration between systems and services.' An API layer connecting HR, finance, and operations systems would eliminate the manual quarterly data combining process by enabling real-time data flow."
+  },
+  {
+   "id": "8113-43",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "Zenith Bank's CIO notes that the bank's IT team takes 9 months to release any new feature — from requirements to production. MTN's digital team releases features every two weeks. A consultant recommends adopting DevOps practices.\n\nDevOps adoption would primarily address which aspect of IT agility?",
+   "opts": [
+    "Data governance — ensuring data accuracy in new features",
+    "Customer journey mapping — understanding what customers want",
+    "Streamlining the development and deployment cycle to reduce release time",
+    "Master data management — creating a single customer view"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course states DevOps tools 'streamline the development and deployment cycle.' Reducing release time from 9 months to weeks is precisely the problem DevOps practices solve."
+  },
+  {
+   "id": "8113-44",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A Nigerian insurance company's IT Director presents a technology roadmap to the board. The CFO asks: 'How does each of these IT investments connect to our goal of becoming the leading digital insurer in West Africa by 2027?' The IT Director cannot answer — the roadmap was built based on technical best practices, not business goals.\n\nThis scenario illustrates a failure of which strategic concept?",
+   "opts": [
+    "IT infrastructure agility",
+    "Cybersecurity risk management",
+    "Strategic IT-Business Alignment — IT investments are not harmonised with business objectives",
+    "People & Culture Layer — IT staff lack communication skills"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course defines strategic IT-Business Alignment as 'the harmonisation of an organisation's IT capabilities with its business strategy, ensuring IT investments and activities directly support long-term objectives.' An IT roadmap built without connecting to business goals is the definition of misalignment."
+  },
+  {
+   "id": "8113-45",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "Moniepoint's product team and engineering team hold joint monthly planning sessions where both business managers and engineers agree on feature priorities based on shared KPIs: transaction volume, agent network growth, and customer retention rates.\n\nThis collaboration model exemplifies which component of IT-Business Alignment?",
+   "opts": [
+    "IT investment prioritisation only",
+    "Shared vision & communication — business and IT leaders co-creating strategy",
+    "Infrastructure Layer — DevOps deployment pipeline",
+    "Data governance — ensuring KPI data is accurate"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course lists 'Shared vision & communication: Business and IT leaders must co-create a digital vision' as the first key component of IT-Business Alignment. Moniepoint's joint planning sessions with shared KPIs are a direct example."
+  },
+  {
+   "id": "8113-46",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "An e-commerce company measures IT performance by server uptime (99.9%), tickets resolved per day, and system response time. The business measures performance by revenue growth, customer acquisition cost, and Net Promoter Score. These two measurement systems never intersect.\n\nWhich IT-Business Alignment component is most clearly absent?",
+   "opts": [
+    "Governance structures",
+    "Capability matching",
+    "Performance metrics — IT's contribution to business success is not measured",
+    "IT investment prioritisation"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course includes 'Performance metrics: Measuring IT's contribution to business success' as a key component of IT-Business Alignment. When IT measures only technical metrics and business measures only business metrics with no bridge between them, IT's contribution to strategy cannot be evaluated or managed."
+  },
+  {
+   "id": "8113-47",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A Nigerian manufacturing firm is evaluating IT investment options: (A) Upgrading accounting software, (B) Deploying IoT sensors on the production line to predict machine failures, (C) Repainting the office. The company's three-year strategy is to reduce production downtime by 40% and expand to East Africa.\n\nBased on IT-Business Alignment principles, which investment should receive priority?",
+   "opts": [
+    "Option A — accounting software always needs upgrading",
+    "Option B — IoT directly supports the downtime reduction strategic goal",
+    "Option C — the office environment improves employee morale and productivity",
+    "Both A and B equally — all IT investments should be balanced"
+   ],
+   "answer": 1,
+   "explanation": "Correct! IT investment prioritisation means 'ensuring budgets align with strategic business goals.' Deploying IoT to predict machine failures directly advances the stated goal of reducing production downtime by 40% — making it the highest-priority investment."
+  },
+  {
+   "id": "8113-48",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A bank rushes to migrate all systems to cloud over a six-month period without assessing compatibility, training staff, or renegotiating vendor contracts. Two years later, the bank is locked into a single cloud provider's pricing, staff still struggle with cloud tools, and three legacy systems never migrated properly.\n\nThis scenario illustrates which risk from the course's analysis of IT investments?",
+   "opts": [
+    "Cybersecurity risk from cloud-based infrastructure",
+    "Poor IT investment creating long-term inefficiencies, lock-ins, and unmanageable complexities",
+    "Digitisation risk from converting too much data too fast",
+    "Strategic Layer success that was undermined by People Layer failure only"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course warns: 'Failed implementations, poor vendor management, or rushed cloud migrations can create long-term inefficiencies, lock-ins, and unmanageable complexities.' The bank's scenario is a direct example of poor IT investment execution."
+  },
+  {
+   "id": "8113-49",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "UBA Bank identifies that its IT department has strong backend engineers but lacks data scientists and AI specialists. Its three-year strategy centres on becoming an AI-driven bank. An alignment consultant recommends a capability matching review.\n\nCapability matching in the context of IT-Business Alignment means:",
+   "opts": [
+    "Matching IT budget to the highest-cost technology vendors",
+    "Aligning IT skills and competencies with the business capabilities needed to achieve strategic goals",
+    "Ensuring all IT staff work only on technology projects",
+    "Matching IT hardware specifications to software requirements"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course defines capability matching as 'aligning IT skills with needed business competencies.' UBA's strategic goal (AI-driven bank) requires data science and AI skills — the gap between current skills (backend engineers) and needed skills (AI specialists) is exactly what capability matching addresses."
+  },
+  {
+   "id": "8113-50",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A company adopts a principle: 'Every IT expense must be tied to a measurable business goal. No technology purchase is approved without a clear ROI projection and an articulated strategic need.'\n\nThis principle most closely reflects which strategy for smart IT investment from the course?",
+   "opts": [
+    "Review Continuously — adapt IT in response to changes",
+    "Engage stakeholders — involve IT and business users in decisions",
+    "Align with business strategy — ensure every IT expense connects to a measurable goal",
+    "Prioritise scalability — invest in flexible systems"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course explicitly states: 'Align with business strategy: Ensure that every IT expense is tied to a measurable business goal.' The company's approval principle is a direct implementation of this strategy."
+  },
+  {
+   "id": "8113-51",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A Nigerian bank with on-premise data centres finds that deploying a new branch's systems takes four months and costs ₦50 million per location. A competitor using hybrid cloud infrastructure opens digital branches in a new state using an app and a few POS machines — deployed in two weeks at ₦500,000.\n\nThis comparison best illustrates which IT infrastructure concept?",
+   "opts": [
+    "The advantage of investing in physical data centres over cloud",
+    "The competitive advantage created by IT agility through cloud/hybrid infrastructure",
+    "The importance of cybersecurity in digital banking",
+    "The risk of poor vendor management in cloud adoption"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'Agility is what transforms infrastructure from a cost centre into a competitive advantage.' The hybrid cloud competitor's ability to open digital branches in 2 weeks at a fraction of the cost vs. the on-premise bank's 4-month, ₦50M process is a perfect example of competitive IT agility."
+  },
+  {
+   "id": "8113-52",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A mid-sized Nigerian company invests ₦200 million in cybersecurity infrastructure after suffering a ransomware attack that cost them ₦80 million in recovery and reputational damage. The CEO reflects that the cybersecurity investment should have happened before the attack.\n\nThis scenario reflects which long-term impact of IT on digital transformation identified in the course?",
+   "opts": [
+    "Strategic Enabler vs Operational Tool — IT was treated too strategically",
+    "Innovation and Competitiveness — IT drives product innovation",
+    "Cybersecurity and Risk Management — cybersecurity must be proactive, not reactive",
+    "Data and Decision-Making — poor data quality led to the attack"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course explicitly states: 'Long-term transformation increases the attack surface. Many organisations underinvest in security, resulting in vulnerabilities, breaches, and reputational damage. Cybersecurity must be proactive, not reactive.' The company's costly lesson is a direct example."
+  },
+  {
+   "id": "8113-53",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A state-owned Nigerian utility company has IT systems from 2003 — mainframes that process billing but cannot integrate with mobile payment platforms, cannot generate real-time analytics, and crash during peak periods. Upgrading these systems would cost ₦2 billion.\n\nThis situation represents which long-term IT impact challenge described in the course?",
+   "opts": [
+    "Efficiency and Scalability — rushed cloud migration creating lock-in",
+    "Organisational Culture — employees resist digital change",
+    "Efficiency and Scalability — legacy IT creating long-term inefficiencies that hinder growth",
+    "Data and Decision-Making — data quality problems"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course states: 'Failed implementations, poor vendor management, or rushed cloud migrations can create long-term inefficiencies, lock-ins, and unmanageable complexities.' Legacy systems from 2003 that cannot integrate with modern platforms represent precisely this long-term efficiency failure — old IT becoming a barrier to growth."
+  },
+  {
+   "id": "8113-54",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "A digital transformation project at a large Nigerian conglomerate is technically successful — new ERP deployed, cloud migrated, data warehouse built. But six months later, the transformation is considered a failure because senior staff were never consulted, junior staff were not trained, and the transformation was seen as 'an IT project' rather than a business-wide initiative.\n\nThis failure primarily illustrates which long-term organisational impact of IT-driven transformation?",
+   "opts": [
+    "Cybersecurity risk from new systems",
+    "Strategic Enabler failure — IT was not treated as a strategic asset",
+    "Organisational Culture and Workforce failure — IT-led transformations can alienate employees if not inclusive",
+    "Data and Decision-Making — poor data from the new ERP"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course warns: 'IT-led transformations can alienate employees if they are not inclusive. The legacy workforce may feel marginalised, and digital talent shortages may hinder long-term sustainability. Transformation must include clear communication, reskilling, and change leadership.' The scenario describes all of these failures."
+  },
+  {
+   "id": "8113-55",
+   "topic": "IT Infrastructure, Agility & Strategic Alignment",
+   "text": "Moniepoint invested in: (1) a cloud-based platform for nationwide scalability, (2) an agent management system for real-time POS tracking, (3) AI analytics for fraud detection, (4) cybersecurity systems for transaction security, and (5) mobile app optimisation for low-end devices.\n\nThese five investments collectively represent which strategic principle from the course?",
+   "opts": [
+    "Pure technology investment with no business strategy",
+    "IT investment as a competitive advantage — strategically aligned IT creates sustainable business differentiation",
+    "Digitisation — converting Moniepoint's physical records to digital",
+    "Incremental innovation — small improvements to existing banking services"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'When properly aligned with business objectives, IT investment becomes a source of sustained competitive advantage.' Moniepoint's investments each directly advance specific strategic goals — together they created a competitive position that outperformed traditional banks in agent network penetration and transaction volume."
+  },
+  {
+   "id": "8113-56",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "MTN Nigeria introduces an AI-powered customer service chatbot. Customer service agents immediately circulate a petition claiming 'the chatbot will take our jobs.' The rollout stalls for three months as management tries to address concerns.\n\nThis is primarily which challenge in digital transformation?",
+   "opts": [
+    "Lack of cybersecurity — the chatbot has security vulnerabilities",
+    "Legacy systems — the chatbot is incompatible with existing infrastructure",
+    "Resistance to change — employees fear digital technology replacing them",
+    "Poor data management — chatbot lacks customer data to function properly"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course identifies 'resistance to change, particularly within organisations deeply entrenched in traditional practices' as a primary digital transformation challenge. Employees fearing job replacement is a classic change resistance trigger."
+  },
+  {
+   "id": "8113-57",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "The solution proposed for MTN's chatbot resistance scenario is: (a) simply ignore employee concerns and mandate chatbot use, or (b) run change management workshops, communicate the chatbot's purpose (augmenting not replacing agents), involve agents in testing, and provide training.\n\nWhich solution aligns with the course's recommended approach to overcoming resistance to change?",
+   "opts": [
+    "Option (a) — mandate adoption and enforce compliance",
+    "Option (b) — use change management, communication, training, and employee involvement",
+    "Neither — both options are too expensive",
+    "Both are equally effective and can be combined"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'Overcoming resistance requires effective change management. Companies need to foster a culture open to innovation, invest in training, and engage employees early in the transformation process to ensure they understand the benefits.' Option (b) follows this prescription exactly."
+  },
+  {
+   "id": "8113-58",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A Nigerian bank decides to invest in an AI-powered credit scoring system. The system will use customer transaction data, social media activity, and behavioural patterns to assess loan eligibility. The legal team raises concerns about NDPR (Nigeria Data Protection Regulation) compliance, data privacy, and the risk of algorithmic bias against certain customer segments.\n\nThese concerns relate to which digital transformation challenge described in the course?",
+   "opts": [
+    "Resistance to change — the legal team is resistant to AI adoption",
+    "Lack of skilled workforce — the legal team doesn't understand AI",
+    "Cybersecurity and Data Privacy — increasing reliance on digital data creates privacy risks and regulatory exposure",
+    "Legacy systems — old credit scoring models are incompatible"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course states: 'With digital transformation comes greater reliance on data and online platforms, making organisations more vulnerable to cyber threats and data breaches.' It also warns about 'data quality, privacy, and ethical concerns' including 'biased AI models, loss of trust, or regulatory penalties.' The bank's scenario encompasses all of these."
+  },
+  {
+   "id": "8113-59",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A fast-growing Nigerian fintech company hires aggressively but discovers that newly hired staff lack skills in cloud architecture, data engineering, and machine learning — skills critical to its next product roadmap.\n\nThis is an example of which digital transformation challenge?",
+   "opts": [
+    "Resistance to change among existing staff",
+    "Lack of a skilled workforce as technology advancement outpaces available talent",
+    "Cybersecurity vulnerability from underqualified staff",
+    "Legacy systems blocking new product development"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'The rapid pace of technological advancements often outpaces the availability of a skilled workforce. Companies may struggle to find talent with the expertise to implement and manage emerging technologies.' The fintech's inability to hire cloud, data, and ML talent is exactly this challenge."
+  },
+  {
+   "id": "8113-60",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A multinational consumer goods company operating in Nigeria wants to digitally transform its supply chain. The head of supply chain says: 'Our biggest obstacle isn't the technology — it's that we don't know what data we have, where it is, or whether we can trust it to make decisions.'\n\nThis is an example of which digital transformation challenge?",
+   "opts": [
+    "Cybersecurity — supply chain data is being stolen",
+    "Resistance to change — the supply chain team doesn't want digital transformation",
+    "Poor data management — inability to locate, trust, or use available data effectively",
+    "Lack of IT infrastructure — the company has no digital systems at all"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course lists 'poor data management' as a key digital transformation challenge. Not knowing what data exists, where it is, or whether it can be trusted represents a fundamental data governance and quality failure."
+  },
+  {
+   "id": "8113-61",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A Nigerian e-commerce platform wants to enter the healthcare sector by building a telemedicine platform. To quickly build the product, they propose skipping the pilot testing phase and launching nationwide directly.\n\nBased on the course's strategies to foster innovation, what is the risk of skipping pilot testing?",
+   "opts": [
+    "No risk — large-scale launches are always more impactful",
+    "Cybersecurity risk from launching without security testing only",
+    "Failure to identify problems before they scale — the course recommends starting small with pilot projects before scaling",
+    "Digitisation risk — physical healthcare data won't be converted fast enough"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course's strategies to foster innovation include 'start small with pilot projects before scaling.' This allows organisations to identify and fix problems at low cost before they become large-scale disasters."
+  },
+  {
+   "id": "8113-62",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A Nigerian bank wants to accelerate digital innovation. Their innovation team suggests: (A) build everything in-house from scratch, (B) partner with fintech startups and tech hubs like CcHub and Ventures Platform, (C) buy a competing fintech.\n\nWhich option most directly aligns with the course's recommended strategy to foster innovation?",
+   "opts": [
+    "Option A — building in-house preserves competitive advantage",
+    "Option B — partnering with startups and tech hubs is a direct course recommendation for fostering innovation",
+    "Option C — acquisition is always the fastest path to innovation",
+    "All options are equally recommended by the course"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course explicitly recommends 'partner with startups or tech hubs' as a strategy to foster innovation and overcome innovation barriers. The bank's Option B directly implements this recommendation."
+  },
+  {
+   "id": "8113-63",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A Nigerian state government deploys a smart city IoT network: traffic sensors, smart streetlights, waste management sensors, and air quality monitors — all connected to a central digital operations centre that uses AI to optimise city resource allocation.\n\nWhich emerging technologies from the course's framework are at work in this smart city?",
+   "opts": [
+    "Only cloud computing and mobile applications",
+    "IoT (sensors and connected devices) and AI & data analytics",
+    "Only blockchain for transparent government transactions",
+    "ERP systems for government administration"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The Technology Layer includes 'IoT, blockchain, RPA, mobile' and 'AI & data analytics.' The smart city network uses IoT (traffic/waste/air sensors), and AI analytics (to optimise resource allocation from the operations centre)."
+  },
+  {
+   "id": "8113-64",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "In manufacturing, a Nigerian factory deploys sensors on all machines to continuously monitor vibration, temperature, and output rates. An AI model alerts engineers 48 hours before a machine is likely to fail, allowing maintenance before breakdown — eliminating costly unplanned downtime.\n\nThis predictive maintenance system uses which combination of emerging technologies?",
+   "opts": [
+    "Cloud computing and cybersecurity",
+    "IoT (machine sensors) and AI & data analytics (predictive model)",
+    "Blockchain and RPA",
+    "Mobile applications and ERP systems"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Machine sensors that continuously collect data = IoT. An AI model that predicts failure from that data = AI & data analytics. The combination of IoT data collection and AI prediction is exactly what enables predictive maintenance."
+  },
+  {
+   "id": "8113-65",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A logistics company in Nigeria is considering blockchain to track shipments from supplier to customer — every handoff, temperature reading, and location update is recorded in an immutable, shared ledger that all supply chain partners can view.\n\nThe primary strategic benefit of blockchain in this scenario is:",
+   "opts": [
+    "Replacing human logistics staff with automated AI agents",
+    "Increasing supply chain transparency and security through immutable, shared record-keeping",
+    "Enabling mobile payments for logistics services",
+    "Storing all shipping data on a cloud server for the company's internal use only"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course notes that 'blockchain is being explored to increase transparency and security in supply chains.' An immutable, multi-party shared ledger where every action is recorded and visible creates exactly this transparency and trust."
+  },
+  {
+   "id": "8113-66",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A healthcare provider in Nigeria's Northern states cannot attract specialist doctors to rural clinics. Instead, they deploy telemedicine tablets in rural health posts, allowing patients to consult specialist doctors in Abuja via video call, with AI-assisted diagnostic tools helping community health workers interpret symptoms.\n\nThis intervention primarily illustrates which impact of emerging technology on the healthcare industry?",
+   "opts": [
+    "Replacing rural community health workers with AI entirely",
+    "Using AI and telemedicine to enhance diagnostic accuracy and make healthcare more accessible to underserved populations",
+    "Digitising paper patient records in rural clinics",
+    "Implementing an ERP for healthcare administration"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'In the healthcare industry, AI is being utilised to enhance diagnostic accuracy and improve patient care. Technologies like telemedicine are allowing healthcare providers to deliver remote consultations, making healthcare more accessible to underserved populations.' The rural telemedicine system embodies both."
+  },
+  {
+   "id": "8113-67",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "Nigeria faces significant innovation challenges: unreliable power supply disrupts digital operations, most SMEs cannot access R&D funding, middle management resists digital initiatives, and few universities produce graduates with AI or data science skills.\n\nWhich four specific challenges does this scenario represent, matching the course's list?",
+   "opts": [
+    "Poor cybersecurity, lack of cloud access, bad regulation, poor internet",
+    "Poor infrastructure and unreliable electricity; limited R&D funding; resistance to change; lack of technical expertise",
+    "No digital vision, poor vendor management, data quality, high taxes",
+    "Legacy systems, bad hardware, limited bandwidth, high software costs"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course lists exactly these four challenges to innovation in Nigerian businesses: (1) Poor infrastructure and unreliable electricity, (2) Limited access to R&D funding, (3) Resistance to change among leadership and staff, (4) Lack of technical expertise. The scenario maps to each one."
+  },
+  {
+   "id": "8113-68",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "An organisation's compliance team discovers that its customer data analytics system produces recommendations that consistently disadvantage customers from certain geographic regions in Nigeria — approving loans less frequently despite similar credit profiles.\n\nThis scenario highlights which persistent risk from long-term data-driven IT initiatives?",
+   "opts": [
+    "Legacy system incompatibility causing uneven data processing",
+    "Digitisation risk — too much analogue data was converted",
+    "Data quality, privacy, and ethical concerns — specifically biased AI models",
+    "Cybersecurity breach — the system was hacked and manipulated"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course explicitly warns: 'Data quality, privacy, and ethical concerns are persistent risks. Without robust governance, significant data initiatives can lead to biased AI models, loss of trust, or regulatory penalties.' Geographic lending bias from an analytics model is precisely a biased AI model outcome."
+  },
+  {
+   "id": "8113-69",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "A digital transformation consultant advises a client: 'You need to treat your IT department not as a technical support function but as a core business asset that drives competitive strategy.' The client's CFO resists, saying 'IT is just maintenance costs.'\n\nThe consultant's position reflects which core principle from the course's critical analysis of IT's long-term impact?",
+   "opts": [
+    "Cybersecurity must be proactive, not reactive",
+    "IT evolves from a back-office function to a strategic enabler — organisations that align IT with business objectives achieve greater resilience, agility, and innovation",
+    "Data governance prevents regulatory penalties from the NDPR",
+    "DevOps reduces software deployment time"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'In the long run, IT evolves from a back-office function to a strategic enabler of business transformation. Organisations that align their IT strategy with their business objectives achieve greater resilience, agility, and innovation.' The CFO's 'IT is just maintenance costs' view is exactly the cost-centre mindset the course warns against."
+  },
+  {
+   "id": "8113-70",
+   "topic": "Challenges in Digital Transformation & Solutions",
+   "text": "OPay's rapid growth to millions of users required constant regulatory engagement with the Central Bank of Nigeria (CBN), navigating shifting fintech policy, and adapting its services to comply with new digital payment guidelines — all while continuing to innovate.\n\nOPay's experience illustrates which IT investment advantage described in the course?",
+   "opts": [
+    "Improved operational efficiency only — automation reduced costs",
+    "Innovation enablement — IT provides platforms for experimenting with products and models",
+    "Competitive positioning through early tech adoption and navigating regulatory barriers to entry",
+    "Data-driven decision-making through analytics"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course states: 'Early adoption of emerging technologies can position a business as an industry leader and create barriers to entry for competitors.' OPay's investment in mobile-first, cloud-native infrastructure and its regulatory relationships created competitive barriers that new entrants struggle to match."
+  },
+  {
+   "id": "8113-71",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "In 1975, a Kodak engineer presented the world's first digital camera to Kodak management. The leadership team understood its potential but decided against developing it commercially. They were afraid it would cannibalise their film business.\n\nKodak's decision most clearly illustrates which strategic failure?",
+   "opts": [
+    "Failing to invest in cybersecurity for the new digital technology",
+    "Protecting legacy revenue at the expense of innovation, leading to eventual irrelevance",
+    "Poor data management leading to wrong product decisions",
+    "Infrastructure failure — Kodak's factories couldn't produce digital cameras"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course explicitly identifies this as the lesson from Kodak: 'Protecting legacy revenue at the expense of innovation can lead to irrelevance.' Kodak chose short-term film profits over disruptive innovation — the exact strategic error that eventually destroyed the company."
+  },
+  {
+   "id": "8113-72",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "Netflix originally earned most of its revenue from late fees and DVD rental subscriptions. When streaming technology became viable, Netflix's then-CEO Reed Hastings decided to invest heavily in streaming — cannibalising the company's own profitable DVD business — while competitors (Blockbuster) refused to abandon their physical rental model.\n\nNetflix's decision to cannibalise its own profitable DVD business represents which strategic lesson?",
+   "opts": [
+    "Digital transformation requires abandoning all existing revenue streams immediately",
+    "Proactive digital transformation — disrupting your own business before competitors do it for you — creates sustained competitive advantage",
+    "Digital transformation is only successful when forced by market collapse",
+    "Netflix's success was primarily due to its cybersecurity investments"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course notes: 'Proactive transformation and continuous investment in tech and content enabled Netflix to disrupt traditional media.' Netflix made the strategic choice to invest in the future (streaming) before the past (DVD) collapsed — the opposite of Kodak's fatal error."
+  },
+  {
+   "id": "8113-73",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "NITEL, despite being Nigeria's sole telecom operator with national infrastructure and government backing, was unable to compete when MTN, Glo, and Airtel entered the Nigerian market in 2001.\n\nThe primary cause of NITEL's failure, based on the course material, was:",
+   "opts": [
+    "NITEL's pricing was too high compared to new entrants",
+    "MTN had better government relationships and regulatory access",
+    "Failure to modernise infrastructure, combined with mismanagement, bureaucracy, and a lack of innovation culture",
+    "NITEL's customer service was poor, leading to customer dissatisfaction"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course identifies NITEL's failure as: '(1) Failed to modernise infrastructure and invest in digital/mobile tech. (2) Mismanagement, bureaucracy, and lack of innovation stifled progress. (3) Could not compete with agile, tech-driven entrants.' All three are infrastructure, management, and culture failures."
+  },
+  {
+   "id": "8113-74",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "OPay succeeded in a market where many digital financial services had failed. Its differentiation included: (1) building an agent network for cash access in underserved areas, (2) mobile-first architecture, and (3) rapid response to market changes (cash scarcity, CBN cashless policy).\n\nOPay's success most clearly demonstrates which principle about digital transformation success?",
+   "opts": [
+    "Success requires significant foreign investment before anything else",
+    "The outcomes of digital transformation depend on leadership vision, organisational readiness, and alignment of digital strategy with customer needs",
+    "Digital transformation only works in developed markets with reliable infrastructure",
+    "Success is primarily about having the best technology platform"
+   ],
+   "answer": 1,
+   "explanation": "Correct! The course states: 'The outcomes often depend on leadership vision, organisational readiness, and the alignment of digital strategy with customer needs.' OPay's leadership understood the Nigerian market (customer needs), was organisationally ready to execute (agent network), and had a clear digital strategy — all three factors are present."
+  },
+  {
+   "id": "8113-75",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "Netflix invested in original content (House of Cards, Stranger Things) using data-driven insights about what its subscribers wanted to watch — before traditional media companies understood the pattern.\n\nNetflix's data-driven content investment strategy illustrates which IT-enabled competitive advantage?",
+   "opts": [
+    "Operational efficiency — reducing content production costs through automation",
+    "Competitive positioning through data-driven decision-making that enabled superior content strategy",
+    "Cybersecurity — protecting content from piracy",
+    "Scalability — Netflix can produce unlimited content using cloud infrastructure"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Netflix used AI and big data to understand viewer preferences and make informed decisions about which original content to commission — before competitors could replicate the insight. This is data-driven decision-making as a competitive advantage."
+  },
+  {
+   "id": "8113-76",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "A large Nigerian retail chain has been in operation for 25 years, with physical stores in every major city. E-commerce platforms like Jumia and Konga are growing rapidly and capturing its younger customers. The CEO says: 'We have too much invested in physical stores to pivot to digital. Let's focus on what made us successful.'\n\nBased on the Kodak case study, what is the greatest risk in the CEO's position?",
+   "opts": [
+    "The company's physical stores have cybersecurity vulnerabilities",
+    "Focusing on what made the company successful in the past while the market shifts to digital will lead to the same irrelevance as Kodak and NITEL",
+    "The company needs to fire its IT department immediately",
+    "Digital transformation cannot work for physical retailers"
+   ],
+   "answer": 1,
+   "explanation": "Correct! This is almost exactly Kodak's fatal error — protecting legacy investment (film business / physical stores) while the market shifts irreversibly (digital photography / e-commerce). The Kodak lesson is that 'complacency in a rapidly evolving digital environment' leads to irrelevance."
+  },
+  {
+   "id": "8113-77",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "A government agency reviews four companies: Company A (OPay) invested in mobile-first tech and built an agent network; Company B (similar to Kodak) protected legacy revenue; Company C (similar to Netflix) proactively shifted business model; Company D (similar to NITEL) relied on monopoly position. 20 years later, which two companies are most likely to have survived and thrived?\n\nBased on the course's digital transformation case studies, which companies are most likely to have survived?",
+   "opts": [
+    "Company B and Company D — established companies with existing revenue have natural advantages",
+    "Company A and Company C — proactive digital transformation with customer-centric innovation",
+    "Company D — monopoly status provides permanent protection",
+    "Company B — protecting existing revenue is the safest strategy"
+   ],
+   "answer": 1,
+   "explanation": "Correct! Company A (OPay model: customer-centric, mobile-first, agile) and Company C (Netflix model: proactive transformation, innovation investment) represent the success patterns from the course. Both demonstrate the principles of leadership vision, strategic digital investment, and customer alignment."
+  },
+  {
+   "id": "8113-78",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "A Nigerian bank studying digital transformation failures notices that both Kodak and NITEL had early warning signs they ignored: Kodak had the digital camera invention; NITEL watched MTN enter the market. Both continued investing in their legacy models despite clear signals.\n\nWhat common strategic failure pattern do Kodak and NITEL share?",
+   "opts": [
+    "Both suffered from cybersecurity breaches that destroyed their businesses",
+    "Both lacked sufficient financial resources to invest in digital technology",
+    "Both failed to modernise and innovate when market signals were clearly pointing to digital disruption — prioritising legacy protection over transformation",
+    "Both were acquired by foreign companies that mismanaged them"
+   ],
+   "answer": 2,
+   "explanation": "Correct! Both Kodak and NITEL received clear signals that digital disruption was coming (digital camera technology, mobile telecom liberalisation) and chose to protect legacy revenues/infrastructure instead of transforming. The course identifies this as the unifying lesson from both failure cases."
+  },
+  {
+   "id": "8113-79",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "A digital transformation researcher presents findings that across 50 Nigerian companies, the ones that succeeded in digital transformation share three factors: (1) the CEO personally championed digital strategy, (2) IT was represented at board level, and (3) digital transformation was connected to clear business KPIs.\n\nThese three shared success factors align most closely with which Digital Transformation Layer and strategic principle?",
+   "opts": [
+    "Technology Layer — the right technology was selected",
+    "Business Process Layer — workflows were reengineered",
+    "Strategic Layer — Vision & Leadership, Digital Strategy, Governance & Change Management",
+    "People & Culture Layer — staff were trained in digital skills"
+   ],
+   "answer": 2,
+   "explanation": "Correct! CEO championship = Vision & Leadership; IT at board level = Governance; connected to business KPIs = Digital Strategy alignment. All three are components of the Strategic Layer."
+  },
+  {
+   "id": "8113-80",
+   "topic": "Digital Transformation Success & Failure Cases",
+   "text": "Netflix, OPay, Moniepoint, and Flutterwave all share one characteristic: they treated IT not as a support function but as the core of their competitive strategy — continuously investing in technology to create new capabilities, enter new markets, and deliver more value to customers.\n\nThis shared characteristic most directly embodies which overarching principle from the course?",
+   "opts": [
+    "All successful companies must become technology companies to survive",
+    "Digital transformation is only for fintech and media companies",
+    "Treating IT as a core business asset rather than a technical function is what separates transformative organisations from those that fail or stagnate",
+    "Digital transformation requires abandoning all physical operations"
+   ],
+   "answer": 2,
+   "explanation": "Correct! The course concludes: 'The impact is transformative only if organisations treat IT as a core business asset rather than just a technical function.' Netflix, OPay, Moniepoint, and Flutterwave all built their competitive advantage on this exact principle."
+  }
+ ],
+ "caseStudies": []
+}

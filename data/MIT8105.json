@@ -1,0 +1,1188 @@
+{
+ "code": "MIT8105",
+ "title": "Network Architecture & Protocols",
+ "questions": [
+  {
+   "id": "8105-Computer Networks — Fundamentals-1",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A Lagos startup has 25 staff sharing one printer, three servers, and a shared file repository across a single office floor.\n\nWhich network classification best describes this setup?",
+   "opts": [
+    "Wide Area Network (WAN)",
+    "Metropolitan Area Network (MAN)",
+    "Local Area Network (LAN)",
+    "Storage Area Network (SAN)"
+   ],
+   "answer": 2,
+   "explanation": "A LAN connects devices within a confined space such as an office floor, providing shared access to resources like printers and file servers. WAN spans large regions; MAN covers city scale; SAN is specialised for storage."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-2",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "An IT officer at a Lagos bank wants to allow two departments to share a licensed accounting application installed on a central machine without purchasing separate copies.\n\nWhich network function makes this possible?",
+   "opts": [
+    "Remote access via VPN",
+    "Resource sharing through a network server",
+    "Full-duplex data transmission",
+    "Anycast communication"
+   ],
+   "answer": 1,
+   "explanation": "Resource sharing is the network function that allows multiple users to access a single hardware or software resource — in this case, a licensed application on a central server — eliminating redundant installations."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-3",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A doctor at a clinic in Abuja needs to access a patient database stored at the hospital headquarters in Lagos while working remotely from home.\n\nWhich network component and technology combination enables this secure remote access?",
+   "opts": [
+    "A hub and broadcast communication",
+    "A router and VPN",
+    "A switch and multicast",
+    "A NIC and simplex transmission"
+   ],
+   "answer": 1,
+   "explanation": "A router directs traffic between networks, and a VPN (Virtual Private Network) provides encrypted, secure remote access to internal systems — the correct combination for secure remote database access."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-4",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "During a network audit at an Abuja polytechnic, a technician finds a device that retransmits all incoming signals to every connected port without any filtering or MAC address awareness.\n\nWhich network component is the technician describing?",
+   "opts": [
+    "A managed switch",
+    "A router",
+    "A hub",
+    "A firewall"
+   ],
+   "answer": 2,
+   "explanation": "A hub broadcasts incoming data to all connected devices without filtering by destination address. A switch uses MAC addresses to direct data only to the intended recipient, reducing congestion."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-5",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "An IT trainer is explaining how a Bluetooth headset connects to a smartphone for a hands-free call in a car.\n\nWhich network classification describes this connection?",
+   "opts": [
+    "Local Area Network (LAN)",
+    "Wide Area Network (WAN)",
+    "Personal Area Network (PAN)",
+    "Metropolitan Area Network (MAN)"
+   ],
+   "answer": 2,
+   "explanation": "A PAN (Personal Area Network) is designed for short-range personal device communication — typically within a few metres — such as Bluetooth connections between a phone and a headset."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-6",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A network engineer notices that during a live video conference, the audio arrives in irregular bursts — sometimes delayed, sometimes arriving too quickly — causing scrambled speech.\n\nWhich network performance metric is the engineer most likely observing?",
+   "opts": [
+    "Bandwidth",
+    "Packet loss",
+    "Jitter",
+    "Throughput"
+   ],
+   "answer": 2,
+   "explanation": "Jitter is the variability in latency over time — irregular delay variation causes audio/video to arrive inconsistently, resulting in scrambled or stuttering speech during conferencing."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-7",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "An ISP in Nigeria is transmitting a live football broadcast to millions of subscribers. The stream is sent from one source to a predefined group of subscribers who opted into the sports package.\n\nWhich network communication type is being used?",
+   "opts": [
+    "Unicast",
+    "Broadcast",
+    "Anycast",
+    "Multicast"
+   ],
+   "answer": 3,
+   "explanation": "Multicast is one-to-selected-group communication — data is sent from one source to multiple designated recipients (opted-in subscribers) rather than all devices or just one device."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-8",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A content delivery network (CDN) routes a user's request to the nearest available server out of 15 globally distributed servers to minimise load time.\n\nWhich communication type does this CDN use?",
+   "opts": [
+    "Broadcast",
+    "Multicast",
+    "Unicast",
+    "Anycast"
+   ],
+   "answer": 3,
+   "explanation": "Anycast routes a packet from one sender to the nearest member in a predefined group of servers — exactly how CDNs direct users to the closest available edge server to minimise latency."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-9",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A university library in Enugu connects all its floors to a single central switch, and the switch connects to the campus core router. Each workstation has its own cable running to the switch.\n\nWhich network model does this describe?",
+   "opts": [
+    "Peer-to-Peer (P2P)",
+    "Client-Server model",
+    "Bus topology with broadcasting",
+    "Storage Area Network"
+   ],
+   "answer": 1,
+   "explanation": "The Client-Server model involves dedicated servers providing resources to client devices. Here, the central switch and router form the infrastructure through which clients (workstations) access centralised resources."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-10",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A water board in Kano uses a SCADA system where a central control station sends commands to pumping stations, but the pumping stations do not send back any data.\n\nWhich data transmission mode describes this communication?",
+   "opts": [
+    "Full-duplex",
+    "Half-duplex",
+    "Simplex",
+    "Multicast"
+   ],
+   "answer": 2,
+   "explanation": "Simplex transmission is one-directional only — the sender transmits but the receiver cannot respond. A SCADA command-only channel from control station to pumping stations is a classic simplex use case."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-11",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A security guard at a bank gate communicates with the control room using walkie-talkies. Only one person can speak at a time; the other must wait.\n\nWhich data transmission mode is in use?",
+   "opts": [
+    "Simplex",
+    "Full-duplex",
+    "Half-duplex",
+    "Multicast"
+   ],
+   "answer": 2,
+   "explanation": "Half-duplex allows two-way communication but only one direction at a time. Walkie-talkies are the classic example — one party transmits while the other waits before responding."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-12",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A network technician at a telecom company in Port Harcourt measures that although the subscribed bandwidth is 200 Mbps, only 140 Mbps of actual data is being transferred per second due to network congestion.\n\nWhich performance metric reflects the 140 Mbps figure?",
+   "opts": [
+    "Bandwidth",
+    "Jitter",
+    "Throughput",
+    "Latency"
+   ],
+   "answer": 2,
+   "explanation": "Throughput is the actual amount of data successfully transferred per unit time — which is always equal to or less than theoretical bandwidth due to congestion, packet loss, and overhead."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-13",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "An Abuja corporate HQ with branches in Lagos, Kano, and Port Harcourt needs all branch offices to share a centralised ERP system hosted at HQ. All locations are in different cities.\n\nWhich network classification connects these geographically dispersed locations?",
+   "opts": [
+    "LAN",
+    "PAN",
+    "MAN",
+    "WAN"
+   ],
+   "answer": 3,
+   "explanation": "A WAN (Wide Area Network) spans large geographic distances — connecting cities, countries, or continents. An enterprise with branches in multiple cities requires WAN infrastructure."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-14",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A startup uses BitTorrent to distribute large software update packages to its employees, where each downloading device also uploads portions to other peers simultaneously.\n\nWhich network model does this describe?",
+   "opts": [
+    "Client-Server model",
+    "Peer-to-Peer (P2P) model",
+    "Storage Area Network",
+    "Metropolitan Area Network"
+   ],
+   "answer": 1,
+   "explanation": "The Peer-to-Peer (P2P) model treats all nodes as equal participants — each acts as both client and server simultaneously, sharing and downloading from one another without a central repository."
+  },
+  {
+   "id": "8105-Computer Networks — Fundamentals-15",
+   "topic": "Computer Networks — Fundamentals",
+   "text": "A hospital network's IT team deploys a dedicated high-speed network solely to manage backups of patient records and medical imaging data between servers.\n\nWhich network type has been deployed?",
+   "opts": [
+    "LAN",
+    "MAN",
+    "WAN",
+    "Storage Area Network (SAN)"
+   ],
+   "answer": 3,
+   "explanation": "A SAN (Storage Area Network) is a specialised high-speed network dedicated to data storage and retrieval, commonly used in healthcare and enterprise environments for managing large databases and backups."
+  },
+  {
+   "id": "8105-OSI Model-16",
+   "topic": "OSI Model",
+   "text": "A customer in Lagos opens a web browser and types 'www.paystack.com' to check their account balance. The browser formats an HTTP request to send to the server.\n\nAt which OSI layer is the HTTP request generated?",
+   "opts": [
+    "Layer 4 — Transport",
+    "Layer 6 — Presentation",
+    "Layer 7 — Application",
+    "Layer 3 — Network"
+   ],
+   "answer": 2,
+   "explanation": "Layer 7 — Application Layer is where end-user applications like web browsers operate and generate protocol-level requests such as HTTP/HTTPS."
+  },
+  {
+   "id": "8105-OSI Model-17",
+   "topic": "OSI Model",
+   "text": "A network engineer is troubleshooting a secure banking app. They find that customer data is being encrypted before transmission using TLS, and images are compressed using JPEG encoding before being sent across the network.\n\nWhich OSI layer handles both the encryption and the data format translation?",
+   "opts": [
+    "Layer 7 — Application",
+    "Layer 5 — Session",
+    "Layer 4 — Transport",
+    "Layer 6 — Presentation"
+   ],
+   "answer": 3,
+   "explanation": "Layer 6 — Presentation Layer is responsible for data translation (e.g., JPEG compression), encryption (e.g., SSL/TLS), and ensuring data is in a readable format for the application layer."
+  },
+  {
+   "id": "8105-OSI Model-18",
+   "topic": "OSI Model",
+   "text": "A remote worker initiates a Remote Desktop Protocol (RDP) session to their office computer. The connection is maintained, monitored, and eventually terminated cleanly when the worker logs off.\n\nWhich OSI layer manages the establishment, maintenance, and termination of this session?",
+   "opts": [
+    "Layer 4 — Transport",
+    "Layer 5 — Session",
+    "Layer 6 — Presentation",
+    "Layer 3 — Network"
+   ],
+   "answer": 1,
+   "explanation": "Layer 5 — Session Layer handles the creation, maintenance, and termination of communication sessions between applications. RDP session management is a Layer 5 function."
+  },
+  {
+   "id": "8105-OSI Model-19",
+   "topic": "OSI Model",
+   "text": "A packet is travelling from a computer in Lagos to a server in the UK. At each intermediate router, the device inspects the destination IP address and decides where to forward the packet next.\n\nAt which OSI layer are these routing decisions being made?",
+   "opts": [
+    "Layer 2 — Data Link",
+    "Layer 1 — Physical",
+    "Layer 4 — Transport",
+    "Layer 3 — Network"
+   ],
+   "answer": 3,
+   "explanation": "Layer 3 — Network Layer handles logical addressing (IP addresses) and routing. Routers operate at Layer 3, using destination IP addresses to forward packets along the optimal path."
+  },
+  {
+   "id": "8105-OSI Model-20",
+   "topic": "OSI Model",
+   "text": "A Cisco switch at a Lagos bank's data centre reads the destination MAC address on an incoming frame and forwards it only to the correct port, without examining IP addresses.\n\nAt which OSI layer is the switch primarily operating?",
+   "opts": [
+    "Layer 1 — Physical",
+    "Layer 3 — Network",
+    "Layer 2 — Data Link",
+    "Layer 4 — Transport"
+   ],
+   "answer": 2,
+   "explanation": "Layer 2 — Data Link Layer uses MAC addresses for local network delivery. Switches operate at Layer 2, forwarding frames based on MAC address tables."
+  },
+  {
+   "id": "8105-OSI Model-21",
+   "topic": "OSI Model",
+   "text": "A fibre optic cable in Abuja converts digital bits from a router into light pulses and transmits them to the next node. The repeater along the route amplifies the weakened signal.\n\nAt which OSI layer are these physical signal conversions and amplifications occurring?",
+   "opts": [
+    "Layer 2 — Data Link",
+    "Layer 1 — Physical",
+    "Layer 3 — Network",
+    "Layer 5 — Session"
+   ],
+   "answer": 1,
+   "explanation": "Layer 1 — Physical Layer is responsible for transmitting raw bits as electrical, optical, or radio signals. Fibre optic light pulses and repeater signal amplification are Layer 1 functions."
+  },
+  {
+   "id": "8105-OSI Model-22",
+   "topic": "OSI Model",
+   "text": "A developer at a fintech company is debugging why email attachments sent between two offices look corrupted on arrival. They discover the file encoding format differs between sender and receiver systems.\n\nWhich OSI layer should the developer investigate?",
+   "opts": [
+    "Layer 7 — Application",
+    "Layer 4 — Transport",
+    "Layer 6 — Presentation",
+    "Layer 2 — Data Link"
+   ],
+   "answer": 2,
+   "explanation": "Layer 6 — Presentation Layer is responsible for data format translation and encoding — a mismatch in encoding formats (e.g., ASCII vs. EBCDIC) between systems would manifest here."
+  },
+  {
+   "id": "8105-OSI Model-23",
+   "topic": "OSI Model",
+   "text": "During network troubleshooting at a Lagos ISP, an engineer finds that frames arriving from a remote office contain error-checking failures in the Frame Check Sequence (FCS) field.\n\nAt which OSI layer is the FCS error-checking mechanism implemented?",
+   "opts": [
+    "Layer 4 — Transport",
+    "Layer 3 — Network",
+    "Layer 1 — Physical",
+    "Layer 2 — Data Link"
+   ],
+   "answer": 3,
+   "explanation": "Layer 2 — Data Link Layer implements the FCS (Frame Check Sequence) as part of the frame trailer for error detection. The LLC sub-layer handles error checking and frame synchronisation."
+  },
+  {
+   "id": "8105-OSI Model-24",
+   "topic": "OSI Model",
+   "text": "An engineering student is asked to explain the encapsulation process. They correctly state that when data moves from Layer 7 down to Layer 1 on the sender's side, each layer adds control information.\n\nWhat is added at Layer 4 (Transport Layer) during encapsulation?",
+   "opts": [
+    "MAC address header and trailer",
+    "IP address header",
+    "TCP or UDP header (segment)",
+    "Physical signal encoding"
+   ],
+   "answer": 2,
+   "explanation": "At Layer 4 (Transport Layer), a TCP or UDP header is added to the data, creating a segment. This header contains port numbers, sequence numbers, and flow control information."
+  },
+  {
+   "id": "8105-OSI Model-25",
+   "topic": "OSI Model",
+   "text": "An IT student correctly identifies that the OSI model is 'primarily theoretical' while the TCP/IP model is 'used in real-world internet communication.' An examiner asks about a key structural limitation of the OSI model.\n\nWhich of the following is a recognised limitation of the OSI model?",
+   "opts": [
+    "It supports only unicast communication",
+    "It cannot model wireless networks",
+    "Many protocols span multiple layers, making strict layer separation difficult in practice",
+    "It does not include a Physical Layer"
+   ],
+   "answer": 2,
+   "explanation": "A key limitation is that many real-world protocols span multiple OSI layers, making strict layer separation difficult. The OSI model is theoretical; actual implementations (like TCP/IP) merge layers for practicality."
+  },
+  {
+   "id": "8105-OSI Model-26",
+   "topic": "OSI Model",
+   "text": "A cybersecurity trainer uses the analogy of a mail system to teach the OSI model. They say 'the language in the letter' corresponds to one layer.\n\nWhich OSI layer corresponds to 'the language used in the letter'?",
+   "opts": [
+    "Layer 7 — Application",
+    "Layer 5 — Session",
+    "Layer 4 — Transport",
+    "Layer 6 — Presentation"
+   ],
+   "answer": 3,
+   "explanation": "Layer 6 — Presentation Layer corresponds to 'the language used in the letter' — it handles data formatting and translation to ensure the receiver can understand (interpret) the data."
+  },
+  {
+   "id": "8105-OSI Model-27",
+   "topic": "OSI Model",
+   "text": "When a user opens a website, their browser sends a request and the web server responds. The OSI model's Application Layer is involved. An exam question asks what the Application Layer does NOT do.\n\nWhich function is NOT performed by the OSI Application Layer?",
+   "opts": [
+    "Providing web browsing via HTTP",
+    "Email services via SMTP",
+    "Assigning MAC addresses to frames",
+    "DNS domain name resolution"
+   ],
+   "answer": 2,
+   "explanation": "Assigning MAC addresses is a Layer 2 (Data Link Layer) function, not Application Layer. The Application Layer handles HTTP, SMTP, DNS, FTP, and other user-facing protocols."
+  },
+  {
+   "id": "8105-OSI Model-28",
+   "topic": "OSI Model",
+   "text": "A network engineer is implementing OSPF across a large enterprise network with 50 routers, enabling automatic path recalculation when any router link fails.\n\nAt which OSI layer does OSPF primarily operate?",
+   "opts": [
+    "Layer 7 — Application",
+    "Layer 2 — Data Link",
+    "Layer 3 — Network",
+    "Layer 5 — Session"
+   ],
+   "answer": 2,
+   "explanation": "OSPF (Open Shortest Path First) is a dynamic routing protocol operating at Layer 3 — Network Layer, where logical addressing and routing decisions are made."
+  },
+  {
+   "id": "8105-OSI Model-29",
+   "topic": "OSI Model",
+   "text": "A large Nigerian bank is transitioning from IPv4 to IPv6 across its entire network infrastructure. A junior engineer asks whether this upgrade will affect the bank's existing application software (e.g., their web banking platform).\n\nWhich OSI model principle best explains why the IPv4-to-IPv6 change at Layer 3 should NOT require rewriting the web banking application at Layer 7?",
+   "opts": [
+    "Encapsulation ensures upper layers are unaware of lower-layer changes",
+    "Decapsulation reorders packets for upper layers",
+    "Jitter management isolates layers from latency",
+    "The physical layer converts all addressing automatically"
+   ],
+   "answer": 0,
+   "explanation": "The OSI model's modularity principle (supported by encapsulation/abstraction) means each layer is independent — changes at Layer 3 (IPv4 to IPv6) do not require changes at Layer 7 (application software)."
+  },
+  {
+   "id": "8105-OSI Model-30",
+   "topic": "OSI Model",
+   "text": "An engineer pings a remote server and receives 'Destination Unreachable' in response. This message was generated by a protocol that reports errors and diagnostics at the network level.\n\nWhich protocol generated the 'Destination Unreachable' message, and at which OSI layer?",
+   "opts": [
+    "TCP at Layer 4",
+    "ICMP at Layer 3",
+    "UDP at Layer 4",
+    "ARP at Layer 2"
+   ],
+   "answer": 1,
+   "explanation": "ICMP (Internet Control Message Protocol) operates at Layer 3 — Network Layer and is responsible for error reporting and network diagnostics, including 'Destination Unreachable' and ping (echo request/reply)."
+  },
+  {
+   "id": "8105-OSI Model-31",
+   "topic": "OSI Model",
+   "text": "A financial institution is designing a new inter-branch communication system. Their network consultant insists that any hardware and software components used must be compatible regardless of vendor — Cisco routers must work with Huawei switches.\n\nWhich OSI model objective specifically addresses multi-vendor interoperability?",
+   "opts": [
+    "Serving as a reference for troubleshooting",
+    "Enabling multivendor interoperability through abstraction",
+    "Promoting simplex data transmission",
+    "Defining physical cabling standards only"
+   ],
+   "answer": 1,
+   "explanation": "Enabling multivendor interoperability through abstraction is a core OSI objective — by defining each layer's functions abstractly, hardware and software from different vendors can communicate without proprietary dependencies."
+  },
+  {
+   "id": "8105-OSI Model-32",
+   "topic": "OSI Model",
+   "text": "During an online exam, a student correctly maps protocols to OSI layers. The examiner asks: 'Which protocol handles email retrieval and management at the Application Layer, allowing users to keep emails on the server?'\n\nWhich protocol is the student referring to?",
+   "opts": [
+    "SMTP",
+    "FTP",
+    "IMAP",
+    "DHCP"
+   ],
+   "answer": 2,
+   "explanation": "IMAP (Internet Message Access Protocol) enables email retrieval and management while keeping messages on the server — unlike POP3, which downloads and deletes. SMTP handles sending; FTP handles file transfer; DHCP assigns IP addresses."
+  },
+  {
+   "id": "8105-TCP/IP Model-33",
+   "topic": "TCP/IP Model",
+   "text": "A student correctly explains that the TCP/IP model has four layers and was developed by DARPA in the 1970s to support military and research networks.\n\nWhich TCP/IP layer corresponds to BOTH the OSI Session and Presentation layers?",
+   "opts": [
+    "Transport Layer",
+    "Internet Layer",
+    "Application Layer",
+    "Network Access Layer"
+   ],
+   "answer": 2,
+   "explanation": "The TCP/IP Application Layer combines the functions of OSI Layers 5 (Session), 6 (Presentation), and 7 (Application) — a key structural difference between the two models."
+  },
+  {
+   "id": "8105-TCP/IP Model-34",
+   "topic": "TCP/IP Model",
+   "text": "A student at Miva is downloading a large research paper using FTP. The file is broken into packets, sent reliably in order, and reassembled at the destination.\n\nWhich TCP/IP layer and protocol handle the reliable segmentation and reassembly of this file transfer?",
+   "opts": [
+    "Internet Layer — IP",
+    "Application Layer — FTP",
+    "Transport Layer — TCP",
+    "Network Access Layer — Ethernet"
+   ],
+   "answer": 2,
+   "explanation": "TCP (Transmission Control Protocol) at the Transport Layer handles segmentation, reliable ordered delivery, and reassembly of data — essential for accurate file transfers via FTP."
+  },
+  {
+   "id": "8105-TCP/IP Model-35",
+   "topic": "TCP/IP Model",
+   "text": "A mobile gamer in Lagos notices that their live gaming session has slightly dropped frames but still runs smoothly. They learn that some packets are intentionally not retransmitted to preserve speed.\n\nWhich Transport Layer protocol is most likely being used for this gaming session?",
+   "opts": [
+    "TCP",
+    "FTP",
+    "SMTP",
+    "UDP"
+   ],
+   "answer": 3,
+   "explanation": "UDP (User Datagram Protocol) is connectionless and prioritises speed over reliability. For real-time gaming, minor packet loss is acceptable — UDP avoids retransmission delays that would disrupt the experience."
+  },
+  {
+   "id": "8105-TCP/IP Model-36",
+   "topic": "TCP/IP Model",
+   "text": "A postgraduate IT student is asked to explain what happens at the Internet Layer when a packet leaves Nigeria headed for a server in the United Kingdom.\n\nWhich is the PRIMARY function of the TCP/IP Internet Layer for this packet?",
+   "opts": [
+    "Encrypting the packet using SSL/TLS",
+    "Assigning MAC addresses for local delivery",
+    "Managing the application session between browser and server",
+    "Assigning IP addresses and routing the packet across multiple networks"
+   ],
+   "answer": 3,
+   "explanation": "The TCP/IP Internet Layer is responsible for logical addressing (IP addresses) and routing — determining the optimal path for packets across multiple interconnected networks to reach their destination."
+  },
+  {
+   "id": "8105-TCP/IP Model-37",
+   "topic": "TCP/IP Model",
+   "text": "At a Lagos data centre, a Network Interface Card (NIC) is converting binary data into electrical signals and transmitting them over a CAT6 Ethernet cable to a switch.\n\nWhich TCP/IP layer is managing this physical signal conversion and MAC addressing?",
+   "opts": [
+    "Application Layer",
+    "Internet Layer",
+    "Transport Layer",
+    "Network Access Layer"
+   ],
+   "answer": 3,
+   "explanation": "The Network Access Layer (Link Layer) in TCP/IP combines the OSI Data Link and Physical layers — it manages MAC addressing, framing, and physical signal transmission over the network medium."
+  },
+  {
+   "id": "8105-TCP/IP Model-38",
+   "topic": "TCP/IP Model",
+   "text": "A developer compares the OSI and TCP/IP models on an exam. They note that OSI is 'protocol-independent' while TCP/IP 'directly integrates specific protocols into its architecture.'\n\nWhich TCP/IP characteristic does this observation describe?",
+   "opts": [
+    "TCP/IP is only used in academic environments",
+    "TCP/IP is protocol-specific, integrating IP, TCP, and UDP as part of its structure",
+    "TCP/IP is more theoretical than OSI",
+    "TCP/IP has seven strict layers like OSI"
+   ],
+   "answer": 1,
+   "explanation": "TCP/IP is protocol-specific — it was built around and directly integrates protocols like IP, TCP, and UDP. OSI is protocol-independent, defining layer functions without mandating specific protocols."
+  },
+  {
+   "id": "8105-TCP/IP Model-39",
+   "topic": "TCP/IP Model",
+   "text": "A Miva student explains the TCP/IP packet encapsulation process to a study group, stating that 'as data moves down the layers, each layer adds a header.'\n\nIn correct order from top to bottom, what are the four TCP/IP layers through which a packet is encapsulated?",
+   "opts": [
+    "Network Access → Internet → Transport → Application",
+    "Application → Transport → Internet → Network Access",
+    "Physical → Data Link → Network → Transport",
+    "Session → Presentation → Application → Transport"
+   ],
+   "answer": 1,
+   "explanation": "Encapsulation in TCP/IP proceeds from top to bottom: Application → Transport → Internet → Network Access. Each layer adds its header as data moves toward physical transmission."
+  },
+  {
+   "id": "8105-TCP/IP Model-40",
+   "topic": "TCP/IP Model",
+   "text": "A Kano hospital's network team notices that their VoIP calls for doctor consultations are frequently choppy but their email system works flawlessly. The IT lead asks which protocol governs each.\n\nWhich protocols would most correctly be matched to VoIP (choppy calls) and Email (reliable delivery)?",
+   "opts": [
+    "VoIP → TCP; Email → UDP",
+    "VoIP → HTTP; Email → FTP",
+    "VoIP → UDP; Email → TCP",
+    "VoIP → ICMP; Email → DNS"
+   ],
+   "answer": 2,
+   "explanation": "UDP is used for VoIP (speed-prioritised, accepts some loss), while TCP is used for email (reliable, ordered delivery via SMTP/IMAP). The choppy VoIP calls suggest network jitter affecting UDP streams."
+  },
+  {
+   "id": "8105-TCP/IP Model-41",
+   "topic": "TCP/IP Model",
+   "text": "An IT student states: 'The TCP/IP model was first officially adopted as the standard for all military networking in 1983, replacing older proprietary protocols.'\n\nWhich organisation made this adoption decision in 1983?",
+   "opts": [
+    "ISO (International Organisation for Standardisation)",
+    "IEEE (Institute of Electrical and Electronics Engineers)",
+    "U.S. Department of Defence (DoD)",
+    "IETF (Internet Engineering Task Force)"
+   ],
+   "answer": 2,
+   "explanation": "The U.S. Department of Defence (DoD) formally adopted TCP/IP as the standard for all military computer networking in 1983, accelerating the global standardisation of internet protocols."
+  },
+  {
+   "id": "8105-TCP/IP Model-42",
+   "topic": "TCP/IP Model",
+   "text": "A user types 'http://miva.edu.ng' into their browser. DNS resolves the name to an IP address, TCP establishes a connection, and the server responds with the HTML page. An examiner asks about which layer ARP operates in.\n\nWhen the browser's device needs to resolve the web server's IP address to a MAC address for local delivery, which protocol and TCP/IP layer handles this?",
+   "opts": [
+    "DNS at the Application Layer",
+    "ARP at the Network Access Layer",
+    "ICMP at the Internet Layer",
+    "UDP at the Transport Layer"
+   ],
+   "answer": 1,
+   "explanation": "ARP (Address Resolution Protocol) operates at the Network Access Layer in TCP/IP — it resolves IP addresses to MAC addresses, enabling direct local network frame delivery."
+  },
+  {
+   "id": "8105-TCP/IP Model-43",
+   "topic": "TCP/IP Model",
+   "text": "A cybersecurity student notes that the original TCP/IP model was designed when networks were trusted environments. They argue that modern networks require additional security layers because TCP/IP does not natively provide encryption.\n\nWhich limitation of the TCP/IP model does this observation reflect?",
+   "opts": [
+    "TCP/IP cannot support IPv6 addressing",
+    "TCP/IP lacks a Physical Layer",
+    "TCP/IP does not provide built-in encryption or secure session management",
+    "TCP/IP cannot segment data into packets"
+   ],
+   "answer": 2,
+   "explanation": "The original TCP/IP design does not include built-in encryption or session management. Security protocols like TLS operate above TCP/IP, compensating for this architectural gap."
+  },
+  {
+   "id": "8105-TCP/IP Model-44",
+   "topic": "TCP/IP Model",
+   "text": "A network administrator is configuring OSPF on a router to allow automatic path recalculation across a large enterprise WAN. They note OSPF operates in the Internet Layer of TCP/IP.\n\nWhich other protocol at the same TCP/IP Internet Layer is used for error reporting and network diagnostics?",
+   "opts": [
+    "UDP",
+    "ARP",
+    "ICMP",
+    "FTP"
+   ],
+   "answer": 2,
+   "explanation": "ICMP (Internet Control Message Protocol) operates at the TCP/IP Internet Layer alongside IP and OSPF. It handles error reporting and diagnostics — including ping (echo request/reply) and 'Destination Unreachable' messages."
+  },
+  {
+   "id": "8105-TCP/IP Model-45",
+   "topic": "TCP/IP Model",
+   "text": "During a TCP/IP packet trace at a Nigerian bank, an analyst sees that at each router hop, only the IP header is inspected and updated, while the TCP and application headers remain untouched.\n\nWhich TCP/IP layer principle does this demonstrate?",
+   "opts": [
+    "Jitter control isolates layer headers",
+    "Each layer processes only its own header, passing the rest as payload to the next layer",
+    "The Application Layer generates new IP headers at each hop",
+    "UDP rewrites headers at each router for speed"
+   ],
+   "answer": 1,
+   "explanation": "TCP/IP's layered encapsulation principle means each layer processes only its own header. Routers at the Internet Layer read and update IP headers but treat the TCP header and application data as opaque payload."
+  },
+  {
+   "id": "8105-TCP/IP Model-46",
+   "topic": "TCP/IP Model",
+   "text": "A student is comparing the OSI and TCP/IP models for an exam. They correctly state that TCP/IP has a 'combined Application layer' while OSI separates these into three distinct layers.\n\nWhich three OSI layers are merged into the single TCP/IP Application Layer?",
+   "opts": [
+    "Physical, Data Link, Network",
+    "Network, Transport, Session",
+    "Application, Presentation, Session",
+    "Transport, Network, Data Link"
+   ],
+   "answer": 2,
+   "explanation": "The TCP/IP Application Layer combines OSI's Application (Layer 7), Presentation (Layer 6), and Session (Layer 5) layers into one, resulting in TCP/IP's four-layer structure vs. OSI's seven."
+  },
+  {
+   "id": "8105-TCP/IP Model-47",
+   "topic": "TCP/IP Model",
+   "text": "An IT infrastructure manager at a Lagos logistics company argues for TCP/IP over a proprietary legacy protocol for their new nationwide delivery tracking system, citing vendor independence.\n\nWhich TCP/IP advantage does this argument reflect?",
+   "opts": [
+    "TCP/IP supports simplex transmission only",
+    "TCP/IP is vendor-neutral, enabling diverse devices to interconnect without proprietary limitations",
+    "TCP/IP provides built-in data encryption at the Internet Layer",
+    "TCP/IP operates only over fibre optic cables"
+   ],
+   "answer": 1,
+   "explanation": "Vendor-neutral compatibility is a key TCP/IP advantage — it operates independently of hardware manufacturers, allowing routers, switches, and operating systems from any vendor to interoperate seamlessly."
+  },
+  {
+   "id": "8105-Network Topologies-48",
+   "topic": "Network Topologies",
+   "text": "A junior network engineer is designing a 10-node office network for a small accounting firm in Enugu. Budget is tight, and the firm needs a simple, cheap setup. The engineer recommends bus topology but their supervisor cautions about a specific risk.\n\nWhat is the PRIMARY risk the supervisor is warning about with bus topology?",
+   "opts": [
+    "Too many cables required",
+    "High cost of installation",
+    "A single cable failure brings down the entire network",
+    "Poor performance for wireless devices"
+   ],
+   "answer": 2,
+   "explanation": "Bus topology's critical weakness is that all nodes share a single backbone cable — a single cable failure takes down communication for the entire network. It also degrades under heavy traffic load."
+  },
+  {
+   "id": "8105-Network Topologies-49",
+   "topic": "Network Topologies",
+   "text": "A university in Ibadan installs a campus network where every PC, printer, and server connects through a central managed switch. When one student's laptop NIC fails, others are unaffected.\n\nWhich network topology does this describe, and what is the key advantage demonstrated?",
+   "opts": [
+    "Ring topology — equal token access",
+    "Mesh topology — full redundancy",
+    "Bus topology — minimal cabling",
+    "Star topology — fault isolation per device"
+   ],
+   "answer": 3,
+   "explanation": "This is Star topology, where each device connects independently to a central switch. The key advantage is fault isolation — one device's failure has no impact on others."
+  },
+  {
+   "id": "8105-Network Topologies-50",
+   "topic": "Network Topologies",
+   "text": "An older manufacturing facility in Kaduna still uses a Token Ring network where each machine passes a 'token' around a closed loop before transmitting, and each node boosts the signal as it passes.\n\nWhich network topology is this facility using?",
+   "opts": [
+    "Star topology",
+    "Bus topology",
+    "Ring topology",
+    "Mesh topology"
+   ],
+   "answer": 2,
+   "explanation": "Ring topology connects devices in a closed loop. Each node acts as a repeater, boosting signals. Token Ring (IEEE 802.5) used this topology where a token is passed sequentially around the ring to control transmission."
+  },
+  {
+   "id": "8105-Network Topologies-51",
+   "topic": "Network Topologies",
+   "text": "A military communications centre in Abuja requires a network where no single link failure can isolate any node. Every node has direct connections to every other node, and multiple paths exist for all traffic.\n\nWhich network topology satisfies this military requirement?",
+   "opts": [
+    "Bus topology",
+    "Star topology",
+    "Ring topology",
+    "Full mesh topology"
+   ],
+   "answer": 3,
+   "explanation": "Full mesh topology connects every node to every other node, providing multiple redundant paths. This ensures that no single link failure isolates any node — critical for military and mission-critical networks."
+  },
+  {
+   "id": "8105-Network Topologies-52",
+   "topic": "Network Topologies",
+   "text": "A hospital campus in Lagos has three buildings. Each building uses a star topology internally with a central switch. The three building switches are then connected to each other in a ring for inter-building communication.\n\nWhich overall topology does this hospital campus network represent?",
+   "opts": [
+    "Full mesh",
+    "Pure star",
+    "Hybrid topology (Star-Ring)",
+    "Bus topology"
+   ],
+   "answer": 2,
+   "explanation": "This is a Hybrid topology combining Star (within each building) and Ring (between buildings) — hybrid topologies integrate two or more basic topologies to meet specific performance and scalability requirements."
+  },
+  {
+   "id": "8105-Network Topologies-53",
+   "topic": "Network Topologies",
+   "text": "A network design student is comparing topologies in a table. They note that one topology has 'least cabling required' but 'degrades with load' and has 'poor fault tolerance.'\n\nWhich topology matches all three characteristics simultaneously?",
+   "opts": [
+    "Mesh",
+    "Star",
+    "Hybrid",
+    "Bus"
+   ],
+   "answer": 3,
+   "explanation": "Bus topology requires the least cabling of all topologies, but performance degrades under heavy traffic (collision domain), and a single cable failure takes down the entire network — poor fault tolerance."
+  },
+  {
+   "id": "8105-Network Topologies-54",
+   "topic": "Network Topologies",
+   "text": "A startup's IT consultant says: 'For your 200-device office, you want a topology where faults are easy to isolate, you can add devices without disrupting others, and performance stays stable under load.'\n\nWhich topology does the consultant most likely recommend?",
+   "opts": [
+    "Ring topology",
+    "Bus topology",
+    "Star topology",
+    "Full mesh topology"
+   ],
+   "answer": 2,
+   "explanation": "Star topology offers easy fault isolation (one cable per device), simple device addition without disruption, and stable performance under load — making it the most common recommendation for modern enterprise LANs."
+  },
+  {
+   "id": "8105-Network Topologies-55",
+   "topic": "Network Topologies",
+   "text": "Two ISPs in Nigeria are planning their backbone infrastructure. ISP-A uses a partial mesh connecting 8 core routers. ISP-B uses a bus connecting 8 routers. During a link failure drill, ISP-A reroutes traffic within seconds, while ISP-B's entire backbone goes down.\n\nWhich topology characteristic explains ISP-A's superior resilience?",
+   "opts": [
+    "Mesh provides redundant paths, so traffic reroutes when one link fails",
+    "Bus topology uses fewer cables which speeds up recovery",
+    "Ring topology's token passing prevents congestion",
+    "Star topology's central switch reroutes automatically"
+   ],
+   "answer": 0,
+   "explanation": "Mesh topology provides redundant paths between nodes — when one link fails, traffic is automatically rerouted through alternative paths. This is why mesh is preferred for ISP backbones and critical infrastructure."
+  },
+  {
+   "id": "8105-Network Topologies-56",
+   "topic": "Network Topologies",
+   "text": "A network engineer is asked to compare the cost and performance of mesh vs. star for a 20-device branch office with a moderate budget. They must justify their choice.\n\nWhich statement BEST justifies choosing star over mesh for this scenario?",
+   "opts": [
+    "Star topology offers excellent fault tolerance with no single point of failure",
+    "Star topology is more cost-effective with moderate cabling, stable performance, and easier management than mesh",
+    "Star topology supports the most devices per physical port",
+    "Star topology eliminates the need for any switching hardware"
+   ],
+   "answer": 1,
+   "explanation": "Star topology provides a practical balance: moderate cabling cost (one cable per device to a central switch), stable performance, and easier management. Mesh's extensive cabling and high cost are unnecessary for a 20-device office."
+  },
+  {
+   "id": "8105-Network Topologies-57",
+   "topic": "Network Topologies",
+   "text": "An IT student is preparing for an exam and must memorise the topology comparison table. The examiner asks: 'Which topology has HIGH cost, HIGH scalability, COMPLEX setup, and EXCELLENT fault tolerance?'\n\nBased on the topology comparison table, which topology matches all four characteristics?",
+   "opts": [
+    "Bus",
+    "Star",
+    "Ring",
+    "Mesh"
+   ],
+   "answer": 3,
+   "explanation": "Mesh topology has HIGH cost (extensive cabling), HIGH scalability, COMPLEX setup/configuration, and EXCELLENT fault tolerance — matching all four criteria in the topology comparison table."
+  },
+  {
+   "id": "8105-Network Topologies-58",
+   "topic": "Network Topologies",
+   "text": "A hospital's emergency network must remain operational even if one of its two core routers fails. The IT manager asks for 'dual-homed links between core routers.'\n\nWhich network design principle does the dual-homed link requirement reflect?",
+   "opts": [
+    "Performance Optimisation",
+    "Scalability",
+    "Redundancy",
+    "Interoperability"
+   ],
+   "answer": 2,
+   "explanation": "Redundancy is the design principle of providing multiple links/paths so the network continues to function when one component fails. Dual-homed core router links are a classic redundancy implementation."
+  },
+  {
+   "id": "8105-Network Topologies-59",
+   "topic": "Network Topologies",
+   "text": "A Ring topology network at a legacy bank in Jos experiences a complete network outage after one cable connecting two nodes is accidentally cut during construction work.\n\nWhich characteristic of ring topology caused this total failure?",
+   "opts": [
+    "Ring topology uses too many cables",
+    "A single break in a unidirectional ring can disrupt communication for all nodes in the loop",
+    "Ring topology is only suitable for wireless networks",
+    "Ring topology lacks a central switch for rerouting"
+   ],
+   "answer": 1,
+   "explanation": "In a unidirectional ring topology, data flows in one direction. A single cable break disrupts the entire loop — all nodes beyond the break are cut off. Dual-ring (FDDI) was developed to address this vulnerability."
+  },
+  {
+   "id": "8105-Network Topologies-60",
+   "topic": "Network Topologies",
+   "text": "A university is expanding from a single building to three buildings 500 m apart. The IT team is planning to extend their existing star LAN from Building A to Buildings B and C, while maintaining centralised management.\n\nWhich topology evolution best describes this expansion plan?",
+   "opts": [
+    "Adding more nodes to a bus topology",
+    "Creating a hybrid star topology — star within each building, interconnected at the core",
+    "Converting to a full ring topology across all buildings",
+    "Implementing a pure mesh between all devices"
+   ],
+   "answer": 1,
+   "explanation": "This expansion creates a Hybrid topology — Star topology within each building (devices to a local switch), with the building switches interconnected at a core level. This is the most common enterprise campus approach."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-61",
+   "topic": "Topology Selection & Network Design",
+   "text": "A small NGO with 8 staff in a single office in Makurdi is setting up their first network. Budget is very limited. Their primary need is file sharing and a shared printer.\n\nWhich topology is most appropriate for this scenario?",
+   "opts": [
+    "Full mesh — maximum redundancy",
+    "Ring — predictable performance",
+    "Star — simple, cost-effective, easy to manage",
+    "Hybrid — enterprise-grade scalability"
+   ],
+   "answer": 2,
+   "explanation": "Star topology is ideal for small offices: simple to install, cost-effective with moderate cabling, easy to manage, and each device has its own cable to a central switch. Mesh and Hybrid are overkill for 8 devices."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-62",
+   "topic": "Topology Selection & Network Design",
+   "text": "A national bank with branches in 10 states requires a network design that can scale from 500 to 5,000 devices over three years without replacing core infrastructure.\n\nWhich topology best supports this scalability requirement?",
+   "opts": [
+    "Bus — minimal cabling",
+    "Ring — predictable token passing",
+    "Hybrid — combines Star and Mesh for modular scalability",
+    "Bus-Ring combination for cost efficiency"
+   ],
+   "answer": 2,
+   "explanation": "Hybrid topology allows modular expansion by combining topologies — Star for branch offices (easy device addition) and Mesh for core interconnections (redundancy). This supports growth without complete redesign."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-63",
+   "topic": "Topology Selection & Network Design",
+   "text": "A hospital in Owerri is selecting a network topology. Their #1 priority is that the network must never go down — patient monitoring systems and emergency communication must always be available.\n\nWhich selection criterion is the hospital prioritising?",
+   "opts": [
+    "Budget constraints",
+    "Ease of setup",
+    "Required fault tolerance / reliability",
+    "Physical building layout"
+   ],
+   "answer": 2,
+   "explanation": "Fault tolerance and reliability is the primary criterion here. Mission-critical environments like hospitals require network designs (typically Mesh or dual-linked Star) that maintain operation despite hardware or link failures."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-64",
+   "topic": "Topology Selection & Network Design",
+   "text": "A government ministry in Abuja occupies a 100-year-old historic building where drilling walls for new cables is prohibited. The IT team must design a network without significant new cabling.\n\nWhich topology or technology approach is most appropriate?",
+   "opts": [
+    "Full mesh with fibre optic cabling",
+    "Bus topology with coaxial cable",
+    "Wireless mesh topology adapting to existing infrastructure",
+    "Ring topology with token passing"
+   ],
+   "answer": 2,
+   "explanation": "When physical cabling is restricted by building constraints, wireless mesh topology is the most adaptable solution — it requires minimal new cable runs and provides redundancy through wireless inter-node connections."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-65",
+   "topic": "Topology Selection & Network Design",
+   "text": "A real-time stock trading platform in Lagos requires ultra-low latency between trading terminals and the matching engine. Even microseconds of delay can cost significant money.\n\nWhich network design consideration is MOST critical for this use case?",
+   "opts": [
+    "Physical environment and layout",
+    "Budget constraints",
+    "Performance requirements — minimal latency and high throughput",
+    "Future scalability for additional users"
+   ],
+   "answer": 2,
+   "explanation": "For latency-sensitive applications like stock trading, performance requirements (minimal latency, high throughput) dominate topology and protocol selection — often driving choices toward dedicated point-to-point or enhanced star topologies with low-latency switches."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-66",
+   "topic": "Topology Selection & Network Design",
+   "text": "A large university campus network design follows a hierarchy: access-layer switches in each classroom connect to distribution-layer switches per building, which connect to core switches at the data centre.\n\nWhich topology model does this three-tier hierarchical campus design most closely represent?",
+   "opts": [
+    "Pure ring topology",
+    "Bus with repeaters",
+    "Hierarchical star (hybrid) topology",
+    "Full mesh between all switches"
+   ],
+   "answer": 2,
+   "explanation": "The three-tier (core-distribution-access) enterprise campus model is a hierarchical star (hybrid) topology — star connections at each tier with the hierarchical structure enabling scalability and traffic management."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-67",
+   "topic": "Topology Selection & Network Design",
+   "text": "A network consultant is designing a network for a startup that expects to grow from 20 to 200 devices in 18 months. The consultant recommends a design using modular switch stacks and cloud integration.\n\nWhich key design consideration drives this recommendation?",
+   "opts": [
+    "Redundancy",
+    "Scalability",
+    "Interoperability",
+    "Security measures"
+   ],
+   "answer": 1,
+   "explanation": "Scalability is the key consideration — modular switch stacks allow easy expansion (adding switches to the stack without redesign), and cloud integration provides dynamic resource allocation as the organisation grows."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-68",
+   "topic": "Topology Selection & Network Design",
+   "text": "An IT security consultant recommends that a government agency implement a 'zero trust security model' on their network, verifying every request before granting access.\n\nWhich key design consideration category does the zero trust model fall under?",
+   "opts": [
+    "Performance optimisation",
+    "Network size and scale",
+    "Security considerations",
+    "Physical environment and layout"
+   ],
+   "answer": 2,
+   "explanation": "Zero trust — 'verify every request, trust no entity by default' — falls squarely under security considerations in network topology selection, alongside firewalls, IDS, access control lists, and encryption."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-69",
+   "topic": "Topology Selection & Network Design",
+   "text": "A VLAN is configured at a polytechnic to separate the finance department from the student lab, both of which share the same physical switches and cabling.\n\nWhich logical design technique is being applied, and what is its primary benefit?",
+   "opts": [
+    "Subnetting — reduces IP address waste",
+    "VLAN — logically segments traffic to improve security and performance without separate physical infrastructure",
+    "BGP routing — manages inter-campus traffic",
+    "ARP — resolves IP to MAC addresses across departments"
+   ],
+   "answer": 1,
+   "explanation": "VLANs logically segment network traffic on shared physical infrastructure, isolating finance traffic from student traffic — improving both security (preventing unauthorised access) and performance (reducing broadcast domains)."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-70",
+   "topic": "Topology Selection & Network Design",
+   "text": "A network architect uses OSPF as the routing protocol for a large enterprise network spanning 12 buildings. A junior engineer asks why OSPF was chosen over static routes.\n\nWhich is the PRIMARY advantage of OSPF over static routing in this context?",
+   "opts": [
+    "OSPF is cheaper to license",
+    "OSPF dynamically recalculates routes when links fail, without manual reconfiguration",
+    "OSPF operates at the Application Layer, making it easier to configure",
+    "Static routes are not supported on enterprise routers"
+   ],
+   "answer": 1,
+   "explanation": "OSPF's key advantage over static routing is automatic, dynamic path recalculation when topology changes (link failures, new links) — critical for large enterprise networks where manual static route management would be impractical."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-71",
+   "topic": "Topology Selection & Network Design",
+   "text": "A Lagos data centre deploys SolarWinds PRTG to continuously monitor bandwidth utilisation, latency, and packet loss across all network devices, generating alerts when thresholds are exceeded.\n\nWhich key design consideration is being implemented through PRTG deployment?",
+   "opts": [
+    "Scalability",
+    "Redundancy",
+    "Manageability",
+    "Interoperability"
+   ],
+   "answer": 2,
+   "explanation": "Manageability covers tools and practices that simplify network monitoring, troubleshooting, and performance tracking — SNMP-based monitoring tools like SolarWinds PRTG are core manageability implementations."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-72",
+   "topic": "Topology Selection & Network Design",
+   "text": "A Cisco router at a Lagos ISP is running BGP to exchange routing information with an international carrier's Juniper router. Despite being different vendors, they communicate without issues.\n\nWhich network design principle enables this cross-vendor communication?",
+   "opts": [
+    "Redundancy — multiple paths between autonomous systems",
+    "Interoperability — vendor-neutral standards like TCP/IP and BGP enable cross-vendor communication",
+    "Scalability — BGP can handle millions of routes",
+    "Security — BGP encrypts routing updates between vendors"
+   ],
+   "answer": 1,
+   "explanation": "Interoperability — using vendor-neutral protocols and IEEE/IETF standards — enables devices from different manufacturers to communicate. BGP is a standard protocol that any compliant router (Cisco, Juniper, Huawei) can run."
+  },
+  {
+   "id": "8105-Topology Selection & Network Design-73",
+   "topic": "Topology Selection & Network Design",
+   "text": "A network architecture student is asked: 'Which component of logical network design separates the internal corporate network from public-facing web servers and the open internet?'\n\nWhich logical design element creates this boundary?",
+   "opts": [
+    "VLAN tagging",
+    "DMZ (Demilitarised Zone)",
+    "OSPF routing",
+    "ARP cache"
+   ],
+   "answer": 1,
+   "explanation": "A DMZ (Demilitarised Zone) is a buffer security zone in logical network design that separates the internal trusted network from public-facing services (web servers) and the untrusted internet — providing a controlled access boundary."
+  },
+  {
+   "id": "8105-Network Architecture, Security & Protocols-74",
+   "topic": "Network Architecture, Security & Protocols",
+   "text": "A network architect at a Port Harcourt oil company begins designing a new network by meeting with department heads, reviewing business objectives, and documenting performance and security requirements before touching any hardware.\n\nWhich stage of the network design process is the architect performing?",
+   "opts": [
+    "Physical design",
+    "Technology selection",
+    "Requirements gathering",
+    "Documentation and validation"
+   ],
+   "answer": 2,
+   "explanation": "Requirements gathering is the first stage of the network design process — understanding the organisation's performance, security, scalability, and budget needs by engaging stakeholders before any design or hardware decisions are made."
+  },
+  {
+   "id": "8105-Network Architecture, Security & Protocols-75",
+   "topic": "Network Architecture, Security & Protocols",
+   "text": "A network engineer at a Lagos fintech company is asked to design the logical network layout, including IP addressing, subnetting, VLAN configuration, and routing protocols — without yet choosing physical hardware.\n\nWhich design phase is the engineer in?",
+   "opts": [
+    "Physical design",
+    "Requirements gathering",
+    "Technology selection",
+    "Logical design"
+   ],
+   "answer": 3,
+   "explanation": "Logical design focuses on the abstract, conceptual structure — IP addressing schemes, VLANs, routing protocols, and traffic flow — before physical hardware, cables, and placement are decided in the physical design phase."
+  },
+  {
+   "id": "8105-Network Architecture, Security & Protocols-76",
+   "topic": "Network Architecture, Security & Protocols",
+   "text": "A MIVA postgraduate student is reviewing network security. They read that 'this system monitors network activity in real time and alerts administrators when suspicious behaviour or policy violations are detected.'\n\nWhich security component is being described?",
+   "opts": [
+    "Firewall",
+    "VPN (Virtual Private Network)",
+    "SSL/TLS encryption",
+    "Intrusion Detection System (IDS)"
+   ],
+   "answer": 3,
+   "explanation": "An IDS (Intrusion Detection System) monitors network traffic in real time for suspicious behaviour, anomalies, and policy violations, generating alerts for administrators — distinct from firewalls which block traffic preventively."
+  },
+  {
+   "id": "8105-Network Architecture, Security & Protocols-77",
+   "topic": "Network Architecture, Security & Protocols",
+   "text": "A corporate employee working from home in Ibadan needs to securely access the company's internal file server in Lagos as if they were physically in the office.\n\nWhich technology enables this secure remote access?",
+   "opts": [
+    "DNS resolution",
+    "MAC address filtering",
+    "ARP cache",
+    "VPN (Virtual Private Network)"
+   ],
+   "answer": 3,
+   "explanation": "A VPN (Virtual Private Network) creates an encrypted, secure tunnel over the public internet, allowing remote employees to access internal corporate resources as if they were on the local network."
+  },
+  {
+   "id": "8105-Network Architecture, Security & Protocols-78",
+   "topic": "Network Architecture, Security & Protocols",
+   "text": "A university IT team is selecting a tool to simulate their proposed campus network topology — including router configurations, switch VLANs, and IP routing — before committing to physical hardware purchases.\n\nWhich tool is most commonly recommended for network simulation and prototyping in educational and enterprise pre-deployment environments?",
+   "opts": [
+    "SolarWinds PRTG",
+    "Microsoft Visio",
+    "Cisco Packet Tracer",
+    "Wireshark"
+   ],
+   "answer": 2,
+   "explanation": "Cisco Packet Tracer is the industry-standard simulation tool for network topology prototyping, router/switch configuration testing, and protocol simulation before physical deployment — widely used in education and pre-deployment testing."
+  },
+  {
+   "id": "8105-Network Architecture, Security & Protocols-79",
+   "topic": "Network Architecture, Security & Protocols",
+   "text": "A DHCP server at a Abuja tech hub automatically assigns IP addresses to every new device that connects to the office network, so IT staff don't have to manually configure each device.\n\nAt which OSI layer does DHCP operate, and what is its primary function?",
+   "opts": [
+    "Layer 3 — Network Layer; assigns MAC addresses",
+    "Layer 2 — Data Link; provides frame synchronisation",
+    "Layer 7 — Application Layer; automatically assigns IP addresses to devices on a network",
+    "Layer 4 — Transport Layer; manages connection sessions"
+   ],
+   "answer": 2,
+   "explanation": "DHCP (Dynamic Host Configuration Protocol) operates at Layer 7 — Application Layer and automatically assigns IP addresses, subnet masks, gateways, and DNS server addresses to devices on a network, eliminating manual configuration."
+  },
+  {
+   "id": "8105-Network Architecture, Security & Protocols-80",
+   "topic": "Network Architecture, Security & Protocols",
+   "text": "A network designer is presenting the final campus network plan to management. They provide detailed topology diagrams, IP addressing tables, device configuration notes, and a pre-deployment simulation report.\n\nWhich final stage of the network design process does this presentation represent?",
+   "opts": [
+    "Requirements gathering",
+    "Physical design",
+    "Technology selection",
+    "Documentation and validation"
+   ],
+   "answer": 3,
+   "explanation": "Documentation and validation is the final design stage — creating network diagrams, configuration details, testing through simulation, and preparing operational guidelines to ensure smooth implementation and future troubleshooting."
+  }
+ ],
+ "caseStudies": [
+  {
+   "id": "8105-case-01",
+   "company": "TechBridge Nigeria Limited (fictional)",
+   "title": "TechBridge Nigeria — Campus Network Overhaul",
+   "scenario": "TechBridge Nigeria Limited is a fast-growing technology training institute in Abuja with three campuses — Main Campus, North Annex, and the Research Hub — spread across a 2 km radius. The company recently won a federal contract to train 2,000 students per cohort in software engineering and data science. The existing network was installed seven years ago: a flat bus topology with shared 10 Mbps hubs connecting all departments. Video lectures buffer frequently, online exams crash due to collision-heavy shared media, and the admin database is accessible to all students on the same segment. The CTO has tasked a junior network team to design a replacement architecture from scratch before the next cohort intake.",
+   "questions": [
+    "Which network topology should the team adopt for each campus building to ensure fault isolation and ease of management?",
+    "The three campuses need to be interconnected at high speed within the 2 km range. Which network classification is most appropriate?",
+    "Online exams require a dedicated, isolated segment away from student browsing traffic. Which logical design technique should the team implement?",
+    "To prevent student devices from accessing the admin database, which security layer mechanism is most relevant?",
+    "The CTO requests a design tool to simulate and validate the new topology before physical deployment. Which tool is most appropriate?"
+   ],
+   "answers": [
+    {
+     "num": "Q1",
+     "ans": "Star topology — each device connects to a central switch, so a single device failure does not bring down the network, and faults are easily isolated per cable run."
+    },
+    {
+     "num": "Q2",
+     "ans": "Metropolitan Area Network (MAN) — a MAN covers city-scale distances (up to ~10 km), making it ideal for interconnecting campuses across a 2 km radius with high-speed fibre."
+    },
+    {
+     "num": "Q3",
+     "ans": "VLAN (Virtual LAN) configuration — VLANs logically segment the network so exam traffic and admin data are isolated from general student browsing at Layer 2 without requiring separate physical cabling."
+    },
+    {
+     "num": "Q4",
+     "ans": "Role-Based Access Control (RBAC) combined with a firewall/ACL — RBAC restricts database access based on user roles (student vs. admin), while ACLs enforce those restrictions at the network layer."
+    },
+    {
+     "num": "Q5",
+     "ans": "Cisco Packet Tracer or GNS3/EVE-NG — Packet Tracer is ideal for topology simulation and prototyping before physical deployment, while GNS3 supports more advanced virtual environment testing."
+    }
+   ]
+  },
+  {
+   "id": "8105-case-02",
+   "company": "Zenith Fintech Solutions (fictional)",
+   "title": "Zenith Fintech — Data Packet Journey Audit",
+   "scenario": "Zenith Fintech Solutions processes over ₦4 billion in daily mobile payments across Nigeria. Their security auditors have flagged a concern: when a customer's mobile app sends a payment request from Lagos to the company's data centre in Lekki, the IT team cannot clearly trace which protocol layer introduced a delay or where a dropped packet occurred. The head of infrastructure wants the team to map the complete journey of a payment packet — from the customer's phone to the backend server — using the OSI model as the diagnostic framework. Additionally, compliance officers have noted that customer data appears to be transmitted without adequate encryption, violating the NDPR (Nigeria Data Protection Regulation).",
+   "questions": [
+    "At which OSI layer does the customer's mobile payment app generate and format the payment request data?",
+    "The packet arrives at the company router, which reads the destination IP address and forwards it. Which OSI layer is the router primarily operating at here?",
+    "Auditors find that data is not encrypted during transmission. Which OSI layer and protocol should the team implement to address this?",
+    "A network engineer runs a 'ping' command to test connectivity to the data centre server. Which protocol is being used, and at which OSI layer?",
+    "The auditors find that a TCP connection is being established before every payment. What three-way process does TCP use, and at which layer does this occur?"
+   ],
+   "answers": [
+    {
+     "num": "Q1",
+     "ans": "Layer 7 — Application Layer. The mobile app is a user-facing application; payment request data originates and is formatted at this layer using protocols such as HTTPS (HTTP)."
+    },
+    {
+     "num": "Q2",
+     "ans": "Layer 3 — Network Layer. Routers operate at the Network Layer, reading IP headers to determine the optimal forwarding path based on destination IP addresses."
+    },
+    {
+     "num": "Q3",
+     "ans": "Layer 6 — Presentation Layer, using SSL/TLS. SSL/TLS provides data encryption during transit, ensuring confidentiality of customer payment data and NDPR compliance."
+    },
+    {
+     "num": "Q4",
+     "ans": "ICMP (Internet Control Message Protocol) at Layer 3 — Network Layer. The ping command uses ICMP echo requests/replies for network diagnostics and connectivity testing."
+    },
+    {
+     "num": "Q5",
+     "ans": "TCP uses the SYN → SYN-ACK → ACK three-way handshake to establish a reliable connection. This occurs at Layer 4 — the Transport Layer."
+    }
+   ]
+  },
+  {
+   "id": "8105-case-03",
+   "company": "MTN Nigeria (illustrative scenario)",
+   "title": "MTN Nigeria — Rural ISP Backbone Design",
+   "scenario": "MTN Nigeria's enterprise solutions division is tasked with designing a network backbone to provide broadband internet to 12 remote local government areas (LGAs) in Kogi State. Each LGA has a population centre that must connect reliably to a regional hub in Lokoja. The LGAs are spread across 150 km of terrain with limited existing cabling infrastructure. Power outages are frequent, so network resilience is critical — if one link goes down, traffic must automatically reroute. The design team must also select appropriate protocols to dynamically recalculate routes when a link fails, and present a topology that balances cost with fault tolerance for this mission-critical rural deployment.",
+   "questions": [
+    "Given the 150 km span across 12 LGAs, which network classification best describes this deployment?",
+    "Which topology is most appropriate to ensure that a single link failure does not cut off any LGA from the regional hub?",
+    "The team needs a dynamic routing protocol that automatically recalculates the best path when a link fails. Which protocol is most suitable for this large-scale enterprise network?",
+    "Physical transmission across 150 km of rural terrain requires a medium with low attenuation and immunity to electromagnetic interference. Which cabling type is most appropriate?",
+    "During a power outage at one node, traffic must automatically failover to an alternative path. Which network design principle is being applied?"
+   ],
+   "answers": [
+    {
+     "num": "Q1",
+     "ans": "Wide Area Network (WAN) — a WAN spans large geographic regions (100 km to continental scale), making it the correct classification for a 150 km multi-LGA deployment."
+    },
+    {
+     "num": "Q2",
+     "ans": "Mesh topology (partial mesh) — mesh provides redundant paths between nodes, so a single link failure does not isolate any LGA; traffic automatically reroutes through alternate paths."
+    },
+    {
+     "num": "Q3",
+     "ans": "OSPF (Open Shortest Path First) — OSPF is a link-state dynamic routing protocol designed for large enterprise and ISP networks, capable of rapidly recalculating routes after a link failure."
+    },
+    {
+     "num": "Q4",
+     "ans": "Fibre optic cable — fibre optic provides high-speed, long-distance transmission with immunity to electromagnetic interference (EMI), making it ideal for rural backbone deployments over 150 km."
+    },
+    {
+     "num": "Q5",
+     "ans": "Redundancy — redundancy is the design principle of providing multiple alternative paths/components so the network continues to function when a single component or link fails."
+    }
+   ]
+  },
+  {
+   "id": "8105-case-04",
+   "company": "MIVA Open University (illustrative scenario)",
+   "title": "University of Lagos MIVA Hub — Secure E-Learning Infrastructure",
+   "scenario": "MIVA Open University is deploying a dedicated e-learning infrastructure hub at its Lagos facility to support 800 postgraduate students and 60 faculty members. The hub must support simultaneous HD video lectures, online examinations, a cloud-based course management system (Moodle), and VoIP for student-faculty consultations. The network team must design a complete architecture from logical to physical layer, including IP addressing, security zones, appropriate transmission modes for VoIP calls, appropriate protocols for the web-based Moodle platform, and a monitoring strategy to detect intrusions or anomalies in real time.",
+   "questions": [
+    "When a student's browser sends a request to load the Moodle course page from the university server, which protocol at the Application Layer governs this transaction?",
+    "VoIP calls between students and faculty require real-time, low-latency delivery where occasional packet loss is acceptable. Which Transport Layer protocol is most appropriate for VoIP?",
+    "The security team wants to isolate the examination server from the general student network while both share the same physical infrastructure. Which logical design approach should they use?",
+    "The network team notices that a device is generating unusually high broadcast traffic, slowing the network. Which performance metric is most directly being impacted, and what device should be checked first?",
+    "MIVA's security team wants to monitor all network traffic in real time to detect potential intrusions or policy violations. Which security tool is most appropriate for this purpose?"
+   ],
+   "answers": [
+    {
+     "num": "Q1",
+     "ans": "HTTP/HTTPS (Hypertext Transfer Protocol / Secure) — HTTPS governs web browser-to-server communication at the Application Layer, enabling students to securely access Moodle course pages."
+    },
+    {
+     "num": "Q2",
+     "ans": "UDP (User Datagram Protocol) — UDP is connectionless and prioritises speed over reliability, making it ideal for VoIP where real-time delivery matters more than guaranteed packet delivery."
+    },
+    {
+     "num": "Q3",
+     "ans": "VLAN (Virtual LAN) segmentation — VLANs logically separate the examination server traffic from general student traffic at Layer 2, without requiring separate physical switches or cabling."
+    },
+    {
+     "num": "Q4",
+     "ans": "Throughput is directly impacted — excessive broadcast traffic consumes available bandwidth. The first device to check is the hub (or any misconfigured switch), since hubs broadcast all traffic to every port indiscriminately."
+    },
+    {
+     "num": "Q5",
+     "ans": "Intrusion Detection System (IDS) — an IDS monitors network activity in real time, scanning for suspicious behaviour, policy violations, and anomalies, and alerting administrators of potential threats."
+    }
+   ]
+  }
+ ]
+}

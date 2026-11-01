@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIVA Quiz Trainer</title>
+<style>
+:root{
+  --bg:#0b0e14; --panel:#121826; --panel2:#1a2234; --line:rgba(255,255,255,.07);
+  --text:#e9edf5; --text2:#a3adc0; --text3:#66738a;
+  --accent:#6c8cff; --accent2:#2dd4a8; --gold:#f5b84c; --bad:#ff6b81;
+  --grad:linear-gradient(135deg,#6c8cff,#2dd4a8);
+}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 500px at 70% -10%,#182236 0%,var(--bg) 55%);color:var(--text);
+  font-family:-apple-system,'Segoe UI',Roboto,Inter,Arial,sans-serif;min-height:100vh}
+.header{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;max-width:900px;margin:0 auto}
+.header h1{font-size:20px;margin:0;font-weight:700}
+.header .sub{color:var(--text3);font-size:12.5px;margin-top:3px}
+.timer{font-variant-numeric:tabular-nums;background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:8px 14px;font-weight:700;font-size:15px}
+.timer.low{color:var(--bad);border-color:var(--bad);animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.55}}
+main{max-width:900px;margin:0 auto;padding:0 18px 60px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,.25);animation:fadein .25s ease}
+@keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+h2{margin:.2em 0 .4em;font-size:20px} h3{font-size:15px;color:var(--text2);margin:18px 0 8px}
+.muted{color:var(--text3);font-size:13px;line-height:1.5}
+.btn{background:var(--grad);color:#0b0e14;border:0;border-radius:12px;padding:12px 20px;font-weight:700;font-size:14px;
+  cursor:pointer;transition:transform .12s,filter .12s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.btn.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+.btn.small{padding:8px 14px;font-size:13px}
+.pillrow{display:flex;flex-wrap:wrap;gap:10px}
+.pill{background:var(--panel2);border:1px solid var(--line);border-radius:12px;color:var(--text);
+  padding:10px 16px;font-size:13.5px;cursor:pointer;transition:all .12s;text-align:left}
+.pill:hover{border-color:var(--accent);transform:translateY(-1px)}
+.pill.active{background:var(--accent);color:#0b0e14;border-color:transparent;font-weight:700}
+.modgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:640px){.modgrid{grid-template-columns:1fr}}
+.modgrid .pill{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:14px 16px;border-radius:14px}
+.modgrid .pill b{font-size:14.5px}
+.modgrid .meta{color:var(--text3);font-size:12px;white-space:nowrap;text-align:right}
+.grouphead{display:flex;align-items:center;gap:10px;margin:22px 0 10px}
+.grouphead .tag{font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text3)}
+.grouphead .rule{flex:1;height:1px;background:var(--line)}
+.statrow{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0}
+.stat{flex:1;min-width:110px;background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-align:center}
+.stat b{display:block;font-size:20px}
+.stat span{color:var(--text3);font-size:11.5px}
+.modes{display:grid;gap:10px;margin-top:6px}
+.modebtn{display:flex;align-items:center;gap:12px;background:var(--panel2);border:1px solid var(--line);
+  border-radius:14px;padding:14px 16px;cursor:pointer;color:var(--text);text-align:left;transition:all .12s;font-size:13.5px}
+.modebtn:hover{border-color:var(--accent);transform:translateY(-1px)}
+.modebtn.dim{opacity:.55}
+.modebtn .ic{font-size:20px}
+.modebtn .t b{display:block;font-size:14px}
+.modebtn .t span{color:var(--text3);font-size:12px}
+.qtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:10px}
+.badge{font-size:11px;font-weight:700;letter-spacing:.5px;padding:4px 10px;border-radius:999px;
+  background:rgba(108,140,255,.15);color:var(--accent);border:1px solid rgba(108,140,255,.3)}
+.badge.gold{background:rgba(245,184,76,.12);color:var(--gold);border-color:rgba(245,184,76,.3)}
+.badge.green{background:rgba(45,212,168,.12);color:var(--accent2);border-color:rgba(45,212,168,.3)}
+.streak{color:var(--gold);font-weight:700;font-size:13px}
+.ring{transform:rotate(-90deg)}
+.ring .bg{stroke:var(--panel2);fill:none}
+.ring .fg{stroke:url(#ringgrad);fill:none;stroke-linecap:round;transition:stroke-dashoffset .3s}
+.qtext{font-size:16.5px;line-height:1.55;margin:6px 0 14px;white-space:pre-wrap}
+.opt{position:relative;display:flex;align-items:center;gap:12px;background:var(--panel2);border:1px solid var(--line);
+  border-radius:12px;padding:13px 14px;margin-bottom:9px;cursor:pointer;font-size:14.5px;line-height:1.4;
+  transition:all .13s;user-select:none}
+.opt:hover{border-color:var(--accent);transform:translateX(2px)}
+.opt .key{flex:none;width:24px;height:24px;border-radius:7px;background:rgba(255,255,255,.06);color:var(--text3);
+  display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700}
+.opt.correct{border-color:var(--accent2);background:rgba(45,212,168,.1)}
+.opt.correct .key{background:var(--accent2);color:#0b0e14}
+.opt.wrong{border-color:var(--bad);background:rgba(255,107,129,.08)}
+.opt.wrong .key{background:var(--bad);color:#0b0e14}
+.opt.locked{pointer-events:none;opacity:.85}
+.opt.masked{color:transparent;text-shadow:0 0 12px rgba(163,173,192,.9)}
+.opt.masked .key{color:var(--text3);text-shadow:none}
+.revealbar{margin:2px 0 12px}
+.verdict{font-weight:700;margin:14px 0 6px;animation:fadein .2s}
+.verdict.ok{color:var(--accent2)} .verdict.bad{color:var(--bad)}
+.explain{background:var(--panel2);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;
+  padding:12px 14px;font-size:13.5px;line-height:1.55;color:var(--text2);animation:fadein .25s}
+.src{font-size:11px;color:var(--text3);margin-top:10px}
+.topic-tag{font-size:11px;font-weight:700;color:var(--accent);background:rgba(108,140,255,.12);
+  padding:4px 10px;border-radius:999px;border:1px solid rgba(108,140,255,.25)}
+.topic-row{display:flex;align-items:center;gap:10px;margin:9px 0}
+.topic-name{flex:1;font-size:13.5px}
+.bar-bg{height:8px;background:var(--panel2);border-radius:99px;overflow:hidden;width:45%}
+.bar-fill{height:100%;border-radius:99px;transition:width .3s}
+.caseblock{border-left:3px solid var(--accent)}
+details summary{cursor:pointer;color:var(--gold);font-weight:600;padding:4px 0}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<header class="header">
+  <div><h1>🎯 MIVA Quiz Trainer</h1><div class="sub">MIT + MIVA · retrieval practice · spaced review · 30-min refresh</div></div>
+  <div class="timer hidden" id="timer">30:00</div>
+</header>
+<main id="app"></main>
+<svg width="0" height="0"><defs><linearGradient id="ringgrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#6c8cff"/><stop offset="100%" stop-color="#2dd4a8"/></linearGradient></defs></svg>
+<script>
+/* ---------- DATA LOADING (hybrid: rescanned server-side on every request) ---------- */
+let MODULES = [];
+let state = { module:null, session:null, view:'home' };
+window.__get = () => ({ state, MODULES, loaded: MODULES.length > 0 });
+window.__expire = () => { if (state.session) state.session.endsAt = Date.now() - 1; };
+const $app = document.getElementById('app');
+const $timer = document.getElementById('timer');
+
+function save(){ if (state.module) { try { localStorage.setItem('miva-quiz-'+state.module.code, JSON.stringify({stats:state.stats||{}, meta:state.meta||{}})); } catch(e){} } }
+function load(mod){ try { const d = JSON.parse(localStorage.getItem('miva-quiz-'+mod)||'{}'); return {stats:d.stats||{}, meta:d.meta||{}}; } catch(e){ return {stats:{},meta:{}}; } }
+function loadReview(mod){ try { return JSON.parse(localStorage.getItem('miva-quiz-review-'+mod)||'{}'); } catch(e){ return {}; } }
+function saveReview(mod, q){ try { localStorage.setItem('miva-quiz-review-'+mod, JSON.stringify(q)); } catch(e){} }
+function today(){ return Math.floor(Date.now()/86400000); }
+function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function statEntries(stats){ return Object.entries(stats||{}).filter(([k,v])=>v && v.a>0); }
+function acc(stats){
+  const es = statEntries(stats);
+  const a = es.reduce((s,[,t])=>s+(t.a||0),0), c = es.reduce((s,[,t])=>s+(t.c||0),0);
+  return a ? Math.round(c/a*100)+'%' : '—';
+}
+function dueCount(mod){
+  const q = loadReview(mod), sd = today();
+  return Object.values(q).filter(it => (it.due||0) <= sd).length;
+}
+
+async function initApp(){
+  try {
+    let list;
+    try {
+      list = await fetch('data/index.json').then(r=>{ if(!r.ok) throw new Error('manifest'); return r.json(); });
+      MODULES = await Promise.all(list.banks.map(b => fetch('data/'+encodeURIComponent(b.code)+'.json').then(r=>{ if(!r.ok) throw new Error('bank '+b.code); return r.json(); })));
+    } catch (_) {
+      list = await fetch('/api/banks').then(r=>r.json());
+      MODULES = await Promise.all(list.banks.map(b => fetch('/api/bank/'+encodeURIComponent(b.code)).then(r=>r.json())));
+    }
+    renderHome();
+  } catch (e) {
+    $app.innerHTML = `<div class="card"><h2>⚠️ Could not load question banks</h2><p class="muted">${esc(String(e))} — is serve.py running?</p></div>`;
+  }
+}
+
+/* ---------- HOME ---------- */
+const GROUPS = [
+  {name:'MIT Session 1', match:c=>c.startsWith('MIT')},
+  {name:'MIVA Open University', match:c=>!c.startsWith('MIT')}
+];
+function renderHome(){
+  state.view='home'; clearInterval(window._tick); $timer.classList.add('hidden');
+  let html = `<div class="card"><h2>Exam Prep Trainer</h2>
+  <p class="muted">Randomized sessions, recall-first practice and spaced review of missed questions — each quiz draws only from the selected subject's own bank. Keyboard: <b>1–4</b> answer · <b>Enter</b> next · <b>R</b> reveal.</p>`;
+  for (const g of GROUPS) {
+    const mods = MODULES.filter(m=>g.match(m.code));
+    if (!mods.length) continue;
+    html += `<div class="grouphead"><span class="tag">${g.name}</span><span class="rule"></span></div><div class="modgrid">`;
+    for (const m of mods) {
+      const l = load(m.code);
+      html += `<button class="pill" onclick="openModule('${m.code}')"><span><b>${m.code}</b><br><span class="muted">${esc(m.title)}</span></span>
+        <span class="meta">${m.questions.length} Q · ${acc(l.stats)}${dueCount(m.code)?`<br><span style="color:var(--gold)">🔁 ${dueCount(m.code)} due</span>`:''}</span></button>`;
+    }
+    html += `</div>`;
+  }
+  html += `</div>`;
+  $app.innerHTML = html;
+}
+
+/* ---------- MODULE MENU ---------- */
+function openModule(code){
+  const l = load(code);
+  state.module = MODULES.find(m=>m.code===code);
+  state.stats = l.stats; state.meta = l.meta || {};
+  state.view='menu';
+  const m = state.module, due = dueCount(code);
+  const weak = weakestTopics();
+  let html = `<div class="card">
+    <button class="btn ghost small" onclick="renderHome()">← All modules</button>
+    <h2 style="margin-top:12px">${m.code} — ${esc(m.title)}</h2>
+    <div class="statrow">
+      <div class="stat"><b>${m.questions.length}</b><span>Question bank</span></div>
+      <div class="stat"><b>${statEntries(state.stats).reduce((s,[,t])=>s+(t.a||0),0)}</b><span>Answered</span></div>
+      <div class="stat"><b>${acc(state.stats)}</b><span>Accuracy</span></div>
+      <div class="stat"><b>${state.meta._best||0}</b><span>Best streak</span></div>
+    </div>
+    <h3>Session length</h3>
+    <div class="pillrow" id="lenrow">
+      <button class="pill" data-n="10" onclick="pickLen(10,this)">10</button>
+      <button class="pill" data-n="20" onclick="pickLen(20,this)">20</button>
+      <button class="pill" data-n="40" onclick="pickLen(40,this)">40</button>
+      <button class="pill" data-n="0" onclick="pickLen(0,this)">Full bank</button>
+    </div>
+    <h3>Session mode</h3>
+    <div class="modes">
+      <button class="modebtn" onclick="startSession('normal')"><span class="ic">⚡</span><span class="t"><b>Standard session</b><span>Randomized questions and options, instant explanations</span></span></button>
+      <button class="modebtn" onclick="startSession('recall')"><span class="ic">🧠</span><span class="t"><b>Recall-first</b><span>Options hidden until you commit — answer from memory for stronger retention</span></span></button>
+      <button class="modebtn" onclick="startSession('weakest')"><span class="ic">🎯</span><span class="t"><b>Drill weakest topics</b><span>${weak.length? 'Focus: '+esc(weak.slice(0,3).map(w=>w[0]).join(', ')) : 'No weak topics yet — answer some questions first'}</span></span></button>
+      <button class="modebtn ${due?'':'dim'}" onclick="startSession('review')"><span class="ic">🔁</span><span class="t"><b>Review missed questions</b><span>${due? due+' question(s) due for spaced review' : 'Nothing due — missed questions return here automatically'}</span></span></button>
+    </div>
+    ${m.caseStudies&&m.caseStudies.length?`<div style="margin-top:16px"><button class="btn ghost small" onclick="renderCases()">📚 Case studies (${m.caseStudies.length})</button></div>`:''}
+    <div style="margin-top:10px"><button class="btn ghost small" onclick="renderStats()">📊 Progress by topic</button></div>
+  </div>`;
+  $app.innerHTML = html;
+  window._len = 20;
+  document.querySelector('#lenrow .pill[data-n="20"]').classList.add('active');
+}
+function pickLen(n, el){ window._len = n; document.querySelectorAll('#lenrow .pill').forEach(p=>p.classList.remove('active')); el.classList.add('active'); }
+function weakestTopics(){
+  return statEntries(state.stats)
+    .filter(([,t])=>t.a>=2 && (t.c/t.a)<0.7)
+    .sort((a,b)=>(a[1].c/a[1].a)-(b[1].c/b[1].a));
+}
+
+/* ---------- SESSION ---------- */
+function buildSession(kind){
+  const m = state.module;
+  let qs = [];
+  if (kind === 'review') {
+    const q = loadReview(m.code), sd = today();
+    const due = Object.entries(q).filter(([,it])=>(it.due||0)<=sd).map(([id])=>id);
+    qs = m.questions.filter(x=>due.includes(x.id));
+    if (!qs.length) return null;
+    qs = shuffle(qs);
+  } else if (kind === 'weakest') {
+    const weak = weakestTopics().map(([t])=>t);
+    const pool = weak.length ? m.questions.filter(x=>weak.includes(x.topic)) : m.questions;
+    qs = shuffle(pool);
+  } else {
+    qs = shuffle(m.questions);
+  }
+  if (window._len > 0) qs = qs.slice(0, window._len);
+  qs = qs.map(q => {
+    const idx = shuffle(q.opts.map((_,i)=>i));
+    return { ...q, opts: idx.map(i=>q.opts[i]), answer: idx.indexOf(q.answer) };
+  });
+  return { qs, pos:0, correct:0, answered:0, endsAt: Date.now()+30*60*1000,
+           mode: kind==='normal' ? 'standard' : kind, streak:0, best: state.meta._best||0 };
+}
+function startSession(kind){
+  kind = kind || 'normal';
+  const s = buildSession(kind);
+  if (!s) { $app.innerHTML = `<div class="card"><h2>🔁 Nothing due yet</h2><p class="muted">Missed questions appear here for spaced review after you answer some questions.</p><button class="btn" onclick="openModule('${state.module.code}')">Back</button></div>`; return; }
+  state.session = s;
+  startTimer();
+  state.view='session';
+  renderQ();
+}
+function startTimer(){
+  clearInterval(window._tick);
+  $timer.classList.remove('hidden');
+  const tick = () => {
+    if (!state.session) { clearInterval(window._tick); return; }
+    const left = state.session.endsAt - Date.now();
+    if (left <= 0) { clearInterval(window._tick); refreshSession(); return; }
+    const mm = String(Math.floor(left/60000)).padStart(2,'0');
+    const ss = String(Math.floor(left%60000/1000)).padStart(2,'0');
+    $timer.textContent = mm+':'+ss;
+    $timer.classList.toggle('low', left < 5*60*1000);
+  };
+  tick(); window._tick = setInterval(tick, 1000);
+}
+function refreshSession(){
+  const m = state.module;
+  const msg = `<div class="card"><h2>⏱️ 30 minutes up — refreshing</h2>
+  <div class="statrow">
+    <div class="stat"><b>${state.session.answered}</b><span>Answered</span></div>
+    <div class="stat"><b>${state.session.correct}</b><span>Correct</span></div>
+    <div class="stat"><b>${state.session.answered?Math.round(state.session.correct/state.session.answered*100)+'%':'—'}</b><span>This round</span></div>
+  </div>
+  <p class="muted">A brand-new randomized set is starting now — questions reshuffled, options reshuffled.</p>
+  <div style="margin-top:14px"><button class="btn" onclick="startSession('${state.session.mode==='standard'?'normal':state.session.mode}')">▶ Start next round</button>
+  <button class="btn ghost" onclick="openModule('${m.code}')">Back to ${m.code}</button></div></div>`;
+  $app.innerHTML = msg;
+  $timer.classList.add('hidden');
+}
+function ring(pct){
+  const r=13, c=2*Math.PI*r, off=c*(1-pct/100);
+  return `<svg class="ring" width="34" height="34" viewBox="0 0 34 34"><circle class="bg" cx="17" cy="17" r="${r}" stroke-width="3.5"/>
+  <circle class="fg" cx="17" cy="17" r="${r}" stroke-width="3.5" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"/></svg>`;
+}
+function renderQ(){
+  const s = state.session; const m = state.module;
+  if (s.pos >= s.qs.length) { endSession(); return; }
+  const q = s.qs[s.pos];
+  window._answered = false; window._revealed = s.mode !== 'recall';
+  const pct = Math.round(s.pos/s.qs.length*100);
+  const modeBadge = s.mode==='recall' ? '<span class="badge gold">🧠 recall-first</span>'
+    : s.mode==='review' ? '<span class="badge green">🔁 spaced review</span>'
+    : s.mode==='weakest' ? '<span class="badge">🎯 weak-topic drill</span>' : '';
+  let html = `<div class="card">
+    <div class="qtop">
+      <span class="topic-tag">${esc(q.topic)}</span>
+      <span style="display:flex;align-items:center;gap:10px">
+        ${s.streak>=2?`<span class="streak">🔥 ${s.streak}</span>`:''}
+        <span class="muted">${s.pos+1} / ${s.qs.length}</span>
+        ${ring(pct)}
+      </span>
+    </div>
+    ${modeBadge}
+    <div class="qtext">${esc(q.text)}</div>
+    <div id="opts">`;
+  q.opts.forEach((o,i)=>{
+    html += `<div class="opt${s.mode==='recall'?' masked':''}" id="opt${i}" onclick="answer(${i})"><span class="key">${i+1}</span><span class="otext">${esc(o)}</span></div>`;
+  });
+  html += `</div><div id="revealbar"></div><div id="feedback"></div>
+    <div style="margin-top:14px;display:flex;gap:10px;align-items:center">
+      <button class="btn hidden" id="next" onclick="nextQ()">Next →</button>
+      <button class="btn ghost" onclick="quitSession()">End session</button>
+      ${s.mode==='recall'&&!window._revealed?`<button class="btn ghost small" onclick="revealOptions()">Peek (counts as wrong)</button>`:''}
+    </div></div>`;
+  $app.innerHTML = html;
+}
+function revealOptions(){
+  if (window._answered) return;
+  window._revealed = true;
+  document.querySelectorAll('.opt').forEach(o=>o.classList.remove('masked'));
+  const fb = document.getElementById('revealbar');
+  fb.innerHTML = `<div class="muted" style="color:var(--gold)">👁️ Options revealed — for honest practice, this question counts as incorrect. <i>Try to answer from memory first next time.</i></div>`;
+  const peek = document.querySelector('.qtop ~ *');
+  const btn = document.getElementById('peekbtn');
+  if (btn) btn.remove();
+}
+function recordResult(q, right){
+  const m = state.module, s = state.session;
+  const t = state.stats[q.topic] = state.stats[q.topic] || {a:0,c:0};
+  t.a++; if (right) t.c++;
+  if (right) { s.streak++; s.best = Math.max(s.best, s.streak); }
+  else s.streak = 0;
+  state.meta._best = s.best;
+  state.meta._sd = today();
+  save();
+  const rq = loadReview(m.code);
+  const it = rq[q.id] || {due: today(), lvl:0};
+  if (right) it.lvl = Math.min((it.lvl||0)+1, 5);
+  else { it.lvl = 0; }
+  it.due = today() + [1,2,4,7,14,30][it.lvl];
+  it.last = today();
+  rq[q.id] = it;
+  saveReview(m.code, rq);
+}
+function answer(i){
+  if (window._answered) return;
+  window._answered = true;
+  const s = state.session, q = s.qs[s.pos];
+  s.answered++;
+  const right = i === q.answer;
+  if (right) s.correct++;
+  if (s.mode==='recall' && !window._revealed) recordResult(q, right);
+  else recordResult(q, right);
+  q.opts.forEach((_,j)=>{
+    const el = document.getElementById('opt'+j);
+    el.classList.remove('masked');
+    el.classList.add('locked');
+    if (j===q.answer) el.classList.add('correct');
+    else if (j===i) el.classList.add('wrong');
+  });
+  document.getElementById('feedback').innerHTML =
+    `<div class="verdict ${right?'ok':'bad'}">${right?'✅ Correct'+(s.streak>=3?' — 🔥 '+s.streak+' in a row!':''):'❌ Incorrect — correct answer: '+String.fromCharCode(65+q.answer)}</div>
+     <div class="explain"><b>Why:</b> ${esc(q.explanation||'—')}</div>
+     ${(q.source && (q.source.label||q.source.url)) ? `<div class="src">Source: ${esc(q.source.label || q.source.url)}</div>` : ''}`;
+  document.getElementById('next').classList.remove('hidden');
+}
+function nextQ(){ if(state.session) { state.session.pos++; renderQ(); } }
+function quitSession(){ endSession(true); }
+function endSession(quit){
+  const s = state.session, m = state.module;
+  clearInterval(window._tick); $timer.classList.add('hidden');
+  const pct = s.answered ? Math.round(s.correct/s.answered*100) : 0;
+  const grade = pct>=80?'Excellent! 🎉':pct>=60?'Good progress 💪':pct>=40?'Keep practising 📚':'Focus on the weak-topic drill 🎯';
+  let html = `<div class="card"><h2>${quit?'Session ended':'🎉 Session complete'}</h2>
+  <div class="bigstat">${pct}%</div>
+  <p class="muted" style="margin-top:2px">${grade}</p>
+  <div class="statrow">
+    <div class="stat"><b>${s.answered}/${s.qs.length}</b><span>Answered</span></div>
+    <div class="stat"><b>${s.correct}</b><span>Correct</span></div>
+    <div class="stat"><b>${s.best}</b><span>Best streak</span></div>
+  </div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <button class="btn" onclick="startSession('${s.mode==='standard'?'normal':s.mode}')">▶ New round</button>
+    <button class="btn ghost" onclick="renderStats()">📊 Topic breakdown</button>
+    <button class="btn ghost" onclick="openModule('${m.code}')">Back to ${m.code}</button>
+  </div></div>`;
+  $app.innerHTML = html;
+  state.session = null;
+}
+
+/* ---------- STATS ---------- */
+function renderStats(){
+  state.view='stats';
+  const m = state.module;
+  const topics = statEntries(state.stats).sort((a,b)=>(a[1].c/a[1].a)-(b[1].c/b[1].a));
+  let html = `<div class="card">
+    <button class="btn ghost small" onclick="openModule('${m.code}')">← ${m.code}</button>
+    <h2 style="margin-top:12px">Progress by topic — weakest first</h2>`;
+  if (!topics.length) html += `<p class="muted">No answers recorded yet. Start a session!</p>`;
+  topics.forEach(([t,v])=>{
+    const p = Math.round(v.c/v.a*100);
+    html += `<div class="topic-row"><div class="topic-name">${esc(t)} (${v.c}/${v.a})</div>
+      <div class="bar-bg"><div class="bar-fill" style="width:${p}%;background:${p>=70?'var(--accent2)':p>=40?'var(--gold)':'var(--bad)'}"></div></div>
+      <span class="muted">${p}%</span></div>`;
+  });
+  html += `<div style="margin-top:14px"><button class="btn ghost small" onclick="resetStats()">Reset progress</button></div></div>`;
+  $app.innerHTML = html;
+}
+function resetStats(){ state.stats = {}; save(); renderStats(); }
+
+/* ---------- CASE STUDIES ---------- */
+function renderCases(){
+  state.view='cases';
+  const m = state.module;
+  let html = `<div class="card"><button class="btn ghost small" onclick="openModule('${m.code}')">← ${m.code}</button>
+  <h2 style="margin-top:12px">${m.code} — Case studies</h2></div>`;
+  for (const c of (m.caseStudies||[])) {
+    html += `<div class="card caseblock"><h2>${esc(c.company||'')} ${esc(c.title||'')} ${c.sector?`<span class="muted">· ${esc(c.sector)}</span>`:''}</h2>
+    <div class="qtext">${esc(c.scenario||'')}</div>`;
+    const qs = c.questions||[];
+    qs.forEach((q,i)=>{
+      const qq = typeof q === 'string' ? {q, marks:''} : q;
+      html += `<details><summary>Question ${i+1}${qq.marks?' · '+esc(qq.marks):''}</summary>
+      <div class="qtext" style="margin-top:8px">${esc(qq.q||'')}</div>
+      ${qq.model?`<div class="explain"><b>Model answer:</b> ${esc(qq.model)}</div>`:''}
+      ${qq.answer?`<div class="explain"><b>Model answer:</b> ${esc(qq.answer)}</div>`:''}
+      </details>`;
+    });
+    if (c.answers) html += `<div class="explain"><b>Answers:</b> ${esc(typeof c.answers==='string'?c.answers:JSON.stringify(c.answers))}</div>`;
+    html += `</div>`;
+  }
+  $app.innerHTML = html;
+}
+
+/* ---------- KEYBOARD ---------- */
+document.addEventListener('keydown', e => {
+  if (state.view !== 'session' || !state.session) return;
+  if (e.key >= '1' && e.key <= '4' && !window._answered) {
+    const el = document.getElementById('opt'+(+e.key-1));
+    if (el) { answer(+e.key-1); }
+  } else if (e.key === 'Enter' && window._answered) {
+    nextQ();
+  }
+});
+
+initApp();
+</script>
+</body>
+</html>
