@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>demo</title><style>body{margin:0}</style></head>
+<body>
+<iframe id="app" src="/" style="width:1000px;height:860px;border:0"></iframe>
+<script>
+const frame = document.getElementById('app');
+frame.onload = async () => {
+  const w = frame.contentWindow;
+  for (let i = 0; i < 50 && !(w.__get() && w.__get().loaded); i++) await new Promise(r => setTimeout(r, 100));
+  w.openModule('MIT8105');
+  await new Promise(r => setTimeout(r, 200));
+  w.startSession();
+  await new Promise(r => setTimeout(r, 200));
+  const s = w.__get().state.session;
+  // answer question 1 correctly (green + explanation)
+  w.answer(s.qs[s.pos].answer);
+  await new Promise(r => setTimeout(r, 300));
+  w.nextQ();
+  await new Promise(r => setTimeout(r, 200));
+  // answer question 2 incorrectly (red + correct revealed + explanation)
+  const q = s.qs[s.pos];
+  w.answer(q.answer === 0 ? 1 : 0);
+  await new Promise(r => setTimeout(r, 300));
+};
+</script>
+</body></html>

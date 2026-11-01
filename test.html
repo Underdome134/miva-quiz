@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Quiz functional test</title></head>
+<body>
+<pre id="results">starting...</pre>
+<iframe id="app" src="/" style="width:900px;height:600px"></iframe>
+<script>
+const log = [];
+const ok = (name, cond) => log.push((cond ? 'PASS' : 'FAIL') + ' ' + name);
+const frame = document.getElementById('app');
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function run() {
+  const r = document.getElementById('results');
+  try {
+    await new Promise(res => frame.onload = res);
+    const w = frame.contentWindow, d = frame.contentDocument;
+    const G = () => w.__get();
+    // wait for async bank load
+    for (let i = 0; i < 50 && !G().loaded; i++) await sleep(100);
+
+    const api = await (await fetch('/api/banks')).json();
+    const apiQ = api.banks.reduce((s, b) => s + b.questions, 0);
+
+    // 1. data integrity in the live app (dynamic banks)
+    ok('10 modules loaded', G().MODULES.length === 10);
+    ok('question count matches server scan', G().MODULES.reduce((s, m) => s + m.questions.length, 0) === apiQ);
+    ok('every q valid', G().MODULES.every(m => m.questions.every(q => q.opts && q.opts.length === 4 && q.answer >= 0 && q.answer < 4 && q.topic && q.text)));
+    ok('MIVA banks present', ['ECO101','ACC101','BUA101','AMS101','AMS103'].every(c => G().MODULES.some(m => m.code === c)));
+
+    // 2. per-subject isolation (MIVA bank only contains its own questions)
+    w.openModule('ECO101');
+    await sleep(200);
+    w.startSession();
+    await sleep(200);
+    let s = G().state.session;
+    ok('ECO session has questions', s && s.qs.length > 0);
+    ok('ECO isolation: all ids are ECO101', s.qs.every(q => q.id.startsWith('ECO101-')));
+
+    // MIT isolation
+    w.openModule('MIT8103');
+    await sleep(200);
+    w.startSession();
+    await sleep(200);
+    s = G().state.session;
+    ok('MIT isolation: all ids are MIT8103', s.qs.every(q => q.id.startsWith('8103-') || q.id.startsWith('MIT8103')));
+
+    // 3. answer flow with explanation
+    const q0 = s.qs[0];
+    w.answer(q0.answer);
+    const fb = d.getElementById('feedback').textContent;
+    ok('verdict shown', /Correct/.test(fb));
+    ok('explanation shown', /Why:/.test(fb) && fb.replace('Why:', '').trim().length > 5);
+    w.nextQ();
+    await sleep(100);
+
+    // 4. wrong-answer path
+    w.startSession();
+    await sleep(200);
+    const qw = G().state.session.qs[0];
+    const wrong = qw.answer === 0 ? 1 : 0;
+    w.answer(wrong);
+    ok('wrong verdict shown', /Incorrect/.test(d.getElementById('feedback').textContent));
+    ok('correct option highlighted', d.getElementById('opt' + qw.answer).classList.contains('correct'));
+
+    // 5. stats persist
+    const stats = G().state.stats;
+    ok('stats recorded', Object.keys(stats).length > 0);
+
+    // 6. 30-min refresh flow
+    w.openModule('MIT8101');
+    await sleep(100);
+    w.startSession();
+    await sleep(100);
+    w.__expire();
+    await sleep(1500);
+    ok('refresh screen appears', d.body.innerHTML.includes('30 minutes up'));
+
+    // 7. home renders grouped pills (both groups)
+    w.renderHome();
+    await sleep(100);
+    ok('home renders 10 module pills', d.querySelectorAll('.pill').length === 10);
+
+    r.textContent = 'RESULTS\n' + log.join('\n') + '\n\n' + (log.every(l => l.startsWith('PASS')) ? 'ALL TESTS PASSED' : 'SOME TESTS FAILED');
+  } catch (e) {
+    r.textContent = 'RESULTS\n' + log.join('\n') + '\nERROR: ' + (e && e.stack || e);
+  }
+}
+run();
+</script>
+</body></html>
