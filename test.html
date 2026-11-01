@@ -18,7 +18,12 @@ async function run() {
     // wait for async bank load
     for (let i = 0; i < 50 && !G().loaded; i++) await sleep(100);
 
-    const api = await (await fetch('/api/banks')).json();
+    let api;
+    try {
+      api = await fetch('data/index.json').then(r => { if(!r.ok) throw 0; return r.json(); });
+    } catch (_) {
+      api = await (await fetch('/api/banks')).json();
+    }
     const apiQ = api.banks.reduce((s, b) => s + b.questions, 0);
 
     // 1. data integrity in the live app (dynamic banks)
